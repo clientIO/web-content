@@ -1,0 +1,18 @@
+---
+source: https://www.jointjs.com/demos/dynamic-port-list
+github: https://raw.githubusercontent.com/clientIO/joint-demos/main/dynamic-port-list/README.md
+generated: 2026-03-18
+format: markdown
+---
+
+# JointJS: Dynamic Port List
+
+The Dynamic Port List demo showcases how the user can create custom elements that contain a set of port List items that can be added or removed dynamically.
+
+## Available Versions
+
+- [TypeScript](./ts/)
+
+## Screenshot
+
+![screenshot](./screenshot.png)

@@ -1,0 +1,20 @@
+---
+source: https://www.jointjs.com/demos/drop-image-as-shape
+github: https://raw.githubusercontent.com/clientIO/joint-demos/main/drop-image-as-shape/README.md
+generated: 2026-03-18
+format: markdown
+---
+
+# JointJS: Drop image as shape
+
+Do you want users to be able to drag and drop an image from their operating system directly into a diagram and turn it into an interactive element? This demo shows how it could be done.
+
+This demo is also available online at [jointjs.com](https://jointjs.com/demos/drop-image-as-shape).
+
+## Available Versions
+
+- [JavaScript](./js/)
+
+## Screenshot
+
+![screenshot](./screenshot.png)
