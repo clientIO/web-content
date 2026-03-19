@@ -1,0 +1,21 @@
+---
+source: https://www.jointjs.com/blog/demo-wednesday-working-with-ports
+generated: 2026-03-18
+format: markdown
+---
+
+We've published a new demo: Working with Ports
+
+Are you working with ports and looking for inspiration? Check out our new CodePen showing the following features:
+
+connection events
+connection validations
+magnet validations
+custom ports markups
+custom link tools
+delayed link tools removal
+highlight available ports
+
+For more examples of JointJS and JointJS+, see our CodePen profile and our official documentation.
+
+To see all the awesome demos we've created so far, check out our Github Discussions.

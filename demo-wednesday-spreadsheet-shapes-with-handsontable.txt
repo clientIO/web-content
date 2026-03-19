@@ -1,0 +1,20 @@
+---
+source: https://www.jointjs.com/blog/demo-wednesday-spreadsheet-shapes-with-handsontable
+generated: 2026-03-18
+format: markdown
+---
+
+We've published a new demo: Spreadsheet Shapes with Handsontable
+
+In our latest demo application, we showcase how we've integrated the Handsontable third-party spreadsheet library with JointJS. This demonstration includes the insertion of a table into a JointJS shape using a custom element view, aligning ports to the center of the columns, and introducing the concept of mapping with transformation functions between two separate tables.
+
+Open the demo on CodePen and study its source code to learn more!
+
+See the Pen JointJS: Spreadsheet Shapes with Handsontable by JointJS (@jointjs)
+on CodePen.
+
+‍
+
+Over the past 70 weeks, we have been regularly releasing new demo applications aimed not only at reducing your development time but also at providing inspiration for how to use JointJS and JointJS+. As we approach the next two weeks, we're pausing for a well-deserved break. This time will be dedicated to retrospection, allowing us to return in 2024 recharged and brimming with fresh ideas.
+
+We extend our warmest wishes for a joyous holiday season to you all. May it be a period of relaxation and cherished moments with your loved ones. Happy holidays! 😊

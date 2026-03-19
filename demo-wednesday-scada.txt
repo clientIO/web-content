@@ -1,0 +1,30 @@
+---
+source: https://www.jointjs.com/blog/demo-wednesday-scada
+generated: 2026-03-18
+format: markdown
+---
+
+We've published a new demo: SCADA/HMI
+
+Piping and Instrumentation Diagrams (P&IDs) play a crucial role in the design and implementation of Supervisory Control and Data Acquisition (SCADA) and Human-Machine-Interface (HMI) systems, particularly in industrial processes. SCADA systems are used to monitor and control various aspects of industrial operations, and P&IDs serve as visual representations of the interconnected piping and instrumentation within these processes. Human-machine interfaces (HMI) serve a similar purpose, only for local machines (while SCADA is a remote monitoring system).
+
+A P&ID is a schematic diagram that illustrates the interconnections of piping, equipment, and instrumentation involved in a process. It provides a detailed overview of the physical layout, components, and control logic of a system. P&IDs are commonly used in industries such as oil and gas, chemical processing, power generation, and water treatment, among others.
+
+The primary purpose of a P&ID in the context of SCADA/HMI is to facilitate the efficient operation, maintenance, and troubleshooting of industrial processes. By depicting the flow of fluids, materials, and energy, as well as the control devices and sensors, a P&ID helps engineers, operators, and maintenance personnel understand the system's functionality.
+
+In a SCADA/HMI system, P&IDs are integrated with the control and monitoring infrastructure, allowing operators to visualize real-time data from sensors, actuators, and other devices. The P&ID serves as a reference point for the SCADA/HMI system, enabling operators to quickly identify the location and status of equipment, valves, pumps, and instruments, and make informed decisions based on the gathered information.
+
+P&IDs in SCADA/HMI systems often incorporate additional information beyond the basic piping and instrumentation elements. They may include tags, labels, alarms, process parameters, setpoints, and other relevant data to provide a comprehensive representation of the system. Additionally, advanced SCADA/HMI systems may offer interactive features, allowing operators to access detailed information, historical trends, and perform control actions directly from the P&ID interface.
+
+In summary, Piping and Instrumentation Diagrams (P&IDs) are integral components of SCADA/HMI systems, providing a visual representation of the interconnected piping, equipment, and instrumentation in industrial processes. By incorporating real-time data and interactive features, P&IDs enhance the monitoring, control, and maintenance capabilities of SCADA/HMI systems, contributing to the efficient and safe operation of complex industrial facilities.
+
+Below you can see an interactive example of a Piping and Instrumentation Diagram created using JointJS+.
+
+See the Pen JointJS+: SCADA (Piping and Instrumentation Diagram) by JointJS (@jointjs)
+on CodePen.
+
+‍
+
+Interested in enhancing your application with interactive diagrams? Start a free JointJS+ trial and build visual and No-Code/Low-Code applications with easy and confidence.
+
+Every Wednesday we share diagramming tips, interesting features and news in JointJS. Learn with us, get content delivered straight to your inbox and become a real diagramming pro:

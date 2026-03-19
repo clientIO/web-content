@@ -1,0 +1,19 @@
+---
+source: https://www.jointjs.com/blog/demo-wednesday-tree-of-life
+generated: 2026-03-18
+format: markdown
+---
+
+We've published a new demo: Tree of Life
+
+In our latest demo, we combined the power of JointJS links and the Perfect-freehand library used to draw pressure-sensitive freehand lines. The organic style of the links was achieved by gradually lowering the pressure from the beginning to the end of the link. Moreover, an SVGTextPathElement was used to wrap text around the nodes.
+
+And the result? An interactive tree of life that illustrates both the technical capabilities of JointJS combined with the Perfect-freehand library and, of course, the evolutionary relationships between different organisms.
+
+Explore the interactive demo below or visit our GitHub repository to get the source code of the tree of life.
+
+‍
+
+Interested in enhancing your application with interactive diagrams? Explore our open source JointJS library and incorporate essential diagrams into your application with very little effort.
+
+Every Wednesday we share diagramming tips, interesting features and news in JointJS. Learn with us, get content delivered straight to your inbox and become a real diagramming pro:

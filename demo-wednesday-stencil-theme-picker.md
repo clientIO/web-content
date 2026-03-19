@@ -1,0 +1,20 @@
+---
+source: https://www.jointjs.com/blog/demo-wednesday-stencil-theme-picker
+generated: 2026-03-18
+format: markdown
+---
+
+**We've published a new demo:** [**Stencil Theme Picker**](https://www.jointjs.com/demos/stencil-theme-picker)
+
+This week, we decided to make life a little easier for your end users again. Because your customers may not have the design skills to create visually appealing diagrams, although they may choose a color of elements or links, their diagrams may end up looking messy or visually cluttered. With JointJS+'s new pre-built feature, stencil theme picker, they can choose from a range of pre-defined and visually interesting element themes to make their diagrams more unified and visually pleasing.
+
+Explore this great feature by clicking on the theme selection below, choose your preferred element style, define a color and start creating eye-catchy diagrams!
+
+Remember, if you want to use the features introduced in this application, [you can start a no-obligation 30-day JointJS+trial](/free-trial).
+
+See the Pen [JointJS+: Stencil Theme Picker](https://codepen.io/jointjs/pen/mdaNOPg) by JointJS ([@jointjs](https://codepen.io/jointjs))
+on [CodePen](https://codepen.io).
+
+‍
+
+Every Wednesday we share diagramming tips, interesting features and news in JointJS. Learn with us, get content delivered straight to your inbox and become a real diagramming pro:

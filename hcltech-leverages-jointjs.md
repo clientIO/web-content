@@ -1,0 +1,25 @@
+---
+source: https://www.jointjs.com/success-stories/hcltech-leverages-jointjs
+generated: 2026-03-18
+format: markdown
+---
+
+## Challenge
+
+HCL Products & Platforms, a division of HCLTech that develops and delivers a portfolio of next-generation, enterprise-grade software-based offerings, needed to develop a graphical solution to connect entities and perform actions such as scheduling, automation, tasks and backups. Because of these complex workloads the HCL team knew that a graphical interface was extremely important. The first big question was whether to create a solution internally or use a third-party product, so the development team began comparing and testing various products on the market against the time and resources requirements for an internal solution.
+
+## Solution
+
+Exploring the source code and documentation for JointJS and JointJS+ the HCL developers were pleased to see that it was written in an intelligent and logical manner which they could easily understand. Their first usability test was to develop zoom implementation for internal task activities. With JointJS+ the entire process took less than ten minutes and worked beautifully, much to the pleasant surprise and satisfaction of the HCL team.
+
+Soon the team realized additional powerful features of JointJS+, such as the ability to render 100%on the client-side, providing a significant increase in efficiency and scaling for their solutions, as well as the possibility to completely customize layout for their clients, leading to a significant improvement in user experience. Furthermore, when the HCL Products & Platforms team contacted the JointJS team for support, they were met with friendly and knowledgeable developers who promptly took care of their needs.
+
+## Result
+
+JointJS+ reduced the team's development time by 40%, and the license model fit their needs perfectly because it allowed them to purchase only what they needed internally and distribute their solutions without unnecessary complications. In addition, the latest JointJS+ update has improved performance by 20%, without the team having to touch their own code, and while still maintaining backward compatibility.
+
+Multiple teams within the HCL Products & Platforms division now use JointJS+, and developers regularly share how they're using it with other teams so that they all can leverage new ideas and solutions quickly and efficiently.
+
+And if you're interested in what the work of HCLTech (IBM's Workload Designer) looks like, check out the screenshot from their [official product presentation](https://www.ibm.com/products/workload-automation) below.
+
+IBM's Workload Designer powered by JointJS+
