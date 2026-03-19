@@ -26,8 +26,11 @@ jobs:
       - name: Install dependencies
         run: pip install requests beautifulsoup4 markdownify lxml
 
+      - name: Remove old output folder if exists
+        run: rm -rf output/
+
       - name: Run converter
-        run: python jointjs_convert.py --sitemap https://www.jointjs.com/sitemap.xml
+        run: python3 jointjs_convert.py --sitemap https://www.jointjs.com/sitemap.xml
 
       - name: Commit and push changes
         run: |
