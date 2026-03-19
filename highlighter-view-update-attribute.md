@@ -1,0 +1,20 @@
+---
+source: https://www.jointjs.com/demos/highlighter-view-update-attribute
+github: https://raw.githubusercontent.com/clientIO/joint-demos/main/highlighter-view-update-attribute/README.md
+generated: 2026-03-18
+format: markdown
+---
+
+# JointJS: Highlighter View Update Attribute
+
+Need to update the appearance of a highlighter based on some input value? In the following demo, the highlighter is updated any time the range input value is adjusted. The available stock is displayed as a number. When no stock is available, more unique attributes are displayed.
+
+This demo is also available online at [jointjs.com](https://jointjs.com/demos/highlighter-view-update-attribute).
+
+## Available Versions
+
+- [JavaScript](./js/)
+
+## Screenshot
+
+![screenshot](./screenshot.png)

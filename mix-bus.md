@@ -1,0 +1,18 @@
+---
+source: https://www.jointjs.com/demos/mix-bus
+github: https://raw.githubusercontent.com/clientIO/joint-demos/main/mix-bus/README.md
+generated: 2026-03-18
+format: markdown
+---
+
+# JointJS: Mix Bus
+
+This demo demonstrates an audio mixing bus diagram with custom shapes for components, faders, and auxiliary sends.
+
+## Available Versions
+
+- [JavaScript](./js/)
+
+## Screenshot
+
+![screenshot](./screenshot.png)
