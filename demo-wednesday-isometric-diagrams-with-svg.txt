@@ -1,0 +1,19 @@
+---
+source: https://www.jointjs.com/blog/demo-wednesday-isometric-diagrams-with-svg
+generated: 2026-03-18
+format: markdown
+---
+
+We've published a new demo: Isometric diagram
+
+Today's demo will help you understand how to visualize three-dimensional objects in two-dimensional space. Check it out and learn how to build isometric diagrams with SVG.
+
+Switch between isometric and 2D view and see how elements don't overlap as they are moved and resized. Moreover, check out the custom obstacle detection feature that detects obstacles in the manhattan router.
+
+‍
+
+In addition, we have shared a detailed tutorial on how to create isometric diagrams using SVG. Read it here.
+
+Interested in using such a diagramming studio in your app? Start a free JointJS+ trial and build visual and No-Code/Low-Code applications with easy and confidence.
+
+Every Wednesday we share diagramming tips, interesting features and news in JointJS. Learn with us, get content delivered straight to your inbox and become a real diagramming pro:

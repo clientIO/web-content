@@ -1,0 +1,16 @@
+---
+source: https://www.jointjs.com/blog/demo-wednesday-diagram-generation-from-external-data
+generated: 2026-03-18
+format: markdown
+---
+
+We've published a new demo: Diagram Generation from External Data
+
+Learn how to create impressive diagrams from REST API data, demonstrated on NHL match data! See how to use curved links with tree layouts and how to seamlessly add images to existing shapes.
+
+See the Pen JointJS+: Diagram Generation from External Data (NHL Score) by JointJS (@jointjs)
+on CodePen.
+
+‍
+
+Every Wednesday we share diagramming tips, interesting features and news in JointJS. Learn with us, get content delivered straight to your inbox and become a real diagramming pro:

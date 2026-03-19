@@ -1,0 +1,20 @@
+---
+source: https://www.jointjs.com/blog/demo-wednesday-hexagonal-grid
+generated: 2026-03-18
+format: markdown
+---
+
+We've published a new demo: Hexagonal Grid
+
+How would you create a hexagonal grid diagram? We used the Honeycomb library to do the math for us, and JointJS, which rendered the grid and the shapes in it and made everything interactive.
+
+If you want to learn more about hexagonal grids, also check out this article - <https://www.redblobgames.com/grids/hexagons/>.
+
+Over to you – play around with our live demo below or visit our CodePen profile.
+
+See the Pen Honeycomb by JointJS (@jointjs)
+on CodePen.
+
+For more examples of JointJS and JointJS+, see our CodePen profile and our official documentation.
+
+If you have an idea for another demo, let us know on Github Discussions.

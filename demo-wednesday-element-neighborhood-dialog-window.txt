@@ -1,0 +1,20 @@
+---
+source: https://www.jointjs.com/blog/demo-wednesday-element-neighborhood-dialog-window
+generated: 2026-03-18
+format: markdown
+---
+
+We've published a new demo: Element Neighborhood Dialog Window
+
+When working with a large number of objects, it is useful to activate a local view and drill down into the surroundings of a specific element. In today's demo, we show you multiple element relationships and local views: Neighbors, Successors, Predecessors, Siblings and Path from Element, all displayed as a floating popup that can be freely placed anywhere on the paper. In addition, the demo shows how to incorporate subscript and superscript into HTML.
+
+Here is a process to follow: Open the local view by clicking on one of the options: Neighbors, Successors, Predecessors, Siblings or Path from Element. After activating the floating popup, move the pop-ups around the screen to find a suitable position, define the depth and finally study the vicinity of the element. Last but not least, explore the source code to learn how to incorporate subscripts and superscripts into HTML. Voilà! You've done everything today's demo has to offer.
+
+Remember, if you want to use the features introduced in this application, you can start a no-obligation 30-day JointJS+trial.
+
+See the Pen JointJS+: Element Neighborhood Dialog Window by JointJS (@jointjs)
+on CodePen.
+
+‍
+
+Every Wednesday we share diagramming tips, interesting features and news in JointJS. Learn with us, get content delivered straight to your inbox and become a real diagramming pro:

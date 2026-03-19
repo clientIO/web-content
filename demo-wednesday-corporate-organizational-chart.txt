@@ -1,0 +1,18 @@
+---
+source: https://www.jointjs.com/blog/demo-wednesday-corporate-organizational-chart
+generated: 2026-03-18
+format: markdown
+---
+
+We've published a new demo: Corporate Organizational Chart
+
+Do you want to allow users to define an organizational structure and populate it with people in a drag & drop fashion? Check out this cool CodePen leveraging the flexibility of JointJS+ by combining tree and grid layouts and customizing the stencil.
+
+See the Pen JointJS+: Corporate Organizational Chart by JointJS (@jointjs)
+on CodePen.
+
+For more examples of JointJS and JointJS+, see our CodePen profile and our official documentation.
+
+To see all the awesome demos we've created so far, check out our Github Discussions.
+
+Every Wednesday we share diagramming tips, interesting features and news in JointJS. Learn with us, get content delivered straight to your inbox and become a real diagramming pro:

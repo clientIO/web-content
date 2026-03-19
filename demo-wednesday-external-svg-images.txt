@@ -1,0 +1,20 @@
+---
+source: https://www.jointjs.com/blog/demo-wednesday-external-svg-images
+generated: 2026-03-18
+format: markdown
+---
+
+We've published a new demo: External SVG Images
+
+Wondering how to use external SVG images as or within JointJS shapes? Today's demo shows three different ways to approach this.
+
+See the Pen JointJS: External SVG Images by JointJS (@jointjs)
+on CodePen.
+
+‍
+
+For more examples of JointJS and JointJS+, see our CodePen profile and our official documentation.
+
+To see all the awesome demos we've created so far, check out our Github Discussions.
+
+Every Wednesday we share diagramming tips, interesting features and news in JointJS. Learn with us, get content delivered straight to your inbox and become a real diagramming pro:

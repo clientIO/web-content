@@ -1,0 +1,15 @@
+---
+source: https://www.jointjs.com/blog/demo-wednesday-change-element-text-alignment-in-inspector
+generated: 2026-03-18
+format: markdown
+---
+
+We've published a new demo: Change element text alignment in inspector
+
+How to configure an inspector field to control multiple attributes at once? One option is to define a custom element which binds a high-level attribute (textAlignment) to multiple presentation attributes (textAnchor, textVerticalAnchor. x, y).
+
+‍Here is a CodePen that shows exactly that.
+
+For more examples of JointJS and JointJS+, see our CodePen profile and our official documentation.
+
+To see all the awesome demos we've created so far, check out our Github Discussions.
