@@ -7,8 +7,8 @@ Usage:
   python3 jointjs_convert.py --sitemap https://www.jointjs.com/sitemap.xml
 
 Output:
-  ./output/[slug].md
-  ./output/[slug].txt
+  ./[slug].md
+  ./[slug].txt
 
 Requirements:
   pip3 install requests beautifulsoup4 markdownify lxml
@@ -29,7 +29,7 @@ except ImportError:
     print("Missing dependencies. Run: pip3 install requests beautifulsoup4 markdownify lxml")
     sys.exit(1)
 
-OUTPUT_DIR = Path("./output")
+OUTPUT_DIR = Path(".")
 GITHUB_DEMOS_RAW = "https://raw.githubusercontent.com/clientIO/joint-demos/main"
 
 # ── Helpers ──────────────────────────────────────────────────────────────────
@@ -53,7 +53,6 @@ def clean_and_extract(html: str) -> BeautifulSoup:
     """Remove navigation, scripts, styles and return the main content node."""
     soup = BeautifulSoup(html, "html.parser")
 
-    # Remove noise elements
     noise_selectors = [
         "script", "style", "noscript", "iframe",
         "nav", "header", "footer",
@@ -66,7 +65,6 @@ def clean_and_extract(html: str) -> BeautifulSoup:
         for tag in soup.select(selector):
             tag.decompose()
 
-    # Try to find the main content container
     candidates = [
         "article",
         ".blog-post-content",
@@ -81,7 +79,6 @@ def clean_and_extract(html: str) -> BeautifulSoup:
         if node:
             return node
 
-    # Fallback to body
     return soup.find("body") or soup
 
 
@@ -112,7 +109,6 @@ def to_plaintext(markdown: str) -> str:
 
 
 def add_frontmatter(markdown: str, slug: str, source_url: str = "") -> str:
-    """Prepend a simple YAML-like frontmatter block."""
     from datetime import date
     frontmatter = f"""---
 source: {source_url or slug}
@@ -157,13 +153,11 @@ def process_demo(url: str):
         r.raise_for_status()
         readme_markdown = r.text
     except Exception:
-        # README not found — fall back to web page
         print(f"  (no README found, falling back to web page)")
         return process_url(url)
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    # Add frontmatter
     from datetime import date
     frontmatter = f"""---
 source: {url}
@@ -208,7 +202,6 @@ def process_sitemap(sitemap_url: str, limit: int = None):
     soup = BeautifulSoup(html, "xml")
     urls = [loc.text.strip() for loc in soup.find_all("loc")]
 
-    # Exclude technical/junk pages, take everything else
     excluded = [
         "/cdn-cgi/", "/.well-known/", "/wp-", "/feed",
         "pricing-copy-29-5-2022", "/dev-backup/",
