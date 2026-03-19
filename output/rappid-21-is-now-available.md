@@ -95,7 +95,7 @@ Users with an active JointJS+ Update Subscription can download the 2.1 update fr
 - storage.Local - fix duplicate keys in index
 - add Constellation demo
 
-We hope you enjoy these changes and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#cea1bca98eada2a7aba0bae0a7a1f1bdbbaca4abadbaf39cafbebea7aaebfcfefce0ffe0feebfcfebfbbabbdbaa7a1a0) with questions or comments.
+We hope you enjoy these changes and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#620d100522010e0b070c164c0b0d5d111700080701165f300312120b06475052504c534c5247505213170711160b0d0c) with questions or comments.
 
 ‍
 
