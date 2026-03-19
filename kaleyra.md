@@ -1,0 +1,7 @@
+---
+source: https://www.jointjs.com/showcase/kaleyra
+generated: 2026-03-18
+format: markdown
+---
+
+Kaleyra built a no-code solution to automate customer experience workflows, ranging from customer service IVR and automated surveys to payment collections and reminders. The drag-and-drop functionality, along with other JointJS+ features, makes the visual editor intuitive yet very powerful.

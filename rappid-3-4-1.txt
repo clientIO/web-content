@@ -1,0 +1,25 @@
+---
+source: https://www.jointjs.com/blog/rappid-3-4-1
+generated: 2026-03-18
+format: markdown
+---
+
+The newest version of JointJS+ (3.4.1.) is out and comes with a security update, bug fixes and a new demo.
+
+You can download the update package from your Account portal. If you're not eligible for a free update, you can purchase it through our online store or request a free 30 day trial to try it out.
+
+Have a look at the updates in the full changelog here.
+
+JointJS+ 3.4.1 Highlights:
+
+We present an example of how to build a shape with a vertical list of items. The list item is a port with an arbitrary size and markup.
+
+Complete JointJS+ 3.4.1 Changelog with sample code and screenshots is here.
+
+We hope you'll get the most from these fixes and updates. Please don't hesitate to get in touch with questions or comments.
+
+‍
+
+Happy diagramming!
+
+The JointJS Team

@@ -1,0 +1,113 @@
+---
+source: https://www.jointjs.com/blog/rappid-3-2-is-now-available
+generated: 2026-03-18
+format: markdown
+---
+
+JointJS+ 3.2 is released and comes with updates, fixes, and great performance improvements.
+
+> *"As questions on JointJS+ integration within different frameworks were repeating, our focus for version 3.2 was clear." says Roman Bruckner, CTO of client IO. "The integration with Vue, React and Angular is now much more straightforward thanks to our new sample apps and tutorials that help our customers get up to speed with JointJS+ very quickly in their favorite framework."*
+
+You can download the update package from your [Account portal](https://my.client.io). If you're not eligible for a free update you can purchase it through our [online store](https://www.jointjs.com/pricing) or request a free [30 day trial](https://www.jointjs.com/free-trial) to try it out.
+
+Take a look at the main highlights here and the full changelog below.
+
+## **JointJS+ 3.2 Highlights:**
+
+### Integration with Vue, React, Angular
+
+- Integration with your favorite framework is now way easier!
+- JointJS+ now provides demos showcasing integration with the newest versions of these 3 frameworks.
+- Check the integration tutorials here: <https://resources.jointjs.com/tutorial>
+
+‍
+
+### 3 new demos
+
+- Chatbot demo available here: <https://www.jointjs.com/demos/chatbot>
+- Measuring distances in pixels available here: <https://www.jointjs.com/demos/distances>
+- Measuring angles is here: <https://www.jointjs.com/demos/angles>
+
+‍
+
+Screenshot from the new Chatbot demo
+
+Screenshot from the new Angles demo
+
+Screenshot from the new Distances demo
+
+## **Complete JointJS+ 3.2 Changelog:**
+
+- upgrade **jQuery** dependency (*v3.5.1*)
+- add **Chatbot** application (***VueJS***, ***Angular9***, ***React Redux***)
+- *screenshot*
+- add **shapes.Measurements** (Distance & Angle)
+- *screenshot*
+- add **KitchenSink** integrated with ***Angular9***, ***VueJS*** and ***VueTs***
+- add **Sequence Diagram** demo
+- *screenshot*
+- add **HTML Elements** demo
+- *screenshot*
+- **apps.DataMapping**: show translucent copy of an element being dragged
+- *video*
+- **apps.Layout**: implement dragging of embedded elements
+- *video*
+- **shapes.Standard** - support element ports with Record shapes
+- **format.GridLayout** - add setAttributes, verticalAlign, horizontalAlign, rowGap, columnGap options
+- **ui.FreeTransform** - support asynchronous updates
+- **ui.FreeTransform** - add usePaperScale, resizeDirections and padding options
+- **ui.Halo** - magnet option callback receives event argument
+- **ui.Inspector** - relative when expressions for nested objects and lists
+- **ui.Inspector** - add updateCellOnClose option
+- **ui.Inspector** - make sure fields are saved before close
+- **ui.Navigator** - add useContentBBox option
+- **ui.Navigator** - add freeze(), unfreeze()
+- **ui.Navigator** - trigger pan:start, pan:stop, zoom:start, zoom:stop events
+- **ui.PaperScroller** - add scrollWhileDragging option
+- *video*
+- **ui.PaperScroller** - padding option callback accepts paper scroller instance
+- **ui.PaperScroller** - positionContent(), scrollToContent() accepts useModelGeometry option
+- **ui.PaperScroller** - fix paper size after zoomToRect()
+- **ui.PaperScroller** - fix autoResizePaper option for synchronous rendering mode
+- **ui.Stencil** - add freeze(), unfreeze()
+- **ui.Stencil** - add contentOptions and canDrag options
+- **ui.Stencil** - add stencil-filtered CSS class when stencil is filtered
+- **ui.Stencil** - fix listeners not being unbound after drag end
+- **ui.Tooltip** - add container option
+- **ui.Tooltip** - fix default template option
+- **dia.Paper** - add beforeRender and afterRender options, add hasScheduledUpdates(), trigger render:done in sync mode
+- **dia.Paper** - fix missing initial render:done event
+- **dia.Paper** - prevent the prototype options modification, persist functions passed as options
+- *details*
+- **dia.Paper** - scaleContentToFit() option padding accepts an object
+- *details*
+- **dia.Paper** - fix isMounted argument of viewport() option
+- *details*
+- **dia.Paper** - dynamic link update priorities (fix for "link connected to other two links" update bug)
+- **dia.Element** - port removal runs in batch
+- **dia.Element** - add getGroupPorts()
+- **dia.Element** - prevent exception in getPointFromConnectedLink() when port does not exist
+- **dia.LinkView** - fix never ending batch for legacy link tools
+- **dia.LinkView** - add requestConnectionUpdate()
+- **dia.LinkView** - trigger link:snap:connect and link:snap:disconnect events
+- *video*
+- **dia.LinkView** - prevent exception when labels and connection require update
+- **dia.LinkView** - measure snap distance for links from magnet's boundary
+- **dia.LinkView** - add getEndConnectionPoint()
+- **mvc.View** - add DETACHABLE property to ignore viewport matching, FLAG\_INSERT & FLAG\_REMOVE defined on per view basis
+- **linkTools.Anchor**: add resetAnchor option
+- **linkTools.Segments**: add stopPropagation option
+- **connectionPoints.anchor** - add align and alignOffset options
+- **attributes.textWrap**: add maxLineCount option
+- **util.breakText** - retain new line characters, add maxLineCount option
+- **util.sanitizeHTML**: sanitize attribute values with "data:" and "vbscript:"
+- **Geometry** - add parallel() to Line, add serialize() to Point and Line
+- various Typescript fixes
+
+We hope you'll get the most from these new features, fixes and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#28475a4f684b44414d465c064147) with questions or comments.
+
+‍
+
+Happy diagramming!
+
+*- The JointJS Team*

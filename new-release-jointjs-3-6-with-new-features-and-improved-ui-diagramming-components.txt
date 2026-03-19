@@ -1,0 +1,125 @@
+---
+source: https://www.jointjs.com/blog/new-release-jointjs-3-6-with-new-features-and-improved-ui-diagramming-components
+generated: 2026-03-18
+format: markdown
+---
+
+It's Tuesday, October 25, 2022, and the new and improved version of JointJS+ will see the light of day for the first time! In past years, we have rushed to expand the functionality of our library. This approach has led to great versatility and flexibility of our solution - companies from different industries use our library to cover a wide range of use cases. This time, however, we've taken a step back and significantly improved some key diagramming UI components such as the context toolbar, rich text editor, and touch pad support, making interacting with your application even more enjoyable for customers.
+
+In addition, we've provided some great demo applications, notably MindMap, to give you another ready-to-use application that you can copy/paste into your project to reduce development time.
+
+Roman Brückner, our CTO, sums up this release: "In recent months, we've doubled the size of our development team with the vision to introduce great new features that will allow more developers and innovative thinkers to bring their ideas to life. Before we dive into developing new features, we decided to pause and reflect on the necessary improvements to our current offering to set the stage for what's coming next. Seeing the upgrades to the UI components reassures me that we've done the best we can and gives me confidence for the months ahead."
+
+Suggested next steps:
+
+Read through our full changelog.
+Download the update package from the Account portal (only for customers who subscribed to updates).
+If you have not yet purchased a license or are not subscribed to updates, start a no-commitment 30-day trial or purchase a license through our online store.
+
+Curious about what's new in JointJS+ 3.6? Buckle up and let's go over the key points of this release.
+
+JointJS+ 3.6 Key Highlights:
+
+New application: MindMap
+
+The MindMap application can help your teams or end customers visually organize information, come up with new ideas and collaborate on them. We've included all the necessary tools (e.g. command manager) and UI components (newly updated rich text editor) so you can copy/paste this app and create your own MindMap app in a few days.
+
+You can view the live demo here or watch a guide on how to use and edit the MindMap application:
+
+New set of useful shapes (Value Stream Mapping)
+
+The new version includes a set of new Value Stream Mapping (VSM) shapes that are delivered as a separate installable module. These shapes are not only useful for mapping lean processes, but serve in part as a gallery of generic shapes that may be useful in other use cases, and most importantly as inspiration for how to create your own shapes.
+
+Read through our documentation to learn how to work with VSM shapes.
+
+Improved highlighters to add dynamic content to existing elements
+
+Let's face it. Adding dynamic content (such as status icons or dynamically loaded images) to existing elements was possible, but painful. In JointJS+ 3.6, we introduce an improved highlighter that renders dynamic content without having to touch the existing elements in any way.
+
+Where this feature can be useful, you may ask:
+
+Status icons reflecting the state of the process.
+
+See the Pen JointJS: dynamic status icons by JointJS (@jointjs)
+on CodePen.
+
+Counters used in data flow diagrams.
+
+See the Pen JointJS: HighlighterView UPDATE\_ATTRIBUTE by JointJS (@jointjs)
+on CodePen.
+
+A gallery of images right inside of your shape.
+
+Upgrade of the UI diagramming components:
+
+As mentioned above, the main focus of this release has been on improving the current diagramming UI components and thus making the interaction with diagramming studios created with JointJS+ more convenient.
+
+We'll list some of the key component upgrades below, but we encourage you to read our full changelog to find out about all changes.
+
+Support for touchpads and trackpads
+
+Before version 3.6, zooming in and out was only possible using the toolbar zoom button. In the new version, your customers can navigate their diagrams by simply interacting with the touchpad or trackpad (using gestures). They can thus work faster by saving themselves a few clicks here and there.
+
+Need proof instead of words? Try it out in the Kitchen Sink demo app.
+
+The look and feel of popups is in your hands now
+
+In the past, the way you could control the appearance of the context toolbar and popup was quite rigid. Now you can change their position, size, anchor, padding and more, giving you even more flexibility when using our library.
+
+See how to change the context toolbar:
+
+See the Pen JointJS+: ui.ContextToolbar - open at position & scale and anchor options by JointJS (@jointjs)
+on CodePen.
+
+Want to see how to change the popup?
+
+See the Pen JointJS+: ui.Popup - position, scale, anchor, arrowPosition options by JointJS (@jointjs)
+on CodePen.
+
+Improved ui.Clipboard that helps you copy/paste multiple elements
+
+We improved the ui.Clipboard component, which allows you to copy/paste multiple elements, insert clipboard cells at a given point, and pass custom model flags. See the full changelog for more information.
+
+A new linking tool displayed on hover that allows more flexible linking
+
+In most cases, you may want to link different objects together to symbolize a data flow, a production process, or simply a relationship between these objects. However, there are cases where you need to connect links (see this sequence diagram, for instance). With the new version of JointJS+ and the new linkTools.HoverConnect component, you can move over an existing link and create connections with more flexibility.
+
+View the live demo here.
+
+A more powerful rich text editor
+
+You've seen the great new MindMap demo app above, right? The creation of this app was made possible by, among other features and UI components, an enhanced rich text editor that allows you to format text in a variety of ways - changing the font, color and size of text, and more.
+
+View the live demo here.
+
+An option to duplicate nested cells
+
+As the title suggests, you can now clone and fork elements along with their descendants. Try it out in one of our CodePen demo applications.
+
+See the Pen JointJS+: ui.Halo: clone & fork nested cells by JointJS (@jointjs)
+on CodePen.
+
+A new option to make changing the scale of tools easier
+
+We have always prided ourselves on offering flexible solutions that can be fully customized to your unique needs. However, some things have been harder to achieve than others, including changing the scale of the tools. We have now overcome this difficulty and offer you an easy way to resize the tools right in the user interface.
+
+See the Pen Tool scale option by JointJS (@jointjs)
+on CodePen.
+
+Other additions
+
+Besides the key highlights mentioned above, we have prepared a plenty of other updates you may be interested in, including RTL direction support and memory leak fix.
+
+RTL direction support
+
+We've fixed scrolling when the directionality of the text is set to right-to-left (typical for Arabic languages and Hebrew).
+
+Memory leak fix
+
+After a thorough analysis, we fixed several memory leaks, taking another step towards a high performing and stable solution.
+
+‍
+
+Now it' s all yours - use JointJS+ and make your idea a reality! 🤞
+
+– The JointJS team

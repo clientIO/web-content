@@ -1,0 +1,233 @@
+---
+source: https://www.jointjs.com/blog/jointjs-vs-gojs
+generated: 2026-03-18
+format: markdown
+---
+
+JointJS and GoJS are the two leading JavaScript libraries for interactive diagramming on the Web. They enable you to jump-start the development of your web application, regardless of whether you are creating a user interface from scratch, or embarking on a project to migrate a graphical desktop application to the cloud. This allows you to concentrate your efforts on the important stuff – product design, focus on the customer, and quick iteration.‍
+
+Creating interactive diagrams on the Web is not straightforward, and requires a lot of care in an area with which few developers are familiar. Both libraries take care of the basic infrastructure of your app (embedding into the webpage, user interactivity, connecting objects, graph data model, styling, and more), while providing you with the flexibility to dive in and customize whatever you need, at the complexity you are comfortable with.
+
+JointJS started in 2010 and GoJS started in 2012, so both libraries are mature solutions, which continue to evolve to respond to customer needs. They support JavaScript and TypeScript, and integrate with popular web development frameworks including React, Vue, Angular and Svelte. Let’s discuss the differences between the two libraries, so that you can choose the right one for your project.
+
+This article was last updated on December 12, 2025.
+Originally published on February 3, 2023.
+
+Rendering Engine
+
+The most fundamental difference between the two libraries is perhaps the most basic – the way they surface your diagrams to your webpages. JointJS uses SVG rendering (<svg> tag), while GoJS primarily relies on HTML Canvas element (<canvas> tag). Each approach has its own pros and cons, and each library does its best to offer similar performance to the other. (Both libraries also enable you to export your diagrams to the other format.)
+
+HTML Canvas has two fundamental limitations. First, as a raster-based technology it represents its contents as a bitmap, which means that graphical data may lose quality when enlarged in the browser (or when shown on Retina displays), and text may become blurry due to rasterization. Second, the Canvas element acts as a black box within the browser – it does not support many native browser behaviors, it is difficult to debug and test for developers, and it is inaccessible to screen reader technology. GoJS attempts to compensate for the inherent lack of accessibility of HTML Canvas with a programmatic approach in which built-in keyboard shortcuts support interacting with the diagram, but the functionality requires expert-level knowledge of GoJS to customize effectively.
+
+Meanwhile, SVG is a vector-based image representation where the graphical content and text are handled on-the-fly by the browser, which means that vector images and text are guaranteed to be crisp at any resolution. Additionally, since all content is part of the webpage DOM, it is automatically visible to native browser functionality (e.g. CSS styling and animations, page-wide search, rendering animated GIFs), inspectable by developer tools to enable debugging and testing of the production environment, and accessible to screen reader technology. Although GoJS also provides an SVG rendering mode, its insufficient virtualization capability causes such loss of performance that GoJS itself strongly recommends against using it in production: “Unless you have a specific use case in mind, usage of the default Canvas context is recommended instead” since it “has considerably greater performance.” It is only in JointJS where SVG rendering really shines – JointJS’s advanced virtual rendering and memory management functionality supports rendering of diagrams with very large numbers of objects without sacrificing performance.
+
+Here is a quick overview of the features of the primary rendering engines used by JointJS (SVG) and GoJS (HTML Canvas). Continue reading for detailed explanations.
+
+| Feature | JointJS | GoJS |
+| --- | --- | --- |
+| Image and text rendering quality | 👍 | 🙁\* |
+| Native browser functionality | 👍 | 👎 |
+| CSS styling and animations | 👍 | 👎 |
+| Automated testing for production environments | 👍 | 👎 |
+| Accessibility | 👍 | 🙁 |
+| Performance | 👍\\ | 👍 |
+| Vector-based SVG rendering without sacrificing performance | 👍\\ | 👎 |
+
+\* Image and text quality may be reduced when zooming using native browser tools without notifying GoJS.  
+\\ Virtual rendering needs to be activated in JointJS to achieve high performance for extremely large numbers of objects.
+
+Developer Experience
+
+Developers like to say that “writing code is quick and easy… but making it work is slow and difficult.” SVG rendering, used by JointJS, has an inherent advantage here since all visible elements are automatically added to the webpage DOM. This out-of-the-box transparency of SVG has far reaching positive implications for JointJS – easy application of your own look-and-feel via CSS, more meaningful testing, and support for native browser functionality.
+
+None of this is applicable to HTML Canvas. Everything happens inside a single element which does not communicate anything about its inner state – a black box. It is true that GoJS tries to counter this fundamental limitation with various workarounds – for example, using the SVG rendering mode, returning copious error messages to the browser console, emulating some CSS animations, etc. However, these workarounds do not change the fact that native browser functionality can often only be approximated in Canvas by developers with expert-level knowledge in GoJS. If you assume that common web functionality will be available, you may be surprised down the line when you find yourself compromising on functionality you never thought could be a problem.
+
+‍
+
+Some of the JointS+ alternatives seemed to be easier to use for our developers with Java background at first glance, but when we tried to implement something which did not come out of the box, it was complicated. In addition, design and styling would be hard because oftentimes it was canvas-based.
+
+Johanna Juszak
+
+Product Manager at ConSol
+
+First, being able to use native CSS functionality means that SVG and JointJS can work in tandem with complex CSS animations. GoJS falls notably short here – it mimics the functionality via JavaScript for only a handful of the most popular CSS animatable properties, but even that requires writing custom code which is opaque to uninitiated front-end developers.
+
+Second, working with DOM elements means that manual and automatic tests written for JointJS can be more meaningful – with clearly delineated inputs and transparent expectations for the output state of the diagram (which is easily read from the state of the DOM when a test is finished). Meanwhile, once an HTML Canvas is drawn it is difficult to get anything useful back from it, which is why GoJS recommends using its SVG rendering mode for testing even if the production application uses Canvas rendering. However, when the testing and production environments use completely different technology like this, you should consider whether the testing results can be trusted to apply to the production environment.
+
+Third, since the contents of HTML Canvas elements are a black box to the browser, many native browser behaviors are not supported within its content. This includes support for page-wide text search, rendering of animated GIFs or custom text input services, for which GoJS does not have an alternative, except for switching to the unoptimized SVG rendering mode for production.
+
+Finally, our customers who have had an opportunity to try both libraries keep telling us that even though GoJS initially looked simpler to use than JointJS, they had to switch to JointJS as soon as they started trying to implement their own custom logic. GoJS is more cumbersome to use, its documentation is difficult to read and navigate, and its programming patterns are highly unusual for JavaScript – e.g. constantly nesting objects within objects.
+
+In the words of Johanna Juszak, Product Manager at ConSol: “Some of the JointJS+ alternatives seemed to be easier to use for our developers with Java background at first glance, but when we tried to implement something which did not come out of the box, it was complicated. In addition, design and styling would be hard because oftentimes it was canvas-based.”JointJS provides an easier and more consistent developer experience than GoJS.
+
+Accessibility
+
+SVG offers out-of-the-box accessibility support since all rendered objects (and crucially, the text and hyperlinks within them) are automatically part of the webpage DOM, which allows assistive technologies to traverse them as they normally do with HTML tags. JointJS enhances this general advantage of SVG where appropriate. It provides the flexibility to specify ARIA attributes for all diagram contents, and to make SVG elements activated or focused in the same way that standard HTML elements can. It is also easy to give accessible title and description nodes for all SVG elements in your diagram.
+
+Meanwhile, the Canvas object is a black box to assistive technologies. Developers are expected to provide alternative content with a textual description of the scene being rendered, but GoJS always leaves it empty. Instead, GoJS attempts to compensate with a programmatic approach which allows tabbing into the diagram and then using predefined keyboard shortcuts to interact with its contents. However, the functionality requires expert-level knowledge of GoJS to customize effectively.
+
+Performance
+
+If SVG offers better graphics, development experience, and accessibility than HTML Canvas, then are there even any advantages to using Canvas? The generally-accepted answer is that “while SVG rendering provides better performance with a larger surface or a smaller number of objects, Canvas provides better performance with a smaller surface or a large number of objects.” This talking point is commonly used to argue that JointJS library is unsuitable for large diagrams – but it is more accurate to say that the assertion is only true for naive SVG rendering implementations (case in point: GoJS’s own unoptimized SVG rendering mode). Performance is not a problem for JointJS.
+
+How? The optimized virtual rendering and memory management functionality of JointJS uses a smart asynchronous algorithm to dynamically render only the objects which are currently visible to the user. As the user scrolls, pans or zooms, newly visible objects are dynamically loaded into memory, while newly invisible objects are removed. Activating this mode does not require any customization – it is as simple as flipping boolean attributes to true. When it is used, JointJS is capable of rendering diagrams with very large numbers of objects almost as well as GoJS’ HTML Canvas rendering with no noticeable performance hit.
+
+To illustrate this point, JointJS developed an example with 8000 cells (elements and connecting links), implemented purely with SVG and JointJS’s virtual rendering algorithm. Note how the number of rendered cells changes as the user scrolls around the diagram:
+
+👉 Live performance demo
+
+Licensing
+
+It is difficult to compare the price of the two libraries, because they come with different license agreements. However, in broad terms, it is possible to say that JointJS’s standard commercial license is much more flexible than GoJS’s standard commercial license.
+
+JointJS’s license is based purely on the number of developers working on your product, without any additional restrictions. This is unusual on the market and in fact, JointJS trialists often ask about licensing to make sure they understood this point correctly. (For example: “Our team will have 3 developers working on a product with JointJS, which we intend to sell to our customers. Is it enough to buy a three-seat JointJS license? Are there any additional costs?”) It sounds too good to be true. And yet the reply always is that, indeed, they understood correctly –  the standard JointJS commercial license is perpetual with no additional costs.
+
+While the license costs are also based on the number of developers working on your product, GoJS charges extra for the right for you to distribute your application on more than 1 domain and to use the library for more than 1 application. In addition, the licensing terms are not very clearly explained on the GoJS website, so you may be surprised by unexpected license restrictions at checkout.
+
+The commercial licenses for both JointJS and GoJS come with a year of free updates. Additional subscriptions to receive updates and/or to have access to support can be purchased for both libraries. In the case of GoJS, a combined three-year subscription to updates and support is offered as one add-on, while JointJS offers them separately as yearly subscriptions (with an additional choice of 48- or 72- hour maximum response time for dedicated support).
+
+| Feature of standard license\* | JointJS | GoJS |
+| --- | --- | --- |
+| Perpetual license | ✔ |  |
+| License cost is based on number of developers | ✔ | ✔ |
+| No additional license cost for distribution on more than 1 domain | ✔ |  |
+| No additional license cost for use within more than 1 application | ✔ |  |
+| One year of free updates included with license | ✔ | ✔ |
+| Additional yearly subscription for additional updates is available | ✔ |  |
+| Additional yearly subscription for basic support is available | ✔ |  |
+| Additional yearly subscription for priority support is available | ✔ |  |
+
+\* By “standard license” we mean JointJS+ Standard plan for JointJS and GoJS Team license for GoJS
+
+Community and Support
+
+An active (and ideally free) community is a strong asset for developers trying to find their way around any new technology. That is why both JointJS and GoJS are active across a number of channels. Both libraries have a fairly active community on StackOverflow – JointJS and Rappid (old brand name of JointJS+) are tagged in 702 questions, while GoJS is tagged in only 431 questions (with both around 90% answered).
+
+Both libraries also monitor their GitHub Issues. JointJS has an edge on this support channel as well, with 759 of these conversations in total, while GoJS had only 169 (with both more than 95% answered). Additionally, JointJS has an active GitHub Discussions forum, while GoJS promotes their GoJS forum – with the unusual caveat that asking questions is a paid feature. JointJS’s support is more accessible by virtue of not locking out any of its users from asking questions on its official forum.
+
+| Free support channel | JointJS | GoJS |
+| --- | --- | --- |
+| StackOverflow | ✔ | ✔ |
+| GitHub Issues | ✔ | ✔ |
+| Read public discussion forum\* | ✔ | ✔ |
+| Post questions on public discussion forum\* | ✔ |  |
+
+\* By “discussion forum” we mean GitHub Discussions for JointJS and GoJS Forum for GoJS.
+
+‍
+
+The JointJS team has helped us through some of our most difficult requirements to deliver a top-notch product for our customer. Their development team goes above and beyond to assist with questions and is very responsive. I highly recommend both their product and their support package!
+
+Matthew Sullivan
+
+Project Manager at G2
+
+Both libraries also offer paid support plans. A JointJS support subscription gives you direct secure access to developers via teleconferencing, email, and a ticketing system with short response times. Meanwhile, a GoJS support plan allows you to post questions on the public forum, reach out via email or via website form.
+
+Always consider your preferred communication channel and the secrecy with which you need to handle your code. Efficient support may be the difference between your developers being blocked for days and them going above and beyond. JointJS is the more secure option, and it gives your developers more direct access to the creators of the library.
+
+| Paid support channel | JointJS | GoJS |
+| --- | --- | --- |
+| Email | ✔ | ✔ |
+| Post questions on public discussion forum\ | ✔ \\* | ✔ |
+| Teleconferencing | ✔ |  |
+| Ticketing system with short response times | ✔ |  |
+
+\* By “discussion forum” we mean GitHub Discussions for JointJS, and GoJS Forum for GoJS.  
+\\ Posting questions on the public discussion forum is already free for JointJS.
+
+Free Options
+
+Ready to dive in and see the two libraries for yourself? JointJS has an advantage here – it started as an open-source project, and its developers are still committed to bringing basic diagramming functionality into the free JointJS repository, keeping only the more advanced plugins behind the paywall.
+
+GoJS has no free tier.
+
+Therefore, it is fair to say that JointJS is a free and open source alternative to GoJS. The free tier of JointJS includes the Geometry package (for calculations on SVG shapes and their interactions), the Vectorizer package (for dealing with SVG transformations and text), automatic DirectedGraph and MSAGL layout algorithms, a suite of tools to work with Links and Elements (e.g. highlighters, automatic routers, and UI tools), and a collection of standard diagram shapes. For additional functionality, JointJS can be seamlessly extended by a paid tier called JointJS+.
+
+Both JointJS+ and GoJS come with a free 30-day trial period which includes full support from the two respective developer teams. Nevertheless, you may get farther with JointJS+ during those 30 days (thanks to the free JointJS foundation) since you do not necessarily have to start from scratch as you always must with GoJS.
+
+Feature Richness
+
+JointJS and GoJS are in an arms race to approach feature parity with each other. In 2025, both libraries come with basic UI elements including minimap, element palette, context menu, tooltip or property editor and viewer. They also both offer control interactions (e.g. keyboard shortcuts, copy/paste, undo/redo, scroll, zoom, pan), as well as object layout algorithms – for example layered (flowchart), tree (orgchart), grid (table) and force-directed.
+
+Both libraries come with collections of basic diagram shapes (i.e. elements and links) as well as the functionality to define additional custom shapes for use in the diagram. They also both offer a collection of BPMN shapes, and support exporting to SVG, HTML Canvas, PDF, and PNG/JPEG.
+
+In addition to those features (and to the free JointJS features), the paid JointJS+ tier comes with a library of additional ready-to-use UI elements (e.g. toolbar, inline rich text editor, SVG path editor), tools for creating presentation slideshows from your diagram, as well as a collection of advanced shapes for VSM.
+
+Meanwhile, GoJS focuses on providing additional out-of-the-box diagram shapes and niche object layout algorithms (e.g. radial, treemap). However, these additions are offset by a lack of any extra UI elements or tools, or any more domain specific applications.
+
+One area where JointJS+ has a clear advantage over GoJS is in domain-specific applications. JointJS+ offers advanced functionality for import/export of Visio VSDX archives and BPMN 2.0 XML files, while GoJS does not have anything of the sort. This means that JointJS is the clear choice whenever you need to process any such files as part of your use case, or whenever you need to integrate with systems which can only work with these file formats.
+
+An additional advantage to having such a variety of possible applications is that it makes JointJS the safer choice whenever there is uncertainty about the eventual scope of your application. You may start your project thinking that it will be a straightforward flowchart diagramming application – but if the customer comes back to you halfway through requesting BPMN integration, you do not have to make any compromises in order to crowbar BPMN into your product. You just drop in the BPMN functionality of JointJS+.
+
+To sum it up, JointJS offers more advanced interactive elements, more export and import functionality, and more domain-specific plugins, while GoJS focuses on offering a larger library of pre-made shapes and automatic layouts. Since properly replicating the interactive functionality of JointJS in your app would prove more difficult than merely creating additional shapes and/or layouts of GoJS, we believe that JointJS gives you a better foundation for your application, whatever it may turn out to be.
+
+Demos and Boilerplate Applications
+
+Seeing something in action is perhaps the best way to learn how it works. That is why both libraries have large collections of demos, and keep expanding them as they add more functionality. JointJS has a better trajectory in this category, since it adds new demos faster than GoJS.
+
+One thing JointJS customers love about its demo collection is that it isn’t just an index of library functionality. Many JointJS demos serve as boilerplate applications, meaning that they can serve as the foundation on top of which you can build your own application. The source code of more than 40 of these advanced demos is included as part of JointJS+ – including the free trial version.
+
+‍
+
+JointJS+ was really a great find, as it gave us a great boost in the diagramming frontend of our application. These guys know their business and give you a great support on your development. One of our requirements was to have a BPMN diagram support in our app and they quickly supplied this as a plugin to JointJS+!
+
+José Miguel Gonçalves
+
+Project Manager at Nov Inesc Inovação
+
+Summary
+
+So, which of the two leading JavaScript libraries for interactive diagramming should you choose – JointJS or GoJS? We think that JointJS offers much better value for money. Its rendering engine offers superior developer experience while the library does an overall better job in overcoming the limitations of its underlying technology. The library’s commercial licensing model is more straightforward and more flexible, and its support more accessible. JointJS gives you a more secure and versatile foundation for your application, and its boilerplate applications let you hit the ground running from day one.
+
+In some cases, the choice of JointJS is obvious, including:
+
+If you need to render images in native high quality and ensure a smooth user experience regardless of browser or device.
+If your users expect native browser functionality such as full-page search to work within your diagrams.
+If you need to iterate quickly and provide your developers with technology that is easy to test and debug, without worrying about differences between testing and production environments.
+If you need granularity in licensing, update, and support plans.
+If privacy is of utmost importance to you and support requests cannot be handled through any insecure channel.
+If you need to process advanced diagramming formats such as Visio VSDX archives and BPMN 2.0 XML files.
+
+Let us recapitulate what we discussed in the article. Here is a side-by-side comparison of the features of JointJS and GoJS:
+
+← scroll to see full table →
+
+| Feature | JointJS | GoJS |
+| --- | --- | --- |
+| Embedding diagrams into your webpage | ✔ | ✔ |
+| Development in JavaScript and TypeScript | ✔ | ✔ |
+| Integration with React, Vue, Angular and Svelte | ✔ | ✔ |
+| Straightforward development in production environment  - All objects present in website DOM - Support for native browser behaviors - Easy manual and automated testing - Easy diagram styling (CSS) - Easy diagram animations (CSS) - Easy implementation of accessibility - Uses JavaScript best practices | ✔ |  |
+| Ability to render large numbers of objects | ✔ | ✔ |
+| Vector-based SVG rendering without sacrificing performance | ✔ |  |
+| Free updates for 1 year are part of standard license | ✔ | ✔ |
+| No restrictions on use of standard license | ✔ |  |
+| Granularity in update and support plans | ✔ |  |
+| Free and active outside support communities | ✔ | ✔ |
+| Free support through public channels | ✔ |  |
+| Paid support through non-public channels | ✔ | ✔ |
+| Paid support directly by library developers, including on calls | ✔ |  |
+| Free tier with basic diagramming functionality | ✔ |  |
+| Seamless integration between free tier and paid tier | ✔ |  |
+| Free 30-day trial period | ✔ | ✔ |
+| Full support during trial period | ✔ | ✔ |
+| Basic diagram shapes  - Elements - Links | ✔ | ✔ |
+| Custom diagram shapes | ✔ | ✔ |
+| BPMN diagram shapes | ✔ | ✔ |
+| VSM diagram shapes | ✔ |  |
+| Basic UI elements  - Minimap - Element palette - Context menu - Tooltip - Measurement tools - Property editor and viewer | ✔ | ✔ |
+| Advanced UI elements  - Toolbar - Inline rich text editor - SVG path editor - Snaplines | ✔ |  |
+| Basic interactions  - Keyboard shortcuts - Copy/paste - Undo/redo - Object selection - Scroll, zoom and pan - Printing tools | ✔ | ✔ |
+| Advanced interactions  - Presentation tools (slideshows) | ✔ |  |
+| Basic object layout algorithms  - Layered (flowchart) - Tree (orgchart) - Force-directed - Grid (table) - Stack - Circular / Spiral / Serpentine - Packed | ✔ | ✔ |
+| Niche object layout algorithms  - Radial / Treemap |  | ✔ |
+| Basic export functionality  - SVG - HTML Canvas - PDF - PNG/JPEG | ✔ | ✔ |
+| Advanced export/import functionality  - BPMN 2.0 XML - Visio VSDX | ✔ |  |
+| Large collection of demos | ✔ | ✔ |
+
+‍
+
+Thank you for investing several minutes of your time to research which one of the two leading diagramming libraries would better suit your needs. Since you were so thorough with your exploration, we would like to extend to you an invitation to our no-commitment 30-day trial. It will allow you to experience the advanced JointJS+ diagramming library for yourself and explore how its features can be seamlessly integrated with your project.
+
+Happy coding!

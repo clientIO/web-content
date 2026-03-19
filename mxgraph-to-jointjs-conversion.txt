@@ -1,0 +1,25 @@
+---
+source: https://www.jointjs.com/blog/mxgraph-to-jointjs-conversion
+generated: 2026-03-18
+format: markdown
+---
+
+The mxGraph diagramming library is dead. Even though it is the technology behind the popular web diagramming tool draw.io / diagrams.net, the library itself was officially declared end-of-life in 2020 by its original developer in a surprising move. It is fair to say that the decision has shocked the community; up until that point, the library was prized for its stability – it maintained backwards compatibility since as far back as 2005.
+
+A fork called maxGraph has sprung up in its absence, developed by a different team. Even though this new library is actively maintained, it has been kept at pre-release versions (0.x.x) ever since 2020, so its API may prove less stable than the original library.
+
+The absence of official support and the continuing lack of a safe successor left numerous users of the library in a tight spot. Continuing to use the original library risks bugs and security issues, while switching to the pre-release version of the forked library risks unstable API and a need for rewrites. Fortunately, there is another option – migrating to a different library altogether.
+
+Enter JointJS. It is a mature diagramming library capable of entirely replacing mxGraph functionality on the client-side. Like mxGraph, JointJS can be used in JavaScript projects in order to render visual diagrams in SVG. However, the more modern JointJS comes with official support for TypeScript and all major development frameworks including React, Vue, Angular, Svelte, and Salesforce Lightning.
+
+JointJS comes in two flavors. In addition to a free and open source tier, the library offers a commercial extension called JointJS+ with additional features. Hence, the foundation built with the free tier – for example, when migrating away from mxGraph – can then be seamlessly extended with advanced diagram functionality and UI components.
+
+In the free tier, the library provides all fundamental diagramming functionality – a suite of tools for working with graph edges and vertices (including ports, labels, highlighters, automatic edge routers, and custom UI tools), a package for calculations on SVG shapes and their interactions, as well as a package for dealing with SVG transformations and text.
+
+On top of the free tier’s functionality, the commercial JointJS+ extension provides ready-to-use UI components (e.g. minimap, element palette, model/view inspector, toolbar, and snaplines) which you can use to enhance your application’s functionality. In addition, it provides support for advanced control interactions with users have come to expect from web applications – such as customizable keyboard shortcuts, drag-and-drop, copy/paste, and undo/redo – as well as a wealth of automatic graph layout algorithms, and a variety of export options including SVG, HTML Canvas, and PNG/JPEG. As a bonus, shapes for BPMN and VSM are included in the library out-of-the-box.
+
+JointJS is accessible to newcomers thanks to its large collection of 160+ demos and boilerplate applicationsanda comprehensive tutorial path. At the same time, its detailed documentation delights veteran developers who need to get into the nitty-gritty details of the library. For those who need more assistance, JointJS+ offers additional support subscriptions with guaranteed SLAs and access to the original creators of the library, who can help resolve even the most complex problems. In short, JointJS is the perfect replacement of mxGraph for teams and companies of any size.
+
+When you are ready to make the leap, reach out to us for a no-commitment 30-day trial of JointJS, and see the power of JointJS for yourself.
+
+Happy coding!
