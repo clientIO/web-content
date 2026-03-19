@@ -1,0 +1,93 @@
+---
+source: https://www.jointjs.com/nes-section-customer-stories
+generated: 2026-03-18
+format: markdown
+---
+
+# Customer stories & successes
+
+From startups to enterprises, JointJS+ helps innovative companies unlock the power of diagrams in a fraction of the time.
+
+[read customer stories](#case_studies)
+
+[see our clients](#clients2)
+
+##### stories from companies like yours
+
+## Customer stories
+
+[### Silo Team cuts development time by 40% and unveils a stunning new UI
+
+Discover how the Silo Team launched a complex onboarding process builder, reducing development time by 40% and enabling the team to focus on other aspects of the product.](/success-stories/silo-team-reduces-development-time-by-40-percent)
+
+[### HCLTech's buy vs. build decision leads to 40% reduction in development time
+
+Award-winning solutions provider HCLTech leverages JointJS+ and IBM's Workload Automation to visually manage complex tasks and activities. Their build vs. buy decision resulted in a 40% reduction in development time and a 20% increase in performance.](/success-stories/hcltech-leverages-jointjs)
+
+[### A global leader in innovative software solutions uses JointJS to display BPMN diagrams
+
+When looking for a way to visualize their customers' data within their own software, BMC found a great use for JointJS+ and a BPMN demo that solved their need immediately and helped them save a tremendous amount of time and resources.](/success-stories/bmc-uses-jointjs-to-display-bpmn-diagrams)
+
+[### Bosch designs architecture in a fraction of the time using JointJS
+
+Bosch originally designed the architecture of its cloud product from scratch and faced several hurdles. After researching available diagramming libraries, the company decided to use JointJS+ and in a fraction of the time, improved the way the architecture was modeled.](/success-stories/bosch-designs-architecture-in-fraction-of-time)
+
+[### Customer success platform launches workflow automation with a 70% time reduction
+
+ChurnZero was looking for a way to implement workflow automation into its SaaS. The company decided to leverage JointJS+ and launched a rich workflow automation feature with a 70% reduction in time, recording a whopping 90% adoption rate.](/success-stories/leading-platform-for-customer-success-launches-workflow-automation-in-record-time)
+
+[### Visual call flow designer developed 10x faster with JointJS+
+
+VOXO customers expect their solutions to be flexible and easy to understand. That's why this leading U.S. company decided to build its visual call flow designer using JointJS+ and accelerated their development tenfold.](/success-stories/visual-call-flow-designer-developed-10x-faster)
+
+## Enterprises
+
+A solution trusted by the world's leading companies, saving them significant development resources.
+
+JointJS+ is one of the easiest tools I’ve ever used and it works exactly how I expect it to. If someone needs a business application they should really think about how much time they’d have to spend creating what JointJS+ already does. For us it has been the perfect solution and I would definitely recommend it to anyone who needs this type of tool.
+
+Software Engineer, HCL Technologies
+
+Access to JointJS+ BPMN demo source code and very good documentation is outstanding in the market. We saved many hours and trouble thanks to easy debugging and well-written code, with an easy-to-understand structure and naming.
+
+Oleksandr Klymenko
+
+Product Development Architect, BMC
+
+## Mid-sized companies
+
+A fast and resource-efficient way to improve existing product offerings or launch new ones.
+
+It is going great with JointJS+. Outstanding framework, really. I'm actually one of the engineers assigned to the project so I'm looking at things from a technical perspective and I am overall quite impressed although we've only been trialing it for two weeks. We really appreciate the documentation and demos and their developers are always there when we need them.
+
+Kamaljit Lall
+
+Senior Software Engineer, Ushur
+
+I worked with JointJS+ on different projects to build graphical editors and it helps me get off the ground quickly. Most of the features that you know from other modern editors, even the more advanced ones, are prebuilt in the framework and can be enabled with just a few lines of code. All other features can be added easily due to the framework‘s open nature. And if you get stuck, they provide excellent technical support where you can get in touch directly with the creators of the framework.
+
+Andreas Mülder
+
+Team Leader, Itemis
+
+## Startups
+
+An affordable solution for startups looking to validate their business ideas and considerably shorten time to market.
+
+JointJS+ allowed CELUS to focus all our efforts on developing our core technology, while still providing our users with a great diagramming experience. The library is fast to integrate and comes with a wide set of advanced features out of the box that saved us countless development hours. A great partner to have!
+
+Rui Calsaverini
+
+Engineering Director, CELUS GmbH
+
+JointJS+ was the perfect product for us. We have used JointJS+ as the foundation to create an illustration tool for Sales relationships within a target organization. The product has been reliable, flexible, straightforward to integrate, and very easy for end users to understand.
+
+Phil Cederstrom
+
+Chief Technology Officer, Polaris I/O
+
+## Speed up your development with a powerful library
+
+Leverage a time-tested JavaScript diagramming library using the best of HTML5 and SVG to accelerate your development.
+
+[EXPLORE ALL DEMOS](/demos)[GET STARTED FOR FREE](/free-trial)

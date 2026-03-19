@@ -1,0 +1,5031 @@
+---
+source: https://www.jointjs.com/demos
+generated: 2026-03-18
+format: markdown
+---
+
+# 180+ pre-built apps
+
+JointJS offers a wide range of pre-built demo applications and features that serve as boilerplates to help you kick off your project.
+
+Popular tags
+
+[Clear all](#)
+
+JointJS+Open source
+
+Boilerplate applications
+
+Features showcase
+
+BPMN
+
+JavaScript
+
+React
+
+TypeScript
+
+Vue
+
+Angular
+
+Svelte
+
+[Filter by features](#)
+
+Adjustable interactivity
+
+Anchors
+
+Animation
+
+Automatic layout
+
+Built-in shapes
+
+Collapse & Expand
+
+Connection points
+
+Connectors
+
+Constraints on movement
+
+Content-driven shapes
+
+Context Toolbar
+
+Copy & Paste
+
+CSS styling
+
+Custom properties
+
+Custom shapes
+
+Drag & Drop
+
+Element palette
+
+Element tools
+
+Embedding
+
+Events
+
+Export to JSON
+
+Export to PDF
+
+Export to PNG/JPEG
+
+Export to SVG
+
+External images
+
+Geometry
+
+Graph API
+
+Grid
+
+Guidelines
+
+Highlighters
+
+HTML shapes
+
+Import/Export
+
+Integration
+
+Keyboard
+
+Link labels
+
+Link-to-link
+
+Link tools
+
+Measurement
+
+Menus
+
+Minimap
+
+Performance
+
+Popups
+
+Ports
+
+Print
+
+Property editor & viewer
+
+Responsive
+
+Routers
+
+Save/Load
+
+Selection
+
+Shape transformation
+
+Simulation
+
+Text content
+
+Toggle visibility
+
+Toolbar
+
+Tooltips
+
+Undo/Redo
+
+Validation
+
+Vectorizer
+
+Virtual rendering
+
+Visio
+
+Zoom & Pan
+
+Thank you! Your submission has been received!
+
+Oops! Something went wrong while submitting the form.
+
+Results
+
+(
+
+141
+
+)
+
+License:JointJS+
+
+11
+
+Zoom & Pan
+
+11
+
+Automatic layout
+
+11
+
+Custom shapes
+
+11
+
+Toolbar
+
+11
+
+Minimap
+
+11
+
+Property editor & viewer
+
+11
+
+Popups
+
+11
+
+Element palette
+
+11
+
+Undo/Redo
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### AI Workflow Builder
+
+Explore an AI workflow builder packed with advanced diagramming features—getting your app ready for the future of UIs.
+
+joinjs
+
+JointJS+
+
+Zoom & Pan
+
+Automatic layout
+
+Custom shapes
+
+Toolbar
+
+Minimap
+
+11
+
+Zoom & Pan
+
+11
+
+Automatic layout
+
+11
+
+Custom shapes
+
+11
+
+Toolbar
+
+11
+
+Minimap
+
+11
+
+Property editor & viewer
+
+11
+
+Popups
+
+11
+
+Element palette
+
+11
+
+Undo/Redo
+
+11
+
+Ports
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Workflow Builder
+
+Ship a workflow builder UI faster with our boilerplate and advanced diagramming features.
+
+joinjs
+
+JointJS+
+
+Zoom & Pan
+
+Automatic layout
+
+Custom shapes
+
+Toolbar
+
+Minimap
+
+Ports
+
+11
+
+Zoom & Pan
+
+11
+
+Automatic layout
+
+11
+
+Custom shapes
+
+11
+
+Toolbar
+
+11
+
+Minimap
+
+11
+
+Property editor & viewer
+
+11
+
+Popups
+
+11
+
+Element palette
+
+11
+
+Undo/Redo
+
+11
+
+Animation
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Marketing Automation Studio
+
+Build a visual marketing automation studio UI for modeling campaign flows and automation logic.
+
+joinjs
+
+JointJS+
+
+Zoom & Pan
+
+Automatic layout
+
+Custom shapes
+
+Toolbar
+
+Minimap
+
+Animation
+
+11
+
+Element palette
+
+11
+
+Print
+
+11
+
+Import/Export
+
+11
+
+Export to JSON
+
+11
+
+Selection
+
+11
+
+Tooltips
+
+11
+
+Built-in shapes
+
+11
+
+Element tools
+
+11
+
+Link tools
+
+11
+
+Shape transformation
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### BPMN Editor
+
+The BPMN demo demonstrates a standardized approach to modeling the steps of a business process from start to finish.
+
+joinjs
+
+JointJS+
+
+Built-in shapes
+
+Validation
+
+Element palette
+
+Import/Export
+
+Embedding
+
+11
+
+Simulation
+
+11
+
+Animation
+
+11
+
+CSS styling
+
+11
+
+Custom properties
+
+11
+
+Custom shapes
+
+11
+
+Highlighters
+
+11
+
+Link-to-link
+
+11
+
+HTML shapes
+
+11
+
+Ports
+
+11
+
+Toolbar
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### SCADA/HMI
+
+This demo shows a Piping and Instrumentation Diagram (P&ID), which plays a key role in the design of SCADA/HMI systems.
+
+joinjs
+
+JointJS+
+
+Simulation
+
+Animation
+
+Custom shapes
+
+Highlighters
+
+Ports
+
+Toolbar
+
+11
+
+Automatic layout
+
+11
+
+External images
+
+11
+
+Custom shapes
+
+11
+
+Drag & Drop
+
+11
+
+Events
+
+11
+
+Popups
+
+11
+
+Property editor & viewer
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Organizational Chart
+
+This demo showcases the power of JointJS+ on one of the most widely used diagram types.
+
+joinjs
+
+JointJS+
+
+Automatic layout
+
+Drag & Drop
+
+Custom shapes
+
+Popups
+
+Property editor & viewer
+
+11
+
+Anchors
+
+11
+
+Custom shapes
+
+11
+
+Drag & Drop
+
+11
+
+Tooltips
+
+11
+
+Graph API
+
+11
+
+Automatic layout
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Sankey Diagram
+
+See how to use link anchors, curve connector, stack layout and its drag & drop user interface to create Sankey diagram.
+
+joinjs
+
+JointJS+
+
+Automatic layout
+
+Anchors
+
+Drag & Drop
+
+Tooltips
+
+Graph API
+
+11
+
+Built-in shapes
+
+11
+
+Custom shapes
+
+11
+
+Link tools
+
+11
+
+Element tools
+
+11
+
+Shape transformation
+
+11
+
+Zoom & Pan
+
+11
+
+Toolbar
+
+11
+
+Undo/Redo
+
+11
+
+Validation
+
+11
+
+Routers
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Data Mapping
+
+This demo allows you to map abstract data that is provided in a given format and experience the power of JointJS+.
+
+joinjs
+
+JointJS+
+
+Built-in shapes
+
+Routers
+
+Anchors
+
+Collapse & Expand
+
+Context Toolbar
+
+11
+
+Integration
+
+11
+
+Element palette
+
+11
+
+Import/Export
+
+11
+
+Export to SVG
+
+11
+
+Export to PNG/JPEG
+
+11
+
+Print
+
+11
+
+Automatic layout
+
+11
+
+Selection
+
+11
+
+Minimap
+
+11
+
+Measurement
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Kitchen Sink
+
+This demo presents all the main features of JointJS+ and is a useful guide to understand its capabilities.
+
+joinjs
+
+JointJS+
+
+Element palette
+
+Property editor & viewer
+
+Minimap
+
+Zoom & Pan
+
+Selection
+
+11
+
+Integration
+
+11
+
+Element palette
+
+11
+
+Tooltips
+
+11
+
+Selection
+
+11
+
+Keyboard
+
+11
+
+Export to PNG/JPEG
+
+11
+
+Import/Export
+
+11
+
+Export to JSON
+
+11
+
+Custom shapes
+
+11
+
+Virtual rendering
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Chatbot
+
+Use this demo application to create an advanced chatbot solution with an intuitive drag-and-drop editor.
+
+joinjs
+
+JointJS+
+
+Element palette
+
+Ports
+
+Virtual rendering
+
+Zoom & Pan
+
+Integration
+
+11
+
+Built-in shapes
+
+11
+
+CSS styling
+
+11
+
+Highlighters
+
+11
+
+Link tools
+
+11
+
+Connectors
+
+11
+
+Routers
+
+11
+
+Link labels
+
+11
+
+Events
+
+11
+
+Anchors
+
+11
+
+Responsive
+
+Open source
+
+This is some text inside of a div block.
+
+#### Flowchart
+
+This flowchart created using our JavaScript/Typescript diagramming library shows a simple checkout process.
+
+joinjs
+
+JointJS+
+
+CSS styling
+
+Highlighters
+
+Responsive
+
+Routers
+
+Anchors
+
+11
+
+Automatic layout
+
+11
+
+Import/Export
+
+11
+
+Custom shapes
+
+11
+
+Text content
+
+11
+
+Drag & Drop
+
+11
+
+Link tools
+
+11
+
+Element tools
+
+11
+
+Selection
+
+11
+
+Undo/Redo
+
+11
+
+Validation
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Kanban
+
+The Kanban demo shows how to visualize work, maximize efficiency and continuously improve.
+
+joinjs
+
+JointJS+
+
+Automatic layout
+
+Drag & Drop
+
+Undo/Redo
+
+Text content
+
+11
+
+Toolbar
+
+11
+
+Automatic layout
+
+11
+
+Zoom & Pan
+
+11
+
+Keyboard
+
+11
+
+Drag & Drop
+
+11
+
+Selection
+
+11
+
+Undo/Redo
+
+11
+
+Text content
+
+11
+
+Content-driven shapes
+
+11
+
+Graph API
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Mind Map
+
+This demo shows a diagram used to visually organize information into a hierarchy.
+
+joinjs
+
+JointJS+
+
+Automatic layout
+
+Keyboard
+
+Drag & Drop
+
+Text content
+
+Content-driven shapes
+
+11
+
+Element palette
+
+11
+
+Zoom & Pan
+
+11
+
+Events
+
+11
+
+Popups
+
+11
+
+Minimap
+
+11
+
+Highlighters
+
+11
+
+Automatic layout
+
+11
+
+Element tools
+
+11
+
+Custom properties
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Corporate Organizational Chart
+
+Define the organizational structure and fill it with people in a drag & drop fashion.
+
+joinjs
+
+JointJS+
+
+Element palette
+
+Zoom & Pan
+
+Minimap
+
+Automatic layout
+
+Custom properties
+
+11
+
+Toolbar
+
+11
+
+Automatic layout
+
+11
+
+Zoom & Pan
+
+11
+
+Keyboard
+
+11
+
+Drag & Drop
+
+11
+
+Selection
+
+11
+
+Undo/Redo
+
+11
+
+Text content
+
+11
+
+Content-driven shapes
+
+11
+
+Graph API
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### AI Mind Map Generator
+
+Enter any text and create an interactive mind map using the ChatGPT API and JointJS+ capabilities.
+
+joinjs
+
+JointJS+
+
+Element palette
+
+Zoom & Pan
+
+Minimap
+
+Automatic layout
+
+Custom properties
+
+11
+
+Property editor & viewer
+
+11
+
+Element palette
+
+11
+
+Toolbar
+
+11
+
+CSS styling
+
+11
+
+Connection points
+
+11
+
+Copy & Paste
+
+11
+
+Custom shapes
+
+11
+
+Drag & Drop
+
+11
+
+Export to JSON
+
+11
+
+Minimap
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Image Processor
+
+Image processing application using the full power of JointJS+ and the open-source OpenCV library.
+
+joinjs
+
+JointJS+
+
+Save/Load
+
+Ports
+
+Property editor & viewer
+
+Element palette
+
+Copy & Paste
+
+11
+
+Automatic layout
+
+11
+
+Vectorizer
+
+11
+
+Custom shapes
+
+11
+
+Graph API
+
+11
+
+Menus
+
+11
+
+Popups
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Decision Tree
+
+An AI-driven experiment based on reinforcement learning can be visualized as a decision tree. Check out such an example.
+
+joinjs
+
+JointJS+
+
+Automatic layout
+
+Graph API
+
+Menus
+
+Popups
+
+11
+
+Element palette
+
+11
+
+Custom shapes
+
+11
+
+Validation
+
+11
+
+Events
+
+11
+
+Embedding
+
+11
+
+Shape transformation
+
+11
+
+Element tools
+
+11
+
+Selection
+
+11
+
+Constraints on movement
+
+11
+
+Grid
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Planogram
+
+This demo app aims to help retailers better organize their brick-and-mortar stores.
+
+joinjs
+
+JointJS+
+
+Element palette
+
+Grid
+
+Embedding
+
+Constraints on movement
+
+Custom shapes
+
+11
+
+Automatic layout
+
+11
+
+Property editor & viewer
+
+11
+
+Toolbar
+
+11
+
+Routers
+
+11
+
+Drag & Drop
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Timeline
+
+Uncover key milestones from OpenAI and Anthropic in an interactive timeline.
+
+joinjs
+
+JointJS+
+
+Automatic layout
+
+Drag & Drop
+
+Property editor & viewer
+
+Toolbar
+
+Routers
+
+11
+
+Automatic layout
+
+11
+
+Drag & Drop
+
+11
+
+Custom shapes
+
+11
+
+Events
+
+11
+
+Element tools
+
+11
+
+Geometry
+
+11
+
+Vectorizer
+
+11
+
+Animation
+
+11
+
+Undo/Redo
+
+11
+
+Toolbar
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Yamazumi 3D
+
+This demo app aims to eliminate waste or aid workload balancing by displaying time cycles via a stacked bar chart.
+
+joinjs
+
+JointJS+
+
+Automatic layout
+
+Drag & Drop
+
+Element tools
+
+Animation
+
+Undo/Redo
+
+11
+
+Routers
+
+11
+
+Custom shapes
+
+11
+
+Built-in shapes
+
+11
+
+Anchors
+
+11
+
+Link tools
+
+11
+
+Ports
+
+11
+
+Link labels
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### UML Class Diagram
+
+A UML Class diagram describes a system by visualizing the different types of objects within a system.
+
+joinjs
+
+JointJS+
+
+Built-in shapes
+
+Anchors
+
+Link tools
+
+Link labels
+
+Routers
+
+11
+
+CSS styling
+
+11
+
+Automatic layout
+
+11
+
+Collapse & Expand
+
+11
+
+Anchors
+
+11
+
+Custom shapes
+
+11
+
+Drag & Drop
+
+11
+
+Element tools
+
+11
+
+Embedding
+
+11
+
+Link labels
+
+11
+
+Popups
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Theory of Change
+
+This demo application helps visualize goals, strategies, and challenges and uses a stack layout.
+
+joinjs
+
+JointJS+
+
+Automatic layout
+
+Collapse & Expand
+
+Drag & Drop
+
+Embedding
+
+Validation
+
+11
+
+Shape transformation
+
+11
+
+Toolbar
+
+11
+
+Validation
+
+11
+
+Measurement
+
+11
+
+Highlighters
+
+11
+
+Guidelines
+
+11
+
+Grid
+
+11
+
+Geometry
+
+11
+
+Custom shapes
+
+11
+
+Element palette
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Sheet Cutting
+
+A powerful app for creating and optimizing cutting plans for sheets of material.
+
+joinjs
+
+JointJS+
+
+Shape transformation
+
+Measurement
+
+Guidelines
+
+Constraints on movement
+
+Print
+
+11
+
+Automatic layout
+
+11
+
+Property editor & viewer
+
+11
+
+Toolbar
+
+11
+
+Undo/Redo
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Tree Designer
+
+This demo app serves as a visual tool for building and editing tree structures.
+
+joinjs
+
+JointJS+
+
+Automatic layout
+
+Property editor & viewer
+
+Toolbar
+
+Undo/Redo
+
+Events
+
+11
+
+Property editor & viewer
+
+11
+
+Built-in shapes
+
+11
+
+Custom shapes
+
+11
+
+Routers
+
+11
+
+Highlighters
+
+11
+
+Zoom & Pan
+
+11
+
+Events
+
+11
+
+Link tools
+
+11
+
+Popups
+
+11
+
+Content-driven shapes
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Database
+
+This demo application serves as a valuable example of an advanced visual application created using JointJS+.
+
+joinjs
+
+JointJS+
+
+Property editor & viewer
+
+Built-in shapes
+
+Routers
+
+Zoom & Pan
+
+Popups
+
+11
+
+Integration
+
+11
+
+Zoom & Pan
+
+11
+
+Automatic layout
+
+11
+
+Built-in shapes
+
+11
+
+Custom shapes
+
+11
+
+Events
+
+11
+
+Toolbar
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### PERT Chart (JointJS) & Gantt Chart (Bryntum)
+
+Explore how JointJS and Bryntum can be integrated to visualize a project schedule.
+
+joinjs
+
+JointJS+
+
+Integration
+
+Zoom & Pan
+
+Automatic layout
+
+Built-in shapes
+
+Events
+
+11
+
+Automatic layout
+
+11
+
+Integration
+
+11
+
+Collapse & Expand
+
+11
+
+Custom shapes
+
+11
+
+Zoom & Pan
+
+11
+
+Export to PNG/JPEG
+
+11
+
+Export to SVG
+
+11
+
+Import/Export
+
+11
+
+Events
+
+11
+
+Graph API
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### JavaScript AST Visualiser
+
+This demo offers an alternative to the AST Explorer and serves as a graphical representation of the source code.
+
+joinjs
+
+JointJS+
+
+Automatic layout
+
+Integration
+
+Collapse & Expand
+
+Events
+
+Graph API
+
+11
+
+Zoom & Pan
+
+11
+
+Automatic layout
+
+11
+
+Built-in shapes
+
+11
+
+Import/Export
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### JSON Visualizer
+
+This demo shows how to write a simple JSON visualizer using JointJS+.
+
+joinjs
+
+JointJS+
+
+Automatic layout
+
+Built-in shapes
+
+Import/Export
+
+Zoom & Pan
+
+11
+
+Built-in shapes
+
+11
+
+Tooltips
+
+11
+
+Events
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Charts
+
+This demo showcases how to create Line, Bar, Area, Combo charts, Pie & Donut charts in JointJS applications.
+
+joinjs
+
+JointJS+
+
+Built-in shapes
+
+Tooltips
+
+Events
+
+11
+
+Automatic layout
+
+11
+
+Import/Export
+
+11
+
+Highlighters
+
+11
+
+Zoom & Pan
+
+11
+
+Built-in shapes
+
+11
+
+Anchors
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Diagram Generation from External Data (NHL Score)
+
+REST API data (NHL Score) to JointJS+ diagram w/ curved links & image addition.
+
+joinjs
+
+JointJS+
+
+Automatic layout
+
+Import/Export
+
+Highlighters
+
+Zoom & Pan
+
+Built-in shapes
+
+11
+
+Custom shapes
+
+11
+
+Events
+
+11
+
+Constraints on movement
+
+11
+
+Link labels
+
+11
+
+Embedding
+
+Open source
+
+This is some text inside of a div block.
+
+#### UML Use Case Diagram
+
+A UML Use Case diagram is a graphical representation of how users interact with a system.
+
+joinjs
+
+JointJS+
+
+Custom shapes
+
+Embedding
+
+Constraints on movement
+
+Link labels
+
+Events
+
+11
+
+Automatic layout
+
+11
+
+Custom shapes
+
+11
+
+Highlighters
+
+11
+
+Graph API
+
+11
+
+Responsive
+
+11
+
+Toggle visibility
+
+Open source
+
+This is some text inside of a div block.
+
+#### Genogram (Family Tree)
+
+An interactive, multi-generational genogram with dynamic relationship highlighting.
+
+joinjs
+
+JointJS+
+
+Automatic layout
+
+Custom shapes
+
+Highlighters
+
+11
+
+Anchors
+
+11
+
+Highlighters
+
+11
+
+Custom shapes
+
+11
+
+Constraints on movement
+
+11
+
+Collapse & Expand
+
+11
+
+Link labels
+
+11
+
+Embedding
+
+Open source
+
+This is some text inside of a div block.
+
+#### Activity Diagram
+
+Graphical representations of workflows of actions with support for choice, iteration and concurrency.
+
+joinjs
+
+JointJS+
+
+Constraints on movement
+
+Collapse & Expand
+
+Link labels
+
+Embedding
+
+Highlighters
+
+11
+
+Simulation
+
+11
+
+Collapse & Expand
+
+11
+
+Automatic layout
+
+11
+
+Highlighters
+
+11
+
+Anchors
+
+11
+
+Custom shapes
+
+11
+
+Events
+
+Open source
+
+This is some text inside of a div block.
+
+#### DWDM Circuit
+
+Explore this network graphical view used in fabric-optic communications, also known as a DWDM Circuit.
+
+joinjs
+
+JointJS+
+
+Simulation
+
+Collapse & Expand
+
+Automatic layout
+
+Highlighters
+
+Events
+
+11
+
+Custom shapes
+
+11
+
+HTML shapes
+
+11
+
+Embedding
+
+11
+
+Events
+
+Open source
+
+This is some text inside of a div block.
+
+#### ROI calculator
+
+A simple ROI calculator that shows how to use HTML form elements integrated into our shapes via foreign objects.
+
+joinjs
+
+JointJS+
+
+Custom shapes
+
+HTML shapes
+
+Embedding
+
+Events
+
+11
+
+Link-to-link
+
+11
+
+Link labels
+
+11
+
+Link tools
+
+11
+
+Element tools
+
+11
+
+Highlighters
+
+11
+
+Custom shapes
+
+11
+
+Embedding
+
+11
+
+Events
+
+11
+
+Constraints on movement
+
+Open source
+
+This is some text inside of a div block.
+
+#### Sequence Diagram
+
+This demo shows a popular interaction diagram that helps companies visualize how operations are performed.
+
+joinjs
+
+JointJS+
+
+Link-to-link
+
+Link labels
+
+Link tools
+
+Constraints on movement
+
+11
+
+Custom shapes
+
+11
+
+Element tools
+
+11
+
+Events
+
+11
+
+Automatic layout
+
+11
+
+Graph API
+
+11
+
+Collapse & Expand
+
+Open source
+
+This is some text inside of a div block.
+
+#### Fault Tree Analysis
+
+This demo demonstrates a technique to conduct a root cause analysis.
+
+joinjs
+
+JointJS+
+
+Automatic layout
+
+Collapse & Expand
+
+Custom shapes
+
+Element tools
+
+Graph API
+
+11
+
+Zoom & Pan
+
+11
+
+Link tools
+
+11
+
+Vectorizer
+
+11
+
+Geometry
+
+11
+
+CSS styling
+
+11
+
+Events
+
+Open source
+
+This is some text inside of a div block.
+
+#### Marey Chart
+
+This demo shows a way to visually analyze transportation systems such as bus or train schedules.
+
+joinjs
+
+JointJS+
+
+Zoom & Pan
+
+Link tools
+
+Vectorizer
+
+Geometry
+
+Events
+
+11
+
+Built-in shapes
+
+11
+
+Highlighters
+
+11
+
+Connection points
+
+11
+
+Link labels
+
+Open source
+
+This is some text inside of a div block.
+
+#### ER Diagrams
+
+This demo application shows the entity-relationship model.
+
+joinjs
+
+JointJS+
+
+Built-in shapes
+
+Highlighters
+
+Connection points
+
+Link labels
+
+11
+
+Built-in shapes
+
+11
+
+Embedding
+
+11
+
+Highlighters
+
+11
+
+Validation
+
+11
+
+Adjustable interactivity
+
+11
+
+Events
+
+11
+
+Ports
+
+Open source
+
+This is some text inside of a div block.
+
+#### Discrete Event System Specification
+
+This demo shows how to use specific JointJS features for modeling dynamic systems using a discrete-event abstraction.
+
+joinjs
+
+JointJS+
+
+Embedding
+
+Ports
+
+Adjustable interactivity
+
+Validation
+
+Events
+
+11
+
+Events
+
+11
+
+Built-in shapes
+
+11
+
+Connectors
+
+Open source
+
+This is some text inside of a div block.
+
+#### Finite State Machines
+
+The Finite State Machine demo shows how we can use elements and links to create an abstract machine.
+
+joinjs
+
+JointJS+
+
+Events
+
+Built-in shapes
+
+Connectors
+
+11
+
+Animation
+
+11
+
+Simulation
+
+11
+
+Custom shapes
+
+Open source
+
+This is some text inside of a div block.
+
+#### Petri Nets
+
+This demo shows a mathematical modeling language describing distributed systems.
+
+joinjs
+
+JointJS+
+
+Custom shapes
+
+Animation
+
+Simulation
+
+11
+
+Custom shapes
+
+11
+
+Embedding
+
+Open source
+
+This is some text inside of a div block.
+
+#### UML Statechart Diagram
+
+A statechart diagram is one of the five UML diagrams used to model the dynamic nature of a system.
+
+joinjs
+
+JointJS+
+
+Custom shapes
+
+Embedding
+
+11
+
+Constraints on movement
+
+11
+
+Vectorizer
+
+11
+
+Geometry
+
+11
+
+CSS styling
+
+11
+
+Custom shapes
+
+11
+
+Events
+
+11
+
+Adjustable interactivity
+
+Open source
+
+This is some text inside of a div block.
+
+#### Bandwidth
+
+This demo demonstrates how to create a custom Bandwidth shape that is resizable, and has dynamic frequency labels.
+
+joinjs
+
+JointJS+
+
+Constraints on movement
+
+Adjustable interactivity
+
+Vectorizer
+
+Custom shapes
+
+11
+
+Custom shapes
+
+11
+
+Events
+
+11
+
+Vectorizer
+
+11
+
+Animation
+
+11
+
+External images
+
+11
+
+Highlighters
+
+11
+
+Geometry
+
+Open source
+
+This is some text inside of a div block.
+
+#### Puzzle
+
+This demo creates a fully-functional puzzle game from custom JointJS elements.
+
+joinjs
+
+JointJS+
+
+Custom shapes
+
+Vectorizer
+
+Animation
+
+External images
+
+Geometry
+
+11
+
+Integration
+
+11
+
+Events
+
+11
+
+Animation
+
+11
+
+Geometry
+
+11
+
+Custom shapes
+
+Open source
+
+This is some text inside of a div block.
+
+#### Chess
+
+This demo utilizes GarboChess JS to create a fully-functional game of chess in combination with the JointJS library.
+
+joinjs
+
+JointJS+
+
+Integration
+
+Custom shapes
+
+Events
+
+Animation
+
+Geometry
+
+11
+
+Adjustable interactivity
+
+11
+
+Animation
+
+11
+
+Automatic layout
+
+11
+
+Custom shapes
+
+11
+
+Link labels
+
+11
+
+Integration
+
+Open source
+
+This is some text inside of a div block.
+
+#### Microsoft Automatic Graph Layout (MSAGL)
+
+MSAGL-powered layout; diagrams auto-arranged into clear, layered structures.
+
+joinjs
+
+JointJS+
+
+Automatic layout
+
+Integration
+
+Animation
+
+11
+
+Automatic layout
+
+11
+
+Drag & Drop
+
+11
+
+Built-in shapes
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Force-Directed Layout
+
+Force-directed layout with fixed entities; other elements auto-arrange around them.
+
+joinjs
+
+JointJS+
+
+Automatic layout
+
+11
+
+Automatic layout
+
+11
+
+Drag & Drop
+
+11
+
+Events
+
+11
+
+Embedding
+
+11
+
+Graph API
+
+11
+
+Custom shapes
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Container Layout
+
+This demo showcases the embedding functionality of JointJS+.
+
+joinjs
+
+JointJS+
+
+Automatic layout
+
+Embedding
+
+Drag & Drop
+
+Events
+
+Graph API
+
+11
+
+Automatic layout
+
+11
+
+Undo/Redo
+
+11
+
+Property editor & viewer
+
+11
+
+CSS styling
+
+11
+
+Zoom & Pan
+
+11
+
+Toolbar
+
+11
+
+Popups
+
+11
+
+Custom shapes
+
+11
+
+Highlighters
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Fishbone
+
+Analyze problems with a Fishbone diagram to uncover root causes and organize contributing factors visually.
+
+joinjs
+
+JointJS+
+
+Automatic layout
+
+Undo/Redo
+
+Property editor & viewer
+
+CSS styling
+
+11
+
+Automatic layout
+
+11
+
+Integration
+
+11
+
+Embedding
+
+11
+
+Zoom & Pan
+
+11
+
+Custom shapes
+
+11
+
+Link labels
+
+Open source
+
+This is some text inside of a div block.
+
+#### ELK Layout
+
+Explore how to use the elkjs library together with JointJS to create automatic diagram layouts.
+
+joinjs
+
+JointJS+
+
+Automatic layout
+
+Integration
+
+Embedding
+
+Zoom & Pan
+
+11
+
+Automatic layout
+
+11
+
+Built-in shapes
+
+11
+
+Selection
+
+11
+
+Zoom & Pan
+
+11
+
+Events
+
+11
+
+Animation
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Multidirectional Tree
+
+This demo utilizes the JointJS+ TreeLayout plugin in order to create a tidy node and link diagram.
+
+joinjs
+
+JointJS+
+
+Automatic layout
+
+Selection
+
+Animation
+
+Zoom & Pan
+
+Events
+
+11
+
+Automatic layout
+
+11
+
+Graph API
+
+11
+
+Anchors
+
+11
+
+Element tools
+
+11
+
+Events
+
+11
+
+Drag & Drop
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Tree graph and cycles
+
+Take a look at this demo that shows how to maintain a tree with automatic layout, plus more.
+
+joinjs
+
+JointJS+
+
+Automatic layout
+
+Drag & Drop
+
+Graph API
+
+Anchors
+
+Element tools
+
+11
+
+Automatic layout
+
+11
+
+Built-in shapes
+
+11
+
+Geometry
+
+Open source
+
+This is some text inside of a div block.
+
+#### Circular Layout
+
+This demo shows how to form a circle from elements and automatically calculate the positions based on their count.
+
+joinjs
+
+JointJS+
+
+Automatic layout
+
+Built-in shapes
+
+Geometry
+
+11
+
+Automatic layout
+
+11
+
+Built-in shapes
+
+11
+
+Geometry
+
+Open source
+
+This is some text inside of a div block.
+
+#### Rectangular Layout
+
+This demo shows how to form a rectangle from elements and automatically calculate the positions based on their count.
+
+joinjs
+
+JointJS+
+
+Automatic layout
+
+Built-in shapes
+
+Geometry
+
+11
+
+Automatic layout
+
+11
+
+Built-in shapes
+
+11
+
+Responsive
+
+Open source
+
+This is some text inside of a div block.
+
+#### Serpentine Layout
+
+Example of a serpentine layout, a custom layout where the elements are arranged in a zigzag pattern.
+
+joinjs
+
+JointJS+
+
+Automatic layout
+
+Built-in shapes
+
+Responsive
+
+11
+
+Automatic layout
+
+11
+
+Integration
+
+11
+
+Embedding
+
+11
+
+Ports
+
+11
+
+Zoom & Pan
+
+11
+
+Custom shapes
+
+Open source
+
+This is some text inside of a div block.
+
+#### ELK Layout with Ports and Clusters
+
+This demo provides a collection of algorithms to automatically layout diagrams with ports and hierarchical nodes.
+
+joinjs
+
+JointJS+
+
+Automatic layout
+
+Integration
+
+Embedding
+
+Ports
+
+Zoom & Pan
+
+11
+
+Automatic layout
+
+11
+
+Integration
+
+11
+
+Link labels
+
+11
+
+Custom shapes
+
+11
+
+Highlighters
+
+Open source
+
+This is some text inside of a div block.
+
+#### Directed Graph Layout
+
+This demo provides the user with the ability to automatically layout directed graphs.
+
+joinjs
+
+JointJS+
+
+Automatic layout
+
+Integration
+
+Link labels
+
+Highlighters
+
+11
+
+Integration
+
+11
+
+Element tools
+
+11
+
+Highlighters
+
+11
+
+Vectorizer
+
+11
+
+Constraints on movement
+
+11
+
+Built-in shapes
+
+11
+
+Events
+
+Open source
+
+This is some text inside of a div block.
+
+#### Hexagonal Grid
+
+This demo shows how to create a hexagonal grid diagram using JointJS.
+
+joinjs
+
+JointJS+
+
+Integration
+
+Constraints on movement
+
+Element tools
+
+Vectorizer
+
+Events
+
+11
+
+Automatic layout
+
+11
+
+Custom shapes
+
+11
+
+Zoom & Pan
+
+11
+
+Tooltips
+
+11
+
+Graph API
+
+11
+
+Link labels
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Decision Tree Analysis
+
+Check out this demo, which shows how to use the layout.TreeLayout plugin to build a decision tree analysis.
+
+joinjs
+
+JointJS+
+
+Automatic layout
+
+Graph API
+
+Custom shapes
+
+Tooltips
+
+Link labels
+
+11
+
+Import/Export
+
+11
+
+Visio
+
+11
+
+Built-in shapes
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Visio BPMN Import
+
+The Visio BPMN Import demo imports a Microsoft Visio 2013 VSDX file and converts Visio Shapes to JointJS cells.
+
+joinjs
+
+JointJS+
+
+Visio
+
+Import/Export
+
+Built-in shapes
+
+BPMN
+
+11
+
+Import/Export
+
+11
+
+Visio
+
+11
+
+Built-in shapes
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Visio BPMN Export
+
+The Visio BPMN Export demo allows the user to export a JointJS paper as a VSDX archive.
+
+joinjs
+
+JointJS+
+
+Visio
+
+Import/Export
+
+Built-in shapes
+
+BPMN
+
+11
+
+Visio
+
+11
+
+Import/Export
+
+11
+
+Popups
+
+11
+
+Events
+
+11
+
+Built-in shapes
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Visio Orgchart Import
+
+The demo allows the user to import an org chart Microsoft Visio 2013 VSDX file, and convert the shapes to JointJS cells.
+
+joinjs
+
+JointJS+
+
+Visio
+
+Import/Export
+
+Popups
+
+Events
+
+Built-in shapes
+
+11
+
+Visio
+
+11
+
+Import/Export
+
+11
+
+Embedding
+
+11
+
+Link tools
+
+11
+
+Built-in shapes
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Visio Flowchart Import
+
+Import a flowchart process Microsoft Visio 2013 VSDX file, and convert the Visio shapes to JointJS cells.
+
+joinjs
+
+JointJS+
+
+Visio
+
+Import/Export
+
+Embedding
+
+Built-in shapes
+
+Link tools
+
+11
+
+Connectors
+
+11
+
+Link tools
+
+11
+
+Zoom & Pan
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Link Teleports
+
+This example shows how to implement teleport links in a diagram.
+
+joinjs
+
+JointJS+
+
+Connectors
+
+Link tools
+
+Zoom & Pan
+
+11
+
+Drag & Drop
+
+11
+
+Built-in shapes
+
+11
+
+Element palette
+
+11
+
+Text content
+
+11
+
+Highlighters
+
+11
+
+Keyboard
+
+11
+
+Shape transformation
+
+11
+
+Undo/Redo
+
+11
+
+Toolbar
+
+11
+
+Constraints on movement
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### BPMN Pools, Swimlanes & Milestones
+
+Check out the new implementation of BPMN pools, swimlanes, and milestones that uses the powerful drag & drop feature.
+
+joinjs
+
+JointJS+
+
+Embedding
+
+Text content
+
+Highlighters
+
+Shape transformation
+
+Import/Export
+
+11
+
+Custom shapes
+
+11
+
+Element palette
+
+11
+
+Drag & Drop
+
+11
+
+Ports
+
+11
+
+Events
+
+11
+
+Tooltips
+
+11
+
+Element tools
+
+11
+
+Highlighters
+
+11
+
+CSS styling
+
+11
+
+Link tools
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Cables
+
+Explore an interactive wiring diagram featuring custom elements like multi-wire cables, screw terminals, and plugs.
+
+joinjs
+
+JointJS+
+
+Embedding
+
+Connectors
+
+Anchors
+
+Element palette
+
+Ports
+
+11
+
+Zoom & Pan
+
+11
+
+Automatic layout
+
+11
+
+Built-in shapes
+
+11
+
+Custom shapes
+
+11
+
+Events
+
+11
+
+Toolbar
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### PERT Chart
+
+View a read-only PERT chart with automatic layout, zoom and pan, events and custom shapes.
+
+joinjs
+
+JointJS+
+
+Automatic layout
+
+Zoom & Pan
+
+Custom shapes
+
+Events
+
+Toolbar
+
+11
+
+Adjustable interactivity
+
+11
+
+Automatic layout
+
+11
+
+Custom shapes
+
+11
+
+Constraints on movement
+
+11
+
+Element palette
+
+11
+
+Embedding
+
+11
+
+Events
+
+11
+
+Export to PNG/JPEG
+
+11
+
+Highlighters
+
+11
+
+Text content
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### SysML Parametric Diagram
+
+Parametric diagram (PAR), which focuses on modeling the relationships between parameters of elements in a system.
+
+joinjs
+
+JointJS+
+
+Adjustable interactivity
+
+Automatic layout
+
+Constraints on movement
+
+Element palette
+
+Embedding
+
+11
+
+Custom shapes
+
+11
+
+Context Toolbar
+
+11
+
+Embedding
+
+11
+
+External images
+
+11
+
+Highlighters
+
+11
+
+Menus
+
+11
+
+Shape transformation
+
+11
+
+Undo/Redo
+
+11
+
+Toolbar
+
+11
+
+Popups
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### The ArchiMate® Enterprise Architecture Modeling Language
+
+ArchiMate® language demo: Business Layer subset illustrating the structure and organization of an enterprise.
+
+joinjs
+
+JointJS+
+
+Custom shapes
+
+Menus
+
+Undo/Redo
+
+Toolbar
+
+Popups
+
+11
+
+Automatic layout
+
+11
+
+Routers
+
+11
+
+Toolbar
+
+11
+
+Custom shapes
+
+11
+
+Undo/Redo
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Tournament brackets
+
+See a visualization of a double elimination tournament system shown on the latest Champions Chess Tournament.
+
+joinjs
+
+JointJS+
+
+Automatic layout
+
+Undo/Redo
+
+Routers
+
+Toolbar
+
+Custom shapes
+
+11
+
+Text content
+
+11
+
+Zoom & Pan
+
+11
+
+Content-driven shapes
+
+11
+
+Toolbar
+
+11
+
+Selection
+
+11
+
+Events
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Rich Text Editor
+
+This feature allows you to change font, size or color and use different text styles.
+
+joinjs
+
+JointJS+
+
+Text content
+
+Content-driven shapes
+
+Toolbar
+
+Selection
+
+Events
+
+11
+
+Content-driven shapes
+
+11
+
+Text content
+
+11
+
+Highlighters
+
+11
+
+Element tools
+
+Open source
+
+This is some text inside of a div block.
+
+#### Element Tags and Badges
+
+Enrich elements with tags and badges that can be added and removed in real time.
+
+joinjs
+
+JointJS+
+
+Content-driven shapes
+
+Text content
+
+Highlighters
+
+11
+
+Animation
+
+11
+
+External images
+
+11
+
+Custom shapes
+
+11
+
+Zoom & Pan
+
+11
+
+Graph API
+
+11
+
+Events
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Constellation
+
+This demo takes advantage of the PaperScroller plugin to utilize transitions and move the paper in an animated fashion.
+
+joinjs
+
+JointJS+
+
+Animation
+
+External images
+
+Zoom & Pan
+
+Graph API
+
+Events
+
+11
+
+Integration
+
+11
+
+Export to PNG/JPEG
+
+11
+
+Highlighters
+
+11
+
+Element tools
+
+11
+
+Built-in shapes
+
+11
+
+Link labels
+
+11
+
+Popups
+
+11
+
+Shape transformation
+
+11
+
+Ports
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Font Awesome
+
+This demo shows how to use Font Awesome or other icon libraries together with JointJS.
+
+joinjs
+
+JointJS+
+
+Integration
+
+Highlighters
+
+Element tools
+
+Link labels
+
+Ports
+
+11
+
+Popups
+
+11
+
+Element palette
+
+11
+
+Menus
+
+11
+
+CSS styling
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Stencil Theme Picker
+
+See how to offer users a range of pre-defined themes for elements that are aesthetically pleasing right from the start.
+
+joinjs
+
+JointJS+
+
+Popups
+
+Element palette
+
+Menus
+
+CSS styling
+
+11
+
+Tooltips
+
+11
+
+Element palette
+
+11
+
+CSS styling
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Element Palette Tooltips
+
+See the tooltip plugin used in Element Palette to show detailed information about elements.
+
+joinjs
+
+JointJS+
+
+Tooltips
+
+Element palette
+
+CSS styling
+
+11
+
+Tooltips
+
+11
+
+Ports
+
+11
+
+Built-in shapes
+
+11
+
+External images
+
+11
+
+Validation
+
+11
+
+Link labels
+
+11
+
+Events
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Dynamic Tooltip Content
+
+See how to display port tooltips on hover, with info about the connection and data sourced from the graph on demand.
+
+joinjs
+
+JointJS+
+
+Tooltips
+
+Ports
+
+External images
+
+Link labels
+
+Events
+
+11
+
+Zoom & Pan
+
+11
+
+Built-in shapes
+
+11
+
+Embedding
+
+11
+
+Constraints on movement
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Zoomable User Interface (ZUI)
+
+This demo shows an alternative way of displaying a hierarchical diagram using a zoomable user interface (ZUI).
+
+joinjs
+
+JointJS+
+
+Zoom & Pan
+
+Embedding
+
+Constraints on movement
+
+Built-in shapes
+
+11
+
+Automatic layout
+
+11
+
+Performance
+
+11
+
+Export to PNG/JPEG
+
+11
+
+Custom shapes
+
+11
+
+Virtual rendering
+
+11
+
+Zoom & Pan
+
+11
+
+Toolbar
+
+11
+
+Events
+
+11
+
+Collapse & Expand
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Tree Collapse / Expand
+
+This demo utilizes the JointJS+ TreeLayout while providing the user with ability to collapse and expand branches.
+
+joinjs
+
+JointJS+
+
+Automatic layout
+
+Collapse & Expand
+
+Performance
+
+Virtual rendering
+
+Zoom & Pan
+
+11
+
+Zoom & Pan
+
+11
+
+Toolbar
+
+11
+
+Grid
+
+11
+
+Element palette
+
+11
+
+Built-in shapes
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Infinite Paper vs. Sheets
+
+Explore two approaches to defining paper size: infinite and sheets with explicit boundaries between them.
+
+joinjs
+
+JointJS+
+
+Zoom & Pan
+
+Toolbar
+
+Grid
+
+Element palette
+
+11
+
+Integration
+
+11
+
+Zoom & Pan
+
+11
+
+Built-in shapes
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Touch Gestures
+
+See how to use the Interact.js library to support panning and pinching gestures on touch devices.
+
+joinjs
+
+JointJS+
+
+Integration
+
+Zoom & Pan
+
+11
+
+Drag & Drop
+
+11
+
+Automatic layout
+
+11
+
+Custom shapes
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Force-Directed Interaction
+
+This demo showcases a force-directed layout with interactive capabilities.
+
+joinjs
+
+JointJS+
+
+Automatic layout
+
+11
+
+Automatic layout
+
+11
+
+Drag & Drop
+
+11
+
+Built-in shapes
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Force-Directed Radial Force
+
+This demo shows the use of a radial force in the layout algorithm to prevent elements from overlapping.
+
+joinjs
+
+JointJS+
+
+Automatic layout
+
+11
+
+Automatic layout
+
+11
+
+Virtual rendering
+
+11
+
+Collapse & Expand
+
+11
+
+Custom shapes
+
+11
+
+Zoom & Pan
+
+11
+
+External images
+
+11
+
+Highlighters
+
+11
+
+Embedding
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Searchable Sitemap
+
+This demo shows how to generate an interactive and searchable sitemap from an XML file.
+
+joinjs
+
+JointJS+
+
+Automatic layout
+
+Virtual rendering
+
+Collapse & Expand
+
+Custom shapes
+
+Embedding
+
+11
+
+Automatic layout
+
+11
+
+Drag & Drop
+
+11
+
+Toolbar
+
+11
+
+Custom shapes
+
+11
+
+Anchors
+
+11
+
+Animation
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Team Order
+
+This demo utilizes a JointJS+ StackLayout to map team members together in pairs with an identifier label.
+
+joinjs
+
+JointJS+
+
+Automatic layout
+
+Drag & Drop
+
+Custom shapes
+
+Anchors
+
+Animation
+
+11
+
+Integration
+
+11
+
+Selection
+
+11
+
+Element palette
+
+11
+
+Built-in shapes
+
+11
+
+Link tools
+
+11
+
+Context Toolbar
+
+11
+
+Copy & Paste
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Clipboard API Integration
+
+Explore integration with the Clipboard API for copying and pasting diagram data between different applications.
+
+joinjs
+
+JointJS+
+
+Integration
+
+Selection
+
+Copy & Paste
+
+Element palette
+
+Context Toolbar
+
+11
+
+Animation
+
+11
+
+CSS styling
+
+11
+
+Adjustable interactivity
+
+11
+
+Graph API
+
+11
+
+Automatic layout
+
+11
+
+Built-in shapes
+
+11
+
+Link tools
+
+11
+
+Element tools
+
+11
+
+Validation
+
+11
+
+Highlighters
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Dijkstra's shortest path algorithm
+
+The Shortest path demo demonstrates how to find the shortest path efficiently in both directed and undirected graphs.
+
+joinjs
+
+JointJS+
+
+Animation
+
+CSS styling
+
+Adjustable interactivity
+
+Graph API
+
+Automatic layout
+
+11
+
+Built-in shapes
+
+11
+
+Custom shapes
+
+11
+
+Shape transformation
+
+11
+
+Measurement
+
+11
+
+Guidelines
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Distances
+
+This demo allows you to dynamically calculate element measurements, and the distances between elements.
+
+joinjs
+
+JointJS+
+
+Built-in shapes
+
+Shape transformation
+
+Measurement
+
+Guidelines
+
+11
+
+Built-in shapes
+
+11
+
+Custom shapes
+
+11
+
+Link tools
+
+11
+
+Measurement
+
+11
+
+Guidelines
+
+11
+
+Shape transformation
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Angles
+
+See how to dynamically calculate the angle that is formed when two straight lines meet at a shared endpoint.
+
+joinjs
+
+JointJS+
+
+Built-in shapes
+
+Link tools
+
+Measurement
+
+Guidelines
+
+Shape transformation
+
+11
+
+Element palette
+
+11
+
+Property editor & viewer
+
+11
+
+Selection
+
+11
+
+Undo/Redo
+
+11
+
+CSS styling
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Inspector for Selection
+
+See how to view and modify the data of multiple diagram elements at once using the Selection and Inspector plugins.
+
+joinjs
+
+JointJS+
+
+Property editor & viewer
+
+Selection
+
+Undo/Redo
+
+CSS styling
+
+Element palette
+
+11
+
+Export to JSON
+
+11
+
+Integration
+
+11
+
+Toolbar
+
+11
+
+Save/Load
+
+11
+
+Element palette
+
+11
+
+Undo/Redo
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Saving and Loading Using File System Access API
+
+This demo shows a plugin that helps implement reading and writing files from the local file system.
+
+joinjs
+
+JointJS+
+
+Save/Load
+
+Export to JSON
+
+Integration
+
+Toolbar
+
+Element palette
+
+11
+
+Element palette
+
+11
+
+Automatic layout
+
+11
+
+Collapse & Expand
+
+11
+
+Custom shapes
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Tree Stencil
+
+This demo brings the power of the TreeLayout to the Stencil allowing users to create a directory of Stencil elements.
+
+joinjs
+
+JointJS+
+
+Element palette
+
+Automatic layout
+
+Collapse & Expand
+
+Custom shapes
+
+11
+
+Element palette
+
+11
+
+Drag & Drop
+
+11
+
+Built-in shapes
+
+11
+
+Automatic layout
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Stencil Favorite & In-Use Groups
+
+Explore the ability to add shapes to favorites or group shapes that are used on paper.
+
+joinjs
+
+JointJS+
+
+Element palette
+
+Drag & Drop
+
+Automatic layout
+
+Built-in shapes
+
+11
+
+Element palette
+
+11
+
+Graph API
+
+11
+
+Export to PNG/JPEG
+
+11
+
+Built-in shapes
+
+11
+
+Element tools
+
+11
+
+Selection
+
+11
+
+Events
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Dynamic Stencil
+
+This demo provides the user with a palette of JointJS elements which can be dragged onto the paper.
+
+joinjs
+
+JointJS+
+
+Element palette
+
+Graph API
+
+Export to PNG/JPEG
+
+Selection
+
+Events
+
+11
+
+Integration
+
+11
+
+Built-in shapes
+
+11
+
+Zoom & Pan
+
+11
+
+Tooltips
+
+11
+
+Popups
+
+11
+
+Highlighters
+
+11
+
+Events
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Tabs
+
+The Tabs demo allows the user to display multiple JointJS diagrams while navigating them via a Tabs component.
+
+joinjs
+
+JointJS+
+
+Integration
+
+Tooltips
+
+Highlighters
+
+Events
+
+Built-in shapes
+
+11
+
+Animation
+
+11
+
+Simulation
+
+11
+
+Geometry
+
+11
+
+Custom shapes
+
+11
+
+Integration
+
+11
+
+Zoom & Pan
+
+11
+
+Tooltips
+
+11
+
+Keyboard
+
+11
+
+Performance
+
+11
+
+Automatic layout
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Tokens
+
+The Tokens demo showcases visualization of Token events between nodes, and their transitions over time.
+
+joinjs
+
+JointJS+
+
+Animation
+
+Simulation
+
+Integration
+
+Performance
+
+Automatic layout
+
+11
+
+Integration
+
+11
+
+Built-in shapes
+
+11
+
+Highlighters
+
+11
+
+Events
+
+11
+
+Zoom & Pan
+
+11
+
+Selection
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Diagram Index
+
+This demo allows displaying multiple diagrams while navigating each cell of a certain diagram via a TreeView component.
+
+joinjs
+
+JointJS+
+
+Integration
+
+Events
+
+Highlighters
+
+Selection
+
+11
+
+Built-in shapes
+
+11
+
+Zoom & Pan
+
+11
+
+Tooltips
+
+11
+
+Toolbar
+
+11
+
+Minimap
+
+11
+
+Custom shapes
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Collapsible Minimap
+
+Learn how to implement a collapsible minimap to reduce potential UI clutter.
+
+joinjs
+
+JointJS+
+
+Custom shapes
+
+Zoom & Pan
+
+Tooltips
+
+Toolbar
+
+Minimap
+
+11
+
+Zoom & Pan
+
+11
+
+Popups
+
+11
+
+Graph API
+
+11
+
+Automatic layout
+
+11
+
+Built-in shapes
+
+11
+
+Minimap
+
+11
+
+Menus
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Element Neighborhood Dialog Window
+
+Explore different local views, such as successors, predecessors or siblings, in floating pop-ups.
+
+joinjs
+
+JointJS+
+
+Minimap
+
+Graph API
+
+Popups
+
+Menus
+
+[Next](?7b8f7f41_page=2)
+
+### Nothing found
+
+Please try different keywords or [get in touch](https://github.com/clientIO/joint/discussions/1643) with us to get a tailored demo.
+
+[Toggle visibility](/demo-features/toggle-visibility)
+
+[Responsive](/demo-features/responsive)
+
+[Guidelines](/demo-features/guidelines)
+
+[Context Toolbar](/demo-features/context-toolbar)
+
+[Grid](/demo-features/grid)
+
+[Save/Load](/demo-features/save-load)
+
+[Custom properties](/demo-features/custom-properties)
+
+[Print](/demo-features/print)
+
+[Virtual rendering](/demo-features/virtual-rendering)
+
+[Collapse & Expand](/demo-features/collapse-expand)
+
+[Measurement](/demo-features/measurement)
+
+[Shape transformation](/demo-features/transformation)
+
+[Visio](/demo-features/visio)
+
+[Link-to-link](/demo-features/link-to-link)
+
+[HTML shapes](/demo-features/html-shapes)
+
+[Link labels](/demo-features/link-labels)
+
+[Minimap](/demo-features/minimap)
+
+[Export to JSON](/demo-features/export-to-json)
+
+[Export to SVG](/demo-features/export-to-svg)
+
+[Export to PDF](/demo-features/export-to-pdf)
+
+[Copy & Paste](/demo-features/copy-paste)
+
+[Menus](/demo-features/menus)
+
+[Tooltips](/demo-features/tooltips)
+
+[Keyboard](/demo-features/keyboard)
+
+[Drag & Drop](/demo-features/drag-drop)
+
+[Simulation](/demo-features/simulation)
+
+[Content-driven shapes](/demo-features/content-driven-shapes)
+
+[Validation](/demo-features/validation)
+
+[Performance](/demo-features/performance)
+
+[Constraints on movement](/demo-features/constraints-on-movement)
+
+[Integration](/demo-features/integration)
+
+[Animation](/demo-features/animation)
+
+[Routers](/demo-features/routers)
+
+[Highlighters](/demo-features/highlighters)
+
+[CSS styling](/demo-features/css-styling)
+
+[Ports](/demo-features/ports)
+
+[Graph API](/demo-features/graph-api)
+
+[Toolbar](/demo-features/toolbar)
+
+[Undo/Redo](/demo-features/undo-redo)
+
+[Selection](/demo-features/selection)
+
+[Popups](/demo-features/popups)
+
+[Anchors](/demo-features/anchors)
+
+[Text content](/demo-features/inline-text-editor)
+
+[Zoom & Pan](/demo-features/zoom-pan)
+
+[Import/Export](/demo-features/import-export)
+
+[Export to PNG/JPEG](/demo-features/export-to-png-jpeg)
+
+[Link tools](/demo-features/link-tools)
+
+[External images](/demo-features/external-images)
+
+[Element palette](/demo-features/element-palette)
+
+[Events](/demo-features/events)
+
+[Adjustable interactivity](/demo-features/adjustable-interactivity)
+
+[Property editor & viewer](/demo-features/property-editor-viewer)
+
+[Embedding](/demo-features/embedding)
+
+[Geometry](/demo-features/geometry)
+
+[Element tools](/demo-features/element-tools)
+
+[Connection points](/demo-features/connection-points)
+
+[Connectors](/demo-features/connectors)
+
+[Vectorizer](/demo-features/vectorizer-library)
+
+[Custom shapes](/demo-features/custom-shapes-2)
+
+[Built-in shapes](/demo-features/built-in-shapes)
+
+[Automatic layout](/demo-features/automatic-layout)
+
+[BPMN](/demo-tag/bpmn)
+
+[Svelte](/demo-tag/svelte)
+
+[Angular](/demo-tag/angular)
+
+[Vue](/demo-tag/vue)
+
+[React](/demo-tag/react)
+
+[TypeScript](/demo-tag/typescript)
+
+[JavaScript](/demo-tag/javascript)
+
+[Boilerplate applications](/demo-tag/boilerplate-applications)
+
+[Features showcase](/demo-tag/feature-showcase)
+
+## Start your free ‍30-day JointJS+ trial
+
+[Start free trial](https://www.jointjs.com/free-trial)
