@@ -1,0 +1,81 @@
+---
+source: https://www.jointjs.com/support-terms
+generated: 2026-03-19
+format: markdown
+---
+
+# JointJS+ support terms and conditions
+
+Copyright © 2003 - 2026 [client IO s.r.o.](https://www.client.io/)
+
+##### Support and maintanance agreement
+
+THIS DOCUMENT IS A LEGAL AGREEMENT ("Agreement") BETWEEN client IO AND YOU OR THE ORGANIZATION ON WHOSE BEHALF YOU ARE ENTERING INTO THIS AGREEMENT ("Customer") IN RELATION TO CLIENT IO SUPPORT AND SUBSCRIPTION SERVICES. BY UNDERTAKING TO RECEIVE AND/OR PAYING FOR THE SERVICES DESCRIBED BELOW ("Services"), YOU ACCEPT THE FOLLOWING TERMS AND CONDITIONS. IF YOU DO NOT AGREE WITH ANY OF THE TERMS OR CONDITIONS OF THIS AGREEMENT, DO NOT PROCEED WITH RECEIVING THE SERVICES. THIS AGREEMENT DESCRIBES YOUR RIGHTS AND OBLIGATIONS WITH RESPECT TO THE SERVICES.  
+  
+Commencing on the purchase of a support term ("Effective Date"), client IO will supply the Services to Customer with respect to the Software described in Section 1 below, for which client IO has granted a license to Customer pursuant to a software license agreement (the "License Agreement") by and between client IO and Customer and for whom the applicable support fee has been paid.  
+  
+**1. Included Support Services  
+‍**All support packages include the following basic features:  
+- Access to the current documentation for the Software (the "Documentation"), including examples.  
+- Unlimited, 24×7 access to the community-driven client IO public support forums.  
+- Unlimited, 24×7 access to the client IO member-only Issue tracker that is monitored by the client IO support team.  
+  
+All other support features are package-specific as described below:  
+  
+a. Standard support package   
+- 15 x-hours of support  
+- 1 support contact  
+- Maximum incident response time of 72 hours  
+  
+b. Premium support package  
+- 30 x-hours of support  
+- 2 support contacts  
+- Maximum incident response time of 48 hours.  
+  
+**2. Metered Support Services  
+‍**All support features listed in this section are valued in x-hours and are only available up to the amount of x-hours available in the Customer's support account at the time of the support incident. All references to "cost" in this section mean the cost in x-hours based on the x-hours value of the service. All references to "billing" in this section mean the deduction of accumulated x-hours from the support account of the Customer.  
+  
+Support requests are valued per single related incident. Each incident costs at least 0.5 x-hours. Therefore, the maximum number of incidents in one support package is twice the number of x-hours in the package. If client IO estimates the support incident would take longer than 3 x-hours to resolve, client IO notifies the Customer and waits for the Customer's approval before undertaking any action on resolving the reported incident. Support requests determined to be unrelated to the original request shall constitute a new support incident at the sole discretion of client IO support personnel. Support requests must be in English.  
+  
+‍**3. Hours of Availability  
+‍**Access to all web-based support features are generally available 24 hours per day, 7 days a week, 365 days a year barring unforeseen interruptions in Internet service or planned exceptions by client IO. Notwithstanding anything to the contrary in this Agreement, client IO does not guarantee such availability. All metered support services are also generally available 24 × 7 × 365, although the response to each request for metered support may not happen immediately, and will be governed by the response time terms outlined in section 2. Any planned exceptions to the availability of support services will be communicated on the client IO website as far in advance as possible.  
+  
+‍**4. Response Time  
+‍**The response time listed in each support package is the elapsed time between the receipt of a support request and the time when client IO begins the support service, including a verbal or written confirmation to the Customer thereof. The actual time required to fully resolve the support request, if such full resolution occurs, may be longer than the maximum response time listed.  
+  
+**5. Client IO Responsibilities  
+‍**client IO will use commercially reasonable efforts to assist Customer to resolve problems in its use of the Software. client IO makes no guarantee that it can, or will, solve any problems with respect to the Software presented by Customer, and further disclaims any warranties above and beyond any limited warranties that may have been expressly made by client IO in the License Agreement. client IO will offer Services for the then-current version of the Software and for not less than twelve (12) months from the release date of the then-current version.  
+  
+**6. Customer's Responsibilities  
+‍**Customer is responsible for all hardware, operating systems, network setup, network maintenance and setup and use of any file access control systems required in the support of the Software. Customer may be required to provide client IO with reproducible test case(s). In other cases, Customer may be required to grant client IO certain limited access rights to Customer's proprietary computer systems in order that client IO may render Services.  
+  
+Customer is responsible for ensuring that its personnel have sufficient training to attain and maintain competence in the operation of the Software. If client IO determines, in client IO's sole discretion, in responding to a Customer request for Support, that the solution is provided in available media (including, but not limited to, the source code documentation, tutorials and examples, websites or support forums), client IO may direct Customer's personnel to the appropriate media for the solution to the problem. Even if the support request were resolved in so doing, any minimum support charges outlined in section 2 would still apply.  
+  
+**7. Term  
+‍**This support and maintenance agreement has a maximum term of 12 months. Support packages are valid until all support x-hours are used or the 12 months anniversary of purchase, whichever is the sooner. At the end of the Support Term the Services automatically terminate and any accumulated x-hours that have not been spent will be lost.  
+  
+‍**8. Customer Co-Operation  
+‍**client IO may suspend performance of Services if Customer fails to meet its obligations as set forth under this Agreement. client IO may terminate Services if such failure continues for thirty (30) days after client IO's written request to meet these obligations. client IO may terminate the Agreement and all Services at any time if (i) it is discovered that Customer is in breach of its Software license restrictions, pursuant to Customer's License Agreement, or (ii) Customer is in breach of this Agreement.  
+  
+**9. Service Limitations  
+‍**Neither client IO nor client IO's resellers shall be responsible for providing Services to the extent that the issue is caused by (a) Customer's misuse, improper use, mis-configuration, alteration, or damage to the Software; (b) Customer's use of the Software with any hardware or software not supplied or supported by client IO; Customer's failure to install an update to the Software if such update would have resolved the issue; or (d) uses in a manner not in accordance with the Agreement. client IO shall have no responsibility for loss of or damage to Customer's data, regardless of the cause of any such loss or damage.  
+  
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, CLIENT IO AND ITS RESELLERS DISCLAIM ALL WARRANTIES AND CONDITIONS, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND TITLE AND NON-INFRINGEMENT, WITH REGARD TO THE SOFTWARE. AND SERVICES. CLIENT IO AND RESELLERS DO NOT GUARANTEE THAT THE OPERATION OF THE SOFTWARE OR ANY OTHER CODE WILL BE UNINTERRUPTED OR ERROR-FREE, AND CUSTOMER ACKNOWLEDGE THAT IT IS NOT TECHNICALLY PRACTICABLE FOR US TO DO SO.  
+  
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL CLIENT IO OR RESELLERS BE LIABLE UNDER ANY LEGAL OR EQUITABLE THEORY FOR ANY SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION OR ANY OTHER PECUNIARY LAW) ARISING OUT OF THE USE OF OR INABILITY TO USE THE SOFTWARE OR THE SERVICES OR ANY OTHER SUBJECT MATTER RELATING TO THIS AGREEMENT, EVEN IF CLIENT IO OR RESELLERS HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. IN ANY CASE, CLIENT IO'S AND RESELLERS' ENTIRE LIABILITY WITH RESPECT TO ANY SUBJECT MATER RELATING TO THIS AGREEMENT SHALL BE LIMITED TO THE AMOUNT ACTUALLY PAID FOR THE SERVICES.  
+  
+**10. Changes to Terms and Conditions  
+‍**Client IO reserves the right to alter the terms and conditions of these maintenance terms and conditions. Any changes will not result in a materially reduced level of support from the terms and conditions herein.  
+  
+‍**11. Miscellaneous  
+‍**This Agreement shall be subject to and governed by the Law of The Czech Republic. Any dispute arising out of or in connection with this Agreement shall be exclusively dealt with by the courts of The Czech Republic. This License Agreement gives you specific legal rights; you may have others which vary from state to state and from country to country. client IO reserves all rights not specifically granted in this License Agreement.  
+  
+*Version 1.1 - 30.10.2020*
+
+#####
+
+#####
+
+#####
+
+#####

@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-inspector-for-selection
-generated: 2026-03-18
+generated: 2026-03-19
 format: markdown
 ---
 

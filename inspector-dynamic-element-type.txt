@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/inspector-dynamic-element-type
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/inspector-dynamic-element-type/README.md
-generated: 2026-03-18
+generated: 2026-03-19
 format: markdown
 ---
 

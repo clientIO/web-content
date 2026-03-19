@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/diagramming-meets-ai
-generated: 2026-03-18
+generated: 2026-03-19
 format: markdown
 ---
 
