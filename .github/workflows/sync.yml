@@ -1,0 +1,35 @@
+name: Sync JointJS Content
+
+on:
+  schedule:
+    # Runs every day at 3:00 AM UTC
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+    # Allows manual trigger from GitHub UI
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 markdownify lxml
+
+      - name: Run converter
+        run: python jointjs_convert.py --sitemap https://www.jointjs.com/sitemap.xml
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "chore: sync content $(date +'%Y-%m-%d')"
+          git push
