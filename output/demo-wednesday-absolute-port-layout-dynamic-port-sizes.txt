@@ -1,0 +1,18 @@
+---
+source: https://www.jointjs.com/blog/demo-wednesday-absolute-port-layout-dynamic-port-sizes
+generated: 2026-03-19
+format: markdown
+---
+
+We've published a new demo: Absolute Port Layout & Dynamic Port Sizes
+
+Do you need the size of element ports to be driven by the text they contain? Do you want to position ports based on dynamic factors? Well, here's a demo just for you!
+
+For more examples of JointJS and JointJS+, see our CodePen profile and our official documentation.
+
+To see all the awesome demos we've created so far, check out our Github Discussions.
+
+See the Pen JointJS: Absolute Port Layout & Dynamic Port Sizes by JointJS (@jointjs)
+on CodePen.
+
+Every Wednesday we share diagramming tips, interesting features and news in JointJS. Learn with us, get content delivered straight to your inbox and become a real diagramming pro:

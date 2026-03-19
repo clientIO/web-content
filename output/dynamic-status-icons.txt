@@ -1,0 +1,20 @@
+---
+source: https://www.jointjs.com/demos/dynamic-status-icons
+github: https://raw.githubusercontent.com/clientIO/joint-demos/main/dynamic-status-icons/README.md
+generated: 2026-03-19
+format: markdown
+---
+
+JointJS: Dynamic Status Icons
+
+Need to indicate a particular status dynamically? When working with highlighters, we can add a list of arbitrary SVG elements to the cell view, and then update this list in the manner we want.
+
+This demo is also available online at jointjs.com.
+
+Available Versions
+
+JavaScript
+
+Screenshot
+
+!screenshot

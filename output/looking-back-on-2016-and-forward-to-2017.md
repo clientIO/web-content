@@ -1,0 +1,97 @@
+---
+source: https://www.jointjs.com/blog/looking-back-on-2016-and-forward-to-2017
+generated: 2026-03-19
+format: markdown
+---
+
+For many people the holidays are approaching, and as we look back at 2016 we remember some of the challenges we faced, milestones reached, and good times had. We want to thank you for joining us on the journey, and we look forward to many more years together.
+
+In case you missed anything, here are a few highlights from this year and what we're planning for next year!
+
+## Launched New JointJS+ And Client IO Websites
+
+We launched a completely new JointJS+ website in the fall with improved performance, navigation, and perhaps most importantly better access to valuable online Demos, Tutorials, and other resources which developers can use to get the most from JointJS and JointJS+.  We're adding new content (with free source code) on a regular basis, so [be sure to check it out](https://resources.jointjs.com/).
+
+## Released JointJS+ 2.0
+
+Beautiful new Dark Theme introduced with JointJS+ v2
+
+In September [we announced JointJS+ 2.0](https://www.jointjs.com/blog/rappid-20-is-here), which brought many customer requested features such as design variations (themes and customization), a simplified API to enable modular application building, a configurable toolbar, and many more advancements to make using the framework easier than ever.
+
+## JointJS+ 2.0.1 Update
+
+In December we released [another JointJS+ update](https://www.jointjs.com/blog/rappid-201-update-released), version 2.0.1, and includes the following changes:
+
+ •  Compatibility changes towards jQuery 3.1
+
+ •  shapes.TextBlock - fix `SVGForeignObject` detection
+
+ •  dia.Graph - fix graph references stored on cells (when a cell added to another graph)
+
+ •  layout.GridLayout - fix cell's graph references overriden by the layout
+
+ •  Vectorizer - remove deprecated attributes' `nodeValue` and `nodeName` calls
+
+ •  Vectorizer - fix `convertToPathData()` for polyline
+
+ •  KitchenSink - add various port shapes
+
+ •  KitchenSink - improve mousewheel zooming
+
+ •  BPMN Editor - fix stencil tooltips
+
+ •  joint.ui.Inspector - add missing 'equal' primitive documentation
+
+ •  ui.Navigator - make sure links are always rendered after elements
+
+ •  ui.Selectbox - fix the default option target
+
+ •  dia.CommandManager - account for graph changes
+
+ •  layout.TreeLayout - fix prevSiblingGap for first BR/BL sibling
+
+ •  dia.CommandManager - make sure changes on newly added cells are executed after the element is added
+
+## Expansion Of Our Custom Coding Service
+
+Did you know that we offer custom coding and applications?  Well now you do!  We work with organizations big and small to help them realize their needs in the most efficient way possible. If you need a solution fast, or want a specific feature or plugin implemented, [get in touch](/cdn-cgi/l/email-protection#4d223f2a0d2e2124282339632422723e382f27282e39700e383e392220687f7d0e222924232a687f7d04233c38243f34) and let our experienced developers do the work for you.
+
+## New Product Released: AppMixer
+
+In November we [announced an exciting new product](https://www.appmixer.com/) from client.IO, which we've named AppMixer. This super handy tool lets you connect your favorite apps together to visually automate logic, workflows and API integration, and you don't need to be a programmer to use it. It's as easy as dragging & dropping apps onto your canvas and then connecting them. It also allows you to monitor data and activity in real time with access to detailed reporting and metrics tools. AppMixer is currently in private beta, and you can try it for free by visiting [https://www.appmixer.com.](https://www.appmixer.com/)
+
+## Attended WebSummit In Lisbon, Portugal
+
+To coincide with our release of our new product, AppMixer, we attended the 2016 [WebSummit](https://websummit.com/), held in Lisbon Portugal. Web Summit has become “Europe’s largest and most important technology marketplace”, and this year over 53,000 tech CEOs, founders, startups, investors and political leaders came together to celebrate and discuss the technology revolution we're all living through. Over 2,000 of the world’s leading media also attended, and we had the opportunity to meet with many other companies and teams from around the world and see what they're up to.
+
+## Moved To A New Office
+
+As our company grew this year we found ourselves needing more elbow room and meeting space, and our old office just wasn't big enough. So after a lot of searching around the beautiful city of Prague we were able to secure a new home for the team in a great area. Our new office is bigger, brighter, and in an area which boasts some huge parks, good transportation connections, and of course great restaurants and pubs to visit after work.
+
+## We're Growing And Hiring
+
+As we continue to grow, we're on the lookout for talented people to join our team. We currently have several open positions, particularly for developers. Check out our [jobs page](https://www.jointjs.com/about-us).
+
+## *And now, looking forward to..*
+
+## The Release Of AppMixer v1
+
+The first commercial version of AppMixer is slated for early 2017 (no exact date yet, sorry). It'll bring a unique and flexible pay-as-you-go system which allows you to truly customize your experience and pay for the services you actually need and use, and not for a bunch of fluff that you don't care about.
+
+**PRO TIP: users who sign-up now and are active in our free beta program are entitled to AWESOME discounts and benefits in the future. Sign-up today and get started!**
+
+## Launching The AppMixer Marketplace
+
+We're really excited to bring the AppMixer Marketplace to you in 2017. As an end-user or business you'll be able to search for just the right connector to meet your needs, or request one from the Marketplace Developers. As a developer you can write your own connectors and sell them in the Marketplace.
+
+## Continued Focus On JointJS+ And JointJS
+
+2017 will see expansion and improvements to the JointJS+ library, with a strong focus on performance and improving the way elements are defined. Your feedback is important to us so please get in touch if you have questions, suggestions, or needs in your development roadmap.
+
+## In Closing
+
+That wraps us up for now. Again, thanks for being a part of things with us, and if you're celebrating the holidays we wish you a joyous and festive season, and a very happy new year.
+
+‍
+
+*- The JointJS Team*

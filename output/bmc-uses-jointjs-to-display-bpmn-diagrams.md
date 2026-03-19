@@ -1,0 +1,25 @@
+---
+source: https://www.jointjs.com/success-stories/bmc-uses-jointjs-to-display-bpmn-diagrams
+generated: 2026-03-19
+format: markdown
+---
+
+## **Challenge**
+
+BMC Software's goal was to help their customers visualize the data they work with within their own software without having to build the solution from scratch, which would have been time-consuming and highly inefficient. The challenge was to find the right technology that would extend the capabilities of their software, help them save development resources, and delight millions of customers.
+
+## **Solution**
+
+When looking for a diagramming library, one of the critical aspects BMC Software wanted to provide to its customers was the ease of use. With our drag & drop BPMN designer, this criterion was successfully met. In addition, other benefits were available when using our advanced solution, such as:
+
+- BMC Software saved hundreds of hours of coding and significant financial resources by not having to outsource the project.
+- The BPMN demo that is provided as part of the JointJS+ package has already assembled the desired product.
+- They were able to extend their software with advanced features that weren't even originally planned.
+
+- The BMC Software team adopted new skills by interacting with our experts.
+
+‍
+
+## **Results**
+
+BMC Software found exactly what they needed in JointJS+ - a sophisticated BPMN designer with drag & drop functionality - and it will play a big role in future versions of [their software](https://www.bmc.com/it-solutions/bmc-helix-platform.html). The company has saved a tremendous amount of time by using our library and is confident that they will continue to use it in the future.

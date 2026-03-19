@@ -1,0 +1,18 @@
+---
+source: https://www.jointjs.com/blog/demo-wednesday-text-position-based-on-space-availability
+generated: 2026-03-19
+format: markdown
+---
+
+We've published a new demo: Text Position Based On Space Availability
+
+How to automatically place element labels based on the available space around them? How to enable the user to select the preferred position of the label? Take a look at this CodePen.
+
+See the Pen JointJS+: Text Position Based On Space Availability by JointJS (@jointjs)
+on CodePen.
+
+For more examples of JointJS and JointJS+, see our CodePen profile and our official documentation.
+
+To see all the awesome demos we've created so far, check out our Github Discussions.
+
+Every Wednesday we share diagramming tips, interesting features and news in JointJS. Learn with us, get content delivered straight to your inbox and become a real diagramming pro:

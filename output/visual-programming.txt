@@ -1,0 +1,87 @@
+---
+source: https://www.jointjs.com/blog/visual-programming
+generated: 2026-03-19
+format: markdown
+---
+
+When thinking about computer programming, people often associate it with the process of writing code. Definitely, it is the original way of coding computer programs and the easiest to comprehend by humans and machines alike . But to learn programming in a written way takes a lot of time and not every person is learning things the same way as another one. For example, there are people who are very capable of visual thinking but struggle with logical structures of programming languages. In such cases the visual approach is much preferred as it is easier to comprehend and in some cases even faster to use than a traditional programming approach.
+
+Attempts at visual programming were taken even at the dawn of modern computers. Starting with the 1970s, representations of logic in the form of diagram-based systems like Pygmalion and GRaIL (Graphical Input Language) made first steps into the field of visual programming. These early visual languages made the important effort of getting machine actions to map onto a set of related nodes and connections between them. You can look at the example of nodes in the image below.
+
+With the development of modern computer tools and the availability of them to the general public, the problem of visual approach to programming stood up like never before. Currently, there are many modern solutions which rely on this programming method. Let’s continue the article with a review of such solutions.
+
+Visual programming use cases
+
+You can use visual programming for almost any problem you want to solve. Most of the time such a solution may be part of a much larger application which allows more customisation and automation for users. There are several fields where such an approach is very prolific and has become a default method of development. Let’s look at several domains, where use of visual programming became widespread in recent times.
+
+Image processing
+
+First of all such an approach is very fruitful in areas where the visual part of things make such type of programming more clear and understandable for existing users of the app.
+
+One of such use cases is 3d objects material editing. The most popular 3D editors such as Autodesk 3ds Max and Blender use a comprehensive node based material editor which is very suitable as users of such applications are more accustomed to the visual operations than to symbolic logical programming
+
+3ds Max Slate Material Editor
+
+‍
+
+Blender Node Editor
+
+As you can see in the screenshots, flowchart-like diagrams created in applications can be very complex and must provide robust options for visualizing a diagram in such a way that it will be easy to understand what is happening in the flowchart.
+
+It is worth mentioning, that in the case of Material Editor there is no easy way to achieve this functionality using a common programming language. It is possible to code these materials using shader languages but this approach is very low-level and requires a high understanding of 3d graphics programming which is not a proficiency 3D artists have normally. And another approach is to use very complex parameters and settings, but it has its own restrictions as it is hard to scale for complex logic. So, in this case node based visual programming is the only good way to define complex materials for 3D artists.   
+  
+This approach to image processing is also thriving in the sphere of AI image generation. For example, there is a node-based solution ComfyUI for working with Stable Diffusion.
+
+Comfy UI
+
+Building a visual application like ComfyUI comes with numerous hidden diagramming complexities that may not be immediately apparent. Libraries such as JointJS significantly reduce time and resource requirements with their pre-built features, template apps, and robust support. To streamline development for image processing applications even more, we at JointJS have taken it a step further by creating a complete application that you can readily integrate into your project. Check it out.
+
+Procedural design
+
+Another field where visual programming is thriving is procedural design. Procedural design is thriving in fields of architecture and jewelry design. This approach provides more possibilities for artists to adjust changing requirements and makes the design process more creative as it is possible to change only several parameters and get a completely new look for the design. Most industry standard applications like Autodesk Revit and Rhino 3D provide a good base for such an approach with their possibility to create scripts in common programming languages like Python and C#. But not many users of such applications are familiar with the coding so it is much easier for them to engage in scripting via visual tools. There are several such tools aimed at providing such a possibility. The most prominent of these are Dynamo and Rhino Grasshopper. These tools are built with the 3D environment in mind and provide different primitives from the normal programming languages. It allows the creation of more smooth flow charts which are easy to understand even for a non-programmer. In addition, these tools normally allow creating a custom script node which you can populate with your code in, for example, Python.
+
+Visual script in Rhino Grasshopper
+
+As with the previous example regarding material editor, procedural design tools are operating in the realtime mode. It means that the evaluation is happening after every change to the diagram, which allows fast prototyping. This is a very important distinction with the conventional languages as it is normally required to compile or run the whole script to see the result of a small change.
+
+Game programming
+
+Visual programming finds its way also in the field of game programming. Unreal Engine Blueprints is a bridge between narrow use cases of 3D design and general game programming. It allows the creation of visual scripts which operate with the same primitives as a programming language behind it (C++).
+
+The possibilities of such solutions go far beyond simple scripting. You can implement algorithms of any complexity using such systems using familiar building blocks like if/else closures or cycles. This approach separates them from more narrow systems used for procedural generation from the previous part.
+
+In regard to such systems inside game engines, it is useful to say that it is important to make such systems better and more convenient than just writing code. Definitely, there is an initial level of complexity when starting to learn text-based coding from scratch and visual programming can be easy to grasp, but in the end, if the visual tool is just a simple wrapper over code, it will not get good traction in the community. For example, the open source Godot engine used to have a visual scripting tool, but in the current version it is not supported because it was not providing enough value for the developers.
+
+You can see an example of such a system in the image above. Provided nodes are representing very low-level language programming entities such as type casting, method calling and so on. To be useful, such systems need to provide more high-level components which will eliminate some of the more verbose parts of the text-based programming.
+
+No-code platforms
+
+There are many solutions on the market which allow no-code building of applications, web pages etc. These solutions use large building blocks for the UI which mostly correspond to the final functional blocks of applications. These include forms, page markup, buttons etc. Although creating web markup is not strictly programming, these applications are great tools for the more visually oriented people to get into web page creation. To build such a no-code application yourself, you will need mostly the same tools as for the general visual programming applications. For example, you can use modern visualization libraries like JointJS to prototype your applications fast. You can look at the example of interactions common for no-code builders in this demo application.
+
+Bubble.io main builder
+
+Along with the UI, usually there is a large backend part for such applications. You can set different tasks to some forms or buttons and to do some complex logic you need some ways to describe the behavior. It can be done via scripts in programming languages but it is better to use some sort of visual representation to make a uniform experience for users across the application. Most of the time you want to do it using some kind of steps representation which can be done using flowchart diagram or some kind of general UI as in the following example:
+
+Page logic in Bubble.io
+
+Note, that the example above is not very straightforward in its visual presentation. You can see from other examples in the article that there are better ways to represent such workflows using diagram representation. As with the game programming, it is possible to hook to different events using dedicated nodes. In the result the user will have more clear representation of events, which are handled by this specific logic.
+
+Workflow automation
+
+Besides programming and application building there is a large field of data automation which includes such domains as marketing automation, integration between different applications and so on. For example, let's look at Appmixer.
+
+‍Appmixer is an AI agent-building platform that enables SaaS companies to deliver agentic workflows and integrate with third-party solutions. The agentic automation is created using a drag-and-drop UI that offers a true no-code experience. Designed to be embedded into other applications, the agent builder's visual nature makes it easy for SaaS end users to understand how the automation works—without requiring coding knowledge.
+
+Appmixer’s AI Agent builder
+
+How to build your own visual programming solution
+
+As you can see from the article, there are many spheres where you may want to create your own virtual programming solution. All these solutions rely on visual presentation of some structures: logical nodes or application template blocks.
+
+To bootstrap the development process it is better to use an existing library which provides access to abstractions needed for building visual programming. Either for web, mobile or desktop you may want to use web solutions which can be integrated in any system using such frameworks like Ionic and Electron. These frameworks allow to build cross platform solutions using Web technologies. This allows you to use many JavaScript libraries suited for the diagramming and visualizing. In addition, on the Web you can choose between SVG and Canvas approaches. You can learn about pros and cons in the following article.
+
+JointJS+ Image Processor demo application
+
+There are many diagramming libraries to choose from. You can look at the overview here. We are suggesting to use the powerful JointJS library for building your visual programming solutions. Using JointJS you can dramatically increase development speed using complex architecture and customizable components. You can look at the demo application built with JointJS here.
+
+JointJS is a great tool to build visual solutions for the web, so we invite you to try JointJS+, our extended library version, for free, complete with access to more than 160 pre-built applications and all advanced diagramming features. You can build powerful and complex visual programming applications for any use case and bring ease to your customers with advanced automation and customisation.

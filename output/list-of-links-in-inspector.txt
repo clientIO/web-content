@@ -1,0 +1,20 @@
+---
+source: https://www.jointjs.com/demos/list-of-links-in-inspector
+github: https://raw.githubusercontent.com/clientIO/joint-demos/main/list-of-links-in-inspector/README.md
+generated: 2026-03-19
+format: markdown
+---
+
+JointJS+: List of Links in Inspector <a href="https://www.jointjs.com/jointjs-plus"><img src="../jointjs-plus-badge.svg" alt="JointJS+" width="123" align="right" /></a>
+
+See how to configure an inspector, write a custom highlighter, and add a context menu with a list of links.
+
+This demo is also available online at jointjs.com.
+
+Available Versions
+
+JavaScript
+
+Screenshot
+
+!screenshot

@@ -1,0 +1,16 @@
+---
+source: https://www.jointjs.com/blog/demo-wednesday-drop-stencil-element-as-shape-icon
+generated: 2026-03-19
+format: markdown
+---
+
+We've published a new demo: Drop stencil element as shape icon
+
+Do you need to fetch data and transform it into a palette of elements? Looking for a way to intercept the default stencil behavior and replace it with your own? E.g. to drop a stencil element as a model property instead of a new graph element. This demo is for you.
+
+See the Pen JointJS+: Drop stencil element as shape icon by JointJS (@jointjs)
+on CodePen.
+
+For more examples of JointJS and JointJS+, see our CodePen profile and our official documentation.
+
+To see all the awesome demos we've created so far, check out our Github Discussions.

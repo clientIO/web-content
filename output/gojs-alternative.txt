@@ -1,0 +1,252 @@
+---
+source: https://www.jointjs.com/gojs-alternative
+generated: 2026-03-19
+format: markdown
+---
+
+JointJS, a solution preferred by thousands of developers
+
+Opt for an SVG-first diagramming library and build professional applications with ease.
+
+start free trial
+
+compare features
+
+3 reasons to choose
+
+JointJS over GoJS
+
+Better primary rendering engine
+
+SVG outperforms Canvas in many aspects. Don't choose a black box, choose a solution that renders perfectly and supports native browser functionality.
+
+Easier debugging and testing
+
+All diagram elements are automatically added to the webpage DOM, which results in quicker debugging and more meaningful testing of the production version of your application.
+
+Flexible licensing
+
+JointJS does not charge extra for additional deployments and allows you to build unlimited products for unlimited users on unlimited machines.
+
+Trusted by over 50 000 developers worldwide
+
+Build a professional visual application with ease
+
+Start a 30-day trial and get access to all JointJS+ features and demo applications.
+
+start free trial
+
+comparison
+
+Feature comparison
+
+Integration with all major JavaScript frameworks
+
+Demonstrated integration with React, Angular, Vue and Svelte.
+
+No restrictions on use of the standard license
+
+Perpetual unlimited commercial use of the license at no extra cost (e.g. based on number of deployed apps, end-users, and/or machines).
+
+Dedicated support available
+
+Private support channel with guaranteed SLAs offered at extra cost.
+
+Easy debugging and testing in production environments
+
+Frontend developers can leverage their usual tools for quick debugging, meaningful testing and easy application of custom CSS.
+
+Virtualization functionality
+
+Ability to handle large number of objects efficiently by rendering only the visible area of the diagram.
+
+Extensive set of UI components
+
+Provides a large collection of reusable diagram components (e.g. element palette, minimap, context menu, tooltip).
+
+Advanced diagram functionality
+
+Advanced tools for working with diagram nodes and edges (e.g. custom highlighters, buttons).
+
+Advanced control interactions
+
+Support for touch events and custom keyboard shortcuts.
+
+Wealth of graph layout algorithms
+
+Support for orgchart, flowchart and force-directed automatic graph layouts.
+
+Variety of export tools
+
+Provides various export options such as PNG, JPEG, SVG or PDF.
+
+BPMN shapes
+
+Offers a collection of pre-made reusable BPMN shape definitions.
+
+VSM shapes
+
+Offers a collection of pre-made reusable VSM shape definitions.
+
+Domain-specific plugins
+
+Export/import BPMN 2.0 XML or Visio VSDX formats.
+
+Detailed API documentation
+
+API documentation provides sufficient technical detail for custom development.
+
+Numerous demos
+
+Offers a rich collection of pre-built demo applications that can be used as templates for your project.
+
+Unlock all JointJS+ features for free
+
+Start a no-obligation 30-day trial and get access to all premium features and plugins.
+
+start free trial
+
+Code examples
+
+JointJS excels in code cleanliness and structure, which makes life easier for developers. In this snippet, see a code comparison of a simple definition of two linked elements and make an educated choice when selecting a technology for your next project.
+
+const graph = new joint.dia.Graph();
+const paper = new joint.dia.Paper({
+ el: document.getElementById('my-diagram-div'),
+    model: graph
+});
+const rect1 = new joint.shapes.standard.Rectangle({
+    size: { width: 100, height: 50 },
+    position: { x: 100, y: 50 },
+    attrs: {
+        body: { fill: 'blue', stroke: 'black' },
+        label: { text: 'Hello', fill: 'white' }
+    }
+});
+const rect2 = new joint.shapes.standard.Rectangle({
+    size: { width: 100, height: 50 },
+    position: { x: 400, y: 200 },
+    attrs: {
+        body: { fill: 'yellow', stroke: 'red' },
+        label: { text: 'World!', fill: 'black' }
+    }
+});
+const link = new joint.shapes.standard.Link({
+    source: { id: rect1.id },
+    target: { id: rect2.id }
+});
+graph.addCells([rect1, rect2, link]);
+
+const paper = new go.Diagram("my-diagram-div");
+paper.nodeTemplate =
+ $(go.Node, "Auto",
+        new go.Binding("location", "loc"),
+        $(go.Shape,
+            { figure: "Rectangle" },
+            new go.Binding("fill", "fill"),
+            new go.Binding("stroke", "stroke")),
+        $(go.TextBlock,
+            { width: 100, height: 50,
+                alignment: go.Spot.Center,
+                verticalAlignment: go.Spot.Center },
+            new go.Binding("text"),
+            new go.Binding("stroke", "textStroke"))
+        );
+paper.linkTemplate =
+    $(go.Link,
+        $(go.Shape),
+        $(go.Shape,
+            { toArrow: "Triangle" })
+    );
+const nodeData = [
+    {
+        key: "rect1", loc: new go.Point(100, 50),
+        fill: "blue", stroke: "black",
+        text: "Hello", textStroke: "white"
+    },
+    {
+        key: "rect2", loc: new go.Point(400, 200)
+        fill: "yellow", stroke: "red"
+        text: "World!", textStroke: "black"
+    }
+];
+const linkData = [
+    { from: "rect1", to: "rect2" }
+];
+paper.model = new go.GraphLinksModel(nodeData, linkData);
+
+Honest testimonial from
+
+those who considered GoJS
+
+Learn directly from our customers the main reasons why they prefer JointJS.
+
+I had evaluated GoJS and Syncfusion for my new startup business product and whilst these had their own strengths, I found JointJS+ to be the strongest in terms of its advanced and highly customisable diagramming capabilities. The areas that I needed to evaluate were extensibility and customisation, performance (ability to handle 100's of objects on a screen), easy to understand with good tutorials, examples and support and able to integrate well into Angular.  
+  
+JointJS+ I found to be extremely customisable. It feels like I've only touched the surface with the flexibility it provides. One of the main advantages over the others is its SVG based and so can interact well with other HTML elements. This is great for building out complex inspectors, view/model visualisations, context menus and commands. GoJS proved to be more difficult or not possible for extensive customisation and styling. I expect this is because it is canvas based and so does not have extensibility hooks in CSS or HTML elements.
+
+Mark Harrison
+
+Founder, Vrceti
+
+Feature highlights
+
+Complete diagramming toolkit
+
+Don't reinvent the wheel. Let us take care of all the math, interactivity and graphics for you. Use a set of pre-built diagramming tools to build an outstanding app while saving months of complex development and avoiding headaches from never-ending code maintenance.
+
+Automatic layouts and link routing
+
+Lay out nodes as an orgchart, flowchart or force-directed graph, and determine link behavior with built-in or custom routers.
+
+Custom SVG or HTML shapes with ports
+
+Provide your own custom shape definitions (including ports) for your diagram nodes using SVG or HTML.
+
+Export/Import, serialisation
+
+Export your diagrams to various formats (PNG, JPEG, SVG, PDF), or use JSON for an easy integration with your database.
+
+Events
+
+Enable user interaction by triggering events on the JointJS paper, or individual elements and links.
+
+Snaplines, element & link tools
+
+Define custom UI to manipulate elements and links via built-in and custom tools, including snaplines, buttons and connect tools.
+
+Property editor and viewer
+
+Keep all your diagram data in one place using the model-view architecture, and edit it via the property editor and viewer component.
+
+Zoom and pan, copy and paste & undo and redo
+
+Enhance your application with core diagram controls without having to create them from scratch.
+
+Element palette
+
+Organize your shapes in the element palette, then drag & drop to the diagram.
+
+compatibility
+
+It works everywhere
+
+Our library is based on a strong HTML5 and SVG foundation that allows it to run seamlessly in all major JavaScript frameworks and modern browsers.
+
+IMPLEMENTATION IN LEADING JAVASCRIPT FRAMEWORKS
+
+Vue
+
+Angular
+
+React
+
+Svelte
+
+Salesforce Lightning
+
+Speed up your development with a powerful library
+
+Leverage a time-tested JavaScript diagramming library using the best of HTML5 and SVG to accelerate your development.
+
+EXPLORE ALL DEMOSGET STARTED FOR FREE

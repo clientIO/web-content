@@ -1,0 +1,20 @@
+---
+source: https://www.jointjs.com/blog/demo-wednesday-comment-view
+generated: 2026-03-19
+format: markdown
+---
+
+We've published a new demo: Comment View
+
+Want to enable a special mode where users can only post comments? They could only add or delete comments, but not interfere with the structure of the diagram. Take a look at this demo.
+
+See the Pen JointJS+: Comment Mode by JointJS (@jointjs)
+on CodePen.
+
+‍
+
+For more examples of JointJS and JointJS+, see our CodePen profile and our official documentation.
+
+To see all the awesome demos we've created so far, check out our Github Discussions.
+
+Every Wednesday we share diagramming tips, interesting features and news in JointJS. Learn with us, get content delivered straight to your inbox and become a real diagramming pro:

@@ -1,0 +1,108 @@
+---
+source: https://www.jointjs.com/blog/how-to-create-nice-looking-curves-in-svg-with-fixed-tangents
+generated: 2026-03-19
+format: markdown
+---
+
+## Introduction
+
+During the development of various applications there is a need to generate curves. In the web environment, the SVG format is most often used for such purposes. At the moment the SVG specification only works with quadratic and cubic Bézier curves. But in the case of a curve that goes through many points, we need a method for smoothly merging segments to create a nice looking curve. The solution to this problem is to generate Bézier curves using continuity conditions C2 and C1. One of the many examples is [here](https://www.particleincell.com/2012/bezier-splines/).
+
+But in our case of connectors for the [JointJS open-source library](https://github.com/clientIO/joint), there is a restriction that the start and end tangents must be defined so that the curve starts and ends perpendicularly (in the default situation). And in this case the usual implementation leads to very twisted curves in certain situations. A Bézier curve works in terms of control points, but this is not very convenient in the case of manipulations with tangents.
+
+So we decided to use Catmull-Rom splines with subsequent conversion to cubic Bézier curves, which are supported by the SVG format. Catmull-Rom splines are not currently supported by the SVG standard, but there are [plans](https://www.w3.org/TR/2015/WD-SVG2-20150409/paths.html#PathDataCatmullRomCommand) to add them.
+
+## Catmull-Rom splines
+
+Catmull-Rom splines are types of cubic splines that define tangents at each point using the previous and next spline points. Unlike a Bézier curve, which has different orders (quadratic, cubic, etc.), a Catmull-Rom spline is defined only for 4 control points, so its segment is always cubic. The curve is drawn only from points \(P\_1\) to \(P\_2\) while points \(P\_0\) and \(P\_3\) are used to define tangents at points \(P\_1\) and \(P\_2\).
+
+Catmull-Rom splines can be defined in terms of tension. This parameter governs the behavior of the curve at the control points. The higher the tension, the shorter the tangents at the start and end points.
+
+A segment of the Catmull-Rom spline can be combined with other segments to obtain a smooth curve through an arbitrary number of points. To ensure a smooth curve, we must assume that at each point the tangents of neighboring segments must be collinear. But we must also adjust the length of the tangent vectors to control the overall flow of the curve.
+
+In our use case the most important parameter which we want to control is tangents at the interpolated points. A [common formula](https://www.researchgate.net/publication/41391547_Modeling_Shapes_for_Pattern_Recognition_A_Simple_Low-Cost_Spline-based_Approach) for a tangent at a particular point is \(t\_i = \tau(p\_i-p\_{i-1}) + (1-\tau)(p\_{i+1}-p\_i)\), where \(\tau\) is tension and \(p\_i\) is corresponding to control points.
+
+Using this formula we can derive the coordinates of the control points of the curve segments. All we need to know are the tangents for each point through which our curve will pass.
+
+## Main algorithm
+
+To draw a curve according to our algorithm, we need a list of points \(P\_0\ldots P\_n\) through which the curve will pass, as well as the source and target directions \(D\_s\), \(D\_t\) (or tangents \(t\_0\), \(t\_n\)). For a tension t we are using the default value of 0.5 (it is the most suitable in our case). In our case we know the desired tangents or directions at the start and end points. In the case where only directions are given, we use a formula to determine the length of the tangent as a function of the distance to the nearest point. Here we introduce the coefficient \(k\) - this coefficient is the ratio of the distance between the points to the length of the tangent:
+
+\begin{eqnarray}  
+ && l\_0=k\cdot dist(P\_0,P\_1), \\  
+ && l\_n=k\cdot dist(P\_n,P\_{n-1}).  
+\end{eqnarray}
+
+In [JointJS](https://github.com/clientIO/joint) we are using 0.6 as the default value. After this we are calculating the angle \(theta\) between the direction and a vector to the nearest point for every direction.
+
+\begin{eqnarray}  
+ &&\theta\_s=angle(P\_s,P\_1-P\_0), \\  
+ &&\theta\_t=angle(D\_t,P\_{n-1}-P\_n).   
+\end{eqnarray}
+
+If \(theta\_s\) is greater than 45 degrees, we adjust the length of the tangent so that the curve behaves correctly at certain angles. To control this behavior we use coefficient \(k\_\theta\) (in [JointJS](https://github.com/clientIO/joint) the default is 80):
+
+\begin{eqnarray}  
+ && l\_0=l\_0 + k\_\theta(\theta\_s-\frac{\pi}{4}), \\  
+ && l\_n=l\_n + k\_\theta(\theta\_t-\frac{\pi}{4}), \\  
+ && t\_0=D\_sl\_0,\\  
+ && t\_n=D\_tl\_n.  
+\end{eqnarray}
+
+You can see how different parameters affect curves in this CodePen:
+
+See the Pen [Curve Paramaters](https://codepen.io/jointjs/pen/eYyjbYP/0f2b710452b695059f61438e71330e89) by JointJS ([@jointjs](https://codepen.io/jointjs))
+on [CodePen](https://codepen.io).
+
+‍
+
+To construct all curve segments, we need to find corresponding tangents at each point. At each point \(i\) we need to calculate two tangents \(t^1\_i\), \(t^2\_i\) for two adjacent segments of a spline.
+
+The direction of the tangent at a particular point is calculated from the previous and subsequent points. But for continuity and smoothness instead of first and last points \(P\_0\), \(P\_n\)  we use corresponding points with added tangents \(t\_0\), \(t\_n\). First we look for vectors to the current point:
+
+\begin{eqnarray}  
+ &&V^1\_i=P\_{i-1}-P\_i, \\  
+ &&V^2\_i=P\_{i+1}-P\_i,  
+\end{eqnarray}
+
+and find angle \(theta\_v\) between these vectors.
+
+Then we find a unit vector \(t\), which corresponds to the "tangent" of an angle \(theta\_v\) (see the picture below). To find vector t we need to rotate vector \(V^2\_i\) counterclockwise (clockwise if a determinant of (\(V^1\_i\), \(V^2\_i\)) is less than 0) by \(\frac{\pi-\theta\_v}{2}\) degrees. To find the lengths of the tangents for certain segments we use the following formulas:
+
+\begin{eqnarray}  
+ &&t^1\_i=t\cdot k\cdot dist(P\_i-P\_{i-1}), \\  
+ &&t^2\_i=t\cdot k\cdot dist(P\_i-P\_{i+1}).  
+\end{eqnarray}
+
+‍
+
+After obtaining all tangents we can construct the Catmull-Rom spline in terms of control points. For each \(i\)-th segment of the total \(n\) segments of a spline (the number of points minus one) we create 4 control points as follows:
+
+\begin{eqnarray}  
+ &&p\_0=P\_{i+1}-\frac{t^2\_i}{\tau}, \\  
+ &&p\_1=P\_i, \\  
+ &&p\_2=P\_{i+1}, \\  
+ &&p\_3=P\_i-\frac{t^1\_{i+1}}{\tau}.  
+\end{eqnarray}
+
+## Conversion to Bezier curves
+
+To convert Catmull-Rom curves into Bézier curves, we use the formulas from this [article](https://rdcu.be/cKyYS). Thus, in our terms we obtain this transformation for each segment:
+
+\begin{eqnarray}  
+ &&B\_0=p\_1, \\  
+ &&B\_1=p\_1+\frac{p\_2-p\_0}{6\tau}, \\  
+ &&B\_2=p\_2+\frac{p\_3-p\_1}{6\tau}, \\  
+ &&B\_3=p\_2.  
+\end{eqnarray}
+
+where \(B\_0\) and \(B\_3\) are starting and ending points and \(B\_1\) and \(B\_2\) are middle control points of a cubic Bézier curve.
+
+## Conclusion
+
+All in all, this approach provides a fast and customizable way to create beautiful curves using SVG. We work with Catmull-Rom splines because it makes it easier to manipulate tangents, which is our main goal, and the conversion to Bézier curves is very smooth.
+
+And the result? See it yourself:
+
+See the Pen [JointJS: Curves](https://codepen.io/jointjs/pen/JjOXJyG) by JointJS ([@jointjs](https://codepen.io/jointjs))
+on [CodePen](https://codepen.io).

@@ -1,0 +1,18 @@
+---
+source: https://www.jointjs.com/blog/demo-wednesday-pdf-export
+generated: 2026-03-19
+format: markdown
+---
+
+We've published a new demo: PDF Export
+
+How to export a diagram along with other information to PDF? This CodePen does so with the help of the great jsPDF library and the export to canvas feature of JointJS.
+
+See the Pen JointJS+: PDF Export by JointJS (@jointjs)
+on CodePen.
+
+For more examples of JointJS and JointJS+, see our CodePen profile and our official documentation.
+
+To see all the awesome demos we've created so far, check out our Github Discussions.
+
+Every Wednesday we share diagramming tips, interesting features and news in JointJS. Learn with us, get content delivered straight to your inbox and become a real diagramming pro:

@@ -1,0 +1,17 @@
+---
+source: https://www.jointjs.com/success-stories/floor-planning-solution-for-better-workspace-management-and-safety
+generated: 2026-03-19
+format: markdown
+---
+
+Challenge
+
+As Neoteric states in a customer story published on their website, the biggest obstacle faced by Nanoramic was the lack of reliable error detection and monitoring system. Although the data regarding the status of the inspected areas was accessible, it was not easy to understand due to its non-visual representation. In other words, administrators tasked with checking work areas to prevent errors from occurring did not have actionable and visually presented data to act upon.
+
+Solution
+
+Neoteric's challenge was to further develop and enhance the existing solution, which focused on allowing administrators to draw floor plans, thereby increasing workspace awareness and safety. The web-based application, powered by JointJS+, could visually present the status of the spaces, reducing the time required to manually check them.
+
+Result
+
+As we have already outlined, increasing employee awareness of the workspace is one of the key benefits of the successful collaboration between Neoteric and Nanoramic Laboratories. In addition, workspace inspection processes have become less time-consuming and more convenient, not to mention that employees are working in a safer environment thanks to a more effective error detection mechanism.

@@ -1,0 +1,206 @@
+---
+source: https://www.jointjs.com/blog/introducing-4-1
+generated: 2026-03-19
+format: markdown
+---
+
+Version 4.1 is our most feature-rich release to date (while bringing no breaking changes). From the introduction of five new demo apps to a plethora of new features and an upgrade of key plugins such as Halo and Selection, version 4.1 surely deserves your attention.
+
+👉 This release brings many updates, and we will briefly go through them in this blog post. If you want to dig into all the technical details, read the full changelog.
+
+"By collaborating with our customers and supporting them in building diagramming applications, we gain valuable insights into the products they create and the features their users need. We identify the most common scenarios and leverage this understanding to develop new features or enhance existing plugins, making it easier to address these use cases. This release includes several updates designed to help our customers achieve their goals more efficiently." says Roman Brückner, the company's CTO.
+
+New demo applications
+
+We've added five advanced applications that are ready to use in your project!
+
+BPMN Pools, Swimlanes and Milestones
+
+Explore enhanced BPMN Pools, Swimlanes, and Milestones with drag-and-drop functionality for a seamless user experience. This demo showcases how to insert, reorder, and resize swimlanes and phases with automatic content adjustments. Discover features like vertical pools, content awareness, preventing resizing beyond boundaries, along with previews and highlights to guide your actions.
+
+‍
+
+👉 Play with the demo app
+
+🟧 New BPMN2 shapes: We've also added several new shapes (horizontal and vertical) for composable BPMN2 pools: Pools, Pools without header, Swimlanes and Phases. Explore all of them here.
+
+Sheet cutting
+
+The new Sheet Cutting app simplifies creating and optimizing cutting plans. It uses JointJS highlighters to identify overlapping elements and offers features like drag-and-drop, shape rotation, and grid snapping.
+
+‍
+
+👉 Play with the demo app
+
+Theory of Change
+
+Need an in-depth analysis of your project's outcomes and impacts? The Theory of Change app helps visualize goals, strategies, and challenges (or problems, determinants and solutions as used below). It uses a stack layout to map steps and relationships, providing a clear path to your desired impact.
+
+‍
+
+👉 Play with the demo app
+
+Tree Designer
+
+The Tree Designer app simplifies visualizing hierarchical information with a custom tree layout that automatically organizes nodes for clarity. Featuring a custom Inspector, it lets you customize nodes and edges, add or remove child nodes, and refine the hierarchy effortlessly.
+
+‍
+
+👉 Play with the demo app
+
+Kitchen Sink (our "all-feature app")
+
+Our "all-feature app" has been completely redesigned and is now available in all versions: Vanilla JavaScript, TypeScript, React, Angular, Vue, and Svelte. As with all our applications, you can access its source code by downloading the latest JointJS+ package from our customer portal or by starting a free trial.
+
+‍
+
+👉 Play with the demo app
+
+New Halo type
+
+The Halo plugin now offers greater flexibility, enabling you to tailor it to your unique business needs. Need to define custom handle positions and adjust their appearance? Want to group handles with the same position into a neat grid? All this—and much more—is now possible with Halo in version 4.1!
+
+‍
+
+👉 Explore what's new in the Halo plugin
+
+Support for different cell selection methods and their visualization
+
+Selection is now more versatile than ever. With the latest improvements, you can customize selection frames, include links, add a clone handle, and much more.
+
+Moreover, you can decide HOW cells are selected using rectangular, polygonal, and range selection regions.
+
+‍
+
+Want to view the selection in real time? Now you can see elements being selected as you go.
+
+‍
+
+👉 Explore what's new in the Selection plugin
+
+Refactor of the Force Directed layout
+
+Exceed user expectations with the improved Force Directed layout algorithm. Now more customizable and interactive, it organizes elements visually while enhancing performance with Barnes-Hut approximation (especially for a large amount of cells). Real-time interactions and dynamic updates, like adding new elements, are seamlessly supported.
+
+‍
+
+Also, we introduced a radial force to the layout algorithm, ideal for spacing elements around a specific point. Here's an example where it prevents overlapping.
+
+‍
+
+👉 Explore what's new in the Force Directed layout
+
+Introduced a drop-in replacement graph optimized for spatial queries
+
+In many applications, searching for cells based on spatial properties is crucial, such as finding all cells within a rectangle. While a naive approach iterates through all cells, JointJS+ optimizes this process with the SearchGraph class, using a quadtree to index cells by their bounding boxes. This drop-in replacement for JointJS Graph enhances performance without requiring code changes.
+
+In the demo below, SearchGraph continuously identifies elements within the selection region as the user drags the mouse.
+
+‍
+
+👉 Explore more about SearchGraph
+
+Advanced visualization using custom SVG attributes
+
+In JointJS 4.1, we standardized and exposed APIs for special presentation attributes, enabling you to define custom attributes.
+
+For instance, as demonstrated below, you can redefine the stroke-dasharray attribute to support calc() expressions, allowing a stroke to appear only on the top edge of a rectangle.
+
+-- CODE language-js --  
+class OverlineRect extends shapes.standard.Rectangle {  
+    defaults() {  
+        return util.defaultsDeep({  
+            type: 'OverlineRect',  
+            attrs: {  
+                body: {  
+                    strokeDasharray: 'calc(w) calc(2 \* h + calc(w))',  
+                    strokeWidth: 5,  
+                    stroke: 'red',  
+                    fill: '#f5f5f5'  
+                }  
+            }  
+        }, super.defaults);  
+    }      
+  
+static attributes = {  
+        'stroke-dasharray': {  
+            set: function(value, refBBox) {  
+                if (!util.isCalcExpression(value)) return value;  
+                return util.evalCalcExpression(value, refBBox);  
+            }  
+        }  
+    };  
+}
+
+See the rectangle with a stroke applied only to the top edge 👇
+
+👉 Learn more about custom SVG attributes
+
+Other changes
+
+🆕Support for custom interactions with Stencil
+
+The new dragThreshold option lets you delay the start of dragging, enabling actions such as selecting elements in the stencil, opening a menu, or performing other custom behaviors.
+
+‍
+
+👉 Explore more about the improved Stencil
+
+🆕 New link tools and options
+
+With new dynamic positioning and visibility, you can now add extra tools to a link when it’s too long to help users locate them more easily or display a button to add a label only if one doesn’t already exist.
+
+‍
+
+You can now create custom control tools for links, and we’ve included a built-in tool for rotating labels:
+
+‍
+
+We’ve resolved a longstanding issue where creating a vertex prevented labels from being moved.
+
+‍
+
+👉 Explore more about new link tools and options
+
+🆕 Export/Import to Visio & BPMN
+
+The Visio and BPMN export/import plugin has received significant improvements, including various fixes, new options, and enhanced customization capabilities to streamline and simplify the process.
+
+👉 Explore more about Visio & BPMN Export/Import
+
+⚙️ Intuitive element resizing
+
+With the new clean and intuitive design, users can now resize elements by dragging the edges of a shape instead of using handles.
+
+This design makes it easier to distinguish between the buttons surrounding the shape, such as those for creating links, and the resize handles.
+
+To enable this feature, simply activate useBordersToResize option on your FreeTransform.
+
+‍
+
+👉 Explore more about this update
+
+⚙️ Control the level of detail in exported JSON
+
+In some applications, you may save diagrams as JSON and use them to render diagrams on different clients, requiring the JSON to include all attributes. In other cases, you might aim to minimize the JSON size by including only essential information, with additional attributes being restored when the JSON is loaded back into the browser.
+
+You now have full control over which attributes are exported and which are omitted as redundant.
+
+👉 Explore more about this update
+
+Oh, and there's more—much more
+
+We've listed a few key updates in 4.1, but there's much more to explore. Learn more about the latest release and build powerful visual applications with ease.
+
+Read full changelog
+
+Next steps?
+
+Ready to build with the latest version of our library? After reading the changelog, take one of these routes to get started:
+
+JointJS+ customers can download the latest package in our customer portal.
+Non-customers can start a free 30-day trial to access the latest features and improvements and evaluate JointJS+ for their project.
+
+Excited to shape the future of diagramming with us? Share your ideas for new features and improvements on our GitHub and influence what the next JointJS and JointJS+ versions will look like.
+
+Happy diagramming! 🙌

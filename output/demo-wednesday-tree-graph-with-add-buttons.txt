@@ -1,0 +1,20 @@
+---
+source: https://www.jointjs.com/blog/demo-wednesday-tree-graph-with-add-buttons
+generated: 2026-03-19
+format: markdown
+---
+
+We've published a new demo: Tree graph with add buttons
+
+How to create a tree graph with buttons for adding new members to each branch? What if the buttons are just JointJS elements? How would you configure the TreeLayoutView to prevent the user from dropping nodes after the add buttons? Take a look at this demo.
+
+See the Pen JointJS+: Tree Graph with Add Buttons by JointJS (@jointjs)
+on CodePen.
+
+‍
+
+For more examples of JointJS and JointJS+, see our CodePen profile and our official documentation.
+
+To see all the awesome demos we've created so far, check out our Github Discussions.
+
+Every Wednesday we share diagramming tips, interesting features and news in JointJS. Learn with us, get content delivered straight to your inbox and become a real diagramming pro:

@@ -1,0 +1,20 @@
+---
+source: https://www.jointjs.com/blog/demo-wednesday-stencil-vs-diagram-elements
+generated: 2026-03-19
+format: markdown
+---
+
+We've published a new demo: Stencil vs Diagram Elements
+
+Are you looking for a way to represent stencil elements in a way other than their actual appearance in the diagram? Check out this example that shows a different representation of elements during the drag-n-drop sequence (template-preview-diagram).
+
+See the Pen JointJS+: Stencil vs Diagram Elements by JointJS (@jointjs)
+on CodePen.
+
+‍
+
+For more examples of JointJS and JointJS+, see our CodePen profile and our official documentation.
+
+To see all the awesome demos we've created so far, check out our Github Discussions.
+
+Every Wednesday we share diagramming tips, interesting features and news in JointJS. Learn with us, get content delivered straight to your inbox and become a real diagramming pro:

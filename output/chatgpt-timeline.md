@@ -1,0 +1,20 @@
+---
+source: https://www.jointjs.com/demos/chatgpt-timeline
+github: https://raw.githubusercontent.com/clientIO/joint-demos/main/chatgpt-timeline/README.md
+generated: 2026-03-19
+format: markdown
+---
+
+# JointJS: OpenAI (ChatGPT) Timeline
+
+This demo shows a serpentine layout used on a real application: OpenAI (ChatGPT) timeline. It also utilizes the convex hull algorithm to help add tight outlines around a group of related elements. Delve into the history of this groundbreaking AI technology with this interactive visualisation.
+
+This demo is also available online at [jointjs.com](https://jointjs.com/demos/chatgpt-timeline).
+
+## Available Versions
+
+- [JavaScript](./js/)
+
+## Screenshot
+
+![screenshot](./screenshot.png)

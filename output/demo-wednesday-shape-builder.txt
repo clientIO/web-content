@@ -1,0 +1,19 @@
+---
+source: https://www.jointjs.com/blog/demo-wednesday-shape-builder
+generated: 2026-03-19
+format: markdown
+---
+
+We've published a new demo: Shape Builder
+
+Certain applications require the functionality where users can custom-design diagram shapes through a user interface. This feature is particularly crucial in scenarios where personalization and specific data representation are key. Users have the ability to not only select the color or name of the shape but also to specify the type of data the shape will hold. This can include a range of data types like numbers, text, and other unique data forms.
+
+For instance, in a project management application, a user could design a shape to represent different stages of a project. They could define a rectangular shape for 'Initiation', a diamond shape for 'Analysis', and so on. Each shape could be color-coded and contain specific data fields like estimated duration, key resources, or status updates. This level of customization allows for a more intuitive and informative visual representation of complex processes.
+
+In today's demo, we illustrate a process that empowers users to initially define shape metadata through user-friendly forms provided by the ui.inspector plugin. Once this initial setup is complete, the custom-designed shape is added to the stencil, serving as a template for further use. This feature is especially useful in dynamic environments where shapes need to be frequently updated or repurposed. Users can subsequently access and edit the actual shape data, utilizing the Inspector tool again, to reflect ongoing changes or new information. This approach not only enhances efficiency but also ensures that the diagrams remain current and relevant to the user's needs.
+
+Learn more with our interactive demo!
+
+‍
+
+Every Wednesday we share diagramming tips, interesting features and news in JointJS. Learn with us, get content delivered straight to your inbox and become a real diagramming pro:

@@ -1,0 +1,18 @@
+---
+source: https://www.jointjs.com/blog/demo-wednesday-copy-paste
+generated: 2026-03-19
+format: markdown
+---
+
+We've published a new demo: Copy & Paste
+
+How to clone shapes using ui.Clipboard? How to allow the user to copy text or image and paste it into a diagram as a shape? That's what today's CodePen is about.
+
+See the Pen JointJS+: Copy & Paste by JointJS (@jointjs)
+on CodePen.
+
+For more examples of JointJS and JointJS+, see our CodePen profile and our official documentation.
+
+To see all the awesome demos we've created so far, check out our Github Discussions.
+
+Every Wednesday we share diagramming tips, interesting features and news in JointJS. Learn with us, get content delivered straight to your inbox and become a real diagramming pro:

@@ -1,0 +1,13 @@
+---
+source: https://www.jointjs.com/blog/demo-wednesday-port-reordering-flow
+generated: 2026-03-19
+format: markdown
+---
+
+We've published a new demo: Port Reordering Tool
+
+Need to support user interactions that are not part of JointJS? For example, allow users to drag and drop ports and change their order? This can be accomplished using the custom element tool, as we have done in this CodePen.
+
+For more examples of JointJS and JointJS+, see our CodePen profile and our official documentation.
+
+To see all the awesome demos we've created so far, check out our Github Discussions.

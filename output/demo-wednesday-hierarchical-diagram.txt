@@ -1,0 +1,24 @@
+---
+source: https://www.jointjs.com/blog/demo-wednesday-hierarchical-diagram
+generated: 2026-03-19
+format: markdown
+---
+
+We've published a new demo: Hierarchical diagram
+
+Interested in advanced tips for working with hierarchical diagrams? Try our new CodePen, which offers the following features:
+
+insert elements into a container,
+drop container over children to embed them,
+embedding validations,
+resize container based on the elements inside,
+automatic positioning of elements in the container.
+
+See the Pen JointJS: Hierarchical Diagrams by JointJS (@jointjs)
+on CodePen.
+
+For more examples of JointJS and JointJS+, see our CodePen profile and our official documentation.
+
+To see all the awesome demos we've created so far, check out our Github Discussions.
+
+Every Wednesday we share diagramming tips, interesting features and news in JointJS. Learn with us, get content delivered straight to your inbox and become a real diagramming pro:

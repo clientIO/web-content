@@ -1,0 +1,37 @@
+---
+source: https://www.jointjs.com/blog/rappid-20-is-here
+generated: 2026-03-19
+format: markdown
+---
+
+We’re pleased to announce a new version of JointJS+, version 2.0. It brings customer requested features such as design variations (themes and customization), a simplified API to enable modular application building, configurable toolbar, and many more advancements that make using this framework easier than ever before.
+
+“We’re very excited to release JointJS+ 2.0 to the world of visualization. User feedback is a top priority for us and I'm happy to report that nearly all requested features made it into the new version.”, says David Durman, CEO of client.IO. “For example, one highly requested change was to give users full design capabilities so we’ve added three new themes which make any application built with JointJS+ beautiful by default.  In addition users can create totally new themes to match their brand. We've also simplified the API to the point now that building diagramming applications is as easy as putting together Lego bricks.”, David adds.
+
+Just a few of the many cool features that JointJS+ 2.0 brings to its users:
+
+## **Customization**
+
+New integrated themes provide effortless application design and allow users to customize the look and feel in a very simple way. We have also listened and prefixed all CSS classes throughout the framework to eliminate conflicts with other CSS frameworks used in your applications.
+
+## **Simple API**
+
+We have greatly simplified the API to make it easy to work with and produce beautiful results with minimal coding needed. A full-fledged diagramming editor can be written in less than 200 lines of code!
+
+## **Taylor-made**
+
+Selections, control panels, palettes, toolbars, automatic layouts and more can be enabled or disabled with a few lines of code, quickly giving developers their desired look and user experience.
+
+## **Keyboard handling**
+
+Useful new plugins like Keyboard and Toolbar provide keyboard combo handling across all browsers, and an easy way to configure shortcuts and create toolbars in minutes.
+
+## **Ports**
+
+Input and output ports can now be defined on any shape with built-in algorithms for distributing them around the shapes. Custom functions for distribution of ports around shapes can be written too, including setting custom labels, z-indices and other options.
+
+## **Distribution and availability**
+
+JointJS+ 2.0 is available for purchase via the [JointJS+ online store](https://www.jointjs.com/pricing) and a free [30 day trial](https://www.jointjs.com/free-trial) version is also available. The JointJS+ 2.0 package includes open-source example applications that can be freely customized and used to decrease development time even further.
+
+Thanks, and happy diagramming!

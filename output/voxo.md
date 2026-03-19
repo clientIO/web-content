@@ -1,0 +1,7 @@
+---
+source: https://www.jointjs.com/showcase/voxo
+generated: 2026-03-19
+format: markdown
+---
+
+VOXO, a US-based cloud communication company, has launched a visual call flow designer to offer their customers the flexibility they require in a simple-to-use manner. With a feature-rich drag-and-drop interface that empowers customers, VOXO has gained a competitive advantage in record time and reports a tenfold acceleration in development.

@@ -1,0 +1,18 @@
+---
+source: https://www.jointjs.com/blog/demo-wednesday-list-of-links-in-inspector
+generated: 2026-03-19
+format: markdown
+---
+
+We've published a new demo: List of links in Inspector
+
+How to add a list of links to your shapes? How to visually indicate when elements have links? How to open the hyperlinks from the canvas? See how to configure an inspector, write a custom highlighter, and add a context menu with a list of links in this CodePen.
+
+See the Pen JointJS+: List of Links in Inspector  by JointJS (@jointjs)
+on CodePen.
+
+For more examples of JointJS and JointJS+, see our CodePen profile and our official documentation.
+
+To see all the awesome demos we've created so far, check out our Github Discussions.
+
+Every Wednesday we share diagramming tips, interesting features and news in JointJS. Learn with us, get content delivered straight to your inbox and become a real diagramming pro:

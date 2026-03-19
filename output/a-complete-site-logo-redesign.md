@@ -1,0 +1,59 @@
+---
+source: https://www.jointjs.com/blog/a-complete-site-logo-redesign
+generated: 2026-03-19
+format: markdown
+---
+
+Over the past few months, we've been wracking our brains about how to improve the way we communicate what we stand for as a company and how our library makes developers' lives easier. Those of you who have been with us since the beginning know that our goal has always been to empower developers and entrepreneurs to create exceptional UIs and build outstanding digital products. And what started as a university project in 2011 has evolved into a widely recognized solution used by more than 50,000 developers worldwide.
+
+We live in a era where it is not necessary to code everything from scratch. Forward-thinking developers and resource-conscious companies are leaning on existing technology to do the heavy lifting for them, giving them more time to focus on core product features and other areas such as business strategy, customer acquisition, hiring, and more.
+
+JointJS, a powerful JavaScript diagramming library that helps developers and companies of any size build advanced No-Code/Low-Code and visual applications, is a time-tested solution offering more than 100 pre-built demo applications, more than 40 UI components, shapes, and features, and bringing together a community of diagramming enthusiasts. We focus all the energy and talent of our top software engineers on creating the best and most reliable code base for diagramming and visual applications that other developers can use to positively impact people's lives.
+
+To clearly communicate this mission, we are introducing a brand new [jointjs.com](/) website and improved design. In addition, we are bringing a [whole new customer portal](https://my.jointjs.com/login) that makes it easier for our customers to manage their JointJS+ licenses.
+
+Because we like to get a little nostalgic, let's go back in time for a moment and see how our communications have evolved over the years:
+
+## JointJS logo and site evolution
+
+A little excursion to the JointJS logo and site history (from 2011 to 2022 in order).
+
+JointJS logo evolution:
+
+≤ 2011
+
+2012
+
+2013
+
+2014
+
+2015
+
+2022
+
+‍
+
+JointJS Website evolution:
+
+≤ 2011
+
+2012
+
+2013
+
+2014
+
+2015
+
+2015
+
+2018
+
+2022
+
+Like it? Let us know; we would love to hear your feedback!
+
+‍
+
+*- JointJS Team*

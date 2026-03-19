@@ -1,0 +1,55 @@
+---
+source: https://www.jointjs.com/blog/rappid-v15-amsterdam-released
+generated: 2026-03-19
+format: markdown
+---
+
+JointJS+, the HTML 5 diagramming UI framework, version v1.5 just landed. The new version does not only improve the current components but brings ten brand new plugins to make your apps even better.
+
+We'd like to thank to our clients for their extremelly valuable feedback!
+
+New features
+
+Inline Text Editor
+
+JointJS+ finally contains an inline text editor. The editor can be applied to any text in both elements and link labels.
+
+The text editor even works on a text on a curved path.
+
+Tree Layout
+
+Automatic Tree Layout is great for displaying and manipulating trees. Two plugins are available related to tree layouts. One is purely for auto-layoting graphs into trees and the other one, ui.TreeLayoutview implements common interaction with trees such as attaching and dettaching a branch.
+
+A demo is available here.
+
+Shortest Path Finding
+
+alg.Dijkstra plugin together with a alg.PriorityQueue and the graph extension via dia.GraphUtils give you an easy and quick way of finding the shortest paths in your graphs.
+
+A demo is available here.
+
+Modal and Non-Modal Dialog Boxes
+
+ui.Dialog plugin brings both modal and non-modal dialog boxes. A default set of common boxes is included (alert, info, success, warning and neutral), an arbitrary HTML can be used to display any content, even diagrams!
+
+Matrix Charts
+
+Matrix chart is great for visualization of co-occurences in a matrix.
+
+Navigator View
+
+Navigator is a small widget displaying large diagram in a small format with a pannable and resizable rectangle.
+
+Local Storage
+
+Local Storage plugin gives you a high-level API for storing graphs, element, links and any other documents in the HTML localStorage.
+
+... and much more!
+
+The JointJS core API got a great bunch of new methods. Vectorizer now supports texts along paths and more. See the JointJS+ v1.5 Amsterdam CHANGELOG page for details.
+
+Go grab it and build state-of-the-art apps now!
+
+We're hiring!
+
+Would you like to join us in developing a unique UI framework specifically made for building Direct Manipulation Interfaces? Go check our job offer here.

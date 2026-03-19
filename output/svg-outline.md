@@ -1,0 +1,342 @@
+---
+source: https://www.jointjs.com/blog/svg-outline
+generated: 2026-03-19
+format: markdown
+---
+
+In diagramming applications, it is often necessary to visually emphasize selected nodes or connections, highlight nodes during hover interactions, or indicate available ports that users can connect to.
+
+There are various ways to achieve this. For example, you can change the color of the nodes or their stroke, or you can add a new outline around the shape. The outline can be a simple rectangle, a tight outline that mimics the node’s shape, or an outline that maintains a consistent gap between itself and the shape.
+
+These solutions differ in terms of performance, styling capabilities, accuracy, and flexibility.
+
+This article explores and compares these different approaches.
+
+## Manual outline
+
+You can create an ad-hoc contour for each shape and size, and at best, you can parameterize it for similar cases.
+
+To achieve this, you can either ask your designer to provide an SVG outline image, which you can dynamically attach to your node, or you can use the SVGPathElement to define the shape manually using path commands. However, this is not always easy—just imagine a simple cloud icon ☁ made up of many bezier curves (using a vector editor would be helpful in this case).
+
+You should only consider using the manual approach if:
+
+- There is a limited number of shapes for which you want to show the outline.
+- The shapes have constant sizes or can only be scaled uniformly.
+
+#### Benefits of Creating the Outline Using an SVG Path
+
+- Most performant solution for outlining a limited set of input shapes—everything is defined in advance, so there is no need for extensive computational calculations.
+- No limitations in terms of styling.
+
+#### Disadvantages of Creating the Outline Using an SVG Path
+
+- If you ever decide to change the shape of your nodes, you may need to redesign the outlines.
+
+## Automatic outline
+
+If a manual approach is not an option, you need a way to read the shape's geometry and draw your own outline programmatically.
+
+We have considered several solutions to this problem and proposed five different approaches, each with its own drawbacks and advantages depending on the specific use case. Let's go through these solutions and discuss them in detail.
+
+### 1. Compute offset curve
+
+Creating a visually stunning tight outline effect with JavaScript and SVGPath is an intricate process. It involves parsing the SVG path data to extract the commands and coordinates, then calculating a new set of coordinates based on a specified offset distance. This offset determines how closely the outline follows the original shape. The new coordinates are then combined into a new SVG path data, creating the desired outline.
+
+This is not a simple problem to solve. It requires the calculation of an offset curve (also known as a parallel curve), which becomes even more challenging when dealing with complex shapes with concave corners or overlapping shapes.
+
+We won’t be covering this topic in depth in this article.
+
+#### Benefits of Creating the Outline Using an SVG Path
+
+- There are very few limitations in terms of styling.
+
+#### Disadvantages of Creating Outline Using an SVG Path
+
+- Defining the outline is a menial process.
+- There are numerous mathematical calculations that need to be addressed when defining the outline.
+- This approach becomes even more complicated when used in conjunction with shape union.
+
+### 2. CSS Outline
+
+Leveraging the native CSS outline property to outline any element in the DOM might seem like the obvious solution to our problem. Let's start with the positives: this approach is native, making it fast and well-documented. Moreover, it offers several properties that allow you to customize the outline's appearance.
+
+However, there is a significant drawback. This method only works with rectangular shapes. If you apply a CSS outline to a non-rectangular shape, the result will be an outline, but it will be rectangular, aligned with the shape's bounding box. While this might suffice for simple use cases, we need a more versatile solution that makes outlining shapes of all kinds straightforward. Therefore, this isn’t the answer we're looking for when it comes to outlining various shapes.
+
+#### Benefits of Using CSS Outline
+
+- It’s natively supported by browsers.
+- It comes with several attributes that allow you to style the outline extensively (outline-style, outline-color, outline-width, outline-offset).
+
+#### Disadvantages of Using CSS Outline
+
+- It only creates a rectangular outline around the shape.
+- You cannot round the corners of the outline.
+- At the time of writing, this approach does not work in Safari when applied to the *g* element.
+
+### 3. Clone and Scale
+
+You can clone the original SVG, make it slightly larger, style the strokes, make the fill transparent, and place it above the original SVG. This approach might seem like it will give us the desired results. And for many shapes, it might. However, some shapes will break this simple method and produce an undesirable outline.
+
+For this method to work reliably, we need a consistent formula to follow. This is where using *SVG Matrix* for more complex transformations becomes valuable. *SVG Matrix* allows us to provide a six-parameter **matrix(a, b, c, d, e, f)** that helps us control all possible transformations, including scaling, translation, shear, and rotation.
+
+Our formula is straightforward: we need the bounding box of the SVG we wish to outline and a value to represent the padding between the shape and the outline. From there, we can get everything we need.
+
+-- CODE language-js --  
+**function** **getOutlineSVGMatrix**(bbox, padding) {  
+    **const** width=bbox**.**width;  
+    **const** height=bbox**.**height;  
+    // *Get translated center  
+‍*    **const** cx=bbox**.**x+width/2;  
+    **const** cy=bbox**.**y+height/2;  
+    // *Scale the element***const** sx = (width + padding \* 2) / width;  
+    **const** sy = (height + padding \* 2) / height;  
+    // *Construct the SVG Matrix string  
+‍*    **return** `matrix(${sx}, 0, 0, ${sy}, ${cx - sx \* cx}, ${cy - sy \* cy})`;  
+}
+
+With this simple function written, let's apply it to a shape that isn't too complicated—a rectangle. Our rectangle will have a width of 50, a height of 100, and be positioned at the origin (0, 0) with an outline padding of 10. For this case, the resulting matrix will look like this: *matrix(1.4, 0, 0, 1.2, -10, -10)*. The next step is to clone the original rectangle and apply the transformation matrix. The final step is to set the fill attribute of the transformed element to *'none'* and the *stroke* attribute to our desired color. And indeed, this is a working solution.
+
+The problem arises when we apply this approach to non-rectangular polygon shapes, such as an "L" shape. In this example, let's assume the bounding box, padding, and position of the L shape are the same as those of the rectangle. This would ultimately produce the same result as with the rectangle, which may not be desirable.
+
+As you can see in the image above, the problem is clearly visible. Since this approach clones the original element, scales it, and translates it, the center of both elements remains the same. This results in incorrect behavior with non-rectangular polygon shapes.
+
+#### Benefits of Cloning and Scaling
+
+- Easy to implement.
+- Since the outline is a stroke of an SVGElement, you can use any attribute associated with it.
+
+#### Disadvantages of Cloning and Scaling
+
+- Does not work for non-rectangular polygon shapes.
+- When scaling the cloned element, there are irregularities in the padding around the original element.
+- Does not work for shapes consisting of multiple elements—unless you clone and scale each element of the group individually.
+- The width of the stroke can vary if scaled non-uniformly (unless vector-effect: non-scaling-stroke is set).
+
+### 4. SVG Filter Effects
+
+Another option is to take advantage of SVG filters. SVG filters are powerful tools that allow you to apply various visual effects to SVG elements. There are 17 filter primitives in total, each offering different functionality in terms of effects. All primitives use the prefix *fe*, which stands for "filter effect," followed by the name of a specific effect, such as *GaussianBlur*. You can combine these primitives, making them a versatile and powerful tool.
+
+By combining a few of these filter effects, you can achieve a somewhat tight SVG outline. However, there’s a good reason this isn’t considered the best solution—it heavily relies on the morphology filter effect with the dilate option. This effect causes the "fattening" of graphics, specifically the alpha channel in our case. The way this filter works is by using a (kernel) rectangle with a width of 2 \* x-radius and a height of 2 \* y-radius that moves around the defined path of the SVG element. It places the output pixel as the individual component-wise maximum of the corresponding R, G, B, A values within the input image's kernel rectangle. The problem occurs when the kernel rectangle reaches any corner of the shape, causing the outline to appear rectangular.
+
+See the Pen [SVG Filter Outline Interactive](https://codepen.io/jointjs/pen/GRLoYJa/631abd2d0718902aa22712274fea3184) by JointJS ([@jointjs](https://codepen.io/jointjs))
+on [CodePen](https://codepen.io).
+
+#### Benefits of Using SVG Filter Effects
+
+- By combining different filter effects, you can achieve various styles of outlines.
+
+#### Disadvantages of Using SVG Filter Effects
+
+- Doesn't work well around corners.
+- Doesn't work effectively for shapes with opacity.
+- It's a powerful tool, but it has a steep learning curve.
+- It’s not as fast as other solutions.
+
+### 5. SVG Mask
+
+The last option that has worked best for us is Alpha masking. If you're familiar with tools like Photoshop, you're likely familiar with this technique. Alpha masking is a method used to make parts of an image transparent, allowing the background to show through. It employs an alpha channel—a layer of transparency—to mask certain parts of the image. By utilizing SVG masks, we can create a perfectly tight outline of any shape we can imagine.
+
+An alpha mask essentially consists of two layers: white and black. The white layer reveals the parts of the image to be kept, while the black layer conceals the parts to be removed. These two layers are blended to create a mask that can then be applied to any SVG element we desire.
+
+It’s easiest to understand with an example, so let’s assume we want to create a mask for something simple—cutting out the middle of a rectangle. What would our mask look like?
+
+An SVG declaration for this would look like this.
+
+-- CODE language-svg --  
+<svg>  
+  <rect x="0" y="0" width="100" height="100" fill="white" />  
+  <rect x="20" y="20" width="60" height="60" fill="black" />  
+</svg>
+
+And turning this into a fully functional SVG mask is just a matter of wrapping it in *<mask>* element accordingly.
+
+-- CODE language-svg --  
+<svg>  
+  <mask id="cut-out-mask">  
+    <rect x="0" y="0" width="100" height="100" fill="white" />  
+    <rect x="20" y="20" width="60" height="60" fill="black" />  
+  </mask>  
+</svg>
+
+Now that we have our mask created, we can apply it to any SVG object we desire. So, let’s use it on a rectangle to see the result.
+
+-- CODE language-svg --  
+<svg>  
+  <mask id="cut-out-mask">  
+    <rect x="0" y="0" width="100" height="100" fill="white" />  
+    <rect x="20" y="20" width="60" height="60" fill="black" />  
+  </mask>  
+‍  
+  <rect x="0" y="0" width="100" height="100" fill="#DA3D40" mask="url(#cut-out-mask)"/>  
+</svg>
+
+Rectangle before applying the mask:
+
+Rectangle after applying the mask:
+
+As evidenced, the mask functions as described; all elements beneath the white area are projected into the result, while all elements beneath the black area are removed from the result. With this in mind, we can now discuss how to utilize this capability when creating precise outlines around SVGs.
+
+For this article, we will use a shape that we've previously mentioned and described as challenging to outline—a star.
+
+Let’s start with the declaration of our SVG object like this:
+
+-- CODE language-svg --  
+<svg>  
+  <defs>  
+    <path id="star"  
+d="M 9.5 14.3 L 3.9 17.2 L 5 11 L 0.5 6.6 L 6.7 5.7 L 9.5 0 L 12.3 5.7 L 18.5 6.6 L 14 11 L 15.1 17.2 Z" />  
+  </defs>  
+  
+  <g>  
+    <use href="#star" stroke="#DA3D40" stroke-width="2" fill="#DA3D40"></use>  
+  </g>  
+</svg>
+
+Our SVG consists of two elements at the moment: *<defs>* and *<g>*. Everything that is placed inside the *<defs>* block is not displayed directly; instead, it is used later on. In the second part of the example, we reference the defined shape via the *<use>* element and *href* attribute, which results in rendering the star on our screen.
+
+What now? We need to apply the knowledge from earlier and create an SVG mask. Our SVG mask will consist of two elements—both of them will be *<use>* elements, as mentioned before. We will again reference the star shape that we previously defined, so the elements we use to mask our shape will be the same. Thus, our SVG declaration looks like this:
+
+-- CODE language-svg --  
+<svg>  
+  <defs>  
+    <path id="star"  
+d="M 9.5 14.3 L 3.9 17.2 L 5 11 L 0.5 6.6 L 6.7 5.7 L 9.5 0 L 12.3 5.7 L 18.5 6.6 L 14 11 L 15.1 17.2 Z" />  
+  
+    <mask id="star-outline">  
+      <use id="thickness" href="#star" stroke="white" fill="white"></use>  
+      <use id="padding" href="#star" stroke="black" fill="black"></use>  
+    </mask>  
+  </defs>  
+  
+  <g>  
+    <use id="rendered-star" href="#star" stroke="#DA3D40" stroke-width="2" fill="#DA3D40"></use>  
+  </g>  
+</svg>
+
+From the code snippet, you might already see where we're going with this. The first *<use>* element, with the *id* attribute of thickness, will control the outline width, while the second *<use>* tag will set the spacing between the outline and the shape itself. But how exactly do we do that? The answer is simple: we can use the *stroke-width* attribute for each of them to adjust these properties.
+
+Let’s imagine our mask, where we want the outline to be positioned 5 pixels from the shape and have an outline width of 2 pixels. What would the *stroke-width* attributes of each element of our mask be?
+
+Since the stroke is always centered in SVG, we need to double the padding size and then add the *stroke-width* of the original shape we're trying to outline. With this function, we now have the *stroke-width* of our padding element:
+
+-- CODE language-js --  
+`// padding = 5  
+function getPaddingWidthStroke(padding) {  
+  const renderedStar = document.getElementById('rendered-star');  
+  // Get the stroke width of the rendered star  
+  // renderedStrokeWidth = 2  
+  const renderedStrokeWidth = Number(renderedStar.getAttribute('stroke-width'));  
+  
+  // 2 * 5 + 2 = 12  
+  return 2 * padding + renderedStrokeWidth;  
+}`‍
+
+For the *stroke-width* of our outline element, we do pretty much the same thing, but we also need to add the size of our padding, like this:
+
+-- CODE language-js --  
+// thickness = 2, padding = 5  
+function getOutlineWidth(thickness, padding) {  
+  const renderedStar = document.getElementById('rendered-star');  
+  // Get the stroke width of the rendered star  
+  // renderedStrokeWidth = 2  
+  const renderedStrokeWidth = Number(renderedStar.getAttribute('stroke-width'));  
+  
+  // 2 \* (5 + 2) + 2 = 16  
+  return 2 \* (padding + thickness) + renderedStrokeWidth;  
+}
+
+Now that we know the values for both elements, let's combine our original shape with the two shapes from the mask.
+
+Now all that's left to do is apply this mask to a rectangle with a *fill* attribute set to the color we want our outline to be. The rectangle needs to cover the entire area of our shape, with some additional space around it to account for possible miters and arcs. This step is fairly simple, so let’s dive into it.
+
+Our SVG definition so far looks accordingly:
+
+-- CODE language-svg --  
+<svg>  
+  <defs>  
+    <path id="star"  
+d="M 9.5 14.3 L 3.9 17.2 L 5 11 L 0.5 6.6 L 6.7 5.7 L 9.5 0 L 12.3 5.7 L 18.5 6.6 L 14 11 L 15.1 17.2 Z" />  
+  
+    <mask id="star-outline">  
+      <use id="thickness" href="#star" stroke="white" fill="white" stroke-width="16"></use>  
+      <use id="padding" href="#star" stroke="black" fill="black" stroke-width="12"></use>  
+    </mask>  
+  
+  </defs>  
+  
+  <g>  
+    <rect id="mask" mask="url(#star-outline)" fill="#232E3D"></rect>  
+    <use id="rendered-star" href="#star" stroke="#DA3D40" fill="none" stroke-width="2"></use>  
+  </g>  
+</svg>
+
+You can already see the rectangle with the mask applied; however, at this moment, the rectangle itself is sized 0x0. To make it work as expected, we need to adjust its size. We can achieve this with a JavaScript function that inflates the bounding box of the mask rectangle to match our shape. Here's how we can do it:
+
+-- CODE language-js --  
+**function** **inflate**(bbox, maxStrokeWidth) { **if** (**!**bbox) **return** **null**;  
+  // *Add an extra 50 for miters and arcs* **const** maskClip=maxStrokeWidth+50; **const** {x,y,width,height}=bbox; **return** {  
+    x: x - maskClip,  
+    y: y - maskClip,  
+    width: width + maskClip \* 2,  
+    height: height + maskClip \* 2  
+  }  
+}
+
+The inflate function does exactly as described: it accepts the bounding box of our shape along with the desired stroke width and returns a bounding box that we can apply to the rectangle, ensuring it matches the correct position and dimensions of the shape. The final step is to assign this result to our rectangle. The function can be written like this:
+
+-- CODE language-js --  
+**function** **setMaskBBox**() { **const** star=document**.getElementById**('star'); **const** mask=document**.getElementById**('mask');  
+  
+‍**const** {x,y,width,height}= **inflate**(star**.getBBox**(), **getOutlineWidth**());  
+  mask**.setAttribute**('x', x);  
+  mask**.setAttribute**('y', y);  
+  mask**.setAttribute**('width', width);  
+  mask**.setAttribute**('height', height);  
+}
+
+And voilà! Our star shape now has a tight outline with a padding of 5px and a width of 2px, just like this:
+
+> We've encapsulated this functionality and provided a [straightforward API](https://docs.jointjs.com/learn/features/highlighters/#mask) that implements this solution, requiring only a single line of code to use.
+
+[Use this functionality](https://docs.jointjs.com/learn/features/highlighters/#mask)
+
+‍
+
+For those interested in experimenting with our SVG mask approach, we have created a showcase application written in React.
+
+See the Pen [SVG Mask React](https://codepen.io/jointjs/pen/LYvGgpB/80aaa0aaeb70ff7a4afc46e73cfdc2a6) by JointJS ([@jointjs](https://codepen.io/jointjs))
+on [CodePen](https://codepen.io).
+
+### Benefits of Using SVG Mask
+
+- Precise outline.
+- Supports padding around the shape.
+- Works with arbitrary shapes.
+- Support for rounded corners using the *stroke-linejoin* attribute.
+
+### Disadvantages of Using SVG Mask
+
+- No support for a dash array.
+- An inner outline is added to compound paths with negative space (shapes with holes).
+
+### Practical application
+
+As the creators of the [JointJS library](/), we understand that adding outlines to nodes is a common task in diagramming, and it's not something you want to write from scratch. That's why we've encapsulated this functionality and provided you, the end user, [with a simple API](https://docs.jointjs.com/learn/features/highlighters/#mask) that leverages the solution we just discussed, requiring only a single line of code to implement.
+
+Here is a showcase application demonstrating a variety of cases that can be handled with JointJS:
+
+See the Pen [JointJS Highlighters](https://codepen.io/jointjs/pen/poBgxgN/0a887d3fb9eb8fa8e084b89c31ffdf54) by JointJS ([@jointjs](https://codepen.io/jointjs))
+on [CodePen](https://codepen.io).
+
+## Conclusion
+
+Contouring SVG shapes can be a challenging task, particularly when dealing with complex shapes or composites of multiple shapes. We have explored several approaches, focusing on general solutions that can be applied to arbitrary shapes. Each approach has its own advantages and limitations, which are summarized in the comparison table below:
+
+Explore the CodePens demonstrating all the techniques compared in the table:
+
+- [CSS Outline](https://codepen.io/jointjs/pen/oNObaba/707e17bb74d458c55336c313ea15e41c)
+- [Filter Effects](https://codepen.io/jointjs/pen/bGJEmpV/ddc84852feb36af28767f08c92c36af5)
+- [Clone and Scale](https://codepen.io/jointjs/pen/abxdRNY/55263d21332de369271f87e556cb32c3)
+- [SVG Mask](https://codepen.io/jointjs/pen/oNObaxa/3b7bb5f607a7a7f2f9c72e193940df7c)
+
+**The most versatile solution we have found is using an alpha SVG mask**. By combining white and black layers, we can control which parts of the image are kept and which are removed. This approach also offers flexibility in adjusting the width of the outline and the spacing between the outline and the shape. It can be applied to almost any shape or combination of shapes while maintaining excellent rendering performance.

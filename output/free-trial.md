@@ -1,0 +1,41 @@
+---
+source: https://www.jointjs.com/free-trial
+generated: 2026-03-19
+format: markdown
+---
+
+# Start your free 30-day JointJS+ trial
+
+Free, fully functioning and no credit card required.
+
+###### our customers
+
+## JointJS+, the first choice of industry leaders
+
+We empower industry giants, startups and solopreneurs to build visual and No-Code/Low-Code applications faster and with confidence.
+
+### honest testimonials from our customers
+
+JointJS+ allowed CELUS to focus all our efforts on developing our core technology, while still providing our users with a great diagramming experience. The library is fast to integrate and comes with a wide set of advanced features out of the box that saved us countless development hours. A great partner to have!
+
+Rui Calsaverini
+
+Engineering Director, CELUS GmbH
+
+JointJS+ was really a great find, as it gave us a great boost in the diagramming frontend of our application. These guys know their business and give you a great support on your development. One of our requirements was to have a BPMN diagram support in our app and they quickly supplied this as a plugin to JointJS+!
+
+José Miguel Gonçalves
+
+Project Manager, Nov Inesc Inovação
+
+The JointJS+ toolkit is the best solution we found as a full fledged diagramming library for the web. The JointJS team has been extremely responsive to our needs and it’s been great to help contribute back to the product throughout our development process.
+
+Kevin Mansel
+
+Senior Software Engineer, Patent Navigation
+
+JointJS+ was the perfect product for us. We have used JointJS+ as the foundation to create an illustration tool for Sales relationships within a target organization. The product has been reliable, flexible, straightforward to integrate, and very easy for end users to understand.
+
+Phil Cederstrom
+
+Chief Technology Officer, Polaris I/O
