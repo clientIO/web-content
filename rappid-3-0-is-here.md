@@ -145,7 +145,7 @@ Take a look at the main highlights here and the full changelog below.
 - Geometry - fix Path.prototype.closestPoint() ending in an infinite loop
 - Geometry - add random()
 
-We hope you you'll get the most from these new features, fixes and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#3c534e5b7c5f5055595248125553) with questions or comments.
+We hope you you'll get the most from these new features, fixes and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#c7a8b5a087a4abaea2a9b3e9aea8) with questions or comments.
 
 ‍
 

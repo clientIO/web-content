@@ -95,7 +95,7 @@ Take a look at the main highlights here and the full changelog below.
 - various Typescript fixes
 - refer canvg dependency by a version instead of tarball URL
 
-We hope you you'll get the most from these new features, fixes and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#d6b9a4b196b5babfb3b8a2f8bfb9) with questions or comments.
+We hope you you'll get the most from these new features, fixes and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#137c617453707f7a767d673d7a7c) with questions or comments.
 
 ‍
 

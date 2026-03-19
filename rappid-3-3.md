@@ -50,9 +50,9 @@ Another new demo that shows you how to provide a seamless drag&drop functionalit
 
 The paper object now provides an option to make labels snap on their links, even on curved lines:
 
-##### Complete [JointJS+ 3.3 Changelog with sample code and screenshots is here](/cdn-cgi/l/email-protection#b1d9c5c5c1c28b9e9ed2d9d0dfd6d4ddded69fdbded8dfc5dbc29fd2dedc9ec3d0c1c1d8d59e829f829f819ed2d9d0dfd6d4ddded6).
+##### Complete [JointJS+ 3.3 Changelog with sample code and screenshots is here](/cdn-cgi/l/email-protection#ff978b8b8f8cc5d0d09c979e91989a939098d1959096918b958cd19c9092d08d9e8f8f969bd0ccd1ccd1cfd09c979e91989a939098).
 
-We hope you'll get the most from these new features, fixes and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#deb1acb99ebdb2b7bbb0aaf0b7b1) with questions or comments.
+We hope you'll get the most from these new features, fixes and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#ff908d98bf9c93969a918bd19690) with questions or comments.
 
 ‍
 

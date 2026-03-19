@@ -16,7 +16,7 @@ We've already migrated a small section of our documentation over to this new min
 
 #### Check it out here: <https://resources.jointjs.com/mmap/joint.html>
 
-What do you think? We'd [love to hear from you](/cdn-cgi/l/email-protection#f6998491b6959a9f939882d89f99c98583949c939582cbb29995839b93988297829f9998d3c4c69b9f9892d3c4c69b9786)!
+What do you think? We'd [love to hear from you](/cdn-cgi/l/email-protection#7e110c193e1d12171b100a501711410d0b1c141b1d0a433a111d0b131b100a1f0a1711105b4c4e1317101a5b4c4e131f0e)!
 
 ‍
 

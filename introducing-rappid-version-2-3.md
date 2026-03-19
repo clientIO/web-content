@@ -100,7 +100,7 @@ The Tutorials section has been completely updated including new tutorials for st
 - util - add parseDOMJSON(), dataUriToBlob(), downloadBlob(), downloadDataUri() and isPercentage()
 - util - toggleFullscreen() - fix canceling fullscreen in an iframe
 
-We hope you you'll get the most from these new features, fixes and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#5e312c391e3d32373b302a703731612d2b3c343b3d2a630c3f2e2e373a7b6c6e0f2b3b2d2a373130) with questions or comments.
+We hope you you'll get the most from these new features, fixes and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#38574a5f785b54515d564c165157074b4d5a525d5b4c056a594848515c1d0a08694d5d4b4c515756) with questions or comments.
 
 ‍
 
