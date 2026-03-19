@@ -1,0 +1,87 @@
+---
+source: https://www.jointjs.com/blog/5-tips-on-using-ai-coding-agents-with-jointjs
+generated: 2026-03-18
+format: markdown
+---
+
+Coding Agents, such as [Claude Code](https://claude.com/product/claude-code), [Cursor](https://cursor.com/), [Windsurf](https://www.windsurf.dev/), and others, work very well with JointJS, so you should be leveraging them to speed up your development times.
+
+In this article, you’ll find some **tips to help you get more value out of AI coding agents** and stop you from wasting your precious time and tokens.
+
+*Note that you can use these tips when working with AI coding agents on any JavaScript library that isn’t massively popular. For mainstream libraries like React, Next.js, Vue, Angular, Svelte, and similar, this is often not necessary.*
+
+### **1. Include JointJS context**
+
+When prompting, always include additional context that you’re working with JointJS.
+
+Something like ``` I'm using JointJS+ version 4.2` `` can go a long way toward ensuring the AI agent doesn’t get bogged down in recreating features already natively available in JointJS and that it uses the correct version of the API.
+
+### **2. Specify the feature and link the docs**
+
+If you’re familiar with JointJS features ([you should be](https://www.jointjs.com/features)), you should include the feature name and link to its docs in your prompt to get very precise, correct API usage rather than a plausible-but-possibly-wrong AI guess.
+
+An example prompt:
+
+```
+Using the JointJS Highlighters API documented at https://docs.jointjs.com/learn/features/highlighters/,
+highlight the entire line from the start of the workflow to the selected step.
+```
+
+‍
+
+Prompt template you can copy and paste:
+
+```
+Using the JointJS [FEATURE] documented at [URL], [TASK].
+```
+
+### **3. Break large tasks into multiple steps**
+
+Tailor your prompts so each one addresses a specific part of your complex task. **The more specific your prompts are, the better results you’ll get.**
+
+For example, ask for interaction behavior first, then the visual styling changes. This keeps each response focused and makes it easier to catch issues before they compound.
+
+**Always use version control when working with AI Agents.** Whenever AI makes a set of changes, review and commit them. Even though AI Agents often offer handy commands to rewind the code to a specific point in history, using version control will still make it much easier for you to revert the code to a previously working version if necessary.
+
+### **4. Provide additional context when debugging**
+
+When debugging your JointJS app, include not just the error message but also specific context for the problem you’re facing in the prompt.
+
+For example, specify the event handler involved, the file you changed before the bug happened, or anything that narrows the problem, to make it easier for the AI agent to pinpoint and resolve the bug.
+
+An example with a bug that happened while implementing the *Download Image* feature, where AI hallucinated the toDataURL API syntax:
+
+```
+When clicking the "Download Image" button in the toolbar, the following error occurs:
+
+```
+paper.toDataURL is not a function
+TypeError: paper.toDataURL is not a function
+    at downloadDiagramImage (http://localhost:8080/bundle.js:68483:11)
+    at onExportImagePointerClick (http://localhost:8080/bundle.js:70812:83)
+    at triggerEvents (http://localhost:8080/bundle.js:19198:50)
+    at triggerApi (http://localhost:8080/bundle.js:19177:18)
+```
+
+I'm using JointJS+ 4.2, and the toDataURL is documented at https://docs.jointjs.com/api/format/Raster/#todataurl
+```
+
+### **5. Get ideas on extending and improving your app**
+
+You can always prompt AI to review your code and suggest features that might be helpful to implement, based on the list of available features.
+
+```
+Which additional JointJS+ v4.2 features would be useful in the context of this AI-powered internal customer-support ticketing system app?
+
+List of available features is here: https://docs.jointjs.com/learn/features/ 
+```
+
+This can be especially handy if you’re using an [open source version of JointJS](/faqs/open-source) — you can prompt AI and specifically ask how much implementation time you can save if you use existing features available in JointJS+ instead of implementing them yourself.
+
+### **Conclusion**
+
+JointJS is a powerful, versatile library with a steep learning curve and a lot of structural flexibility, so vague prompts often produce generic, sometimes incorrect code.
+
+The overarching principle you should follow when using Coding Agents with JointJS is that the more JointJS-specific context you give, the better.
+
+Happy AI diagramming!
