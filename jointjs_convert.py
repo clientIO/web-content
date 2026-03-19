@@ -128,6 +128,7 @@ def process(html: str, slug: str, source_url: str = ""):
     markdown = to_markdown(node)
     markdown = add_frontmatter(markdown, slug, source_url)
     plaintext = to_plaintext(markdown)
+    plaintext = plaintext.replace("format: markdown", "format: plaintext", 1)
 
     md_path = OUTPUT_DIR / f"{slug}.md"
     txt_path = OUTPUT_DIR / f"{slug}.txt"
@@ -168,6 +169,7 @@ format: markdown
 """
     markdown = frontmatter + readme_markdown
     plaintext = to_plaintext(markdown)
+    plaintext = plaintext.replace("format: markdown", "format: plaintext", 1)
 
     md_path = OUTPUT_DIR / f"{slug}.md"
     txt_path = OUTPUT_DIR / f"{slug}.txt"
