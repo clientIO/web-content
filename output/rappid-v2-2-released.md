@@ -96,7 +96,7 @@ Combining these new capabilities with the additional features of JointJS+, one c
 - shapes.BPMN - add `ratio` option for Pool lanes
 - shapes.BPMN - fix Choreography rendering issues and links in Firefox
 
-We hope you you'll get the most from these new features, fixes and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#29465b4e694a45404c475d074046165a5c4b434c4a5d147b485959404d0c1b191b071807190c1b19585c4c5a5d404647) with questions or comments.
+We hope you you'll get the most from these new features, fixes and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#1f706d785f7c73767a716b317670206c6a7d757a7c6b224d7e6f6f767b3a2d2f2d312e312f3a2d2f6e6a7a6c6b767071) with questions or comments.
 
 ‍
 
