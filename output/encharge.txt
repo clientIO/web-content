@@ -1,7 +1,0 @@
----
-source: https://www.jointjs.com/showcase/encharge
-generated: 2026-03-19
-format: markdown
----
-
-Encharge enables its customers to create remarkable user journeys with a robust and easy-to-use visual flow builder. Using this intuitive interface, they can go beyond emails by understanding, mapping, and designing the entire user journey through visually connecting steps.

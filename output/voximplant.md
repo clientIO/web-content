@@ -1,7 +1,0 @@
----
-source: https://www.jointjs.com/showcase/voximplant
-generated: 2026-03-19
-format: markdown
----
-
-Voximplant Kit is a smart and flexible tool for customer experience automation, formerly known as Smartcalls. With Voximplant Kit, customers can build smart IVRs, launch automated call campaigns, and make trigger outbound calls using a visual flow builder to improve customer experience in no time.

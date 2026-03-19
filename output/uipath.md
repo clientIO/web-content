@@ -1,7 +1,0 @@
----
-source: https://www.jointjs.com/showcase/uipath
-generated: 2026-03-19
-format: markdown
----
-
-UiPath – a publicly traded company with more than 4,000 employees – built their process mining tool using JointJS+, helping organizations get a detailed picture of their complex business processes and uncover opportunities for automation.

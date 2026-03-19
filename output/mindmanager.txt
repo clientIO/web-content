@@ -1,7 +1,0 @@
----
-source: https://www.jointjs.com/showcase/mindmanager
-generated: 2026-03-19
-format: markdown
----
-
-MindManager – a software product developed and maintained by Alludo – helps companies elevate their teams with dynamic visual diagrams, mind maps, and flowcharts. Its modern visual drag-and-drop editor makes it easy to transform ideas into plans.
