@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/ai-interface-revolution
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 Ever since ChatGPT v3 was released by OpenAI in November 2022, the field of AI has seen rapid development. It seemed that every week, there was a new AI / LLM / chatbot solution that was better than all of the ones that came before it - all of them promising to revolutionize the way we work. However, even though the different AI applications diverged in the details, for a long time they all seemed to agree on one thing - the way to interact with them was via a text box.

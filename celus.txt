@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/showcase/celus
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 CELUS offers a design platform that automates electronic engineering, streamlining the process from concept to production. It features intelligent component selection, automated schematic and PCB design, and robust project management tools. This platform enhances efficiency, reduces errors, and accelerates time-to-market for electronic products, making it ideal for engineers and designers.

@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/how-to-build-custom-bpmn-modeler-ui-for-camunda
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 If you've ever built a workflow automation tool, you've likely faced a choice: use an off-the-shelf modeler that looks generic, or build something custom that fits your product. This tutorial walks through a third option — taking the JointJS+ BPMN Editor demo and turning it into a domain-specific modeler that talks directly to Camunda 8 for process orchestration.

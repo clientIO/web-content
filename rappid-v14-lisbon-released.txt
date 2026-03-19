@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/rappid-v14-lisbon-released
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 JointJS+, the new generation JavaScript diagramming UI framework, got better once again. Leveraging the best of SVG and HTML 5, JointJS+ is becoming the choice number one for applications that involve a diagramming component. Complicated systems increasingly require visual tooling for process, workflow and data management accessible to non-programmers. JointJS+ fills this need.

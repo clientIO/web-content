@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/build-genogram-with-automatic-directed-layout
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 This tutorial walks through building an interactive genogram (family tree) using JointJS and the @joint/layout-directed-graph package (which uses the open-source dagre library under the hood). The focus is on the automatic layout strategy — how we turn flat family data into a clean, hierarchical diagram without manually positioning any nodes.

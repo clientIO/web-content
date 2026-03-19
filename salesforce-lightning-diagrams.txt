@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/salesforce-lightning-diagrams
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 Enrich your Salesforce Lightning environment with interactive diagrams

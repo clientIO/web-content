@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/requirejs-with-jointjs-rappid
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 JointJS and JointJS+ now have full AMD/RequireJS support. In the past, a shim was needed to use JointJS or JointJS+ in a RequireJS project. That is no longer the case. All that is needed are these simple steps:

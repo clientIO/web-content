@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/isometric-diagrams
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 There are various methods of visualizing three-dimensional objects in two-dimensional space. For example, most 3D graphics engines use perspective projection as the main form of projection. This is because perspective projection is an excellent representation of the real world, in which objects become smaller with increasing distance. But when the relative position of objects is not important, and for a better understanding of the size of objects, you can use parallel projections. They are more common in engineering and architecture, where it is important to maintain parallel lines. Since the birth of computer graphics, these projections have been used to render 3D scenes when 3D rendering hardware acceleration was not possible. Recently, various forms of parallel projections have become a style choice for digital artists, and they are used to display objects in infographics and in digital art in general.

@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-list-of-links-in-inspector
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 We've published a new demo: List of links in Inspector

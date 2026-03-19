@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/why-building-a-bpmn-modeler-ui-is-harder-than-it-looks
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 Process modeling is a powerful tool to capture and automate the real-world complexity of organizational workflows, and BPMN 2.0 (Business Process Model Notation) is the most common representation in which to do so. In a previous article, we have illustrated that BPMN modeling and process execution can be decoupled, and discussed when doing so makes sense in practice. In this article, we will look deeper at the practical challenges of building a BPMN modeling UI.

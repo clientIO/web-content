@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/rappid-3-4-1
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 The newest version of JointJS+ (3.4.1.) is out and comes with a security update, bug fixes and a new demo.

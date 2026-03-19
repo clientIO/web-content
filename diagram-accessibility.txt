@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/diagram-accessibility
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 The WebAim Millon is a project that evaluates the accessibility of home pages from the top 1 million websites. Due to the unique nature of each website, and the fact that the analysis uses automated tools to collect data, there is certainly some room for slight inaccuracies. However, the overview it provides is definitely worth noting if you want to gain some insight into the current state of accessibility on the web.

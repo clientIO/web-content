@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/jointjs-09-released
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 It's been a good amount of time since initial works on JointJS started. Since then, the core library and its plugin set grew tremendously. Today, we're proudly announcing another iteration of this work with a new release versioned JointJS v0.9.

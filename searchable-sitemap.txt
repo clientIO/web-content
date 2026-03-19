@@ -2,7 +2,7 @@
 source: https://www.jointjs.com/demos/searchable-sitemap
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/searchable-sitemap/README.md
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 JointJS+: Searchable Sitemap <a href="https://www.jointjs.com/jointjs-plus"><img src="../jointjs-plus-badge.svg" alt="JointJS+" width="123" align="right" /></a>

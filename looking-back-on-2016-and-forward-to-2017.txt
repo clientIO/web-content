@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/looking-back-on-2016-and-forward-to-2017
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 For many people the holidays are approaching, and as we look back at 2016 we remember some of the challenges we faced, milestones reached, and good times had. We want to thank you for joining us on the journey, and we look forward to many more years together.

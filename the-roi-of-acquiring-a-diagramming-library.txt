@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/the-roi-of-acquiring-a-diagramming-library
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 It's certainly tempting to start a new development project with the belief that all parts need to be created from the ground up. In the world of diagramming, this mindset, driven by a multitude of unknown variables that someone with no experience developing interactive diagramming studios from scratch would hardly consider, can lead to a substantial increase in costs when compared to leveraging an existing solution. While having an in-house solution often offers greater flexibility and independence from external vendors, modern technologies address these significant concerns by involving their customers in their development plans, and, as is the case with JointJS, by offering the source code to grant full control.

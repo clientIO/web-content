@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-corporate-organizational-chart
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 We've published a new demo: Corporate Organizational Chart

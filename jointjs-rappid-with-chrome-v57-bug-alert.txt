@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/jointjs-rappid-with-chrome-v57-bug-alert
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 We have an important alert for our Google Chrome users, that on March 14th Chrome version 57 will be released and it's been discovered it contains a bug which can break certain aspects of JointJS/JointJS+.

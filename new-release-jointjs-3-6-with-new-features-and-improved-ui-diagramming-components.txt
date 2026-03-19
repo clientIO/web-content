@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/new-release-jointjs-3-6-with-new-features-and-improved-ui-diagramming-components
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 It's Tuesday, October 25, 2022, and the new and improved version of JointJS+ will see the light of day for the first time! In past years, we have rushed to expand the functionality of our library. This approach has led to great versatility and flexibility of our solution - companies from different industries use our library to cover a wide range of use cases. This time, however, we've taken a step back and significantly improved some key diagramming UI components such as the context toolbar, rich text editor, and touch pad support, making interacting with your application even more enjoyable for customers.

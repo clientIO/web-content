@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/bpmn-modeler-ui-feature-checklist
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 When you set out to evaluate or build a BPMN modeler UI, you will quickly notice that nearly all diagramming products claim to support the BPMN 2.0 specification. However, that on its own tells you almost nothing about how well the tool will actually serve your users in production.

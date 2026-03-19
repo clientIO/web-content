@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/new-release-jointjs-v3-7
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 In 2010, the year our CEO David released the first version of JointJS, the web looked very different from how it looks today. What we consider standard today was not doable or even imaginable. As the web evolves, the technologies supporting it must evolve too. We see more and more companies and their customers calling for visual interfaces that replace text or code-dependent environments, and more developers choosing from a wide range of existing technologies to support their efforts and make their work more efficient.

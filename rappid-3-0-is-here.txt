@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/rappid-3-0-is-here
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 JointJS+ 3.0 is released and comes with updates, fixes, and great performance improvements.

@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/were-soc-2-type-ii-compliant
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 At JointJS, security, reliability, and customer trust are at the core of what we do. We are proud to announce that JointJS has successfully achieved SOC 2 Type II compliance after undergoing a rigorous audit covering a full 1-year monitoring period, demonstrating our commitment to maintaining the highest standards of security and data protection.

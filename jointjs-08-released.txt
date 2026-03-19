@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/jointjs-08-released
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 January is getting to an end and it's not hard to find blossom trees here in Amsterdam. Strange configuration. To make things even warmer, we are happy to announce a new release of the library, JointJS 0.8.

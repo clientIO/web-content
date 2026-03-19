@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/javascript-diagramming-libraries
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 A lot of applications on the Web need some sort of interactive diagramming functionality, but implementing it is a very difficult undertaking in a highly specialized area. Luckily, there is no longer any need to take care of the tricky parts on your own – there are libraries which can take care of the basic infrastructure of your solution (e.g. embedding into the webpage, user interactivity, connecting objects, graph data model, styling, and more), jump-starting the development of your web application.

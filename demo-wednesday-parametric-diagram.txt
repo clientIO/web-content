@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-parametric-diagram
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 We've published a new demo: SysML Parametric Diagram (PAR)

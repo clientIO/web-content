@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/showcase/aws
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 AWS CloudFormation is a service that enables businesses to model and configure their AWS resources, allowing them to reduce the time spent on resource management and instead focus more on developing and running their applications within the AWS environment.

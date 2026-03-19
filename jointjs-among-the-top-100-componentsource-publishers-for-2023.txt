@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/jointjs-among-the-top-100-componentsource-publishers-for-2023
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 We are pleased to announce that JointJS has been included in the ComponentSource Top 100 Publishers for 2023. This is the third year in a row that we have walked the imaginary red carpet and are one of the leading publishers.

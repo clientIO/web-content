@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/diagramming-meets-ai
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 While diagramming is a tried-and-true technique that allows us to break complex problems down into manageable chunks, AI is an upstart technology that has sprung up into the mainstream imagination only recently—but promises to revolutionize everything about the way we work. While both tools are incredibly versatile, we will give our thoughts specifically on the ways they can be combined in order to maximize each other’s potential.

@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/new-brand-to-be-revealed-jointjsplus-replaces-rappid
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 You may have noticed that we have started using JointJS+ in our materials: blog posts, newsletters, websites, documentation, etc. Moreover, the good old Rappid suddenly disappeared. Well, today you'll finally find out what this change indicates and what we're up to.

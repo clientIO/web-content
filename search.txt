@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/search
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 Search results

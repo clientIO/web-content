@@ -54,7 +54,7 @@ In December we released [another JointJS+ update](https://www.jointjs.com/blog/r
 
 ## Expansion Of Our Custom Coding Service
 
-Did you know that we offer custom coding and applications?  Well now you do!  We work with organizations big and small to help them realize their needs in the most efficient way possible. If you need a solution fast, or want a specific feature or plugin implemented, [get in touch](/cdn-cgi/l/email-protection#442b36230427282d212a306a2d2b7b3731262e21273079073137302b29617674072b202d2a236176740d2a35312d363d) and let our experienced developers do the work for you.
+Did you know that we offer custom coding and applications?  Well now you do!  We work with organizations big and small to help them realize their needs in the most efficient way possible. If you need a solution fast, or want a specific feature or plugin implemented, [get in touch](/cdn-cgi/l/email-protection#c2adb0a582a1aeaba7acb6ecabadfdb1b7a0a8a7a1b6ff81b7b1b6adafe7f0f281ada6abaca5e7f0f28bacb3b7abb0bb) and let our experienced developers do the work for you.
 
 ## New Product Released: AppMixer
 

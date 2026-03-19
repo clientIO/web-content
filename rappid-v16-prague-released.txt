@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/rappid-v16-prague-released
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 The new JointJS+ doesn't just improve the current set of components, it adds a lot of new ones, too. Now you can create truly advanced flow chart editors, network monitoring systems, workflow tools and other diagramming applications in days.

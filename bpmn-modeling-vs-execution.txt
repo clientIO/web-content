@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/bpmn-modeling-vs-execution
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 When starting to work with BPMN 2.0 to develop workflow automation solutions, it is common to treat the BPMN modeler and the execution engine as a single tightly coupled stack. This is hardly surprising since most BPMN platforms ship their own modeling tools, and their documentation often presents modeling and execution as two sides of the same product.

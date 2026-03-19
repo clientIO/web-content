@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/success-stories/hcltech-leverages-jointjs
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 Challenge

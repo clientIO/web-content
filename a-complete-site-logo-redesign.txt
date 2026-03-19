@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/a-complete-site-logo-redesign
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 Over the past few months, we've been wracking our brains about how to improve the way we communicate what we stand for as a company and how our library makes developers' lives easier. Those of you who have been with us since the beginning know that our goal has always been to empower developers and entrepreneurs to create exceptional UIs and build outstanding digital products. And what started as a university project in 2011 has evolved into a widely recognized solution used by more than 50,000 developers worldwide.

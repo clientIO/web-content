@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/rappid-2-4-has-arrived
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 JointJS+ 2.4 is now available and brings along some great updates, fixes, and cool new features. We're especially excited to release two completely new demos which demonstrate how to truly integrate JointJS+ with Angular and React.

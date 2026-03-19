@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/15-community-designed-demo-apps
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 Welcome to our blog post, "15 community-designed demo apps: our top picks!" As developers of a diagramming library, we understand that diagramming is not a one-size-fits-all solution. With endless use cases in mind, we actively collect ideas from our customers, community members, and internally to expand our collection of demo applications that can be used out of the box to solve specific requirements. From org charts to sequence diagrams, mind maps to Marey charts, our community has contributed various demo applications that showcase the versatility of JointJS or JointJS+.

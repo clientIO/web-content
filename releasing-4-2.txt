@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/releasing-4-2
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 This release focuses on guided, layout-driven diagram editing — where elements are positioned automatically rather than through free drag-and-drop. It also introduces a new Layers API for structured, multi-level diagrams, major performance improvements for large graphs, and seven new boilerplate apps to help you build faster.

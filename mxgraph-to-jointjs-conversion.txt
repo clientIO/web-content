@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/mxgraph-to-jointjs-conversion
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 The mxGraph diagramming library is dead. Even though it is the technology behind the popular web diagramming tool draw.io / diagrams.net, the library itself was officially declared end-of-life in 2020 by its original developer in a surprising move. It is fair to say that the decision has shocked the community; up until that point, the library was prized for its stability – it maintained backwards compatibility since as far back as 2005.

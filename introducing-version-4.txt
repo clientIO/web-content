@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/introducing-version-4
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 We're excited to announce v4.0 of JointJS and JointJS+, the first no-dependency edition of our diagramming library! 🎉 We've listened to your feedback and concerns and have finally launched a stable version that does not use jQuery, Backbone, and Lodash. Among other benefits, this update makes our library leaner without changing the core functionality.

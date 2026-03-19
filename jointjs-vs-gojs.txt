@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/jointjs-vs-gojs
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 JointJS and GoJS are the two leading JavaScript libraries for interactive diagramming on the Web. They enable you to jump-start the development of your web application, regardless of whether you are creating a user interface from scratch, or embarking on a project to migrate a graphical desktop application to the cloud. This allows you to concentrate your efforts on the important stuff – product design, focus on the customer, and quick iteration.‍

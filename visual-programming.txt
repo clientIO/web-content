@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/visual-programming
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 When thinking about computer programming, people often associate it with the process of writing code. Definitely, it is the original way of coding computer programs and the easiest to comprehend by humans and machines alike . But to learn programming in a written way takes a lot of time and not every person is learning things the same way as another one. For example, there are people who are very capable of visual thinking but struggle with logical structures of programming languages. In such cases the visual approach is much preferred as it is easier to comprehend and in some cases even faster to use than a traditional programming approach.

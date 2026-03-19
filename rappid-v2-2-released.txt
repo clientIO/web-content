@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/rappid-v2-2-released
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 We're pleased to announce a new update to the JointJS+ library, version 2.2, full of updates, fixes, and some great new features.

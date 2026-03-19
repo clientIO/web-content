@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/typescript-diagrams
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 Create interactive diagrams with TypeScript using a professional library

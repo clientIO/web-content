@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/rappid-3-3
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 JointJS+ version 3.3 is out and comes with a lot of new features and improvements to existing functionality.

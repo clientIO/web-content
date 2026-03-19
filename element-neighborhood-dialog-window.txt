@@ -2,7 +2,7 @@
 source: https://www.jointjs.com/demos/element-neighborhood-dialog-window
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/element-neighborhood-dialog-window/README.md
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 JointJS+: Element Neighborhood Dialog Window <a href="https://www.jointjs.com/jointjs-plus"><img src="../jointjs-plus-badge.svg" alt="JointJS+" width="123" align="right" /></a>

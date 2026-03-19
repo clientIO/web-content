@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/introducing-4-1
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 Version 4.1 is our most feature-rich release to date (while bringing no breaking changes). From the introduction of five new demo apps to a plethora of new features and an upgrade of key plugins such as Halo and Selection, version 4.1 surely deserves your attention.

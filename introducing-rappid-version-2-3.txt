@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/introducing-rappid-version-2-3
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 Welcome to JointJS+ version 2.3!

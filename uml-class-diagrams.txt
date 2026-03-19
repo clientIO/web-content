@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/uml-class-diagrams
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 What is a UML Class Diagram?

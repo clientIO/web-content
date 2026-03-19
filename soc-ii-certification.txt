@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/soc-ii-certification
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 We're kicking off 2024 with exciting news! 🎉 Client IO, creators of JointJS, is now SOC 2 compliant, underscoring our commitment to data security and transparent, secure software development. For over a decade, from individual creators to large corporations like IBM, Boeing, Oracle, and AirBnB, many have trusted our code base to power their applications with advanced diagramming features. This certification marks a significant step in becoming the preferred and trustworthy diagramming library for developers and companies building professional and secure visual and no-code/low-code applications.

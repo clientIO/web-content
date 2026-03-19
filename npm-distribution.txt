@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/npm-distribution
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 JointJS+ is now distributed via NPM, aligning with how modern engineering teams build and ship software.

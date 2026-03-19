@@ -2,7 +2,7 @@
 source: https://www.jointjs.com/demos/ai-agent-builder
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/ai-agent-builder/README.md
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 JointJS+: AI Agent Builder <a href="https://www.jointjs.com/jointjs-plus"><img src="../jointjs-plus-badge.svg" alt="JointJS+" width="123" align="right" /></a>

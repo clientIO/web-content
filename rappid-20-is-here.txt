@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/rappid-20-is-here
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 We’re pleased to announce a new version of JointJS+, version 2.0. It brings customer requested features such as design variations (themes and customization), a simplified API to enable modular application building, configurable toolbar, and many more advancements that make using this framework easier than ever before.

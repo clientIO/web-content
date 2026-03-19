@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/jobs/front-end-developer
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 Are you interested in working on a state-of-the-art UI visual diagramming framework built on

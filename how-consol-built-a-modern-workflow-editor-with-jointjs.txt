@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/blog/how-consol-built-a-modern-workflow-editor-with-jointjs
 generated: 2026-03-19
-format: markdown
+format: plaintext
 ---
 
 Enterprises often struggle with documentation of their business processes, manual and repetitive labor related to these workflows, and in general, digitalization of how they work. ConSol CM – empowered by JointJS+ –   is an enterprise process management platform with a focus on service and support processes of any kind that transfers workflows into software with the mission to enable their clients to provide delightful customized service experiences.
