@@ -15,11 +15,9 @@ Requirements:
 """
 
 import argparse
-import os
 import re
 import sys
 from pathlib import Path
-from urllib.parse import urlparse
 
 try:
     import requests
@@ -31,6 +29,7 @@ except ImportError:
 
 OUTPUT_DIR = Path(".")
 GITHUB_DEMOS_RAW = "https://raw.githubusercontent.com/clientIO/joint-demos/main"
+HOMEPAGE_URL = "https://www.jointjs.com"
 
 # ── Helpers ──────────────────────────────────────────────────────────────────
 
@@ -210,6 +209,7 @@ def process_sitemap(sitemap_url: str, limit: int = None):
     relevant = [
         u for u in urls
         if not any(segment in u for segment in excluded)
+        and u.rstrip("/") != HOMEPAGE_URL
     ]
 
     if limit:
@@ -217,11 +217,11 @@ def process_sitemap(sitemap_url: str, limit: int = None):
 
     print(f"Found {len(relevant)} relevant URLs\n")
 
-    # Always process homepage first
-    base_url = sitemap_url.replace("/sitemap.xml", "")
+    # Always process homepage first — hardcoded as index.md
     try:
-        html = fetch_html(base_url)
-        process(html, "index", source_url=base_url)
+        print(f"Processing homepage: {HOMEPAGE_URL}")
+        html = fetch_html(HOMEPAGE_URL)
+        process(html, "index", source_url=HOMEPAGE_URL)
     except Exception as e:
         print(f"✗  homepage  ({e})")
 
