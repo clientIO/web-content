@@ -1,0 +1,17 @@
+---
+source: https://www.jointjs.com/blog/the-roi-of-acquiring-a-diagramming-library
+generated: 2026-03-18
+format: markdown
+---
+
+It's certainly tempting to start a new development project with the belief that all parts need to be created from the ground up. In the world of diagramming, this mindset, driven by a multitude of unknown variables that someone with no experience developing interactive diagramming studios from scratch would hardly consider, can lead to a substantial increase in costs when compared to leveraging an existing solution. While having an in-house solution often offers greater flexibility and independence from external vendors, modern technologies address these significant concerns by involving their customers in their development plans, and, as is the case with JointJS, by offering the source code to grant full control.
+
+The JointJS library has been on the market for over a decade, assisting companies of all sizes and from various industries in building interactive diagrams with ease and confidence. In addition to helping our clients develop technologies that captivate customers or internal teams, we take pride in significantly reducing their development time.
+
+**Within the ROI calculation, we provide an in-depth comparison of all costs associated with developing and maintaining a typical flowchart builder that contains key diagramming features.** This application is designed for a broad range of use cases and is widely used by many of our customers, with the ability to be tailored to their specific needs. We offer a comprehensive perspective on the time it would take to build such an application from scratch versus utilizing our professional library, and we conclude with the total ROI (return on investment) – a metric closely observed by Senior Managers, Chief Financial Officers, and Project Leaders.
+
+To access the whitepaper and delve into our comprehensive ROI calculation, please complete the form below.
+
+‍
+
+Note that the above calculation is demonstrated on a generic flowchart builder that contains the key diagramming features. To get a customized ROI calculation, [fill out this form](https://share.hsforms.com/1K-XExSzRQvu-OojVkZhvOA2iym6). Once we understand your use case, we will provide you with a thorough calculation based on your inputs.
