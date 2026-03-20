@@ -54,6 +54,6 @@ Allow: /
 User-agent: DeepSeekBot
 Allow: /
 
-# ── Vše ostatní — block ──────────────────────────────────
+# ── Vše ostatní (včetně AI crawlerů) — allow ────────────
 User-agent: *
-Disallow: /
+Allow: /
