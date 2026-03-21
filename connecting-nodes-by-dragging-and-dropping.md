@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/connecting-nodes-by-dragging-and-dropping
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/connecting-nodes-by-dragging-and-dropping/README.md
-generated: 2026-03-20
+generated: 2026-03-21
 format: markdown
 ---
 

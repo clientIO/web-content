@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-drop-stencil-element-as-shape-icon
-generated: 2026-03-20
+generated: 2026-03-21
 format: markdown
 ---
 

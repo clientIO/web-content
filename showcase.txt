@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/showcase
-generated: 2026-03-20
+generated: 2026-03-21
 format: plaintext
 ---
 

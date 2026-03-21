@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/success-stories/silo-team-reduces-development-time-by-40-percent
-generated: 2026-03-20
+generated: 2026-03-21
 format: markdown
 ---
 
