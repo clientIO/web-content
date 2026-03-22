@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/showcase/itemis
-generated: 2026-03-21
+generated: 2026-03-22
 format: markdown
 ---
 

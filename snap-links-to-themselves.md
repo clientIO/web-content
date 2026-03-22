@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/snap-links-to-themselves
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/snap-links-to-themselves/README.md
-generated: 2026-03-21
+generated: 2026-03-22
 format: markdown
 ---
 

@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/visual-programming
-generated: 2026-03-21
+generated: 2026-03-22
 format: plaintext
 ---
 

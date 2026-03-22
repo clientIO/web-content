@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/tree-graph-and-cycles
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/tree-graph-and-cycles/README.md
-generated: 2026-03-21
+generated: 2026-03-22
 format: markdown
 ---
 
