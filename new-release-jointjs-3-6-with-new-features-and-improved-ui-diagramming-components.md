@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/new-release-jointjs-3-6-with-new-features-and-improved-ui-diagramming-components
-generated: 2026-03-23
+generated: 2026-03-24
 format: markdown
 ---
 
