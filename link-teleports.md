@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/link-teleports
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/link-teleports/README.md
-generated: 2026-03-25
+generated: 2026-03-26
 format: markdown
 ---
 

@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/inspector-for-selection
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/inspector-for-selection/README.md
-generated: 2026-03-25
+generated: 2026-03-26
 format: markdown
 ---
 

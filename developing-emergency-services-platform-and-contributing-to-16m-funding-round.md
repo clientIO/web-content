@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/success-stories/developing-emergency-services-platform-and-contributing-to-16m-funding-round
-generated: 2026-03-25
+generated: 2026-03-26
 format: markdown
 ---
 
