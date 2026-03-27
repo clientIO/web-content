@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/community
-generated: 2026-03-26
+generated: 2026-03-27
 format: markdown
 ---
 
@@ -44,6 +44,16 @@ Read our company news, product updates and customer stories.
 
 Zoran Jambor
 
+Mar 26, 2026
+
+[### How to keep complex diagrams readable with Link Teleports
+
+A hands-on guide on using Link Teleports to simplify workflow UIs and untangle complex paths between nodes.](/blog/link-teleports)
+
+[Read article](/blog/link-teleports)
+
+Zoran Jambor
+
 Mar 17, 2026
 
 [### Tutorial: Customize JointJS demo app with Claude Code
@@ -61,16 +71,6 @@ Mar 16, 2026
 Find out what separates a production-ready BPMN modeler UI from a merely functional one — with a practical ten-feature checklist covering BPMN shape library, link routing, process validation, and XML round-trip safety.](/blog/bpmn-modeler-ui-feature-checklist)
 
 [Read article](/blog/bpmn-modeler-ui-feature-checklist)
-
-Zoran Jambor
-
-Mar 11, 2026
-
-[### 5 tips on using AI coding agents with JointJS
-
-Coding Agents, such as Claude Code, Cursor, Windsurf, and others, work very well with JointJS, so you should be leveraging them to speed up your development times.](/blog/5-tips-on-using-ai-coding-agents-with-jointjs)
-
-[Read article](/blog/5-tips-on-using-ai-coding-agents-with-jointjs)
 
 ## Speed up your development with a powerful library
 

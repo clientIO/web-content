@@ -1,0 +1,204 @@
+---
+source: https://www.jointjs.com/blog/the-complexity-of-diagramming
+generated: 2026-03-27
+format: plaintext
+---
+
+We developers are naturally curious and always looking for a challenge – it’s a prerequisite for our job, really. So oftentimes, when we are faced with a new problem to resolve or a new task to undertake, our first thought is “That sounds interesting, I can do that myself.” That’s the builder part of us. We want to explore, investigate, learn, and develop, to be able to come out at the end and say “Look what I did, all on my own!”
+
+However, the businesses employing us have a different perspective. They want to develop a solution quickly and get it to the hands of customers as soon as possible. Most of the time, they will look for a solution that is already available on the market to start-up the project, and treat building the solution from scratch as a last resort.
+
+In this article, we will look at how this custom vs. ready-made debate applies to diagramming. We will walk through the features of the Generic Flowchart Builder demo application of the JointJS library, and illustrate why using a diagramming library is a better choice than trying to do it yourself – if your focus is on developing a commercial diagramming product quickly while minimizing maintenance headaches. Let’s get started!
+
+Table of content:
+
+JointJS Generic Flowchart Builder
+Features of a Diagramming Application
+Rendering Custom Shapes
+Link Routing
+Automatic Layout
+Graph Data Viewer and Editor
+Element Palette
+Zoom and Scroll
+Working with Collections of Elements
+Snaplines
+Summary
+The ROI of Acquiring a Diagramming Library
+
+JointJS Generic Flowchart Builder
+
+Here is what the Generic Flowchart Builder application looks like:
+
+As you can see, it is a full application for creating custom flowcharts, with all the standard features necessary for that task. You can try the application for yourself on the JointJS website, and you can even get access to the full source code of the JointJS+ library by requesting a no-commitment 30-day trial. It will allow you to double-check all our claims about the complexity of developing a full diagramming application, and see how the library could be embedded within your product vision.
+
+The table below contains our team’s best estimate of how long developing an application like this – and getting it into the hands of customers – would take a typical Web development team. We split the demo application up by features, ordered those roughly in order of implementation, and used the Scrum planning poker technique (with Cohn’s modified Fibonacci sequence) to come up with our estimates:
+
+Note: When estimating the above features, we took into account the possibility of using common technologies and libraries where appropriate (for example, using React as the base framework for data-binding and user interaction). Developing everything from scratch would increase these estimates substantially.
+
+Including testing, documentation, and project management activities in the estimate gives us a total of 827 developer-days (6,616 hours), which works out to an estimated time-to-market of about 14 months for a 3-developer team (assuming a year with 250 working days).
+
+Additionally, we estimate that ongoing maintenance of the application would take about 248 developer-days over 3 years (2,208 hours). That works out to a requirement of about 1/3 of a full-time developer’s time being dedicated to the task.
+
+Note: The above figures are our best estimates about developing and maintaining, specifically, a flowchart builder application similar to the one screenshotted above – not an estimate for developing a general-purpose diagramming library like JointJS, which would be an order of magnitude larger.
+
+We summarize these numbers in our Build vs. Buy document, which provides an executive summary of the advantages of using JointJS in your project. However, the goal of this article is different – we want to walk you through the most prominent features of the Generic Flowchart Builder application and point out the biggest potential pitfalls we see in implementing them. That way, you can decide on your own if you think using a ready-made library like JointJS would be technically advantageous in the specific case of your application.
+
+Features of a Diagramming Application
+
+To give you a window into the thought process behind our estimations, we will consider the following eight features of a typical diagramming application:
+
+Rendering Custom Shapes
+Link Routing
+Automatic Layout
+Graph Data Viewer and Editor – on the right of the screenshot (“Inspector” in JointJS)
+Element Palette – on the left (“Stencil”)
+Zoom and Scroll – in the center (“Paper Scroller”)
+Working with Collections of Elements
+Snaplines
+
+This list is meant to serve as a representative sample; for each of the features, we will explain why we think it deserves the estimate we have assigned to it during our planning poker session. We will consider the scope of each feature and give our assessment of the most significant issues that would need to be resolved in order to get each feature over the finish line.
+
+You may notice two recurring themes throughout this article:
+
+What looks like a single feature from the outside often turns out to be several sub-features rolled into one.
+Significant obstacles are often not apparent at first glance, and thus they might only be discovered late in the development of your application. By that time there might not be enough time to re-engineer the solution as required to resolve the issue.
+
+In the world of diagramming, seemingly simple features can turn into hotbeds of complexity. We want to equip you to make informed decisions on your journey towards an advanced diagramming application – whether you ultimately choose to do it alone, or to rely on a library like JointJS to help you on the way.
+
+Rendering Custom Shapes
+
+Estimated time to build this feature: 40 developer-days
+
+Depending on the needs of your application, you may have a requirement to construct custom diagram elements (“shapes”) from scratch, or to import existing ones from pre-made SVG or HTML code (e.g. from an existing design/application which you need to migrate to the Web). In addition to rectangular elements, this may well include elements of various more complex shapes – in the Generic Flowchart Builder application, we demonstrate circle- and diamond-like shapes, for example. Additionally, you will probably need to implement various user interactions for these shapes, some of which may need to trigger shape transformations (resizing, dragging, rotating).
+
+Arguably, this feature is the most fundamental building block of any diagramming application – after all, if you cannot place and manipulate shapes on the screen, are you even diagramming?
+
+We think this feature deserves a high estimate because the rendering of custom shapes is only the tip of the iceberg of functionality – in order to get to that point, your application first needs to implement quite a lot of foundational supporting architecture as a prerequisite, which includes:
+
+The concept of a “graph” – the data layer of your diagram, which contains information about all shapes and about their visual attributes and logical properties.
+The concept of a “paper” – the visual layer of your diagram, which deals with rendering the shapes to the screen and includes all necessary logic for converting between local (graph) coordinates and client (browser) coordinates.
+The infrastructure to support two-way data binding between the data layer and the visual layer.
+A framework for handling user interaction with shapes.
+
+Even though technologies exist which can make some parts of this equation easier (e.g. React), this is still an area which has to be architected carefully, since every other feature of your app will depend on it. In addition, to ensure high performance of the final application, it is crucial for this foundation to be highly optimized for speed – which is tricky to achieve, especially if you are a newcomer into the field of diagramming. Therefore, our estimate here includes a generous amount of time for research and prototyping of the best possible solution.
+
+Fortunately, the JointJS library features powerful optimizations and virtualization capabilities out-of-the-box, which enables your application to simultaneously handle extremely large numbers of objects in your diagram, with the knowledge that best practices of performant JavaScript are followed in the codebase.
+
+Link Routing
+
+Estimated time to build this feature: 40 developer-days
+
+Another high estimate from our team. Although dealing with links seems simple at first glance (“How hard can it be to connect two shapes with a line?”), it is actually a crucial test of any diagramming application (and library) – and for a good reason. Why? Because the requirement never turns out to be just about a connecting line.
+
+In reality, there are so many different considerations about link routing that need to be taken into account that it would actually be more appropriate to split this singular feature into a multitude of interdependent sub-features. Depending on your precise use case, you may end up needing to support:
+
+Element ports – allowing links to connect only to specific points at an element.
+Link anchors – designating a theoretical point (usually at the center of an element / port) toward which a connecting link should be pointing. This point does not change when connecting to an element from different directions.
+Connection points – identifying the point (usually at the boundary of the element) at which a link actually connects. This point changes when connecting to an element from different directions, to ensure that link arrowheads (if applicable) are always visible. This is especially challenging to implement for non-rectangular elements and elements with complex shapes.
+Automatic routing algorithms – ensuring that a link takes a specific path through the diagram (e.g. right-angle routers, routers which avoid obstacles).
+Link vertices – designating specific points in the diagram that the route of a link must pass through. These might be defined via user interaction, or via an automatic routing algorithm.
+Visual appearance of links – e.g. curved links, rounded corners, bridges/gaps at link intersections.‍
+Link labels – support for offsets, rotation, styling, and user interaction.
+
+Sure, connecting two elements with a link is straightforward – if that is actually all that you need to do. But as soon as you start thinking about precise connections to elements (element ports, link anchors, connection points), precise routing of links (automatic routing algorithms, route vertices), various visual features, and/or customizable link labels, the effort needed increases exponentially. Diving in unprepared, you might find this area consuming an unexpected amount of your time during development. Our estimate here is high due to the amount of effort required to implement all of these sub-features to the satisfaction of your users.
+
+The above split of sub-features is not accidental, either – these are all features of the JointJS library, which give you fine-grained control about the behavior of links in your diagram application with a fraction of the effort required from your side. Even if you decide in favor of custom development, you should refer to the above list of sub-features to guide you during the requirements-gathering phase of your project in order to avoid any surprising feature requests down the line.
+
+If links are of interest to you, we recommend you read one of our previous articles, in which we thoroughly covered creating nice looking SVG curves with fixed tangents.
+
+Automatic Layout
+
+Estimated time to build this feature: 20 developer-days
+
+What are automatic layouts? In the most general sense, they are algorithms which rearrange the elements inside your diagram to their most “optimal” positions – where the optimality is determined according to the data structure of your diagram. Automatic layouts are a large problem space, including familiar algorithms – such as the force-directed (“spring-like”) or tree (“orgchart”) layouts – as well as many other more niche layouts (e.g. circle, spiral, serpentine, table, stack…).
+
+You probably already start to realize the problem: this feature gets complicated extremely quickly, unless we put some hard constraints on what we are trying to achieve. That is why, in our estimate above, we have limited ourselves to a single automatic layout (the directed-graph layout), which is applicable to flowchart diagrams, and is the one demonstrated in the Generic Flowchart Builder application (triggered by the toolbar button with three connected horizontal dots). In addition, our estimate only takes into account the effort necessary to implement the layout via a third-party solution – in this case, the Dagre library. Developing the solution from the ground up without this dependency would take much more time.
+
+If you need to implement another major layout algorithm (e.g. the force-directed or tree layouts) in addition to the directed-graph layout, we would estimate a similar time to develop it on top of the above value, assuming that you are allowed to rely on third-party libraries. In general, while this might sound like a fun challenge to us developers, our employers might have different ideas. The good news is that the majority of mature professional diagramming libraries – including JointJS – offer a wealth of automatic layout algorithms out-of-the-box, which allow you to skip straight to the fun – the part where you apply them in your applications to delight your users.
+
+Graph Data Viewer and Editor
+
+Estimated time to build this feature: 13 developer-days
+
+One of the most common use cases for diagramming involves visualizing data records from a database, and providing the user with tools to view and edit various properties of these records. Clearly, the challenge here is to create an application component which can leverage the fundamental two-way data binding process of your application (as described in the “Rendering Custom Shapes” section) in order to modify different data properties of different types of records. Meanwhile, the data type of each property (e.g. string, number, etc.) must be respected. Finally, everything needs to be editable via HTML <input> fields (since we are working in a web app). All of this might sound familiar from other web development work… Yes, we are describing a form!
+
+Again, the simple case is straightforward to implement – use a text field for a text property and a number field for a number property (and so on), and connect it all via built-in data binding logic of e.g. React or Angular. However, the complications quickly start piling up as more complicated input fields and user interactions start coming into the picture, as required by your app’s business logic. What if you suddenly receive a requirement to support a color selector input field? What about validation and input patterns? What about readonly fields? What about conditionally hidden fields, which become visible based on the value of another field? What about loading field definitions from an external definition (e.g. as created by an admin user)? What about showing different fields to different users according to their permissions?
+
+As you can see, a clear-eyed view of all required data interactions is needed when you start designing the UX of your app, since the sources of additional complexity might not be caught within the initial proof-of-concept version of your application. Of course, if these issues do not sound like fun or worthwhile challenges to sink your time into, it might be a good idea to rely on JointJS’s built-in “Inspector” component instead. It is fully integrated with JointJS’s powerful two-way data binding mechanism, while taking care of the sticky points of data viewing and editing. In fact, the component goes one step further – all field definitions are internally represented as JSON, which allows those definitions to be exported, shared, and imported via any database system in order to support complex data management workflows. For example, a group of admins may create separate field definitions for different groups of users, such that each user can only see and/or modify the fields they are allowed to.
+
+If this value proposition sounds interesting to you, be sure to continue reading till the “Working with Collections of Elements” section, which details another set of advantages of JointJS Inspector when it comes to viewing and editing the information of multiple records at once – a commonly requested follow-up to the graph data viewer and editor feature.
+
+Element Palette
+
+Estimated time to build this feature: 13 developer-days
+
+There was a large split in votes among our team when estimating this feature, which we interpret as large uncertainty when it comes to what this feature needs to accomplish in a typical diagramming application. Therefore, you should carefully consider what the component will be expected to do in your context, and make your product decisions accordingly.
+
+To be fair, for simple sets of requirements, the native HTML Drag and Drop API offers a straightforward path for implementing an element palette component. Among other functions, the API allows you to specify draggable elements, valid drop targets, custom drop effects – it even creates the preview of the dragged item for you automatically (but you can also provide your own). This is a significant chunk of functionality provided out-of-the-box by modern browsers!
+
+However, the built-in functionality comes with a significant omission, which is ultimately the reason why our estimate is quite large. The fundamental problem of the native API is that the dragged element follows the user pointer at all times. Even though that is the expected behavior in most cases, it is often not good enough in the case of diagramming applications – which require finer control over the position of the dragging preview.
+
+For example, a common basic feature of diagramming applications is restricting elements’ positions to a grid. Within the native API, however, there is no way to adjust the position of the dragged element within the underlying paper in order to align it with such a grid. This means that when the element is dropped, it will almost always need to “jump” to arrive at its final position in accordance with the grid, thus breaking the “what you see is what you get” mantra of visual editing and exposing you to user complaints. Resolving this “bug” would be complicated since it would require you to work around the native functionality. You might even end up concluding that reimplementing the functionality from scratch – without the native API – might be more efficient!
+
+If reinventing the wheel does not sound appealing to you, you could leverage the “Stencil” component of JointJS instead. It does not use the native API – it relies on tight integration with JointJS’s paper component, which provides more information to the drag and drop event handling logic. This ensures that the dragged element can be rendered precisely where it needs to be on the paper, in real-time – as if the element was already present on the paper. Crucially, this also enables support for aligning the dragged element with other elements in your diagram, as detailed in the “Snaplines” section.
+
+Zoom and Scroll
+
+Estimated time to build this feature: 20 developer-days
+
+This feature seems like a simple extension of the concept of the visual diagram layer (“Paper” in JointJS), but implementing a view into the rendered area is not as straightforward as it sounds. The first problem is that the feature requires adding a whole new level of abstraction on top of the paper component. The simple metaphor we relied on thus far – that the coordinates of user interaction (client coordinates) map one-to-one to graph coordinates (local coordinates) – no longer applies since the scale and origin of the transformation can now change dynamically depending on the zoom level and scrolling position. If you did not account for such possibility in the initial architecture of your app, you may be facing costly rewrites when you get to this point.
+
+Apart from that basic problem, some common additional requirements pose their own challenges. As part of the estimation, we considered four of them:
+
+Scrolling the paper while dragging an element. This requires tight integration between the graph, paper, and view components of your application.
+Laying out the graph in areas of predefined size (i.e. “pieces of paper”) and adding new areas when necessary – both when dragging an element within the paper (as mentioned above) and when dragging an element into the paper from the Element Palette.
+Support for gestures like pinch and pan to control the zoom level and scroll position, at least through a third-party library. The architecture of the paper view feature needs to be able to pass user interaction events through to the handler logic without interference from built-in interactions, a surprisingly difficult task (as many web app developers can attest).
+Support for inertial movement. This feature often comes together with third-party gesture libraries, but it still requires careful architectural decisions around the paper view feature to support.
+
+The JointJS library offers this paper view functionality out-of-the-box via the “Paper Scroller” component. Acting as a wrapper for the visual diagram, it allows you to pan around the paper via mouse or touch, with built-in support for inertial movement and for adding new paper areas when necessary. Finally, multiple-finger gestures can be added with minimal effort when required (as illustrated in one of our demos).
+
+Working with Collections of Elements
+
+‍Estimated time to build this feature: 20 developer-days
+
+Every diagramming application needs a way to work with collections of elements selected by user interaction. The user expects to be able to do the same sorts of actions they can do to single elements (like cloning, resizing, rotating, and editing property values) also to multiple elements at once – but there are three main issues with implementing those, which may surprise even seasoned web developers.
+
+The first problem is related to element cloning. When asked to duplicate a set of elements with a complex hierarchical structure (i.e. embedding / grouping / container setups / ancestor-descendant relationships) and/or a web of links connecting them, it is actually not enough to merely clone the elements to a new position. Their relationships and connections are usually expected to be preserved, as well – the danger being that this implicit requirement is missed during the planning stage of your project. Instead of being straightforward to implement, then, your cloning algorithm must keep a reference to the original element for each duplicate, and reconstruct its relationships and connections as part of the duplication process.
+
+The second problem is visual. What should happen when a collection of rotated elements is resized? Although this looks like a simple problem, it is – surprisingly – very difficult to resolve satisfactorily, and every diagramming application handles it in a different sub-optimal way. The issue is that even rotated elements always need to be internally represented with a non-rotated bounding box (which has different proportions than the element’s original bounding box). This means that the factors by which the dimensions of the collection are resized cannot be applied straightforwardly to the dimensions of the individual rotated elements – a problem which does not exist for collections of unrotated elements. Because both of these functionalities (element rotation and working with collections of elements) are fairly advanced features, the danger is that this problem would only be identified late in the development/testing process of your application, without time left for resolving it before the target release date.
+
+The third problem affects the data binding between a collection of elements and the graph data viewer and editor component. Data binding for one element is easy, because it involves a straightforward one-to-one relationship. However, when trying to extend that functionality to collections of elements, we find ourselves dealing with a many-to-one relationship, which comes with additional complexity for both directions of communication. For example, all property fields suddenly need to start supporting a new “inconsistent values” state to communicate that different elements in the selection have different values for the field. On the other side of the communication, the logic to update property values based on user input now needs to be decoupled from the individual elements. In short, a middle layer to moderate the two-way binding of information becomes necessary, which may require significant re-engineering of the internal architecture of your app – unless you anticipated these problems during the design stage.
+
+As you can see, this functionality comes with unexpected pitfalls, which have the potential to significantly derail your project. Luckily, now that you know about them, you can appropriately plan for them – or you can rely on a solution like the JointJS library, which has had to resolve these challenges already, and save your nerves for issues which you may find less frustrating to resolve.
+
+Snaplines
+
+Estimated time to build this feature: 13 developer-days
+
+Snaplines are a common feature of diagramming tools, including many productivity tools which your users use every day (e.g. word processors and presentation programs). They provide visual guidance for the positioning of elements relative to each other, and as such, they enable your users to produce neatly organized, visually appealing diagrams using a familiar interface.
+
+When our team estimated this feature, there was a wide initial divergence in the estimates provided by different team members – with the highest numbers given by those of us with the most recent exposure to the snaplines component. This lead us to believe that the feature is more difficult to implement than it may look at first glance, and when estimating the effort required, we eventually settled on a fairly generous estimate, which splits the work into the following three sub-features:
+
+Midpoint snaplines – guidelines to align the centers of elements with each other (3 developer-days).
+Edge snaplines – guidelines to align the edges of elements with each other (3 developer-days).
+Integration with the element palette – applying snaplines also when dragging an element from the element palette (7 developer-days). Although this is a common use case, it warrants a high estimate because it requires us to adjust the position of the dragged element according to the underlying paper content. This means that we need to enhance the custom dragging functionality of the element palette to work with snaplines.
+
+Note that we did not consider snap gaps as part of our estimation (guidelines for positioning an element in the center of two other elements). As an advanced feature, implementing them would take a non-trivial amount of effort on top of our estimates above.
+
+The issue is that even if you were able to fulfill all your element dragging requirements via the native HTML Drag and Drop API up to this point, the snaplines feature would force you in the direction of custom dragging implementation anyways because there is no feasible way to implement the functionality while working within the confines of the native API. This limitation is not immediately obvious when designing the initial architecture of your app, which means that it may end up being discovered unexpectedly without enough time to course-correct.
+
+If snaplines are a fundamental feature of your app, and it does not sound interesting to you to work out all the intricacies of element drag and drop by yourself, you can rely on a diagramming library like JointJS, which offers the functionality out-of-the-box thanks to tight integration of all components involved – snaplines, paper, and element palette.
+
+Summary
+
+Thank you for reading our overview of some of the complexity associated with developing an advanced diagramming application! Remember, the eight features we discussed above were chosen as a representative sample of the most prominent features of the Generic Flowchart Builder application; similar analysis could also be performed for other features of the application.
+
+If we convinced you that using a ready-made solution for your project will significantly speed up your development and let you avoid the pitfalls of custom implementation, we would like to reiterate our invitation to a no-commitment 30-day trial of JointJS. It will allow you to experience the advanced JointJS diagramming library for yourself, get started quickly using 150+ demo applications and feature examples, and explore how its features can be seamlessly integrated with your project.
+
+Even if you decide that you want to try developing your application on your own, we hope that we have alerted you to the range of challenges associated with diagramming, and that this article will help you to avoid unpleasant surprises down the line.
+
+Happy coding!
+
+Dive even Deeper: The ROI of Acquiring a Diagramming Library
+
+As tempting as it may be to develop every single function from the ground up, the world of diagrams hides many unknowns that may only become apparent during actual development. The JointJS team has spent a lot of effort over the past decade to develop a complete diagramming toolkit and making it available to you. To accurately calculate the cost and time savings, we bring you a thorough ROI analysis of the two approaches: Build versus Buy. Feel free to download our analysis below and use it as a basis for your own calculations.

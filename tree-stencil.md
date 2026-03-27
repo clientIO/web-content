@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/tree-stencil
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/tree-stencil/README.md
-generated: 2026-03-26
+generated: 2026-03-27
 format: markdown
 ---
 

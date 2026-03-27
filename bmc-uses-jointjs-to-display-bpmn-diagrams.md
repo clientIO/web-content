@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/success-stories/bmc-uses-jointjs-to-display-bpmn-diagrams
-generated: 2026-03-26
+generated: 2026-03-27
 format: markdown
 ---
 
