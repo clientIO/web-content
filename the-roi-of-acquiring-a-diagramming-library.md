@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/the-roi-of-acquiring-a-diagramming-library
-generated: 2026-03-27
+generated: 2026-03-28
 format: markdown
 ---
 

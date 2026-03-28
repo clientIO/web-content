@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/content-driven-shapes
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/content-driven-shapes/README.md
-generated: 2026-03-27
+generated: 2026-03-28
 format: markdown
 ---
 

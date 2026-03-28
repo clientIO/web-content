@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/abstract-syntax-tree
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/abstract-syntax-tree/README.md
-generated: 2026-03-27
+generated: 2026-03-28
 format: markdown
 ---
 

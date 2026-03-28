@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-element-neighborhood-dialog-window
-generated: 2026-03-27
+generated: 2026-03-28
 format: markdown
 ---
 

@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/how-consol-built-a-modern-workflow-editor-with-jointjs
-generated: 2026-03-27
+generated: 2026-03-28
 format: markdown
 ---
 

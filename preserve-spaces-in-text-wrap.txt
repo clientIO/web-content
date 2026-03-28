@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/preserve-spaces-in-text-wrap
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/preserve-spaces-in-text-wrap/README.md
-generated: 2026-03-27
+generated: 2026-03-28
 format: plaintext
 ---
 

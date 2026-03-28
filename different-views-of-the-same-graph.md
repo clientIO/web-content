@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/different-views-of-the-same-graph
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/different-views-of-the-same-graph/README.md
-generated: 2026-03-27
+generated: 2026-03-28
 format: markdown
 ---
 
