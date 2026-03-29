@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-fixed-connection-points
-generated: 2026-03-28
+generated: 2026-03-29
 format: markdown
 ---
 
