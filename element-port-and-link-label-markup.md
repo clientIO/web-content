@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/element-port-and-link-label-markup
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/element-port-and-link-label-markup/README.md
-generated: 2026-03-29
+generated: 2026-03-30
 format: markdown
 ---
 

@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/logic-circuits
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/logic-circuits/README.md
-generated: 2026-03-29
+generated: 2026-03-30
 format: markdown
 ---
 
