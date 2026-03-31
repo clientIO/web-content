@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-spreadsheet-shapes-with-handsontable
-generated: 2026-03-30
+generated: 2026-03-31
 format: markdown
 ---
 
