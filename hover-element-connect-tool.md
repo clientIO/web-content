@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/hover-element-connect-tool
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/hover-element-connect-tool/README.md
-generated: 2026-03-31
+generated: 2026-04-01
 format: markdown
 ---
 

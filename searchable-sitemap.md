@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/searchable-sitemap
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/searchable-sitemap/README.md
-generated: 2026-03-31
+generated: 2026-04-01
 format: markdown
 ---
 

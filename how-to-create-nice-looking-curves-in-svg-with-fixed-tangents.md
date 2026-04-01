@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/how-to-create-nice-looking-curves-in-svg-with-fixed-tangents
-generated: 2026-03-31
+generated: 2026-04-01
 format: markdown
 ---
 
