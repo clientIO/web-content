@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/container-collapse-expand
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/container-collapse-expand/README.md
-generated: 2026-04-01
+generated: 2026-04-02
 format: markdown
 ---
 

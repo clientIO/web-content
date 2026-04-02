@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-tree-graph-with-add-buttons
-generated: 2026-04-01
+generated: 2026-04-02
 format: markdown
 ---
 
