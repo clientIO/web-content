@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/highlighter-view-update-attribute
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/highlighter-view-update-attribute/README.md
-generated: 2026-04-02
+generated: 2026-04-03
 format: markdown
 ---
 

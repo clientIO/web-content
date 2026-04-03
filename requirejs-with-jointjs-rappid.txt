@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/requirejs-with-jointjs-rappid
-generated: 2026-04-02
+generated: 2026-04-03
 format: plaintext
 ---
 

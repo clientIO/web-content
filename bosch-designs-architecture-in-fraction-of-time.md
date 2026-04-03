@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/success-stories/bosch-designs-architecture-in-fraction-of-time
-generated: 2026-04-02
+generated: 2026-04-03
 format: markdown
 ---
 
