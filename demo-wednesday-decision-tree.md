@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-decision-tree
-generated: 2026-04-03
+generated: 2026-04-04
 format: markdown
 ---
 

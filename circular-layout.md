@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/circular-layout
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/circular-layout/README.md
-generated: 2026-04-03
+generated: 2026-04-04
 format: markdown
 ---
 

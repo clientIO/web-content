@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/uml-statechart-diagram
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/uml-statechart-diagram/README.md
-generated: 2026-04-03
+generated: 2026-04-04
 format: markdown
 ---
 

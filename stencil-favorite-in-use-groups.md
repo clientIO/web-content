@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/stencil-favorite-in-use-groups
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/stencil-favorite-in-use-groups/README.md
-generated: 2026-04-03
+generated: 2026-04-04
 format: markdown
 ---
 

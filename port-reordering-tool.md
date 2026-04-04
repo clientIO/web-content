@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/port-reordering-tool
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/port-reordering-tool/README.md
-generated: 2026-04-03
+generated: 2026-04-04
 format: markdown
 ---
 

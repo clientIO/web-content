@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/uml-class-shape-inspector
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/uml-class-shape-inspector/README.md
-generated: 2026-04-03
+generated: 2026-04-04
 format: markdown
 ---
 
