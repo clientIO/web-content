@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/alignment-and-distance-based-position-guides
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/alignment-and-distance-based-position-guides/README.md
-generated: 2026-04-04
+generated: 2026-04-05
 format: markdown
 ---
 

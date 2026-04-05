@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/fixed-connection-points
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/fixed-connection-points/README.md
-generated: 2026-04-04
+generated: 2026-04-05
 format: markdown
 ---
 

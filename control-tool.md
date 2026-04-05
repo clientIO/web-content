@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/control-tool
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/control-tool/README.md
-generated: 2026-04-04
+generated: 2026-04-05
 format: markdown
 ---
 

@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/jointjs-among-the-top-100-componentsource-publishers-for-2023
-generated: 2026-04-04
+generated: 2026-04-05
 format: markdown
 ---
 

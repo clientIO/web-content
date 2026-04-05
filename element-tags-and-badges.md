@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/element-tags-and-badges
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/element-tags-and-badges/README.md
-generated: 2026-04-04
+generated: 2026-04-05
 format: markdown
 ---
 
