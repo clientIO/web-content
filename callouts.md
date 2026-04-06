@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/callouts
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/callouts/README.md
-generated: 2026-04-05
+generated: 2026-04-06
 format: markdown
 ---
 
