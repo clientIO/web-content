@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/fault-tree-analysis
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/fault-tree-analysis/README.md
-generated: 2026-04-06
+generated: 2026-04-07
 format: markdown
 ---
 
