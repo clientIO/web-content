@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-pdf-export
-generated: 2026-04-07
+generated: 2026-04-08
 format: markdown
 ---
 
