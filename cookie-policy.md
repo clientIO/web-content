@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/cookie-policy
-generated: 2026-04-08
+generated: 2026-04-09
 format: markdown
 ---
 
