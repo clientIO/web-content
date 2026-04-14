@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-text-position-based-on-space-availability
-generated: 2026-04-13
+generated: 2026-04-14
 format: markdown
 ---
 

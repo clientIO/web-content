@@ -1,22 +1,22 @@
 ---
 source: https://www.jointjs.com/blog
-generated: 2026-04-13
+generated: 2026-04-14
 format: markdown
 ---
 
 # Blog
 
-[## Tutorial: Customize JointJS demo app with Claude Code
+[## Build better Claude Code Playgrounds with JointJS
 
 Zoran Jambor
 
-Mar 17, 2026
+Apr 10, 2026
 
-A hands-on guide that shows you how to use AI Coding Agents to easily customize an existing JointJS demo to match your exact needs.
+Claude Code Playground generates useful diagrams, but they're static and limited. This guide shows how to install the JointJS Claude Playground plugin and use it to build interactive codemaps, visual SQL builders, decision trees, site explorers, and more.
 
-AI Diagramming](/blog/tutorial-customize-jointjs-demo-app-with-claude-code)
+AI Diagramming](/blog/build-better-claude-code-playgrounds-with-jointjs)
 
-[Read article](/blog/tutorial-customize-jointjs-demo-app-with-claude-code)
+[Read article](/blog/build-better-claude-code-playgrounds-with-jointjs)
 
 ## Articles from the team
 
@@ -37,6 +37,18 @@ Demo Wednesday
 Thank you! Your submission has been received!
 
 Oops! Something went wrong while submitting the form.
+
+Zoran Jambor
+
+Apr 10, 2026
+
+[### Build better Claude Code Playgrounds with JointJS
+
+Claude Code Playground generates useful diagrams, but they're static and limited. This guide shows how to install the JointJS Claude Playground plugin and use it to build interactive codemaps, visual SQL builders, decision trees, site explorers, and more.
+
+AI Diagramming](/blog/build-better-claude-code-playgrounds-with-jointjs)
+
+[Read article](/blog/build-better-claude-code-playgrounds-with-jointjs)
 
 Zoran Jambor
 
@@ -133,18 +145,6 @@ Explore how BPMN 2.0 separates process semantics from diagram presentation, enab
 BPMN](/blog/bpmn-modeling-vs-execution)
 
 [Read article](/blog/bpmn-modeling-vs-execution)
-
-Marek Hozak
-
-Feb 17, 2026
-
-[### JointJS+ now ships via NPM
-
-JointJS+ is now distributed via NPM, aligning with how modern engineering teams build and ship software.
-
-Library Updates](/blog/npm-distribution)
-
-[Read article](/blog/npm-distribution)
 
 [Next](?df86e59f_page=2)
 

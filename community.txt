@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/community
-generated: 2026-04-13
+generated: 2026-04-14
 format: plaintext
 ---
 
@@ -44,6 +44,16 @@ All news
 
 Zoran Jambor
 
+Apr 10, 2026
+
+[### Build better Claude Code Playgrounds with JointJS
+
+Claude Code Playground generates useful diagrams, but they're static and limited. This guide shows how to install the JointJS Claude Playground plugin and use it to build interactive codemaps, visual SQL builders, decision trees, site explorers, and more.](/blog/build-better-claude-code-playgrounds-with-jointjs)
+
+Read article
+
+Zoran Jambor
+
 Mar 26, 2026
 
 [### How to keep complex diagrams readable with Link Teleports
@@ -59,16 +69,6 @@ Mar 17, 2026
 [### Tutorial: Customize JointJS demo app with Claude Code
 
 A hands-on guide that shows you how to use AI Coding Agents to easily customize an existing JointJS demo to match your exact needs.](/blog/tutorial-customize-jointjs-demo-app-with-claude-code)
-
-Read article
-
-Zbyněk Stara
-
-Mar 16, 2026
-
-[### What makes a good BPMN modeler UI? A practical feature checklist
-
-Find out what separates a production-ready BPMN modeler UI from a merely functional one — with a practical ten-feature checklist covering BPMN shape library, link routing, process validation, and XML round-trip safety.](/blog/bpmn-modeler-ui-feature-checklist)
 
 Read article
 
