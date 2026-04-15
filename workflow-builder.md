@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/workflow-builder
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/workflow-builder/README.md
-generated: 2026-04-14
+generated: 2026-04-15
 format: markdown
 ---
 

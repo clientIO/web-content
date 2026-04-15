@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/showcase/lewi-software
-generated: 2026-04-14
+generated: 2026-04-15
 format: markdown
 ---
 
