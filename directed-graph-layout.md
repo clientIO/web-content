@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/directed-graph-layout
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/directed-graph-layout/README.md
-generated: 2026-04-15
+generated: 2026-04-16
 format: markdown
 ---
 
