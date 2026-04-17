@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/draw2d-alternative
-generated: 2026-04-16
+generated: 2026-04-17
 format: markdown
 ---
 
