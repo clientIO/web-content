@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/resellers
-generated: 2026-04-17
+generated: 2026-04-18
 format: markdown
 ---
 

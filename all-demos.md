@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/all-demos
-generated: 2026-04-17
+generated: 2026-04-18
 format: markdown
 ---
 
@@ -1451,6 +1451,64 @@ Drag & Drop
 Embedding
 
 Validation
+
+11
+
+Automatic layout
+
+11
+
+Connection points
+
+11
+
+Element palette
+
+11
+
+Embedding
+
+11
+
+Guidelines
+
+11
+
+Keyboard
+
+11
+
+Undo/Redo
+
+11
+
+Minimap
+
+11
+
+Routers
+
+11
+
+Selection
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Microservices Architecture
+
+Microservices architecture diagram where grouped containers are connected by intelligently routed links.
+
+joinjs
+
+JointJS+
+
+Automatic layout
+
+Connection points
+
+Embedding
 
 11
 
@@ -4831,54 +4889,6 @@ Tooltips
 Toolbar
 
 Minimap
-
-11
-
-Zoom & Pan
-
-11
-
-Popups
-
-11
-
-Graph API
-
-11
-
-Automatic layout
-
-11
-
-Built-in shapes
-
-11
-
-Minimap
-
-11
-
-Menus
-
-JointJS+
-
-This is some text inside of a div block.
-
-#### Element Neighborhood Dialog Window
-
-Explore different local views, such as successors, predecessors or siblings, in floating pop-ups.
-
-joinjs
-
-JointJS+
-
-Minimap
-
-Graph API
-
-Popups
-
-Menus
 
 [Next](?8ed441d6_page=2)
 
