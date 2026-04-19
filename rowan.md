@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/showcase/rowan
-generated: 2026-04-18
+generated: 2026-04-19
 format: markdown
 ---
 
