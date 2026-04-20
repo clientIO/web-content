@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/port-inspector
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/port-inspector/README.md
-generated: 2026-04-19
+generated: 2026-04-20
 format: markdown
 ---
 
