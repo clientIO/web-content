@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/curve-connector
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/curve-connector/README.md
-generated: 2026-04-23
+generated: 2026-04-24
 format: markdown
 ---
 

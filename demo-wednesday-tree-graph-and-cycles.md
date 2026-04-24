@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-tree-graph-and-cycles
-generated: 2026-04-23
+generated: 2026-04-24
 format: markdown
 ---
 

@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog
-generated: 2026-04-23
+generated: 2026-04-24
 format: markdown
 ---
 
@@ -37,6 +37,18 @@ Demo Wednesday
 Thank you! Your submission has been received!
 
 Oops! Something went wrong while submitting the form.
+
+Zoran Jambor
+
+Apr 23, 2026
+
+[### Visualize your YouTube content library with the YouTube Channel Visualizer
+
+Turn your YouTube channel into an interactive diagram. Explore publishing patterns, group videos by tags, timeline, or performance, and plan future content — all built with JointJS and Claude Code.
+
+Tutorials](/blog/youtube-channel-visualizer)
+
+[Read article](/blog/youtube-channel-visualizer)
 
 Zoran Jambor
 
@@ -133,18 +145,6 @@ A step-by-step guide to connecting a custom BPMN editor to Camunda, covering XML
 BPMN](/blog/how-to-build-custom-bpmn-modeler-ui-for-camunda)
 
 [Read article](/blog/how-to-build-custom-bpmn-modeler-ui-for-camunda)
-
-Zbyněk Stara
-
-Feb 18, 2026
-
-[### BPMN modeling vs execution: Why editors and engines are decoupled
-
-Explore how BPMN 2.0 separates process semantics from diagram presentation, enabling decoupled modeling UIs and execution engines like Camunda and Flowable.
-
-BPMN](/blog/bpmn-modeling-vs-execution)
-
-[Read article](/blog/bpmn-modeling-vs-execution)
 
 [Next](?df86e59f_page=2)
 

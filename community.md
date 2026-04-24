@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/community
-generated: 2026-04-23
+generated: 2026-04-24
 format: markdown
 ---
 
@@ -44,6 +44,16 @@ Read our company news, product updates and customer stories.
 
 Zoran Jambor
 
+Apr 23, 2026
+
+[### Visualize your YouTube content library with the YouTube Channel Visualizer
+
+Turn your YouTube channel into an interactive diagram. Explore publishing patterns, group videos by tags, timeline, or performance, and plan future content — all built with JointJS and Claude Code.](/blog/youtube-channel-visualizer)
+
+[Read article](/blog/youtube-channel-visualizer)
+
+Zoran Jambor
+
 Apr 10, 2026
 
 [### Build better Claude Code Playgrounds with JointJS
@@ -61,16 +71,6 @@ Mar 26, 2026
 A hands-on guide on using Link Teleports to simplify workflow UIs and untangle complex paths between nodes.](/blog/link-teleports)
 
 [Read article](/blog/link-teleports)
-
-Zoran Jambor
-
-Mar 17, 2026
-
-[### Tutorial: Customize JointJS demo app with Claude Code
-
-A hands-on guide that shows you how to use AI Coding Agents to easily customize an existing JointJS demo to match your exact needs.](/blog/tutorial-customize-jointjs-demo-app-with-claude-code)
-
-[Read article](/blog/tutorial-customize-jointjs-demo-app-with-claude-code)
 
 ## Speed up your development with a powerful library
 
