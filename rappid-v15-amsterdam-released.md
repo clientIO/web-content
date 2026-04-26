@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/rappid-v15-amsterdam-released
-generated: 2026-04-25
+generated: 2026-04-26
 format: markdown
 ---
 
