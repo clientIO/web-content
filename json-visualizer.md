@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/json-visualizer
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/json-visualizer/README.md
-generated: 2026-04-27
+generated: 2026-04-28
 format: markdown
 ---
 

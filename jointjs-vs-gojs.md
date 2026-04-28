@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/jointjs-vs-gojs
-generated: 2026-04-27
+generated: 2026-04-28
 format: markdown
 ---
 
