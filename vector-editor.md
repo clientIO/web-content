@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/vector-editor
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/vector-editor/README.md
-generated: 2026-04-29
+generated: 2026-04-30
 format: markdown
 ---
 
