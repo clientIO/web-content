@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/showcase/voxo
-generated: 2026-04-30
+generated: 2026-05-01
 format: markdown
 ---
 
