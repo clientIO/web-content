@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/pricing
-generated: 2026-05-01
+generated: 2026-05-02
 format: markdown
 ---
 
