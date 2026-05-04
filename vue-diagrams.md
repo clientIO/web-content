@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/vue-diagrams
-generated: 2026-05-03
+generated: 2026-05-04
 format: markdown
 ---
 
