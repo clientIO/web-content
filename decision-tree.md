@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/decision-tree
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/decision-tree/README.md
-generated: 2026-05-04
+generated: 2026-05-05
 format: markdown
 ---
 
