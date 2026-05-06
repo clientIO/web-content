@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/element-neighborhood-dialog-window
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/element-neighborhood-dialog-window/README.md
-generated: 2026-05-05
+generated: 2026-05-06
 format: markdown
 ---
 

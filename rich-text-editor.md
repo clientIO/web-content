@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/rich-text-editor
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/rich-text-editor/README.md
-generated: 2026-05-05
+generated: 2026-05-06
 format: markdown
 ---
 
