@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/visio-bpmn-export
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/visio-bpmn-export/README.md
-generated: 2026-05-06
+generated: 2026-05-07
 format: markdown
 ---
 
