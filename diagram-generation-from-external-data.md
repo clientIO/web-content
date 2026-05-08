@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/diagram-generation-from-external-data
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/diagram-generation-from-external-data/README.md
-generated: 2026-05-07
+generated: 2026-05-08
 format: markdown
 ---
 

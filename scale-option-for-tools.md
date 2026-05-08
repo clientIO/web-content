@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/scale-option-for-tools
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/scale-option-for-tools/README.md
-generated: 2026-05-07
+generated: 2026-05-08
 format: markdown
 ---
 
