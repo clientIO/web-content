@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/15-community-designed-demo-apps
-generated: 2026-05-08
+generated: 2026-05-09
 format: markdown
 ---
 

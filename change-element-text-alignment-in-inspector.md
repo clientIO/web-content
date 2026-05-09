@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/change-element-text-alignment-in-inspector
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/change-element-text-alignment-in-inspector/README.md
-generated: 2026-05-08
+generated: 2026-05-09
 format: markdown
 ---
 
