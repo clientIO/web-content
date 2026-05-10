@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/paper-attributes
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/paper-attributes/README.md
-generated: 2026-05-09
+generated: 2026-05-10
 format: markdown
 ---
 

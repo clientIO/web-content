@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/salesforce-lightning-diagrams
-generated: 2026-05-09
+generated: 2026-05-10
 format: markdown
 ---
 
