@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/visio-org-chart-import
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/visio-org-chart-import/README.md
-generated: 2026-05-11
+generated: 2026-05-12
 format: markdown
 ---
 

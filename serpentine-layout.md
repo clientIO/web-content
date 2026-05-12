@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/serpentine-layout
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/serpentine-layout/README.md
-generated: 2026-05-11
+generated: 2026-05-12
 format: markdown
 ---
 

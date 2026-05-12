@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/community
-generated: 2026-05-11
+generated: 2026-05-12
 format: markdown
 ---
 
@@ -44,6 +44,16 @@ Read our company news, product updates and customer stories.
 
 Zoran Jambor
 
+May 8, 2026
+
+[### JointJS performance overview: Testing diagrams with 100,000 nodes
+
+A hands-on overview of JointJS diagramming library performance, stress-testing up to 100,000 diagram elements/nodes.](/blog/jointjs-performance-overview-testing-diagrams-with-100-000-nodes)
+
+[Read article](/blog/jointjs-performance-overview-testing-diagrams-with-100-000-nodes)
+
+Zoran Jambor
+
 Apr 23, 2026
 
 [### Visualize your YouTube content library with the YouTube Channel Visualizer
@@ -61,16 +71,6 @@ Apr 10, 2026
 Claude Code Playground generates useful diagrams, but they're static and limited. This guide shows how to install the JointJS Claude Playground plugin and use it to build interactive codemaps, visual SQL builders, decision trees, site explorers, and more.](/blog/build-better-claude-code-playgrounds-with-jointjs)
 
 [Read article](/blog/build-better-claude-code-playgrounds-with-jointjs)
-
-Zoran Jambor
-
-Mar 26, 2026
-
-[### How to keep complex diagrams readable with Link Teleports
-
-A hands-on guide on using Link Teleports to simplify workflow UIs and untangle complex paths between nodes.](/blog/link-teleports)
-
-[Read article](/blog/link-teleports)
 
 ## Speed up your development with a powerful library
 

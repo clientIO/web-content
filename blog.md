@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog
-generated: 2026-05-11
+generated: 2026-05-12
 format: markdown
 ---
 
@@ -37,6 +37,18 @@ Demo Wednesday
 Thank you! Your submission has been received!
 
 Oops! Something went wrong while submitting the form.
+
+Zoran Jambor
+
+May 8, 2026
+
+[### JointJS performance overview: Testing diagrams with 100,000 nodes
+
+A hands-on overview of JointJS diagramming library performance, stress-testing up to 100,000 diagram elements/nodes.
+
+Guides](/blog/jointjs-performance-overview-testing-diagrams-with-100-000-nodes)
+
+[Read article](/blog/jointjs-performance-overview-testing-diagrams-with-100-000-nodes)
 
 Zoran Jambor
 
@@ -133,18 +145,6 @@ This tutorial walks through building an interactive genogram using JointJS and t
 Tutorials](/blog/build-genogram-with-automatic-directed-layout)
 
 [Read article](/blog/build-genogram-with-automatic-directed-layout)
-
-David Durman
-
-Feb 20, 2026
-
-[### How to build a custom BPMN modeler UI for Camunda
-
-A step-by-step guide to connecting a custom BPMN editor to Camunda, covering XML enrichment, Zeebe extensions, and import/export pipelines.
-
-BPMN](/blog/how-to-build-custom-bpmn-modeler-ui-for-camunda)
-
-[Read article](/blog/how-to-build-custom-bpmn-modeler-ui-for-camunda)
 
 [Next](?df86e59f_page=2)
 
