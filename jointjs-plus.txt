@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/jointjs-plus
-generated: 2026-05-12
+generated: 2026-05-13
 format: plaintext
 ---
 
