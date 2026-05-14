@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/flowchart
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/flowchart/README.md
-generated: 2026-05-13
+generated: 2026-05-14
 format: markdown
 ---
 
