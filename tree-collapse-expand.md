@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/tree-collapse-expand
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/tree-collapse-expand/README.md
-generated: 2026-05-14
+generated: 2026-05-15
 format: markdown
 ---
 
