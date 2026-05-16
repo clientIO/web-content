@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/svg-filter-builder
-generated: 2026-05-15
+generated: 2026-05-16
 format: markdown
 ---
 
