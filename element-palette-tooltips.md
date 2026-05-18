@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/element-palette-tooltips
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/element-palette-tooltips/README.md
-generated: 2026-05-17
+generated: 2026-05-18
 format: markdown
 ---
 
