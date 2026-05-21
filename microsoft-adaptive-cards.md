@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/microsoft-adaptive-cards
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/microsoft-adaptive-cards/README.md
-generated: 2026-05-20
+generated: 2026-05-21
 format: markdown
 ---
 
