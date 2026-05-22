@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/community
-generated: 2026-05-21
+generated: 2026-05-22
 format: markdown
 ---
 
@@ -42,6 +42,16 @@ Read our company news, product updates and customer stories.
 
 [All news](/blog)
 
+Zbyněk Stara
+
+May 21, 2026
+
+[### Why teams build custom BPMN modeler UIs (and when it's worth it)
+
+Vendor BPMN modelers get you drawing fast, but rigid palettes, fixed property panels, and no execution visualization hold products back. Here are the seven capabilities a custom modeler UI unlocks — and how to build each with JointJS.](/blog/why-teams-build-custom-bpmn-modeler-uis)
+
+[Read article](/blog/why-teams-build-custom-bpmn-modeler-uis)
+
 Zoran Jambor
 
 May 8, 2026
@@ -61,16 +71,6 @@ Apr 23, 2026
 Turn your YouTube channel into an interactive diagram. Explore publishing patterns, group videos by tags, timeline, or performance, and plan future content — all built with JointJS and Claude Code.](/blog/youtube-channel-visualizer)
 
 [Read article](/blog/youtube-channel-visualizer)
-
-Zoran Jambor
-
-Apr 10, 2026
-
-[### Build better Claude Code Playgrounds with JointJS
-
-Claude Code Playground generates useful diagrams, but they're static and limited. This guide shows how to install the JointJS Claude Playground plugin and use it to build interactive codemaps, visual SQL builders, decision trees, site explorers, and more.](/blog/build-better-claude-code-playgrounds-with-jointjs)
-
-[Read article](/blog/build-better-claude-code-playgrounds-with-jointjs)
 
 ## Speed up your development with a powerful library
 

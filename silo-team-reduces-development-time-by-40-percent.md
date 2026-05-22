@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/success-stories/silo-team-reduces-development-time-by-40-percent
-generated: 2026-05-21
+generated: 2026-05-22
 format: markdown
 ---
 
@@ -10,7 +10,7 @@ format: markdown
 
 Through extensive research involving over 400 tech teams, Silo Team identified several systemic issues contributing to this turnover, including chaotic onboarding processes, disorganized knowledge silos, and limited automation. These issues are particularly pressing in today's economic climate, where developers are among a business's most valuable and costly assets.
 
-Silo Team is starting by revolutionizing technical onboarding. **Their JointJS-powered onboarding tool streamlines this critical process, ensuring that new developers are seamlessly integrated and productive from the very beginning.** It acts as a smart assistant for stakeholders, identifying patterns and trends that impact retention, and providing actionable insights to improve future onboarding experiences.
+Silo Team is starting by revolutionizing technical onboarding. **Their AI-powered platform automatically generates onboarding journeys, how-to guides, and SOPs, ensuring that new developers are seamlessly integrated and productive from the very beginning.** Powered by JointJS, it acts as a smart assistant for stakeholders, identifying patterns and trends that impact retention, and providing actionable insights to improve future onboarding experiences.
 
 ## Challenge
 
@@ -28,6 +28,6 @@ According to Rasmus Stjernström, CEO of Silo Team, *"Implementing JointJS was s
 
 By using JointJS, Silo Team saved 40% of their development time, allowing them to focus on other critical areas of the product. With the time saved, they dedicated resources elsewhere to continue building their technical onboarding tool and developed advanced templates, significantly enhancing the overall user experience. **As a result, their product is now more robust and feature-rich, leading to increased user engagement and satisfaction.**
 
-This initial success is just the beginning, as their long-term vision is to expand the platform to cover the entire developer lifecycle, addressing every pain point that negatively impacts retention.
+This initial success is just the beginning, as their long-term vision is to expand the AI platform to cover the entire developer lifecycle, addressing every pain point that negatively impacts retention.
 
 Silo Team reports that JointJS has been instrumental in helping them achieve their business goals. It has proven to be a comprehensive and flexible solution for creating interactive diagrams, enabling Silo Team to deliver a superior onboarding tool for tech teams.

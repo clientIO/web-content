@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/success-stories
-generated: 2026-05-21
+generated: 2026-05-22
 format: plaintext
 ---
 
@@ -15,6 +15,10 @@ see our clients
 stories from companies like yours
 
 Customer stories
+
+[### Silo Team cuts development time by 40% and unveils a stunning new UI
+
+Discover how the Silo Team launched a complex AI-powered onboarding process builder, reducing development time by 40% and enabling the team to focus on other aspects of the product.](/success-stories/silo-team-reduces-development-time-by-40-percent)
 
 [### HCLTech's buy vs. build decision leads to 40% reduction in development time
 
@@ -31,10 +35,6 @@ Bosch originally designed the architecture of its cloud product from scratch and
 [### Visual call flow designer developed 10x faster with JointJS+
 
 VOXO customers expect their solutions to be flexible and easy to understand. That's why this leading U.S. company decided to build its visual call flow designer using JointJS+ and accelerated their development tenfold.](/success-stories/visual-call-flow-designer-developed-10x-faster)
-
-[### Silo Team cuts development time by 40% and unveils a stunning new UI
-
-Discover how the Silo Team launched a complex onboarding process builder, reducing development time by 40% and enabling the team to focus on other aspects of the product.](/success-stories/silo-team-reduces-development-time-by-40-percent)
 
 [### Acceso transforms Latin American food systems, cuts 1 year from development
 
@@ -94,6 +94,14 @@ Powering applications used by millions of people
 
 Explore JointJS-powered applications, developed by true innovators and industry leaders.
 
+[#### Single-line diagram generator
+
+Energy / Grid operations](/showcase/elia)
+
+This is some text inside of a div block.
+
+This is some text inside of a div block.
+
 [#### Top-rated SOAR system
 
 Cybersecurity](/showcase/splunk)
@@ -145,14 +153,6 @@ This is some text inside of a div block.
 [#### System drawings for live events
 
 AV & lighting system design](/showcase/gearconnect)
-
-This is some text inside of a div block.
-
-This is some text inside of a div block.
-
-[#### Complex workload automation designer
-
-IT Automation](/showcase/ibm)
 
 This is some text inside of a div block.
 

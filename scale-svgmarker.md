@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/scale-svgmarker
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/scale-svgmarker/README.md
-generated: 2026-05-21
+generated: 2026-05-22
 format: markdown
 ---
 

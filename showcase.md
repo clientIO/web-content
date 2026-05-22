@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/showcase
-generated: 2026-05-21
+generated: 2026-05-22
 format: markdown
 ---
 
@@ -9,6 +9,14 @@ format: markdown
 Discover outstanding applications built by our customers, used by millions of people worldwide.
 
 [Submit your project](https://github.com/clientIO/joint/discussions/2721)
+
+[#### Single-line diagram generator
+
+Energy / Grid operations](/showcase/elia)
+
+This is some text inside of a div block.
+
+This is some text inside of a div block.
 
 [#### Top-rated SOAR system
 
@@ -124,7 +132,7 @@ This is some text inside of a div block.
 
 [#### Technical onboarding platform
 
-Developer onboarding](/showcase/silo-team)
+AI-powered onboarding](/showcase/silo-team)
 
 This is some text inside of a div block.
 
@@ -442,7 +450,7 @@ This is some text inside of a div block.
 
 [### Silo Team cuts development time by 40% and unveils a stunning new UI
 
-Discover how the Silo Team launched a complex onboarding process builder, reducing development time by 40% and enabling the team to focus on other aspects of the product.](/success-stories/silo-team-reduces-development-time-by-40-percent)
+Discover how the Silo Team launched a complex AI-powered onboarding process builder, reducing development time by 40% and enabling the team to focus on other aspects of the product.](/success-stories/silo-team-reduces-development-time-by-40-percent)
 
 [### HCLTech's buy vs. build decision leads to 40% reduction in development time
 

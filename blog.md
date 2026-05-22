@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog
-generated: 2026-05-21
+generated: 2026-05-22
 format: markdown
 ---
 
@@ -37,6 +37,18 @@ Demo Wednesday
 Thank you! Your submission has been received!
 
 Oops! Something went wrong while submitting the form.
+
+Zbyněk Stara
+
+May 21, 2026
+
+[### Why teams build custom BPMN modeler UIs (and when it's worth it)
+
+Vendor BPMN modelers get you drawing fast, but rigid palettes, fixed property panels, and no execution visualization hold products back. Here are the seven capabilities a custom modeler UI unlocks — and how to build each with JointJS.
+
+BPMN](/blog/why-teams-build-custom-bpmn-modeler-uis)
+
+[Read article](/blog/why-teams-build-custom-bpmn-modeler-uis)
 
 Zoran Jambor
 
@@ -133,18 +145,6 @@ A practical breakdown of the real engineering challenges behind building a custo
 BPMN](/blog/why-building-a-bpmn-modeler-ui-is-harder-than-it-looks)
 
 [Read article](/blog/why-building-a-bpmn-modeler-ui-is-harder-than-it-looks)
-
-Roman Bruckner
-
-Feb 23, 2026
-
-[### Building a genogram (family tree) with automatic directed layout
-
-This tutorial walks through building an interactive genogram using JointJS and the @joint/layout-directed-graph package.
-
-Tutorials](/blog/build-genogram-with-automatic-directed-layout)
-
-[Read article](/blog/build-genogram-with-automatic-directed-layout)
 
 [Next](?df86e59f_page=2)
 

@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/showcase/silo-team
-generated: 2026-05-21
+generated: 2026-05-22
 format: plaintext
 ---
 
-The Silo Team's technical onboarding tool automates routine tasks, streamlining the developer onboarding process. It features a drag-and-drop process builder, customizable templates designed by industry leaders for various tech roles, and provides unified access to essential tools like GitHub, Jira, and Slack.
+Silo Team's AI-powered onboarding platform automatically generates onboarding journeys, how-to guides, and SOPs in minutes. It features a drag-and-drop process builder, AI-generated templates for various tech roles, and provides unified access to essential tools like GitHub, Jira, and Slack.
