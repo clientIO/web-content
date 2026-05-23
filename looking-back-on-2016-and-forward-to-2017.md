@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/looking-back-on-2016-and-forward-to-2017
-generated: 2026-05-22
+generated: 2026-05-23
 format: markdown
 ---
 
@@ -54,7 +54,7 @@ In December we released [another JointJS+ update](https://www.jointjs.com/blog/r
 
 ## Expansion Of Our Custom Coding Service
 
-Did you know that we offer custom coding and applications?  Well now you do!  We work with organizations big and small to help them realize their needs in the most efficient way possible. If you need a solution fast, or want a specific feature or plugin implemented, [get in touch](/cdn-cgi/l/email-protection#dbb4a9bc9bb8b7b2beb5aff5b2b4e4a8aeb9b1beb8afe698aea8afb4b6fee9eb98b4bfb2b5bcfee9eb92b5aaaeb2a9a2) and let our experienced developers do the work for you.
+Did you know that we offer custom coding and applications?  Well now you do!  We work with organizations big and small to help them realize their needs in the most efficient way possible. If you need a solution fast, or want a specific feature or plugin implemented, [get in touch](/cdn-cgi/l/email-protection#9ef1ecf9defdf2f7fbf0eab0f7f1a1edebfcf4fbfdeaa3ddebedeaf1f3bbacaeddf1faf7f0f9bbacaed7f0efebf7ece7) and let our experienced developers do the work for you.
 
 ## New Product Released: AppMixer
 

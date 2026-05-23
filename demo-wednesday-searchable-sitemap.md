@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-searchable-sitemap
-generated: 2026-05-22
+generated: 2026-05-23
 format: markdown
 ---
 
