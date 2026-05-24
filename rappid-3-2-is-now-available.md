@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/rappid-3-2-is-now-available
-generated: 2026-05-23
+generated: 2026-05-24
 format: markdown
 ---
 
@@ -104,7 +104,7 @@ Screenshot from the new Distances demo
 - **Geometry** - add parallel() to Line, add serialize() to Point and Line
 - various Typescript fixes
 
-We hope you'll get the most from these new features, fixes and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#90ffe2f7d0f3fcf9f5fee4bef9ff) with questions or comments.
+We hope you'll get the most from these new features, fixes and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#58372a3f183b34313d362c763137) with questions or comments.
 
 ‍
 

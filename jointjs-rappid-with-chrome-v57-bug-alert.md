@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/jointjs-rappid-with-chrome-v57-bug-alert
-generated: 2026-05-23
+generated: 2026-05-24
 format: markdown
 ---
 
