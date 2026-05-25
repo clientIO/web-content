@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/diagram-index
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/diagram-index/README.md
-generated: 2026-05-24
+generated: 2026-05-25
 format: markdown
 ---
 

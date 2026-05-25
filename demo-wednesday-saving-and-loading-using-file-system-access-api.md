@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-saving-and-loading-using-file-system-access-api
-generated: 2026-05-24
+generated: 2026-05-25
 format: markdown
 ---
 

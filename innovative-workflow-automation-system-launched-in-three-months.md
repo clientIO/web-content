@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/success-stories/innovative-workflow-automation-system-launched-in-three-months
-generated: 2026-05-24
+generated: 2026-05-25
 format: markdown
 ---
 
