@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/showcase
-generated: 2026-05-25
+generated: 2026-05-26
 format: markdown
 ---
 
@@ -9,14 +9,6 @@ format: markdown
 Discover outstanding applications built by our customers, used by millions of people worldwide.
 
 [Submit your project](https://github.com/clientIO/joint/discussions/2721)
-
-[#### Single-line diagram generator
-
-Energy / Grid operations](/showcase/elia)
-
-This is some text inside of a div block.
-
-This is some text inside of a div block.
 
 [#### Top-rated SOAR system
 

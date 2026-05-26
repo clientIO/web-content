@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/community
-generated: 2026-05-25
+generated: 2026-05-26
 format: markdown
 ---
 
@@ -42,6 +42,16 @@ Read our company news, product updates and customer stories.
 
 [All news](/blog)
 
+Zoran Jambor
+
+May 25, 2026
+
+[### Introducing JointJS MCP Server: Better code from your AI agent
+
+A guide explaining what the JointJS MCP Server is, along with detailed instructions on how to install it to a local folder, in user scope, or in JSON to share with your team, and what the benefits of using it are.](/blog/introducing-jointjs-mcp-server)
+
+[Read article](/blog/introducing-jointjs-mcp-server)
+
 Zbyněk Stara
 
 May 21, 2026
@@ -61,16 +71,6 @@ May 8, 2026
 A hands-on overview of JointJS diagramming library performance, stress-testing up to 100,000 diagram elements/nodes.](/blog/jointjs-performance-overview-testing-diagrams-with-100-000-nodes)
 
 [Read article](/blog/jointjs-performance-overview-testing-diagrams-with-100-000-nodes)
-
-Zoran Jambor
-
-Apr 23, 2026
-
-[### Visualize your YouTube content library with the YouTube Channel Visualizer
-
-Turn your YouTube channel into an interactive diagram. Explore publishing patterns, group videos by tags, timeline, or performance, and plan future content — all built with JointJS and Claude Code.](/blog/youtube-channel-visualizer)
-
-[Read article](/blog/youtube-channel-visualizer)
 
 ## Speed up your development with a powerful library
 

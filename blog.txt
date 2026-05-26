@@ -1,20 +1,20 @@
 ---
 source: https://www.jointjs.com/blog
-generated: 2026-05-25
+generated: 2026-05-26
 format: plaintext
 ---
 
 Blog
 
-[## Build better Claude Code Playgrounds with JointJS
+[## Introducing JointJS MCP Server: Better code from your AI agent
 
 Zoran Jambor
 
-Apr 10, 2026
+May 25, 2026
 
-Claude Code Playground generates useful diagrams, but they're static and limited. This guide shows how to install the JointJS Claude Playground plugin and use it to build interactive codemaps, visual SQL builders, decision trees, site explorers, and more.
+A guide explaining what the JointJS MCP Server is, along with detailed instructions on how to install it to a local folder, in user scope, or in JSON to share with your team, and what the benefits of using it are.
 
-AI Diagramming](/blog/build-better-claude-code-playgrounds-with-jointjs)
+AI Diagramming](/blog/introducing-jointjs-mcp-server)
 
 Read article
 
@@ -37,6 +37,18 @@ Demo Wednesday
 Thank you! Your submission has been received!
 
 Oops! Something went wrong while submitting the form.
+
+Zoran Jambor
+
+May 25, 2026
+
+[### Introducing JointJS MCP Server: Better code from your AI agent
+
+A guide explaining what the JointJS MCP Server is, along with detailed instructions on how to install it to a local folder, in user scope, or in JSON to share with your team, and what the benefits of using it are.
+
+AI Diagramming](/blog/introducing-jointjs-mcp-server)
+
+Read article
 
 Zbyněk Stara
 
@@ -131,18 +143,6 @@ Mar 11, 2026
 Coding Agents, such as Claude Code, Cursor, Windsurf, and others, work very well with JointJS, so you should be leveraging them to speed up your development times.
 
 AI Diagramming](/blog/5-tips-on-using-ai-coding-agents-with-jointjs)
-
-Read article
-
-Zbyněk Stara
-
-Mar 10, 2026
-
-[### Why building a BPMN modeler UI is harder than it looks
-
-A practical breakdown of the real engineering challenges behind building a custom BPMN modeler UI — rendering, UX, and engine integration.
-
-BPMN](/blog/why-building-a-bpmn-modeler-ui-is-harder-than-it-looks)
 
 Read article
 

@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/success-stories
-generated: 2026-05-25
+generated: 2026-05-26
 format: plaintext
 ---
 
@@ -94,14 +94,6 @@ Powering applications used by millions of people
 
 Explore JointJS-powered applications, developed by true innovators and industry leaders.
 
-[#### Single-line diagram generator
-
-Energy / Grid operations](/showcase/elia)
-
-This is some text inside of a div block.
-
-This is some text inside of a div block.
-
 [#### Top-rated SOAR system
 
 Cybersecurity](/showcase/splunk)
@@ -153,6 +145,14 @@ This is some text inside of a div block.
 [#### System drawings for live events
 
 AV & lighting system design](/showcase/gearconnect)
+
+This is some text inside of a div block.
+
+This is some text inside of a div block.
+
+[#### Complex workload automation designer
+
+IT Automation](/showcase/ibm)
 
 This is some text inside of a div block.
 
