@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/showcase/acoustic
-generated: 2026-05-26
+generated: 2026-05-27
 format: markdown
 ---
 

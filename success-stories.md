@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/success-stories
-generated: 2026-05-26
+generated: 2026-05-27
 format: markdown
 ---
 
@@ -19,6 +19,10 @@ From startups to enterprises, JointJS+ helps innovative companies unlock the pow
 [### Silo Team cuts development time by 40% and unveils a stunning new UI
 
 Discover how the Silo Team launched a complex AI-powered onboarding process builder, reducing development time by 40% and enabling the team to focus on other aspects of the product.](/success-stories/silo-team-reduces-development-time-by-40-percent)
+
+[### How Elia automates single-line schematics inside its work permit system
+
+Elia, one of Europe's top 5 transmission system operators, built an automated single-line diagram generator on JointJS and embedded it inside its internal work permit system.](/success-stories/elia-automates-single-line-diagrams-for-work-permits)
 
 [### HCLTech's buy vs. build decision leads to 40% reduction in development time
 
@@ -39,10 +43,6 @@ VOXO customers expect their solutions to be flexible and easy to understand. Tha
 [### Acceso transforms Latin American food systems, cuts 1 year from development
 
 To fix the dysfunctional food production market in Latin America and the Caribbean, Acceso shares climate-smart agriculture practices through Whatsapp and SMS, organized in a diagram studio powered by JointJS+.](/success-stories/acceso-revolutionizes-food-systems-in-latin-america)
-
-[### Customer success platform launches workflow automation with a 70% time reduction
-
-ChurnZero was looking for a way to implement workflow automation into its SaaS. The company decided to leverage JointJS+ and launched a rich workflow automation feature with a 70% reduction in time, recording a whopping 90% adoption rate.](/success-stories/leading-platform-for-customer-success-launches-workflow-automation-in-record-time)
 
 ## Enterprises
 

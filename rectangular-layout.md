@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/rectangular-layout
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/rectangular-layout/README.md
-generated: 2026-05-26
+generated: 2026-05-27
 format: markdown
 ---
 

@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/react-diagrams
-generated: 2026-05-26
+generated: 2026-05-27
 format: markdown
 ---
 

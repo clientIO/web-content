@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-upload-image-to-stencil
-generated: 2026-05-26
+generated: 2026-05-27
 format: markdown
 ---
 
