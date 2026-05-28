@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/showcase/ripjar
-generated: 2026-05-27
+generated: 2026-05-28
 format: markdown
 ---
 

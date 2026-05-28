@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/gojs-alternative
-generated: 2026-05-27
+generated: 2026-05-28
 format: plaintext
 ---
 
@@ -235,11 +235,11 @@ Our library is based on a strong HTML5 and SVG foundation that allows it to run 
 
 IMPLEMENTATION IN LEADING JAVASCRIPT FRAMEWORKS
 
-Vue
+React
 
 Angular
 
-React
+Vue
 
 Svelte
 

@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/community
-generated: 2026-05-27
+generated: 2026-05-28
 format: markdown
 ---
 
@@ -16,27 +16,21 @@ Looking to connect with other developers and diagramming enthusiasts? Be part of
 
 ### Join us on Github
 
-Contribute to our open source, discuss JointJS+ and learn from others.
+Contribute to our open source, discuss JointJS and learn from others.
 
 [Join us](https://github.com/clientIO/joint/discussions)
 
-### Get inspired on Codepen
+### Let’s talk on LinkedIn
 
-Explore our library of weekly updated demos for ideas on what to build next.
+Release notes, engineering deep-dives, and what our team is working on.
 
-[find inspiration](https://codepen.io/jointjs)
+[follow us](https://www.linkedin.com/showcase/jointjs-diagramming-framework)
 
-### Let’s talk on Twitter
+### Learn on YouTube
 
-Stay in the loop by networking with us and other diagramming geeks.
+Tutorials, demo walkthroughs, and feature breakdowns from the JointJS team. New videos regularly covering real implementation patterns and what's possible with the library.
 
-[let’s talk](https://twitter.com/jointjs?lang=en)
-
-### Follow us on Facebook
-
-Read our company news, product updates and customer stories.
-
-[follow us](https://www.facebook.com/JointJS/)
+[watch now](https://www.youtube.com/@jointjs-library)
 
 ## Latest news
 

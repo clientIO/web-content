@@ -1,0 +1,193 @@
+---
+source: https://www.jointjs.com/blog/build-better-claude-code-playgrounds-with-jointjs
+generated: 2026-05-28
+format: markdown
+---
+
+[Claude Code Playground plugin](https://claude.com/plugins/playground) is fantastic. It allows you to build HTML UI explorers and visualize complex concepts in an intuitive, straightforward way. It gives you visual controls to craft natural-language prompts that work perfectly with AI, and it can even help you build mental models of complex data structures.
+
+But here’s the honest truth. The diagrams you’ll build in Claude Code Playground are solid but quite limited in interactivity. With a proper, dedicated diagramming library, you can make them interactive, more visually appealing, and more intuitive, drastically improving the Playground UI.
+
+In this article, you’ll learn how to enhance Claude Code Playgrounds with JointJS to turn static diagrams into fully interactive visual tools—draggable nodes, smarter routing, animated transitions, and more.
+
+*Keep in mind that you can reuse the concepts and ideas shown here whenever you want to bridge text and UI. If you want a better visual way to instruct AI agents, especially when you’re structuring data, designing flows, or tackling complex coding problems, JointJS Claude Playground lets you do exactly that.*
+
+## How JointJS makes Claude Code Playgrounds better
+
+Claude Code Playgrounds are great, practical, and useful, but severely limited in handling complex data flows, visualizing data relationships, and creating architecture diagrams.
+
+Here’s an example of a playground generated with Code Map of Claude Code Playground.
+
+An example of a static diagram created with Claude Code Playground.
+
+[It’s a nice visual overview.](https://changelog.jointjs.com/gallery/jointjs-claude-playground/jointjs-codemap-claude-code.html) You can click nodes, add comments, and zoom in and out. But it’s still not a truly interactive diagram.
+
+You can’t drag a node to reposition it to better fit your use case and understanding. You can’t do anything with links, so when they get tangled and overlapped, you’re stuck with trying to decipher the relations yourself. And this is still a relatively simple diagram, let alone an enterprise-grade one.
+
+But if you enhance this demo with JointJS, you can get a real interactive diagram that’s not only more intuitive but also much more practical.
+
+An example of a codemap created with the JointJS Claude Playground plugin. If an image is worth a thousand words, how much is an interactive demo concept worth? → [Live demo](https://changelog.jointjs.com/gallery/jointjs-claude-playground/jointjs-codemap.html)
+
+The generated Code Map is massively improved if we enhance it with JointJS:
+
+- Animated transitions make preset and layer changes visually clear.
+- Automatic zooming maximizes the use of the canvas after toggling presets or layers.
+- Different routers realign the entire link structure of the diagram on the fly and make connections clear and more intuitive.
+- Draggable nodes allow manual grouping while still maintaining clear relationships among elements.
+- Reset and Fit View controls give fine control over state and diagram positioning.
+- Highlighted paths to selected or hovered elements surface relationships between different nodes instantly.
+
+The result is still a single HTML file that you can directly open in your browser or share with others. It’s using the open source version of JointJS, so you don’t have to install any dependencies, and there are no build steps—it just works.
+
+To give you all the tools you need to create your own JointJS-enhanced Claude Code Playgrounds, we built a plugin you can use however you want.
+
+Need precise prompts to visualize data structures and user flows? Want a visual SQL, Regex, Cron, or decision-tree builder? Install the JointJS Claude Playground plugin, enter your prompt, and you will get a much better, interactive code playground.
+
+## How to use the JointJS Claude Playground plugin
+
+JointJS Claude Playground plugin is available on GitHub. To install it, you’ll need to add JointJS Marketplace (a concept Claude Code uses for third-party plugins) to Claude Code:
+
+```
+/plugin marketplace add https://github.com/clientIO/jointjs-claude-marketplace
+```
+
+### Enable auto-updates for plugin marketplace
+
+Plugins from third-party marketplaces, such as JointJS, are not automatically updated, so you’ll need to enable this to always get the latest and best versions, including new features, potential security updates, and bug fixes.
+
+In Claude Code, run `/plugin` then go into `Marketplaces` tab, select `jointjs` marketplace and toggle `Enable auto-update` command. That way, you will automatically get the latest updates to JointJS plugins.
+
+When you add the JointJS marketplace, install the JointJS Playground Plugin:
+
+```
+/plugin install jointjs-claude-playground@jointjs
+```
+
+When the installation finishes, run `/reload-plugins` command to enable the newly installed plugin.
+
+*I found `/reload-plugins` to be unreliable, so you might need to restart Claude Code in your terminal—exit it and launch it again using `claude` if you don’t see `/jointjs` after installing and reloading the plugins.*
+
+### A potential problem with installing Claude Code plugins
+
+Note that there’s a bug in Claude Code where installing a Claude Code Plugin fails if you don’t have SSH keys configured on your system for GitHub.
+
+When installing a plugin, Claude Code clones the repository via SSH (`[email protected]:…`), so if your GitHub SSH keys aren’t configured properly, the installation will fail.
+
+Ideally, you should fix your GitHub SSH config, but as a workaround, before Claude Code resolves the problem, you can bypass SSH in your git config—run the following in your terminal:
+
+```
+git config --global url."https://github.com/".insteadOf [email protected]:
+```
+
+If you want to learn more about the bug in Claude Code, check the open issue on GitHub: [Marketplace plugin cloning should default to HTTPS instead of SSH](https://github.com/anthropics/claude-code/issues/26588)
+
+Once you verify the plugin is installed, you can start using it. Any prompts that mention “jointjs playground” will trigger it, using JointJS to enhance the diagrams and flowcharts.
+
+Example prompts that will trigger JointJS Claude Playgrounds.
+
+- `Build a JointJS codemap playground for React.`
+- `Create an interactive JointJS website map playground of URL-TO-YOUR-WEBSITE.`
+
+If you specifically want to trigger a specific skill available in the plugin, invoke it manually with the command `/jointjs`. This will give you an autocomplete list of all available JointJS Claude Playground templates.
+
+A screenshot of the /jointjs command in Claude Code.
+
+The skills currently available in the JointJS Claude Playground are namespaced to `/jointjs`, but you can use them directly. If there are any other skills with the same names, you’ll differentiate them by the plugin name in parentheses *(jointjs-claude-playground)*:
+
+- `/canvas-builder` - Creates any interactive visual builder playground.
+- `/data-explorer` - Creates an interactive data explorer playground for any database schema, API data model, or entity-relationship diagram.
+- `/codemap` - Creates an interactive code map playground for any library or codebase architecture.
+- `/site-explorer` - Creates an interactive website map.
+- `/diff-review` - Creates an interactive PR/diff review tool.
+
+Note that you don’t have to trigger specific skills manually. Describe what you want, specify that you want to build a JointJS playground, and AI will figure out which precise template to use.
+
+## JointJS Claude Playground examples
+
+The possibilities, just as with standard Claude Code Playground, are endless, but to give you a few ideas, here’s what we built with the JointJS Claude Playground plugin.
+
+### Codebase visualizers for React, Vue.js, Svelte, Express.js
+
+If you want to better understand a codebase, just ask Claude to create a JointJS code map. It uses the `/codemap` skill to build a clear visualization of the most important concepts of a codebase, with relationships clearly defined, ready for you to explore. You can click any node, add comments, and then copy the prompt to create a custom learning path that will help you better understand the framework.
+
+React is probably the most popular and widely used framework today—with the JointJS React codemap, you can precisely pinpoint your knowledge gaps and get the right prompt to craft the exact learning plan to master it. → [Live demo](https://changelog.jointjs.com/gallery/jointjs-claude-playground/)
+
+We’ve also built code maps for [Vue.js](https://changelog.jointjs.com/gallery/jointjs-claude-playground/vue-codemap.html), [Svelte](https://changelog.jointjs.com/gallery/jointjs-claude-playground/svelte-codemap.html), [Express.js](https://changelog.jointjs.com/gallery/jointjs-claude-playground/expressjs-codemap.html), and even [JointJS](https://changelog.jointjs.com/gallery/jointjs-claude-playground/jointjs-codemap.html) itself, all using the same approach.
+
+Of course, you can apply this to any framework or to your local codebase, even if it’s something completely custom.
+
+### Visual builders
+
+You can use the `/canvas-builder` skill to create a visual builder playground, which allows you to drag-and-drop nodes from a sidebar to build a structured output, ideal for building complex queries easily. You can create a tool for any domain, for SQL, regex, cron expressions, decision trees, API specs, pipelines, and more.
+
+A really practical example is a custom SQL Query Builder that lets you visually build queries by dragging and dropping tables from the sidebar, then connecting their properties to generate an intricate SQL query you can copy with a click of a button.
+
+SQL Query Builder tool created using the JointJS Claude Playground plugin. It can help you structure complex SQL queries visually. → [Live demo](https://changelog.jointjs.com/gallery/jointjs-claude-playground/sql-query-builder.html)
+
+Another handy use case for the `/canvas-builder` skill is a custom decision tree.
+
+You can generate visual flowcharts and map out various courses of action, potential outcomes, and their consequences.
+
+Decision Tree Builder tool, created with JointJS Claude Playground, can clarify your thinking about the decisions you need to make. → [Live demo](https://changelog.jointjs.com/gallery/jointjs-claude-playground/decision-tree-builder.html)
+
+We built a few other demos to showcase how much simpler building complex expressions in a JointJS Claude Playground can be:
+
+- [Regex Builder](https://changelog.jointjs.com/gallery/jointjs-claude-playground/regex-builder.html)‍
+- [Cron Builder](https://changelog.jointjs.com/gallery/jointjs-claude-playground/cron-builder.html)
+
+The possibilities are wide-ranging, and you can easily generate GitHub Actions Builders, State Machine Builders, API Designers, and many more domain‑specific tools.
+
+### Data & site explorers
+
+You can also use JointJS Claude Playground to visualize data architecture and website structures, or to build tools that will help you work through various data challenges, such as massive pull requests or diffs.
+
+An example of a Diff Review tool that not only showcases the file changes, but also the actual relationships between changed files. → [Live demo](https://changelog.jointjs.com/gallery/jointjs-claude-playground/diff-review.html)
+
+You can build interactive website maps to help you visualise your website structure and identify weak points or unintuitive site hierarchies—you should probably fix those if you want to rank better in Google Search or in LLMs.
+
+- [JointJS Site Explorer](https://changelog.jointjs.com/gallery/jointjs-claude-playground/jointjs-site-explorer.html) – visualize your site structure.
+- [E‑commerce Data Explorer](https://changelog.jointjs.com/gallery/jointjs-claude-playground/ecommerce-data-explorer.html) – map entities, relationships, and flows.
+
+Keep in mind that you can always plug any skill directly into your projects to build something specifically for your use case.
+
+## How to build a custom JointJS Claude Playground
+
+JointJS Claude Playground comes with a number of predefined skills, but the basis is very flexible, so you can, and should, think outside of the box when it comes to building interesting and useful JointJS Claude Playground.
+
+Unlike the standard Claude Code Playground, the version enhanced with JointJS allows you to create interactive flows and generate output, be it a prompt, code, or query, in a user-friendly, intuitive way.
+
+- Want to create a hero section, but don’t know how to structure it? Ask Claude to build a JointJS playground with the elements you want in the sidebar, and you can then drag-and-drop them onto the canvas to see exactly what they would look like.
+- You’re hiring for a role and want to prepare structured questions? Build a flowchart-style tool in which each node represents a question/answer branch.
+- Struggling with dependency conflicts in your `package.json`? Create a Dependency Conflict Resolver that lets you paste a `package.json` or requirements.txt file, renders the full dependency graph, highlights conflicting version ranges, and provides options to manually pin versions to resolve conflicts.
+- Want to build a PoC for a JointJS application? Generate a JointJS Claude Playground that mirrors the UI and logic of the app you want to build as a proof of concept.
+
+Pro tip: In JointJS Claude Playground, you’re still working with an AI Coding Agent, so you can quickly iterate on features, fix bugs in the generated code, or adapt the playground to new use cases.
+
+If you want to build something custom out of the box, just make sure you mention *“jointjs playground”* in your prompt, and Claude Code should be able to build an interactive playground leveraging the JointJS library.
+
+All of this is built on the open‑source version of JointJS. If you need advanced, enterprise-level features, JointJS+ gives you even more power.
+
+## Conclusion
+
+The Claude Code Playground plugin is great, but somewhat limited when it comes to creating truly interactive visual playgrounds that not only look good but are also more intuitive and usable. So whenever you need an interactive, visual component in the Claude Code Playground you’re building, reach for JointJS to enhance it.
+
+All you need is the JointJS Claude Playground plugin, and you’ll get immediate access to robust skills that will help you make even better playgrounds. Install the JointJS Claude Playground plugin from GitHub, and start your first jointjs playground prompt to see the difference.  
+‍
+
+## ‍ FAQs
+
+What is the JointJS Claude Playground plugin?
+
+Why would I use it instead of the default Claude Code Playground visuals?
+
+What kinds of things can I build with it?
+
+How do I install the JointJS Claude Playground plugin?
+
+How do I trigger the plugin in Claude Code?
+
+What skills and templates does the plugin provide?
+
+Do I need to set up a build process or extra dependencies?
+
+Can I customize or extend the generated playgrounds?

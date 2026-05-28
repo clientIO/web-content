@@ -1,28 +1,20 @@
 ---
 source: https://www.jointjs.com
-generated: 2026-05-27
+generated: 2026-05-28
 format: markdown
 ---
 
-# JavaScript diagramming library powering exceptional UIs
+5.3k Github stars
 
-Build AI-powered visual and no-code apps fast with a feature-rich diagramming library.
+40k+ weekly downloads
 
-[start free trial](/free-trial)
+# The diagramming library you don't replace at scale
 
-[explore demos](/demos)
+A complete library for diagramming tools of any complexity, from AI workflow editors to large, domain-specific modeling apps.
 
-20 000+
+Get started
 
-weekly downloads
-
-50 000+
-
-Developers worldwide
-
-10+
-
-years on the market
+[Javascript](https://docs.jointjs.com/)[React](https://docs.jointjs.com/learn/integration/react)[Angular](https://docs.jointjs.com/learn/integration/angular/)[Vue](https://docs.jointjs.com/learn/integration/vue)[Svelte](https://docs.jointjs.com/learn/integration/svelte)
 
 Empowering industry leaders worldwide
 
@@ -32,21 +24,21 @@ Empowering industry leaders worldwide
 
 Discover outstanding applications built by our customers, used by millions of people worldwide.
 
-Onboarding platform built for development teams.
+AI-assisted onboarding process builder by Silo Team.
 
-Process mining tool for business automation.
+Process mining tool inside UiPath, the publicly traded automation leader.
 
-Cisco’s Splunk SOAR driving operational resilience.
+SOAR platform for Splunk, Cisco's security operations division.
 
-AWS CloudFormation for modeling and configuring AWS resources.
+Single-line grid diagram generator for one of Europe's top five transmission system operators.
 
-Marketing automation platform with a visual flow builder.
+Visual flow builder powering Encharge's marketing automation platform.
 
 ###### key features
 
 ## Why developers love us
 
-10+ years of work and experience has led to several areas where we excel today.
+A few of the areas where JointJS makes the hard parts easier.
 
 #### Scalable vector graphics
 
@@ -68,7 +60,7 @@ Our library can serve everyone from novice programmers who benefit from a range 
 
 #### Browser & framework friendliness
 
-Our library works on all devices and is compatible with all major JavaScript frameworks such as React, Angular, Vue and others.
+Our library works on all devices and is compatible with all major JavaScript frameworks such as React, Angular, Vue, Svelte and others.
 
 [more information](/features)
 
@@ -164,23 +156,23 @@ Our library is based on a strong HTML5 and SVG foundation that allows it to run 
 
 ###### IMPLEMENTATION IN LEADING JAVASCRIPT FRAMEWORKS
 
-[Vue](/vue-diagrams)
+[React](https://docs.jointjs.com/learn/integration/react)
 
-[Angular](/angular-diagrams)
+[Angular](https://docs.jointjs.com/learn/integration/angular/)
 
-[React](/react-diagrams)
+[Vue](https://docs.jointjs.com/learn/integration/vue)
 
-[Svelte](/svelte-diagrams)
+[Svelte](https://docs.jointjs.com/learn/integration/svelte)
 
-[**Salesforce Lightning**](/salesforce-lightning-diagrams)
+[**Salesforce Lightning**](https://docs.jointjs.com/learn/integration/lightning)
 
 ###### our customers
 
-## JointJS+, the first choice of industry leaders
+## JointJS, the first choice of industry leaders
 
-We empower industry giants, startups and solopreneurs to build visual and no-code/low-code applications faster and with confidence.
+From solo developers to large engineering teams, JointJS is how complex visual applications get built faster and with full control.
 
-### honest testimonials from our customers
+### honest testimonials
 
 JointJS+ allowed CELUS to focus all our efforts on developing our core technology, while still providing our users with a great diagramming experience. The library is fast to integrate and comes with a wide set of advanced features out of the box that saved us countless development hours. A great partner to have!
 
@@ -192,7 +184,7 @@ JointJS+ was really a great find, as it gave us a great boost in the diagramming
 
 José Miguel Gonçalves
 
-Project Manager, Nov Inesc Inovação
+Project Manager, INOV
 
 The JointJS+ toolkit is the best solution we found as a full fledged diagramming library for the web. The JointJS team has been extremely responsive to our needs and it’s been great to help contribute back to the product throughout our development process.
 
@@ -200,11 +192,11 @@ Kevin Mansel
 
 Senior Software Engineer, Patent Navigation
 
-JointJS+ was the perfect product for us. We have used JointJS+ as the foundation to create an illustration tool for Sales relationships within a target organization. The product has been reliable, flexible, straightforward to integrate, and very easy for end users to understand.
+JointJS allowed us to quickly develop a tool to generate single-line schematics for our network and easily integrate it into our permit management tool. We also plan to integrate it into another tool in the near future because it offers more functionality and flexibility.
 
-Phil Cederstrom
+Damien Vanvrekom
 
-Chief Technology Officer, Polaris I/O
+Program Manager, Elia
 
 ###### versions
 
@@ -245,3 +237,25 @@ Dedicated developer support
 We support developers, innovative thinkers and entrepreneurs who pursue ideas that make a positive impact on the world.
 
 [About us](/about-us)[community](/community)
+
+# JavaScript diagramming library powering exceptional UIs
+
+Build AI-powered visual and no-code apps fast with a feature-rich diagramming library.
+
+[start free trial](/free-trial)
+
+[explore demos](/demos)
+
+20 000+
+
+weekly downloads
+
+50 000+
+
+Developers worldwide
+
+10+
+
+years on the market
+
+Empowering industry leaders worldwide

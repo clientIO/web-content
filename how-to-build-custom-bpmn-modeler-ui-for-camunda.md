@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/how-to-build-custom-bpmn-modeler-ui-for-camunda
-generated: 2026-05-27
+generated: 2026-05-28
 format: markdown
 ---
 

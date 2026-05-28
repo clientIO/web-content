@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/pricing
-generated: 2026-05-27
+generated: 2026-05-28
 format: markdown
 ---
 
@@ -42,6 +42,8 @@ Updates for the 1st year for free
 
 Basic support
 
+JointJS for React
+
 Coming soon: JointReact+ edition
 
 Enterprise version of JointJS+ with unminified source code, annual SOC 2 Type II reports, premium support, and more—all available through a yearly subscription.
@@ -69,6 +71,10 @@ Library updates & upgrades
 Annual SOC 2 Type II reports
 
 Extra: 3 hours of technical consulting or development
+
+# JointJS for React is now part of JointJS+ and enterprise
+
+No wrappers, just a first-class integration for React developers.
 
 # Up to 50% discount
 
@@ -192,7 +198,7 @@ JointJS+ was really a great find, as it gave us a great boost in the diagramming
 
 José Miguel Gonçalves
 
-Project Manager, Nov Inesc Inovação
+Project Manager, INOV
 
 The JointJS+ toolkit is the best solution we found as a full fledged diagramming library for the web. The JointJS team has been extremely responsive to our needs and it’s been great to help contribute back to the product throughout our development process.
 

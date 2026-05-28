@@ -1,0 +1,281 @@
+---
+source: https://www.jointjs.com/bpmn-modeling-tools
+generated: 2026-05-28
+format: markdown
+---
+
+# Build a production-grade BPMN modeler — without the bpmn-js constraints
+
+Most teams reach for bpmn-js and hit the same wall: a mandatory watermark, limited customization, and Camunda-only defaults. JointJS is the alternative built for production apps.
+
+[Start free trial](/free-trial)
+
+[talk to us](/contact-us)
+
+## Your BPMN modeler,  90% built
+
+Kickstart your development with a ready-to-use template.
+
+[open demo
+
+[](https://cdn.prod.website-files.com/63061d4ee85b5a18644f221c%2F6a0eae74122aa70291257098_BPMN-editor-UI_mp4.mp4)](https://www.jointjs.com/demos/bpmn-editor)
+
+BOiLERPLATE
+
+# BPMN EDITOR UI
+
+The JointJS BPMN editor demo is a fully working starting point: complete BPMN 2.0 shapes, drag-and-drop palette, property editor, minimap, and bidirectional XML import/export included. Trim it to your use case, wire up your execution engine, and ship.
+
+Get started on your framework
+
+[Javascript](https://docs.jointjs.com/)[React](https://docs.jointjs.com/learn/integration/react)[Angular](https://docs.jointjs.com/learn/integration/angular/)[Vue](https://docs.jointjs.com/learn/integration/vue)[Svelte](https://docs.jointjs.com/learn/integration/svelte)
+
+more demos
+
+# BPMN apps & examples
+
+Production-ready examples you can clone and adapt to your stack.
+
+[explore demos](https://www.jointjs.com/all-demos?tags=BPMN)
+
+Use cases
+
+## Who builds BPMN modelers with JointJS
+
+BPMN is used across industries to model, document, and automate business processes. JointJS is the foundation teams choose when the modeler needs to be embedded, branded, and tailored to their domain.
+
+# BPMN and other workflow engine integrations
+
+Build a branded BPMN modeler embedded in your product that deploys directly to Camunda, Flowable, or any other BPMN-compliant engine via API, with engine-specific properties configured in the UI, not raw XML.
+
+# Compliance and process documentation
+
+In healthcare, finance, and insurance, BPMN diagrams serve audit and compliance functions. JointJS lets teams build modelers that integrate with internal systems, enforce design standards, and control exactly what gets exported and where.
+
+# BPMN modeling as a product feature
+
+Embed a fully branded BPMN modeler inside your SaaS product, with only the elements your users need, in a UI that matches the rest of your application.
+
+# Domain-specific process editors
+
+Industries like logistics, insurance, and telecom need BPMN as a foundation with custom shapes, predefined task types, and domain-specific terminology. JointJS gives you the full rendering engine and the freedom to build on top of it.
+
+customer story
+
+## Trusted by global leaders
+
+“Access to JointJS+ BPMN demo source code and very good documentation is outstanding in the market. We saved many hours and trouble thanks to easy debugging and well-written code, with an easy-to-understand structure and naming.”
+
+Oleksandr Klymenko
+
+Product Development Architect
+
+[read customer story](https://www.jointjs.com/success-stories/bmc-uses-jointjs-to-display-bpmn-diagrams)
+
+###### Features
+
+## What JointJS+ gives you out of the box
+
+#### Full BPMN 2.0 shape library
+
+The complete set of BPMN 2.0 symbols, from events and gateways to pools, lanes, and artifacts. Render and import any standard BPMN diagram without gaps.
+
+#### No watermark
+
+Ship your BPMN modeler fully branded as your own, with no third-party attribution on rendered diagrams.
+
+#### Bidirectional BPMN 2.0 XML
+
+Import and export valid BPMN 2.0 XML consumable by any compliant execution engine. Engine-specific extensions are handled explicitly to survive the round trip.
+
+#### Virtual rendering for large diagrams
+
+JointJS renders only the elements visible in the viewport, so performance holds steady across diagrams with hundreds of elements.
+
+#### Configurable element palette
+
+Restrict the palette to exactly the elements your users need, while keeping the full shape library available for import and rendering.
+
+#### Contextual property editor
+
+A fully integrated property editor that updates based on selection, with configurable fields, validation, conditional visibility, and grouping. Extensible to any engine-specific properties.
+
+#### BPMN-aware constraints
+
+Semantic rules like pool containment, sequence flow restrictions, and boundary event attachment are enforced at interaction time, guiding users toward valid processes.
+
+#### Compound undo/redo
+
+Every action, including cascading deletions across pools, lanes, and attached elements, is reversed as a single atomic operation.
+
+###### comparison
+
+## JointJS is the alternative when default isn't enough.
+
+Free and widely used, bpmn-js is often the first choice — until teams hit its watermark requirement, Camunda-specific defaults, and customization ceiling. Here's how the two libraries compare.
+
+## Feature
+
+License model
+
+Watermark requirement
+
+Execution engine support
+
+BPMN 2.0 shape library
+
+Virtual rendering (large diagrams)
+
+Touch and tablet support
+
+Customizability
+
+Automatic layout algorithms
+
+Comprehensive documentation
+
+Large collection of demos
+
+Flexibility beyond BPMN
+
+Commercial support
+
+Commercial
+
+None
+
+Engine-agnostic
+
+Full
+
+Yes
+
+Yes
+
+Full control
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes — with SLA
+
+## bpmn-js
+
+Open source (watermark clause)
+
+Mandatory — cannot be removed
+
+Camunda-first defaults
+
+full
+
+No
+
+Removed in v17 (2024)
+
+Moderate
+
+No
+
+No
+
+No
+
+No
+
+Community only
+
+### When JointJS makes sense
+
+- Customer-facing product, no third-party watermarks
+- Full UI and branding control
+- Support for non-Camunda or multiple engines
+- Performance at scale with large diagrams
+- Expert technical support required
+
+### When bpmn-js makes sense
+
+- A visible watermark is acceptable
+- Camunda-only with its built-in defaults
+- Low to moderate diagram sizes
+
+## ROI analysis: See how much JointJS+ saves you
+
+What will your savings be in 3 years? We compared two scenarios, building a custom canvas from scratch versus shipping on JointJS+, to find out.
+
+[Get the roi calculation](https://4243902.fs1.hubspotusercontent-na1.net/hubfs/4243902/JointJS/the-roi-calculation.pdf)
+
+###### Social proof
+
+## What engineering teams say
+
+“ JointJS+ was really a great find, as it gave us a great boost in the diagramming frontend of our application. These guys know their business and give you a great support on your development. One of our requirements was to have a BPMN diagram support in our app and they quickly supplied this as a plugin to JointJS+! ”
+
+**José Miguel Gonçalves**
+
+**Project Manager, inov**
+
+“ We needed to make some tweaks like customizing the connections of the elements — our requirement was to have custom routing and sophisticated layering of connections which required logical connections spanning several physical connections. Here we could always count on JointJS+ together with great support. ”
+
+Bartek Waśko
+
+Senior Software Engineer, ConSol
+
+###### Content hub
+
+## The BPMN modeler engineering guide
+
+[Visit blog](/blog)
+
+[## BPMN modeling vs execution: Why editors and engines are decoupled
+
+Zbyněk Stara
+
+Feb 18, 2026
+
+Explore how BPMN 2.0 separates process semantics from diagram presentation, enabling decoupled modeling UIs and execution engines like Camunda and Flowable.
+
+BPMN](/blog/bpmn-modeling-vs-execution)
+
+[Read article](/blog/bpmn-modeling-vs-execution)
+
+Zbyněk Stara
+
+Mar 10, 2026
+
+[### Why building a BPMN modeler UI is harder than it looks
+
+A practical breakdown of the real engineering challenges behind building a custom BPMN modeler UI — rendering, UX, and engine integration.
+
+BPMN](/blog/why-building-a-bpmn-modeler-ui-is-harder-than-it-looks)
+
+[Read article](/blog/why-building-a-bpmn-modeler-ui-is-harder-than-it-looks)
+
+Zbyněk Stara
+
+Mar 16, 2026
+
+[### What makes a good BPMN modeler UI? A practical feature checklist
+
+Find out what separates a production-ready BPMN modeler UI from a merely functional one — with a practical ten-feature checklist covering BPMN shape library, link routing, process validation, and XML round-trip safety.
+
+BPMN](/blog/bpmn-modeler-ui-feature-checklist)
+
+[Read article](/blog/bpmn-modeler-ui-feature-checklist)
+
+David Durman
+
+Feb 20, 2026
+
+[### How to build a custom BPMN modeler UI for Camunda
+
+A step-by-step guide to connecting a custom BPMN editor to Camunda, covering XML enrichment, Zeebe extensions, and import/export pipelines.
+
+BPMN](/blog/how-to-build-custom-bpmn-modeler-ui-for-camunda)
+
+[Read article](/blog/how-to-build-custom-bpmn-modeler-ui-for-camunda)

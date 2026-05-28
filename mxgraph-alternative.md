@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/mxgraph-alternative
-generated: 2026-05-27
+generated: 2026-05-28
 format: markdown
 ---
 
@@ -172,15 +172,15 @@ Our library is based on a strong HTML5 and SVG foundation that allows it to run 
 
 ###### IMPLEMENTATION IN LEADING JAVASCRIPT FRAMEWORKS
 
-[Vue](/vue-diagrams)
+[React](https://docs.jointjs.com/learn/integration/react)
 
-[Angular](/angular-diagrams)
+[Angular](https://docs.jointjs.com/learn/integration/angular/)
 
-[React](/react-diagrams)
+[Vue](https://docs.jointjs.com/learn/integration/vue)
 
-[Svelte](/svelte-diagrams)
+[Svelte](https://docs.jointjs.com/learn/integration/svelte)
 
-[**Salesforce Lightning**](/salesforce-lightning-diagrams)
+[**Salesforce Lightning**](https://docs.jointjs.com/learn/integration/lightning)
 
 ## Speed up your development with a powerful library
 

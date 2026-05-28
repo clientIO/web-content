@@ -1,0 +1,47 @@
+---
+source: https://www.jointjs.com/success-stories/elia-automates-single-line-diagrams-for-work-permits
+generated: 2026-05-28
+format: plaintext
+---
+
+About Elia
+
+Elia is Belgium's transmission system operator, responsible for the country's high-voltage electricity grid. Through its subsidiary 50Hertz, the group also operates the transmission network in northern and eastern Germany, making the Elia Group one of Europe's top five TSOs. The company manages critical energy infrastructure that connects power generation to millions of homes and businesses across both countries, and plays a central role in integrating renewable energy sources into the European grid.
+
+Challenge
+
+Operating a high-voltage transmission network at the scale of Elia's means maintaining an accurate visual representation of thousands of substations, lines, transformers, busbars, and switching elements. Field technicians rely on these single-line diagrams every time they go on-site — they're the reference document attached to every work permit, showing exactly which section of the network is being worked on and how it's isolated from the rest of the grid.
+
+As the network grew and the pace of issuing work permits increased, Elia's team looked for ways to streamline the preparation of these schematics and tie it more closely to the operational data where network topology actually lives.
+
+The goals were to:
+
+speed up the preparation of schematics for individual work permits
+connect the visual output directly to the source data describing the network
+scale the workflow to keep pace with operational demand
+embed the diagram generation capability directly inside the internal work permit application that operations teams already use
+
+To do this, Elia's team decided to build a tool that would generate single-line schematics automatically from network data, directly inside their work permit system.
+
+Solution
+
+The team initially considered building the diagramming layer from scratch. But producing single-line schematics that conform to electrical engineering conventions — proper symbol libraries, orthogonal routing, busbar layouts, switchgear representation, label placement — is a significant engineering effort in its own right, and one that would have pulled the team away from the operational logic of the permit system itself.
+
+After being recommended JointJS, Elia's team built a single-line diagram generator that reads from their network data and renders schematics directly inside their work permit application.
+
+JointJS provided the building blocks the team needed:
+
+A shape API for building custom elements — the team defined their own electrical primitives (circuit breakers, disconnectors, transformers, busbars, generators, loads) once and reused them across every generated diagram
+A programmatic model API — graphs are constructed in code from Elia's network data, so diagrams are produced from the source of truth rather than drawn by hand
+Built-in orthogonal link routing and automatic layout — used as the foundation for arranging connections the way single-line schematics require
+A library, not a framework — JointJS embeds directly inside Elia's existing internal web application, alongside the permit logic itself
+
+The result is that when an operator prepares a work permit, the relevant section of the network is rendered automatically as a single-line schematic — accurate, current, and tied to the same network data the rest of the operation relies on.
+
+Result
+
+Elia now generates single-line schematics automatically inside its work permit system, with diagrams produced directly from the network data the rest of the operation depends on. Field technicians receive permits accompanied by schematics of the exact network section relevant to their work, prepared in a fraction of the time the previous workflow required.
+
+The success of the first implementation has led Elia's team to commit to a second JointJS-powered internal tool, citing the flexibility and functionality of the library as the reason for expanding its use across the organization.
+
+For a TSO operating critical infrastructure, the value isn't just developer time saved — it's consistency and speed. When schematics are generated automatically from the same data the rest of the operation relies on, technicians receive permits faster, and the whole process scales gracefully as the network grows.

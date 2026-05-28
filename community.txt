@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/community
-generated: 2026-05-27
+generated: 2026-05-28
 format: plaintext
 ---
 
@@ -16,27 +16,21 @@ Where we meet
 
 Join us on Github
 
-Contribute to our open source, discuss JointJS+ and learn from others.
+Contribute to our open source, discuss JointJS and learn from others.
 
 Join us
 
-Get inspired on Codepen
+Let’s talk on LinkedIn
 
-Explore our library of weekly updated demos for ideas on what to build next.
-
-find inspiration
-
-Let’s talk on Twitter
-
-Stay in the loop by networking with us and other diagramming geeks.
-
-let’s talk
-
-Follow us on Facebook
-
-Read our company news, product updates and customer stories.
+Release notes, engineering deep-dives, and what our team is working on.
 
 follow us
+
+Learn on YouTube
+
+Tutorials, demo walkthroughs, and feature breakdowns from the JointJS team. New videos regularly covering real implementation patterns and what's possible with the library.
+
+watch now
 
 Latest news
 

@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/free-trial
-generated: 2026-05-27
+generated: 2026-05-28
 format: plaintext
 ---
 
@@ -26,7 +26,7 @@ JointJS+ was really a great find, as it gave us a great boost in the diagramming
 
 José Miguel Gonçalves
 
-Project Manager, Nov Inesc Inovação
+Project Manager, INOV
 
 The JointJS+ toolkit is the best solution we found as a full fledged diagramming library for the web. The JointJS team has been extremely responsive to our needs and it’s been great to help contribute back to the product throughout our development process.
 
@@ -34,8 +34,8 @@ Kevin Mansel
 
 Senior Software Engineer, Patent Navigation
 
-JointJS+ was the perfect product for us. We have used JointJS+ as the foundation to create an illustration tool for Sales relationships within a target organization. The product has been reliable, flexible, straightforward to integrate, and very easy for end users to understand.
+JointJS allowed us to quickly develop a tool to generate single-line schematics for our network and easily integrate it into our permit management tool. We also plan to integrate it into another tool in the near future because it offers more functionality and flexibility.
 
-Phil Cederstrom
+Damien Vanvrekom
 
-Chief Technology Officer, Polaris I/O
+Program Manager, Elia

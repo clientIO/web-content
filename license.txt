@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/license
-generated: 2026-05-27
+generated: 2026-05-28
 format: plaintext
 ---
 
@@ -24,7 +24,7 @@ get started on github
 
 Professional
 
-JointJS+ is a commercial extension to the JointJS library that extends its features widely to create truly advanced HTML5 applications. Dedicated paid support subscriptions are available, as well as solutions tailored to your organization.  
+JointJS+ is a commercial extension to the JointJS library that extends its features widely to create truly advanced visual applications. Dedicated paid support subscriptions are available, as well as solutions tailored to your organization.  
   
 Full licensing terms for JointJS+ are listed below.
 
@@ -38,7 +38,48 @@ Buy jointjs+
 
 JointJS+ GENERAL LICENSE STATEMENT AND LIMITED WARRANTY
 
-Copyright © 2009 - 2023 client IO s.r.o.
+Copyright © 2009 - 2026 client IO s.r.o.
+
+Business summary
+
+License model
+
+Perpetual license with no recurring maintenance fees  
+Licensed per developer — the license is tied to the number of developers using the Software at time of purchase  
+License is granted upon acceptance of the agreement (installation, copying, or use constitutes acceptance)
+
+What you can do
+
+Use the Software indefinitely under the agreed terms  
+Transfer the license permanently to another party, provided:  
+   - You retain no copies  
+   - The recipient agrees to the same terms  
+   - The developer count doesn't exceed the original licensed amount  
+   - client IO is notified in writing  
+   - The entire licensed product is transferred (not partial)
+
+What you cannot do
+
+Rent, lease, lend, sublicense, time-share, or electronically transmit the Software  
+Modify, translate, or copy the Software outside the agreement  
+Exceed the licensed developer count
+
+License termination
+
+The license is perpetual unless breached — any violation results in complete loss of rights under the license
+
+Trial license (separate from paid license)
+
+30 consecutive days, internal evaluation only — not for production use  
+**One trial per organization every 18 months  
+-** Cannot be distributed outside your organization  
+client IO can terminate the trial at any time at its sole discretion  
+Trial Software may include watermarks, limited functionality, or time-limited output
+
+Warranty & Liability
+
+Software is provided "AS IS" with no warranty  
+client IO disclaims all liability for the Software and any output produced with it
 
 Definitions
 
