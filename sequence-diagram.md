@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/sequence-diagram
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/sequence-diagram/README.md
-generated: 2026-05-28
+generated: 2026-05-29
 format: markdown
 ---
 

@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com
-generated: 2026-05-28
+generated: 2026-05-29
 format: markdown
 ---
 
@@ -28,11 +28,11 @@ AI-assisted onboarding process builder by Silo Team.
 
 Process mining tool inside UiPath, the publicly traded automation leader.
 
+Visual flow builder powering Encharge's marketing automation platform.
+
 SOAR platform for Splunk, Cisco's security operations division.
 
 Single-line grid diagram generator for one of Europe's top five transmission system operators.
-
-Visual flow builder powering Encharge's marketing automation platform.
 
 ###### key features
 
