@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog
-generated: 2026-05-29
+generated: 2026-05-30
 format: markdown
 ---
 
@@ -37,6 +37,18 @@ Demo Wednesday
 Thank you! Your submission has been received!
 
 Oops! Something went wrong while submitting the form.
+
+Zoran Jambor
+
+May 29, 2026
+
+[### How to easily share the Claude Code MCP config with your team
+
+Claude Code offers an easy way to share the MCP server setup with your team through a JSON file you can commit to your repository.
+
+AI Diagramming](/blog/how-to-easily-share-the-claude-code-mcp-config-with-your-team)
+
+[Read article](/blog/how-to-easily-share-the-claude-code-mcp-config-with-your-team)
 
 Zoran Jambor
 
@@ -133,18 +145,6 @@ Find out what separates a production-ready BPMN modeler UI from a merely functio
 BPMN](/blog/bpmn-modeler-ui-feature-checklist)
 
 [Read article](/blog/bpmn-modeler-ui-feature-checklist)
-
-Zoran Jambor
-
-Mar 11, 2026
-
-[### 5 tips on using AI coding agents with JointJS
-
-Coding Agents, such as Claude Code, Cursor, Windsurf, and others, work very well with JointJS, so you should be leveraging them to speed up your development times.
-
-AI Diagramming](/blog/5-tips-on-using-ai-coding-agents-with-jointjs)
-
-[Read article](/blog/5-tips-on-using-ai-coding-agents-with-jointjs)
 
 [Next](?df86e59f_page=2)
 

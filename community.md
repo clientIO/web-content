@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/community
-generated: 2026-05-29
+generated: 2026-05-30
 format: markdown
 ---
 
@@ -44,6 +44,16 @@ Talk diagramming with the developers who build the library.
 
 Zoran Jambor
 
+May 29, 2026
+
+[### How to easily share the Claude Code MCP config with your team
+
+Claude Code offers an easy way to share the MCP server setup with your team through a JSON file you can commit to your repository.](/blog/how-to-easily-share-the-claude-code-mcp-config-with-your-team)
+
+[Read article](/blog/how-to-easily-share-the-claude-code-mcp-config-with-your-team)
+
+Zoran Jambor
+
 May 25, 2026
 
 [### Introducing JointJS MCP Server: Better code from your AI agent
@@ -61,16 +71,6 @@ May 21, 2026
 Vendor BPMN modelers get you drawing fast, but rigid palettes, fixed property panels, and no execution visualization hold products back. Here are the seven capabilities a custom modeler UI unlocks — and how to build each with JointJS.](/blog/why-teams-build-custom-bpmn-modeler-uis)
 
 [Read article](/blog/why-teams-build-custom-bpmn-modeler-uis)
-
-Zoran Jambor
-
-May 8, 2026
-
-[### JointJS performance overview: Testing diagrams with 100,000 nodes
-
-A hands-on overview of JointJS diagramming library performance, stress-testing up to 100,000 diagram elements/nodes.](/blog/jointjs-performance-overview-testing-diagrams-with-100-000-nodes)
-
-[Read article](/blog/jointjs-performance-overview-testing-diagrams-with-100-000-nodes)
 
 ## Speed up your development with a powerful library
 
