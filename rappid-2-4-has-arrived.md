@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/rappid-2-4-has-arrived
-generated: 2026-05-30
+generated: 2026-05-31
 format: markdown
 ---
 
@@ -95,7 +95,7 @@ Take a look at the main highlights here and the full changelog below.
 - various Typescript fixes
 - refer canvg dependency by a version instead of tarball URL
 
-We hope you you'll get the most from these new features, fixes and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#6b04190c2b0807020e051f450204) with questions or comments.
+We hope you you'll get the most from these new features, fixes and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#dab5a8bd9ab9b6b3bfb4aef4b3b5) with questions or comments.
 
 ‍
 
