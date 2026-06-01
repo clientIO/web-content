@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/finite-object-pool
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/finite-object-pool/README.md
-generated: 2026-05-31
+generated: 2026-06-01
 format: markdown
 ---
 

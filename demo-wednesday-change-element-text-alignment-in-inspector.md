@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-change-element-text-alignment-in-inspector
-generated: 2026-05-31
+generated: 2026-06-01
 format: markdown
 ---
 

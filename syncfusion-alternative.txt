@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/syncfusion-alternative
-generated: 2026-05-31
+generated: 2026-06-01
 format: plaintext
 ---
 

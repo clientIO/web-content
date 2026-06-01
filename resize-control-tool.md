@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/resize-control-tool
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/resize-control-tool/README.md
-generated: 2026-05-31
+generated: 2026-06-01
 format: markdown
 ---
 
