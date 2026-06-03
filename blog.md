@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog
-generated: 2026-06-02
+generated: 2026-06-03
 format: markdown
 ---
 
@@ -37,6 +37,16 @@ Demo Wednesday
 Thank you! Your submission has been received!
 
 Oops! Something went wrong while submitting the form.
+
+Zoran Jambor
+
+Jun 2, 2026
+
+[### Building Tournament Studio: A bracket editor built with JointJS+
+
+Tournament Studio is a small side project that demonstrates how quickly this kind of highly interactive visual app can be built with JointJS.](/blog/building-tournament-studio-a-bracket-editor-built-with-jointjs)
+
+[Read article](/blog/building-tournament-studio-a-bracket-editor-built-with-jointjs)
 
 Zoran Jambor
 
@@ -133,18 +143,6 @@ A hands-on guide that shows you how to use AI Coding Agents to easily customize 
 AI Diagramming](/blog/tutorial-customize-jointjs-demo-app-with-claude-code)
 
 [Read article](/blog/tutorial-customize-jointjs-demo-app-with-claude-code)
-
-Zbyněk Stara
-
-Mar 16, 2026
-
-[### What makes a good BPMN modeler UI? A practical feature checklist
-
-Find out what separates a production-ready BPMN modeler UI from a merely functional one — with a practical ten-feature checklist covering BPMN shape library, link routing, process validation, and XML round-trip safety.
-
-BPMN](/blog/bpmn-modeler-ui-feature-checklist)
-
-[Read article](/blog/bpmn-modeler-ui-feature-checklist)
 
 [Next](?df86e59f_page=2)
 

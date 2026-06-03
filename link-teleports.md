@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/link-teleports
-generated: 2026-06-02
+generated: 2026-06-03
 format: markdown
 ---
 
@@ -41,7 +41,7 @@ const paper = new dia.Paper({
   // ...
   defaultConnector(sourcePoint, targetPoint, routePoints, _, linkView) {
 
-    const distance = /* calculate distance between elements */;
+    const distance = /* calculate distance between elements */ ;
 
     if (distance > MIN_DISTANCE) {
       // Return a short path segment near the source/target,
@@ -61,57 +61,47 @@ The complete `paper` initialization with configuration constants:
 // Determine the length of the new endpoints.
 const SEGMENT_LENGTH = 50;
 
-// Determine the minimum distance required to trigger dynamic Link Teleports 
+// Determine the minimum distance required to trigger dynamic Link Teleports
 const MIN_DISTANCE = 600;
 
 const paper = new dia.Paper({
-    gridSize: 10,
-    drawGrid: true,
-    model: graph,
-    defaultAnchor: {
-        name: 'midSide',
-        args: {
-            useModelGeometry: true,
-            mode: 'prefer-horizontal'
-        }
+  gridSize: 10,
+  drawGrid: true,
+  model: graph,
+  defaultAnchor: {
+    name: 'midSide',
+    args: {
+      useModelGeometry: true,
+      mode: 'prefer-horizontal',
     },
-    defaultConnectionPoint: {
-        name: 'anchor'
-    },
-    defaultRouter: {
-        name: 'rightAngle'
-    },
-    // Override the default connector to create gaps in the link when the
-    // distance between the connected elements is large enough.
-    defaultConnector: function(
-        sourcePoint,
-        targetPoint,
-        routePoints,
-        _,
-        linkView
-    ) {
-        const sourceCenter = this.sourceView.model.getCenter();
-        const targetCenter = this.targetView.model.getCenter();
-        const distance = sourceCenter.distance(targetCenter);
-        if (distance > MIN_DISTANCE) {
-            const path = new g.Path();
-            const sourceEndPoint = sourcePoint
-                .clone()
-                .move(sourceCenter, SEGMENT_LENGTH);
-            path.appendSegment(g.Path.createSegment('M', sourcePoint));
-            path.appendSegment(g.Path.createSegment('L', sourceEndPoint));
-            const targetStartPoint = targetPoint
-                .clone()
-                .move(targetCenter, SEGMENT_LENGTH);
-            path.appendSegment(g.Path.createSegment('M', targetStartPoint));
-            path.appendSegment(g.Path.createSegment('L', targetPoint));
-            return path;
-        }
-        return connectors.straight(sourcePoint, targetPoint, routePoints, {
-            cornerType: 'cubic',
-            cornerRadius: 10
-        });
+  },
+  defaultConnectionPoint: {
+    name: 'anchor',
+  },
+  defaultRouter: {
+    name: 'rightAngle',
+  },
+  // Override the default connector to create gaps in the link when the
+  // distance between the connected elements is large enough.
+  defaultConnector: function (sourcePoint, targetPoint, routePoints, _, linkView) {
+    const sourceCenter = this.sourceView.model.getCenter();
+    const targetCenter = this.targetView.model.getCenter();
+    const distance = sourceCenter.distance(targetCenter);
+    if (distance > MIN_DISTANCE) {
+      const path = new g.Path();
+      const sourceEndPoint = sourcePoint.clone().move(sourceCenter, SEGMENT_LENGTH);
+      path.appendSegment(g.Path.createSegment('M', sourcePoint));
+      path.appendSegment(g.Path.createSegment('L', sourceEndPoint));
+      const targetStartPoint = targetPoint.clone().move(targetCenter, SEGMENT_LENGTH);
+      path.appendSegment(g.Path.createSegment('M', targetStartPoint));
+      path.appendSegment(g.Path.createSegment('L', targetPoint));
+      return path;
     }
+    return connectors.straight(sourcePoint, targetPoint, routePoints, {
+      cornerType: 'cubic',
+      cornerRadius: 10,
+    });
+  },
 });
 ```
 

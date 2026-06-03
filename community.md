@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/community
-generated: 2026-06-02
+generated: 2026-06-03
 format: markdown
 ---
 
@@ -44,6 +44,16 @@ Talk diagramming with the developers who build the library.
 
 Zoran Jambor
 
+Jun 2, 2026
+
+[### Building Tournament Studio: A bracket editor built with JointJS+
+
+Tournament Studio is a small side project that demonstrates how quickly this kind of highly interactive visual app can be built with JointJS.](/blog/building-tournament-studio-a-bracket-editor-built-with-jointjs)
+
+[Read article](/blog/building-tournament-studio-a-bracket-editor-built-with-jointjs)
+
+Zoran Jambor
+
 May 29, 2026
 
 [### How to easily share the Claude Code MCP config with your team
@@ -61,16 +71,6 @@ May 25, 2026
 A guide explaining what the JointJS MCP Server is, along with detailed instructions on how to install it to a local folder, in user scope, or in JSON to share with your team, and what the benefits of using it are.](/blog/introducing-jointjs-mcp-server)
 
 [Read article](/blog/introducing-jointjs-mcp-server)
-
-Zbyněk Stara
-
-May 21, 2026
-
-[### Why teams build custom BPMN modeler UIs (and when it's worth it)
-
-Vendor BPMN modelers get you drawing fast, but rigid palettes, fixed property panels, and no execution visualization hold products back. Here are the seven capabilities a custom modeler UI unlocks — and how to build each with JointJS.](/blog/why-teams-build-custom-bpmn-modeler-uis)
-
-[Read article](/blog/why-teams-build-custom-bpmn-modeler-uis)
 
 ## Speed up your development with a powerful library
 
