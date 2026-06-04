@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/text-position-based-on-space-availability
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/text-position-based-on-space-availability/README.md
-generated: 2026-06-03
+generated: 2026-06-04
 format: markdown
 ---
 

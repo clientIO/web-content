@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/showcase/cloud-maker
-generated: 2026-06-03
+generated: 2026-06-04
 format: markdown
 ---
 
