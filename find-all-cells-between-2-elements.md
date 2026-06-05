@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/find-all-cells-between-2-elements
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/find-all-cells-between-2-elements/README.md
-generated: 2026-06-04
+generated: 2026-06-05
 format: markdown
 ---
 

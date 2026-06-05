@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/community
-generated: 2026-06-04
+generated: 2026-06-05
 format: markdown
 ---
 
@@ -42,6 +42,16 @@ Talk diagramming with the developers who build the library.
 
 [All news](/blog)
 
+Zbyněk Stara
+
+Jun 4, 2026
+
+[### JointJS vs bpmn-js: A technical comparison for production BPMN editors
+
+JointJS and bpmn-js are the two leading JavaScript libraries for creating custom BPMN modeling UIs on the Web. Which one should you choose for your project?](/blog/jointjs-vs-bpmn-js-a-technical-comparison-for-production-bpmn-editors)
+
+[Read article](/blog/jointjs-vs-bpmn-js-a-technical-comparison-for-production-bpmn-editors)
+
 Zoran Jambor
 
 Jun 2, 2026
@@ -61,16 +71,6 @@ May 29, 2026
 Claude Code offers an easy way to share the MCP server setup with your team through a JSON file you can commit to your repository.](/blog/how-to-easily-share-the-claude-code-mcp-config-with-your-team)
 
 [Read article](/blog/how-to-easily-share-the-claude-code-mcp-config-with-your-team)
-
-Zoran Jambor
-
-May 25, 2026
-
-[### Introducing JointJS MCP Server: Better code from your AI agent
-
-A guide explaining what the JointJS MCP Server is, along with detailed instructions on how to install it to a local folder, in user scope, or in JSON to share with your team, and what the benefits of using it are.](/blog/introducing-jointjs-mcp-server)
-
-[Read article](/blog/introducing-jointjs-mcp-server)
 
 ## Speed up your development with a powerful library
 

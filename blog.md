@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog
-generated: 2026-06-04
+generated: 2026-06-05
 format: markdown
 ---
 
@@ -37,6 +37,18 @@ Demo Wednesday
 Thank you! Your submission has been received!
 
 Oops! Something went wrong while submitting the form.
+
+Zbyněk Stara
+
+Jun 4, 2026
+
+[### JointJS vs bpmn-js: A technical comparison for production BPMN editors
+
+JointJS and bpmn-js are the two leading JavaScript libraries for creating custom BPMN modeling UIs on the Web. Which one should you choose for your project?
+
+BPMN](/blog/jointjs-vs-bpmn-js-a-technical-comparison-for-production-bpmn-editors)
+
+[Read article](/blog/jointjs-vs-bpmn-js-a-technical-comparison-for-production-bpmn-editors)
 
 Zoran Jambor
 
@@ -131,18 +143,6 @@ A hands-on guide on using Link Teleports to simplify workflow UIs and untangle c
 Tutorials](/blog/link-teleports)
 
 [Read article](/blog/link-teleports)
-
-Zoran Jambor
-
-Mar 17, 2026
-
-[### Tutorial: Customize JointJS demo app with Claude Code
-
-A hands-on guide that shows you how to use AI Coding Agents to easily customize an existing JointJS demo to match your exact needs.
-
-AI Diagramming](/blog/tutorial-customize-jointjs-demo-app-with-claude-code)
-
-[Read article](/blog/tutorial-customize-jointjs-demo-app-with-claude-code)
 
 [Next](?df86e59f_page=2)
 
