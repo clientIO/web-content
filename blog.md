@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog
-generated: 2026-06-05
+generated: 2026-06-06
 format: markdown
 ---
 
@@ -38,25 +38,15 @@ Thank you! Your submission has been received!
 
 Oops! Something went wrong while submitting the form.
 
-Zbyněk Stara
-
-Jun 4, 2026
-
-[### JointJS vs bpmn-js: A technical comparison for production BPMN editors
-
-JointJS and bpmn-js are the two leading JavaScript libraries for creating custom BPMN modeling UIs on the Web. Which one should you choose for your project?
-
-BPMN](/blog/jointjs-vs-bpmn-js-a-technical-comparison-for-production-bpmn-editors)
-
-[Read article](/blog/jointjs-vs-bpmn-js-a-technical-comparison-for-production-bpmn-editors)
-
 Zoran Jambor
 
 Jun 2, 2026
 
 [### Building Tournament Studio: A bracket editor built with JointJS+
 
-Tournament Studio is a small side project that demonstrates how quickly this kind of highly interactive visual app can be built with JointJS.](/blog/building-tournament-studio-a-bracket-editor-built-with-jointjs)
+Tournament Studio is a small side project that demonstrates how quickly this kind of highly interactive visual app can be built with JointJS.
+
+Tutorials](/blog/building-tournament-studio-a-bracket-editor-built-with-jointjs)
 
 [Read article](/blog/building-tournament-studio-a-bracket-editor-built-with-jointjs)
 
@@ -143,6 +133,18 @@ A hands-on guide on using Link Teleports to simplify workflow UIs and untangle c
 Tutorials](/blog/link-teleports)
 
 [Read article](/blog/link-teleports)
+
+Zoran Jambor
+
+Mar 17, 2026
+
+[### Tutorial: Customize JointJS demo app with Claude Code
+
+A hands-on guide that shows you how to use AI Coding Agents to easily customize an existing JointJS demo to match your exact needs.
+
+AI Diagramming](/blog/tutorial-customize-jointjs-demo-app-with-claude-code)
+
+[Read article](/blog/tutorial-customize-jointjs-demo-app-with-claude-code)
 
 [Next](?df86e59f_page=2)
 

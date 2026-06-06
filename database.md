@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/database
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/database/README.md
-generated: 2026-06-05
+generated: 2026-06-06
 format: markdown
 ---
 
