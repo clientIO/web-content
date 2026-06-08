@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-parametric-diagram
-generated: 2026-06-07
+generated: 2026-06-08
 format: markdown
 ---
 
