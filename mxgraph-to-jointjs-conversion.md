@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/mxgraph-to-jointjs-conversion
-generated: 2026-06-09
+generated: 2026-06-10
 format: markdown
 ---
 

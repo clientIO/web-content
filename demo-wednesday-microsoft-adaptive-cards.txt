@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-microsoft-adaptive-cards
-generated: 2026-06-09
+generated: 2026-06-10
 format: plaintext
 ---
 
