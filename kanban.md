@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/kanban
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/kanban/README.md
-generated: 2026-06-10
+generated: 2026-06-11
 format: markdown
 ---
 
