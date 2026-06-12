@@ -1,20 +1,26 @@
 ---
 source: https://www.jointjs.com/contact-us
-generated: 2026-06-11
+generated: 2026-06-12
 format: markdown
 ---
 
-# Contact us
+# Talk to us about JointJS+
 
-Need help? Get in touch with us.
+Get answers on commercial licensing, startup offers, and whether JointJS fits your use case — directly from the team that builds it.
 
-Useful links
+Commercial licensing
 
-[community](/community)[FAQ](/faq)
+Solution evaluation
 
-The latest news
+Startup offers
 
-## Drop us a message
+Contact e-mail
+
+[[email protected]](/cdn-cgi/l/email-protection#d2bbbcb4bd92b8bdbbbca6b8a1fcb1bdbf)
+
+You may also check the [FAQ](/faq) for more answers
+
+## Talk to our team
 
 ### Connect with other diagramming enthusiasts
 
@@ -27,3 +33,5 @@ Ask a question, share feedback, or engage in a discussion with other community m
 Address
 
 Pernerova 697/35, 186 00 Prague 8 – Karlín, Czech Republic
+
+Empowering industry leaders worldwide

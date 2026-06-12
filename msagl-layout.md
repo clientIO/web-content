@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/msagl-layout
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/msagl-layout/README.md
-generated: 2026-06-11
+generated: 2026-06-12
 format: markdown
 ---
 

@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/community
-generated: 2026-06-11
+generated: 2026-06-12
 format: markdown
 ---
 
@@ -42,6 +42,16 @@ Talk diagramming with the developers who build the library.
 
 [All news](/blog)
 
+Zoran Jambor
+
+Jun 11, 2026
+
+[### From Code to Conversation: Highlights from Weblica 2026
+
+A brief look at our experience at the Weblica conference, with key takeaways, highlights, and insight about the latest AI and web development trends.](/blog/from-code-to-conversation-highlights-from-weblica-2026)
+
+[Read article](/blog/from-code-to-conversation-highlights-from-weblica-2026)
+
 Zbyněk Stara
 
 Jun 9, 2026
@@ -61,16 +71,6 @@ Jun 2, 2026
 Tournament Studio is a small side project that demonstrates how quickly this kind of highly interactive visual app can be built with JointJS.](/blog/building-tournament-studio-a-bracket-editor-built-with-jointjs)
 
 [Read article](/blog/building-tournament-studio-a-bracket-editor-built-with-jointjs)
-
-Zoran Jambor
-
-May 29, 2026
-
-[### How to easily share the Claude Code MCP config with your team
-
-Claude Code offers an easy way to share the MCP server setup with your team through a JSON file you can commit to your repository.](/blog/how-to-easily-share-the-claude-code-mcp-config-with-your-team)
-
-[Read article](/blog/how-to-easily-share-the-claude-code-mcp-config-with-your-team)
 
 ## Speed up your development with a powerful library
 

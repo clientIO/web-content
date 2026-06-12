@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-circular-rectangular-layout
-generated: 2026-06-11
+generated: 2026-06-12
 format: markdown
 ---
 

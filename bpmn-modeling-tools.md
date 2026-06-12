@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/bpmn-modeling-tools
-generated: 2026-06-11
+generated: 2026-06-12
 format: markdown
 ---
 
@@ -246,15 +246,15 @@ BPMN](/blog/bpmn-modeling-vs-execution)
 
 Zbyněk Stara
 
-Mar 10, 2026
+Jun 9, 2026
 
-[### Why building a BPMN modeler UI is harder than it looks
+[### JointJS vs bpmn-js: A technical comparison for production BPMN modeling tools
 
-A practical breakdown of the real engineering challenges behind building a custom BPMN modeler UI — rendering, UX, and engine integration.
+JointJS and bpmn-js are the two leading JavaScript libraries for creating custom BPMN modeling UIs on the Web. Which one should you choose for your project?
 
-BPMN](/blog/why-building-a-bpmn-modeler-ui-is-harder-than-it-looks)
+BPMN](/blog/jointjs-vs-bpmn-js-technical-comparison-for-production-bpmn-editors)
 
-[Read article](/blog/why-building-a-bpmn-modeler-ui-is-harder-than-it-looks)
+[Read article](/blog/jointjs-vs-bpmn-js-technical-comparison-for-production-bpmn-editors)
 
 Zbyněk Stara
 

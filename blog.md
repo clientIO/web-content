@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog
-generated: 2026-06-10
+generated: 2026-06-12
 format: markdown
 ---
 
@@ -37,6 +37,16 @@ Demo Wednesday
 Thank you! Your submission has been received!
 
 Oops! Something went wrong while submitting the form.
+
+Zoran Jambor
+
+Jun 11, 2026
+
+[### From Code to Conversation: Highlights from Weblica 2026
+
+A brief look at our experience at the Weblica conference, with key takeaways, highlights, and insight about the latest AI and web development trends.](/blog/from-code-to-conversation-highlights-from-weblica-2026)
+
+[Read article](/blog/from-code-to-conversation-highlights-from-weblica-2026)
 
 Zbyněk Stara
 
@@ -133,18 +143,6 @@ Claude Code Playground generates useful diagrams, but they're static and limited
 AI Diagramming](/blog/build-better-claude-code-playgrounds-with-jointjs)
 
 [Read article](/blog/build-better-claude-code-playgrounds-with-jointjs)
-
-Zoran Jambor
-
-Mar 26, 2026
-
-[### How to keep complex diagrams readable with Link Teleports
-
-A hands-on guide on using Link Teleports to simplify workflow UIs and untangle complex paths between nodes.
-
-Tutorials](/blog/link-teleports)
-
-[Read article](/blog/link-teleports)
 
 [Next](?df86e59f_page=2)
 

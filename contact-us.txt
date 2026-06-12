@@ -1,20 +1,26 @@
 ---
 source: https://www.jointjs.com/contact-us
-generated: 2026-06-11
+generated: 2026-06-12
 format: plaintext
 ---
 
-Contact us
+Talk to us about JointJS+
 
-Need help? Get in touch with us.
+Get answers on commercial licensing, startup offers, and whether JointJS fits your use case — directly from the team that builds it.
 
-Useful links
+Commercial licensing
 
-communityFAQ
+Solution evaluation
 
-The latest news
+Startup offers
 
-Drop us a message
+Contact e-mail
+
+[email protected]
+
+You may also check the FAQ for more answers
+
+Talk to our team
 
 Connect with other diagramming enthusiasts
 
@@ -27,3 +33,5 @@ Proudly based in Prague
 Address
 
 Pernerova 697/35, 186 00 Prague 8 – Karlín, Czech Republic
+
+Empowering industry leaders worldwide

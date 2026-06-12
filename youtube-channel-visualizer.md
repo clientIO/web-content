@@ -1,0 +1,205 @@
+---
+source: https://www.jointjs.com/blog/youtube-channel-visualizer
+generated: 2026-06-12
+format: markdown
+---
+
+If you want to visualize your YouTube channel, whether to gain more insight into channel metrics or simply to showcase your content on social media, a flat list of uploads or a screenshot from the analytics screen is quite limiting.
+
+That’s the idea behind this [YouTube Channel Visualizer](https://changelog.jointjs.com/gallery/youtube-channel-visualizer/), a lightweight online app that turns any YouTube channel into a visual diagram. It helps you explore videos, spot publishing patterns, analyze performance, and even plan future content.
+
+In this post, you’ll see what the tool does, why JointJS is a strong fit for this kind of interface, and how this approach can help you build similar tools with AI Coding Agents such as Claude Code.
+
+## What the YouTube Channel Visualizer does
+
+At its core, the YouTube Channel Visualizer displays the latest videos from a YouTube channel as a dynamic, interactive graph.
+
+An interactive diagram allows you to explore your channel visually, understand relationships between videos, and more.
+
+On the main canvas, you can:
+
+- zoom in and out
+- drag and rearrange nodes
+- explore connections between videos, dates, years, and tags
+- switch between multiple layout and grouping modes
+
+The tool currently supports several ways to view your channel:
+
+- **Timeline** – organize videos chronologically
+- **Tags** – group videos by topic or category
+- **Views** – cluster videos by performance
+- **Grid** – show videos in a simple visual grid
+- **Calendar** – see publishing activity across a calendar layout
+- **Stats** – surface useful channel metrics and top-performing videos
+
+That flexibility makes the tool useful not just for browsing content, but for understanding it from different angles.
+
+## Visualizing relationships between videos
+
+One of the most useful aspects of the app is the way it displays relationships among content elements.
+
+The app offers several options for visualizing links between canvas elements.
+
+Connections between nodes can use different routing styles:
+
+- Direct
+- Manhattan
+- Metro
+
+The lines can also use different visual styles:
+
+- Rounded
+- Curved
+
+These options, powered by the JointJS diagramming library, help shape the diagram’s readability and feel. A direct line works well for straightforward layouts, while routed or curved lines can make denser views easier to scan.
+
+## Multiple ways to group channel content
+
+The canvas view showcases a card for each video on the channel, linking each to tags and dates and making the connections between different pieces of content easy to understand.
+
+But the real value of the tool comes from being able to regroup the same data in different ways.
+
+### Arrange by Timeline
+
+YouTube Channel Visualizer arranges your content on a timeline by default.
+
+The Timeline view on Canvas is the default. It groups content by month, allowing you to see the distribution of videos over time and understand how publishing activity may relate to overall channel performance.
+
+### Arrange by Tags
+
+Easily see your content grouped by tags.
+
+In the Tags view, videos are grouped into categories such as *Tutorial*, *News*, and *Quick Tips*, giving you a clear picture of the types of content a channel has published over time.
+
+You can also create custom tags, link videos to them, and add icons or emojis to create a clearer visual language. That makes the tool adaptable to your own content structure.
+
+### Arrange by Views
+
+Easily identify your best-performing videos when arranging the canvas by views.
+
+Arranging the content by Views will group videos by performance, making it easy to identify outliers.
+
+If most videos fall into one range but a few perform significantly better, the pattern becomes clear immediately and can help you guide future content decisions.
+
+### Arrange by Grid
+
+Grid view allows you to identify the types of content you’re publishing easily.
+
+The Grid view gives you a compact overview of all videos, which is ideal if you want to filter them and better understand your content library and publishing strategy.
+
+### Filter by video type
+
+YouTube supports multiple types of content, including *Long Videos*, *Shorts*, and *Live Streams*, and the [YouTube Channel Visualizer](https://changelog.jointjs.com/gallery/youtube-channel-visualizer/) makes it easy to see which types of content you’re publishing.
+
+By combining the filter with different arrangements, you can gain insight into which types of content perform well on your channel.
+
+## Canvas, Calendar, and Stats screens
+
+The diagram screen (Canvas) is the default, but the tool offers additional views that might be helpful.
+
+The Calendar screen highlights publishing activity over time.
+
+The Stats screen surfaces best-performing videos and other useful channel-level insights.
+
+## YouTube planning and scheduling tool
+
+The app can also function as a lightweight planning tool. You can manually add a new video card, give it a title, define its type, set its status, and connect it to a date or tag.
+
+You can also use the YouTube Channel Visualizer to plan your upcoming content.
+
+So the same interface can help you understand past output and organize future work, making the diagram useful for content planning, editorial organization, and maintaining a high-level overview of your publishing pipeline.
+
+## Importing your own channel
+
+The app includes an API panel where you can import your own YouTube channel by providing:
+
+- a channel handle
+- a YouTube API key
+- the number of videos to import
+
+Import your channel easily using a YouTube API key.
+
+Because the visualization is powered by JointJS, it remains smooth even with larger datasets. That makes it practical not just for small channels, but for larger video libraries as well.
+
+*Note that the tool isn’t optimized to load several hundreds of videos, so with massive datasets, you might experience longer load times.*
+
+## YouTube Channel Visualizer app architecture
+
+The [YouTube Channel Visualizer](https://changelog.jointjs.com/gallery/youtube-channel-visualizer/) was vibe-coded as a self-contained, single-page app in a single HTML file using the [JointJS Claude Playground](https://github.com/clientIO/jointjs-claude-playground) plugin for Claude Code.
+
+It took some refinement to get to its current state, but aside from some lightweight code tweaking and adjustments, it was vibe-coded end to end.
+
+### Local-first by design
+
+Everything is stored in `localStorage`, so your edits remain available after a refresh, without having to create an account.
+
+If you want something more portable, you can export the current state from the right sidebar in several formats:
+
+- JSON
+- Markdown
+- State export
+
+This keeps the app simple and practical:
+
+- no account creation
+- no backend required
+- easy backup and restore
+- shareable visual snapshots of your channel
+
+A resulting image from the Export PNG action.
+
+The PNG export is especially useful if you want to share a visual representation of your channel on social media or include it in your promo materials for potential sponsors.
+
+### Why JointJS is a good fit for this kind of tool
+
+If you want to build a tool like this, the key requirement is not just rendering data, but supporting visual interactions.
+
+A visual graph interface depends on:
+
+- interactive nodes
+- connections between elements
+- custom layouts
+- dragging and rearranging
+- rendering performance at a larger scale
+
+That’s why [JointJS](https://jointjs.com) is such a good fit. It provides the diagramming foundation needed to move from a rough prototype to a practical visual tool.
+
+### A reusable workflow for visual tools
+
+A custom [Claude Code Playground plugin with JointJS built-in](https://www.jointjs.com/blog/build-better-claude-code-playgrounds-with-jointjs) makes it possible to prototype different kinds of visual tools easily. If you want to build graphs, codemaps, content visualizers, planning interfaces, workflow editors, or any other visual application, starting with JointJS already integrated removes a lot of friction.
+
+Simply describe what you want to build in natural language and let Claude Code generate the first version. Then iterate and refine the result as needed.
+
+This approach will let you build useful visual tools much faster while still relying on a proper diagramming library underneath.
+
+## A visual way to analyze your YouTube channel
+
+If you want to visualize your YouTube channel in a way that goes beyond a flat list of uploads, an interactive diagram can reveal patterns that are otherwise easy to miss.
+
+YouTube Channel Visualizer will help you with channel analysis, content planning, and experimentation. And more broadly, it shows how AI-assisted prototyping becomes much more effective when paired with the right visual foundation.
+
+‍
+
+‍
+
+## FAQs
+
+What is YouTube Channel Visualizer?
+
+What can I do with the YouTube Channel Visualizer?
+
+Can I use it with my own YouTube channel?
+
+Do I need a YouTube API key?
+
+Is my data stored online?
+
+Can I use the tool to plan future videos?
+
+Can I export my data or the current view?
+
+How many videos can the app handle?
+
+Why is JointJS used in this tool?
+
+Can I build a similar app myself?

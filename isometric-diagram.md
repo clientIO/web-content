@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/isometric-diagram
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/isometric-diagram/README.md
-generated: 2026-06-11
+generated: 2026-06-12
 format: markdown
 ---
 

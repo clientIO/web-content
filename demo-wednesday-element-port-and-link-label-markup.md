@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-element-port-and-link-label-markup
-generated: 2026-06-11
+generated: 2026-06-12
 format: markdown
 ---
 
