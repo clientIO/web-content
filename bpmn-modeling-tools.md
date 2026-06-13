@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/bpmn-modeling-tools
-generated: 2026-06-12
+generated: 2026-06-13
 format: markdown
 ---
 

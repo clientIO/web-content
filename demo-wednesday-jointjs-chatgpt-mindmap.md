@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-jointjs-chatgpt-mindmap
-generated: 2026-06-12
+generated: 2026-06-13
 format: markdown
 ---
 
