@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/introducing-rappid-version-2-3
-generated: 2026-06-13
+generated: 2026-06-14
 format: markdown
 ---
 
@@ -100,7 +100,7 @@ The Tutorials section has been completely updated including new tutorials for st
 - util - add parseDOMJSON(), dataUriToBlob(), downloadBlob(), downloadDataUri() and isPercentage()
 - util - toggleFullscreen() - fix canceling fullscreen in an iframe
 
-We hope you you'll get the most from these new features, fixes and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#08677a6f486b64616d667c266167377b7d6a626d6b7c355a697878616c2d3a38597d6d7b7c616766) with questions or comments.
+We hope you you'll get the most from these new features, fixes and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#4629342106252a2f232832682f29793533242c2325327b142736362f2263747617332335322f2928) with questions or comments.
 
 ‍
 

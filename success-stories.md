@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/success-stories
-generated: 2026-06-13
+generated: 2026-06-14
 format: markdown
 ---
 

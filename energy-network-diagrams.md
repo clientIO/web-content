@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/energy-network-diagrams
-generated: 2026-06-13
+generated: 2026-06-14
 format: markdown
 ---
 
