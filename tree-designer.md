@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/tree-designer
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/tree-designer/README.md
-generated: 2026-06-14
+generated: 2026-06-15
 format: markdown
 ---
 
