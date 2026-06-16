@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/animated-process-flow-diagram
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/animated-process-flow-diagram/README.md
-generated: 2026-06-15
+generated: 2026-06-16
 format: markdown
 ---
 
