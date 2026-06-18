@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/angles
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/angles/README.md
-generated: 2026-06-17
+generated: 2026-06-18
 format: markdown
 ---
 
