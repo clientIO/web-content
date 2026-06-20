@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/success-stories/fast-way-to-compose-ai-models-in-no-code-way
-generated: 2026-06-19
+generated: 2026-06-20
 format: markdown
 ---
 

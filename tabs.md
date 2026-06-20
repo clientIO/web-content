@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/tabs
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/tabs/README.md
-generated: 2026-06-19
+generated: 2026-06-20
 format: markdown
 ---
 
