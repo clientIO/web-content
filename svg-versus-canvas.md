@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/svg-versus-canvas
-generated: 2026-06-20
+generated: 2026-06-21
 format: markdown
 ---
 

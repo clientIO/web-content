@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/genogram
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/genogram/README.md
-generated: 2026-06-20
+generated: 2026-06-21
 format: markdown
 ---
 

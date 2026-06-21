@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/curves
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/curves/README.md
-generated: 2026-06-20
+generated: 2026-06-21
 format: markdown
 ---
 

@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/comment-view
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/comment-view/README.md
-generated: 2026-06-20
+generated: 2026-06-21
 format: markdown
 ---
 
