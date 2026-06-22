@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/roi-calculator
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/roi-calculator/README.md
-generated: 2026-06-21
+generated: 2026-06-22
 format: markdown
 ---
 
