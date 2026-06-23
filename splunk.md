@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/showcase/splunk
-generated: 2026-06-22
+generated: 2026-06-23
 format: markdown
 ---
 
