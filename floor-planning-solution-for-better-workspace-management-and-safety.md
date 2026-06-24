@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/success-stories/floor-planning-solution-for-better-workspace-management-and-safety
-generated: 2026-06-23
+generated: 2026-06-24
 format: markdown
 ---
 

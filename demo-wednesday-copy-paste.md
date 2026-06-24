@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-copy-paste
-generated: 2026-06-23
+generated: 2026-06-24
 format: markdown
 ---
 
