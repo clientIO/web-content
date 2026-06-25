@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/theory-of-change
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/theory-of-change/README.md
-generated: 2026-06-24
+generated: 2026-06-25
 format: markdown
 ---
 
