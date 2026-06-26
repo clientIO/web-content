@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/community
-generated: 2026-06-25
+generated: 2026-06-26
 format: markdown
 ---
 
@@ -44,6 +44,16 @@ Talk diagramming with the developers who build the library.
 
 Zoran Jambor
 
+Jun 25, 2026
+
+[### Just connected the JointJS MCP Server? Start with these 6 essential prompts
+
+A quick tip outlining a few prompts you can use to test and get started with the JointJS MCP Server.](/blog/just-connected-the-jointjs-mcp-server-start-with-these-6-essential-prompts)
+
+[Read article](/blog/just-connected-the-jointjs-mcp-server-start-with-these-6-essential-prompts)
+
+Zoran Jambor
+
 Jun 11, 2026
 
 [### From Code to Conversation: Highlights from Weblica 2026
@@ -61,16 +71,6 @@ Jun 9, 2026
 JointJS and bpmn-js are the two leading JavaScript libraries for creating custom BPMN modeling UIs on the Web. Which one should you choose for your project?](/blog/jointjs-vs-bpmn-js-technical-comparison-for-production-bpmn-editors)
 
 [Read article](/blog/jointjs-vs-bpmn-js-technical-comparison-for-production-bpmn-editors)
-
-Zoran Jambor
-
-Jun 2, 2026
-
-[### Building Tournament Studio: A bracket editor built with JointJS+
-
-Tournament Studio is a small side project that demonstrates how quickly this kind of highly interactive visual app can be built with JointJS.](/blog/building-tournament-studio-a-bracket-editor-built-with-jointjs)
-
-[Read article](/blog/building-tournament-studio-a-bracket-editor-built-with-jointjs)
 
 ## Speed up your development with a powerful library
 

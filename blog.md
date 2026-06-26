@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog
-generated: 2026-06-25
+generated: 2026-06-26
 format: markdown
 ---
 
@@ -37,6 +37,18 @@ Demo Wednesday
 Thank you! Your submission has been received!
 
 Oops! Something went wrong while submitting the form.
+
+Zoran Jambor
+
+Jun 25, 2026
+
+[### Just connected the JointJS MCP Server? Start with these 6 essential prompts
+
+A quick tip outlining a few prompts you can use to test and get started with the JointJS MCP Server.
+
+AI Diagramming](/blog/just-connected-the-jointjs-mcp-server-start-with-these-6-essential-prompts)
+
+[Read article](/blog/just-connected-the-jointjs-mcp-server-start-with-these-6-essential-prompts)
 
 Zoran Jambor
 
@@ -131,18 +143,6 @@ Turn your YouTube channel into an interactive diagram. Explore publishing patter
 Tutorials](/blog/youtube-channel-visualizer)
 
 [Read article](/blog/youtube-channel-visualizer)
-
-Zoran Jambor
-
-Apr 10, 2026
-
-[### Build better Claude Code Playgrounds with JointJS
-
-Claude Code Playground generates useful diagrams, but they're static and limited. This guide shows how to install the JointJS Claude Playground plugin and use it to build interactive codemaps, visual SQL builders, decision trees, site explorers, and more.
-
-AI Diagramming](/blog/build-better-claude-code-playgrounds-with-jointjs)
-
-[Read article](/blog/build-better-claude-code-playgrounds-with-jointjs)
 
 [Next](?df86e59f_page=2)
 

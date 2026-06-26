@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/showcase/nebulant
-generated: 2026-06-25
+generated: 2026-06-26
 format: markdown
 ---
 
