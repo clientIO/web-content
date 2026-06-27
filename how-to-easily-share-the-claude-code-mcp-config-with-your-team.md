@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/how-to-easily-share-the-claude-code-mcp-config-with-your-team
-generated: 2026-06-26
+generated: 2026-06-27
 format: markdown
 ---
 
