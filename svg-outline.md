@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/svg-outline
-generated: 2026-06-27
+generated: 2026-06-28
 format: markdown
 ---
 

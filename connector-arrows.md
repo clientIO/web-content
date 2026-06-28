@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/connector-arrows
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/connector-arrows/README.md
-generated: 2026-06-27
+generated: 2026-06-28
 format: markdown
 ---
 
