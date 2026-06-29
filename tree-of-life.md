@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/tree-of-life
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/tree-of-life/README.md
-generated: 2026-06-28
+generated: 2026-06-29
 format: markdown
 ---
 

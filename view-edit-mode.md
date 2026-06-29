@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/view-edit-mode
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/view-edit-mode/README.md
-generated: 2026-06-28
+generated: 2026-06-29
 format: markdown
 ---
 

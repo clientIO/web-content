@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/demos/zoomable-user-interface
-generated: 2026-06-28
+generated: 2026-06-29
 format: markdown
 ---
 

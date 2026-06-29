@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/build-genogram-with-automatic-directed-layout
-generated: 2026-06-28
+generated: 2026-06-29
 format: markdown
 ---
 
