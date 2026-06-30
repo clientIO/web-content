@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/translate-connected-links-in-selection
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/translate-connected-links-in-selection/README.md
-generated: 2026-06-29
+generated: 2026-06-30
 format: markdown
 ---
 
