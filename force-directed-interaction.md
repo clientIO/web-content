@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/force-directed-interaction
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/force-directed-interaction/README.md
-generated: 2026-06-30
+generated: 2026-07-01
 format: markdown
 ---
 
