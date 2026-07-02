@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/rappid-v2-2-released
-generated: 2026-07-01
+generated: 2026-07-02
 format: markdown
 ---
 
@@ -96,7 +96,7 @@ Combining these new capabilities with the additional features of JointJS+, one c
 - shapes.BPMN - add `ratio` option for Pool lanes
 - shapes.BPMN - fix Choreography rendering issues and links in Firefox
 
-We hope you you'll get the most from these new features, fixes and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#5d322f3a1d3e3134383329733432622e283f37383e29600f3c2d2d3439786f6d6f736c736d786f6d2c28382e29343233) with questions or comments.
+We hope you you'll get the most from these new features, fixes and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#92fde0f5d2f1fefbf7fce6bcfbfdade1e7f0f8f7f1e6afc0f3e2e2fbf6b7a0a2a0bca3bca2b7a0a2e3e7f7e1e6fbfdfc) with questions or comments.
 
 ‍
 

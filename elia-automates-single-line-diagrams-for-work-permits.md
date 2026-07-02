@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/success-stories/elia-automates-single-line-diagrams-for-work-permits
-generated: 2026-07-01
+generated: 2026-07-02
 format: markdown
 ---
 
