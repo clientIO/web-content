@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/build-better-claude-code-playgrounds-with-jointjs
-generated: 2026-07-02
+generated: 2026-07-03
 format: markdown
 ---
 

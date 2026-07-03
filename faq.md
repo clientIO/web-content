@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/faq
-generated: 2026-07-02
+generated: 2026-07-03
 format: markdown
 ---
 
@@ -52,11 +52,7 @@ Where can I find the source code of the demo applications?
 
 Does your library only support TypeScript, or can we also get it in pure JavaScript?
 
-Do you have any examples of integration with Vue/React/Angular?
-
 Is it possible to integrate JointJS+ with Salesforce?
-
-Do you have a React JS version of the Chatbot demo?
 
 Can I import and export BPMN Visio shapes?
 

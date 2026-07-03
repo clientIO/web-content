@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/bootstrap-tabs
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/bootstrap-tabs/README.md
-generated: 2026-07-02
+generated: 2026-07-03
 format: markdown
 ---
 

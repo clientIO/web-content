@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/from-code-to-conversation-highlights-from-weblica-2026
-generated: 2026-07-02
+generated: 2026-07-03
 format: markdown
 ---
 
