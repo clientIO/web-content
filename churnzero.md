@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/showcase/churnzero
-generated: 2026-07-02
+generated: 2026-07-04
 format: markdown
 ---
 

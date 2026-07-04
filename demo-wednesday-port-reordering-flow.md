@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-port-reordering-flow
-generated: 2026-07-03
+generated: 2026-07-04
 format: markdown
 ---
 

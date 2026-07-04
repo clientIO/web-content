@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/svelte-diagrams
-generated: 2026-07-03
+generated: 2026-07-04
 format: markdown
 ---
 
