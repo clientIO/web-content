@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-json-visualization
-generated: 2026-07-06
+generated: 2026-07-07
 format: markdown
 ---
 
