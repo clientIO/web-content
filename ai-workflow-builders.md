@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/ai-workflow-builders
-generated: 2026-07-08
+generated: 2026-07-09
 format: markdown
 ---
 
@@ -18,7 +18,7 @@ Kickstart your development with a ready-to-use template.
 
 [open demo
 
-[](https://cdn.prod.website-files.com/63061d4ee85b5a18644f221c%2F6a145fbbf8d704f377a87298_AI-workflow-builder_mp4.mp4)](https://www.jointjs.com/demos/ai-agent-builder)
+[](https://cdn.prod.website-files.com/63061d4ee85b5a18644f221c%2F6a145fbbf8d704f377a87298_AI-workflow-builder_mp4.mp4)](https://jointjs.com/demos/ai-workflow-builder)
 
 BOiLERPLATE
 
@@ -28,7 +28,7 @@ The JointJS AI workflow builder demo is a fully working starting point: custom n
 
 Get started on your framework
 
-[Javascript](https://docs.jointjs.com/)[React](https://docs.jointjs.com/learn/integration/react)[Angular](https://docs.jointjs.com/learn/integration/angular/)[Vue](https://docs.jointjs.com/learn/integration/vue)[Svelte](https://docs.jointjs.com/learn/integration/svelte)
+[Javascript](https://docs.jointjs.com/)[React](https://docs.jointjs.com/react/)[Angular](https://docs.jointjs.com/learn/integration/angular/)[Vue](https://docs.jointjs.com/learn/integration/vue)[Svelte](https://docs.jointjs.com/learn/integration/svelte)
 
 more demos
 

@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/showcase
-generated: 2026-07-08
+generated: 2026-07-09
 format: markdown
 ---
 
@@ -427,6 +427,24 @@ This is some text inside of a div block.
 [Built-in shapes](/demo-features/built-in-shapes)
 
 [Automatic layout](/demo-features/automatic-layout)
+
+[UML & software modeling](/demo-tag/uml-software-modeling)
+
+[Project management](/demo-tag/project-management)
+
+[Timelines](/demo-tag/timeline)
+
+[Org charts](/demo-tag/org-charts)
+
+[Data modeling](/demo-tag/data-modeling)
+
+[Electronic design](/demo-tag/electronic-design)
+
+[Energy networks](/demo-tag/energy-network)
+
+[SCADA & HMI](/demo-tag/scada-hmi)
+
+[AI workflow builders](/demo-tag/ai-workflow-builders)
 
 [BPMN](/demo-tag/bpmn)
 

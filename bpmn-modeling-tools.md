@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/bpmn-modeling-tools
-generated: 2026-07-08
+generated: 2026-07-09
 format: markdown
 ---
 
@@ -28,7 +28,7 @@ The JointJS BPMN editor demo is a fully working starting point: complete BPMN 2.
 
 Get started on your framework
 
-[Javascript](https://docs.jointjs.com/)[React](https://docs.jointjs.com/learn/integration/react)[Angular](https://docs.jointjs.com/learn/integration/angular/)[Vue](https://docs.jointjs.com/learn/integration/vue)[Svelte](https://docs.jointjs.com/learn/integration/svelte)
+[Javascript](https://docs.jointjs.com/)[React](https://docs.jointjs.com/react/)[Angular](https://docs.jointjs.com/learn/integration/angular/)[Vue](https://docs.jointjs.com/learn/integration/vue)[Svelte](https://docs.jointjs.com/learn/integration/svelte)
 
 more demos
 

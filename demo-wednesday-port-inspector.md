@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-port-inspector
-generated: 2026-07-08
+generated: 2026-07-09
 format: markdown
 ---
 

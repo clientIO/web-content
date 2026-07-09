@@ -1,22 +1,22 @@
 ---
 source: https://www.jointjs.com/contact-us
-generated: 2026-07-08
+generated: 2026-07-09
 format: markdown
 ---
 
 # Talk to us about JointJS+
 
-Get answers on commercial licensing, startup offers, and whether JointJS fits your use case — directly from the team that builds it.
+Get answers on licensing, renewals, upgrades, and whether JointJS fits your use case — directly from the team that builds it.
 
-Commercial licensing
+Licensing and renewals
 
 Solution evaluation
 
-Startup offers
+Enterprise and startup offers
 
 Contact e-mail
 
-[[email protected]](/cdn-cgi/l/email-protection#e881868e87a8828781869c829bc68b8785)
+[[email protected]](/cdn-cgi/l/email-protection#d3babdb5bc93b9bcbabda7b9a0fdb0bcbe)
 
 You may also check the [FAQ](/faq) for more answers
 

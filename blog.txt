@@ -1,20 +1,20 @@
 ---
 source: https://www.jointjs.com/blog
-generated: 2026-07-08
+generated: 2026-07-09
 format: plaintext
 ---
 
 Blog
 
-[## Introducing JointJS MCP Server: Better code from your AI agent
+[## Introducing JointJS for React — Production-grade diagramming for React applications
 
 Zoran Jambor
 
-May 25, 2026
+Jul 8, 2026
 
-A guide explaining what the JointJS MCP Server is, along with detailed instructions on how to install it to a local folder, in user scope, or in JSON to share with your team, and what the benefits of using it are.
+A hands-on overview of JointJS for React, a native React integration for the JointJS diagramming library, outlining how the new React integration works and showcasing an AI Workflow Builder demo that highlights the library's strengths, from advanced UX features to performance at scale.
 
-AI Diagramming](/blog/introducing-jointjs-mcp-server)
+Library Updates](/blog/introducing-jointjs-for-react)
 
 Read article
 
@@ -37,6 +37,18 @@ Demo Wednesday
 Thank you! Your submission has been received!
 
 Oops! Something went wrong while submitting the form.
+
+Zoran Jambor
+
+Jul 8, 2026
+
+[### Introducing JointJS for React — Production-grade diagramming for React applications
+
+A hands-on overview of JointJS for React, a native React integration for the JointJS diagramming library, outlining how the new React integration works and showcasing an AI Workflow Builder demo that highlights the library's strengths, from advanced UX features to performance at scale.
+
+Library Updates](/blog/introducing-jointjs-for-react)
+
+Read article
 
 Zoran Jambor
 
@@ -129,18 +141,6 @@ May 8, 2026
 A hands-on overview of JointJS diagramming library performance, stress-testing up to 100,000 diagram elements/nodes.
 
 Guides](/blog/jointjs-performance-overview-testing-diagrams-with-100-000-nodes)
-
-Read article
-
-Zoran Jambor
-
-Apr 23, 2026
-
-[### Visualize your YouTube content library with the YouTube Channel Visualizer
-
-Turn your YouTube channel into an interactive diagram. Explore publishing patterns, group videos by tags, timeline, or performance, and plan future content — all built with JointJS and Claude Code.
-
-Tutorials](/blog/youtube-channel-visualizer)
 
 Read article
 

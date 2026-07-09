@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/yfiles-alternative
-generated: 2026-07-08
+generated: 2026-07-09
 format: markdown
 ---
 
@@ -166,7 +166,7 @@ Our library is based on a strong HTML5 and SVG foundation that allows it to run 
 
 ###### IMPLEMENTATION IN LEADING JAVASCRIPT FRAMEWORKS
 
-[React](https://docs.jointjs.com/learn/integration/react)
+[React](https://docs.jointjs.com/react/)
 
 [Angular](https://docs.jointjs.com/learn/integration/angular/)
 

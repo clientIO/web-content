@@ -1,12 +1,16 @@
 ---
 source: https://www.jointjs.com/free-trial
-generated: 2026-07-08
+generated: 2026-07-09
 format: plaintext
 ---
 
 Start your free 30-day JointJS+ trial
 
 Free, fully functioning and no credit card required.
+
+JointJS+ for React now included in your trial
+
+No wrappers, just a first-class integration for React developers.
 
 our customers
 

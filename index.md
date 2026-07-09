@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com
-generated: 2026-07-08
+generated: 2026-07-09
 format: markdown
 ---
 
@@ -10,13 +10,17 @@ format: markdown
 
 # The diagramming library you don't replace at scale
 
-A complete library for diagramming tools of any complexity, from AI workflow editors to large, domain-specific modeling apps.
+Build production diagramming tools of any complexity, from AI workflow editors to large, domain-specific modeling apps.
 
 Get started
 
-[Javascript](https://docs.jointjs.com/)[React](https://docs.jointjs.com/learn/integration/react)[Angular](https://docs.jointjs.com/learn/integration/angular/)[Vue](https://docs.jointjs.com/learn/integration/vue)[Svelte](https://docs.jointjs.com/learn/integration/svelte)
+[Javascript](https://docs.jointjs.com/)[React](https://docs.jointjs.com/react/)[Angular](https://docs.jointjs.com/learn/integration/angular/)[Vue](https://docs.jointjs.com/learn/integration/vue)[Svelte](https://docs.jointjs.com/learn/integration/svelte)
 
 Empowering industry leaders worldwide
+
+[newJointJS for React
+Build diagrams the React way
+A first-class integration is now available — native React components, full TypeScript support.](https://www.jointjs.com/blog/introducing-jointjs-for-react)
 
 ###### SHOWCASE
 
@@ -84,13 +88,21 @@ Bring your ideas to life quickly with our constantly expanding library of pre-bu
 
 [#### AI Workflow Builder
 
+See how JointJS for React powers agent-building UIs — connect prompts, skills, and tools visually.](/demos/ai-workflow-builder)
+
+This is some text inside of a div block.
+
+This is some text inside of a div block.
+
+[#### AI Agent Builder
+
 Explore an AI workflow builder packed with advanced diagramming features—getting your app ready for the future of UIs.](/demos/ai-agent-builder)
 
 This is some text inside of a div block.
 
 This is some text inside of a div block.
 
-[#### Workflow Builder
+[#### Workflow Automation UI
 
 Ship a workflow builder UI faster with our boilerplate and advanced diagramming features.](/demos/workflow-builder)
 
@@ -138,14 +150,6 @@ This is some text inside of a div block.
 
 This is some text inside of a div block.
 
-[#### Data Mapping
-
-This demo allows you to map abstract data that is provided in a given format and experience the power of JointJS+.](/demos/data-mapping)
-
-This is some text inside of a div block.
-
-This is some text inside of a div block.
-
 [EXPLORE ALL DEMO apps](/demos)
 
 ###### compatibility
@@ -156,7 +160,7 @@ Our library is based on a strong HTML5 and SVG foundation that allows it to run 
 
 ###### IMPLEMENTATION IN LEADING JAVASCRIPT FRAMEWORKS
 
-[React](https://docs.jointjs.com/learn/integration/react)
+[React](https://docs.jointjs.com/react/)
 
 [Angular](https://docs.jointjs.com/learn/integration/angular/)
 
@@ -216,6 +220,8 @@ Essential features
 
 Basic support
 
+New: JointJS for React
+
 ## Professional
 
 Swiss-army knife on the road to cutting-edge apps
@@ -229,6 +235,8 @@ Commercial license and source code
 180+ ready-to-use demo apps
 
 Dedicated developer support
+
+New: JointJS+ for React
 
 ##### mission
 

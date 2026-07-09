@@ -1,0 +1,20 @@
+---
+source: https://www.jointjs.com/demos/ai-workflow-builder
+github: https://raw.githubusercontent.com/clientIO/joint-demos/main/ai-workflow-builder/README.md
+generated: 2026-07-09
+format: markdown
+---
+
+# JointJS+: AI Workflow Builder <a href="https://www.jointjs.com/jointjs-plus"><img src="../jointjs-plus-badge.svg" alt="JointJS+" width="123" align="right" /></a>
+
+Enable your users to design AI workflows through an interactive, drag-and-drop interface built right into your web app. This demo showcases how they can visually build AI-driven workflows, integrate third-party apps, add logic blocks, and define behaviors—all within a smooth, intuitive experience. With pre-built UI features like automatic layout, custom shapes, and navigator, you can transform your app into a modern, AI-first solution.
+
+This demo is also available online at [jointjs.com](https://jointjs.com/demos/ai-workflow-builder).
+
+## Available Versions
+
+- [React](./react/)
+
+## Screenshot
+
+![screenshot](./screenshot.png)

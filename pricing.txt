@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/pricing
-generated: 2026-07-08
+generated: 2026-07-09
 format: plaintext
 ---
 
@@ -8,7 +8,9 @@ JointJS+ pricing
 
 Our license is sold per developer, making it flexible and easy to scale for projects of any size. Plus, there is no limit to the number of applications, end users, machines, or domains that our license can cover.
 
-We make pricing simple. The Standard plan is offered as a perpetual license (“pay once, use forever”), letting you build unlimited products for unlimited users, deployed on unlimited machines. The Enterprise plan is available as a yearly subscription, with additional benefits tailored for large-scale and custom deployments.
+The Standard plan is offered as a perpetual license (“pay once, use forever”), letting you build unlimited products for unlimited users, deployed on unlimited machines.   
+  
+The Enterprise plan is available as a yearly subscription, with additional benefits tailored for large-scale and custom deployments.
 
 Perpetual standard license for unlimited commercial use with optional annual update subscription to always work with the latest JointJS+ version.
 
@@ -44,7 +46,7 @@ Basic support
 
 JointJS for React
 
-Coming soon: JointReact+ edition
+New: JointJS+ for React
 
 Enterprise version of JointJS+ with unminified source code, annual SOC 2 Type II reports, premium support, and more—all available through a yearly subscription.
 
@@ -72,7 +74,7 @@ Annual SOC 2 Type II reports
 
 Extra: 3 hours of technical consulting or development
 
-JointJS for React is now part of JointJS+ and enterprise
+JointJS+ for React is included in every plan
 
 No wrappers, just a first-class integration for React developers.
 
@@ -219,6 +221,10 @@ Frequently asked questions
 Find the answers below or get in touch with us.
 
 How does licensing work and how many licenses do I need?
+
+What is JointJS+ for React?
+
+Is JointJS+ for React part of the standard and enterprise plan?
 
 What is the ROI (return on investment) of buying a license?
 

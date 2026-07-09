@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/demos
-generated: 2026-07-08
+generated: 2026-07-09
 format: plaintext
 ---
 
@@ -18,8 +18,6 @@ Boilerplate applications
 
 Features showcase
 
-BPMN
-
 JavaScript
 
 React
@@ -31,6 +29,26 @@ Vue
 Angular
 
 Svelte
+
+AI workflow builders
+
+BPMN
+
+SCADA & HMI
+
+Energy networks
+
+Electronic design
+
+Data modeling
+
+Org charts
+
+Timelines
+
+Project management
+
+UML & software modeling
 
 Filter by features
 
@@ -206,27 +224,29 @@ Element palette
 
 Undo/Redo
 
+11
+
+Import/Export
+
 JointJS+
 
 This is some text inside of a div block.
 
 AI Workflow Builder
 
-Explore an AI workflow builder packed with advanced diagramming features—getting your app ready for the future of UIs.
+See how JointJS for React powers agent-building UIs — connect prompts, skills, and tools visually.
 
 joinjs
 
 JointJS+
 
-Zoom & Pan
+Simulation
 
-Automatic layout
+Integration
 
-Custom shapes
+Property editor & viewer
 
-Toolbar
-
-Minimap
+Keyboard
 
 11
 
@@ -264,17 +284,13 @@ Element palette
 
 Undo/Redo
 
-11
-
-Ports
-
 JointJS+
 
 This is some text inside of a div block.
 
-Workflow Builder
+AI Agent Builder
 
-Ship a workflow builder UI faster with our boilerplate and advanced diagramming features.
+Explore an AI workflow builder packed with advanced diagramming features—getting your app ready for the future of UIs.
 
 joinjs
 
@@ -289,8 +305,6 @@ Custom shapes
 Toolbar
 
 Minimap
-
-Ports
 
 11
 
@@ -355,6 +369,70 @@ Toolbar
 Minimap
 
 Animation
+
+11
+
+Zoom & Pan
+
+11
+
+Automatic layout
+
+11
+
+Custom shapes
+
+11
+
+Toolbar
+
+11
+
+Minimap
+
+11
+
+Property editor & viewer
+
+11
+
+Popups
+
+11
+
+Element palette
+
+11
+
+Undo/Redo
+
+11
+
+Ports
+
+JointJS+
+
+This is some text inside of a div block.
+
+Workflow Automation UI
+
+Ship a workflow builder UI faster with our boilerplate and advanced diagramming features.
+
+joinjs
+
+JointJS+
+
+Zoom & Pan
+
+Automatic layout
+
+Custom shapes
+
+Toolbar
+
+Minimap
+
+Ports
 
 11
 
@@ -1609,6 +1687,62 @@ Toolbar
 Undo/Redo
 
 Events
+
+11
+
+HTML shapes
+
+11
+
+Ports
+
+11
+
+Custom shapes
+
+11
+
+Graph API
+
+JointJS+
+
+This is some text inside of a div block.
+
+HTML Form Ports
+
+A data-mapping tool with ports on HTML-rendered form fields.
+
+joinjs
+
+JointJS+
+
+HTML shapes
+
+Ports
+
+11
+
+Integration
+
+11
+
+Custom shapes
+
+JointJS+
+
+This is some text inside of a div block.
+
+Framework Element View
+
+Render Angular components inside JointJS elements using custom element views.
+
+joinjs
+
+JointJS+
+
+Integration
+
+Custom shapes
 
 11
 
@@ -4738,158 +4872,6 @@ Events
 
 Built-in shapes
 
-11
-
-Animation
-
-11
-
-Simulation
-
-11
-
-Geometry
-
-11
-
-Custom shapes
-
-11
-
-Integration
-
-11
-
-Zoom & Pan
-
-11
-
-Tooltips
-
-11
-
-Keyboard
-
-11
-
-Performance
-
-11
-
-Automatic layout
-
-JointJS+
-
-This is some text inside of a div block.
-
-Tokens
-
-The Tokens demo showcases visualization of Token events between nodes, and their transitions over time.
-
-joinjs
-
-JointJS+
-
-Animation
-
-Simulation
-
-Integration
-
-Performance
-
-Automatic layout
-
-11
-
-Integration
-
-11
-
-Built-in shapes
-
-11
-
-Highlighters
-
-11
-
-Events
-
-11
-
-Zoom & Pan
-
-11
-
-Selection
-
-JointJS+
-
-This is some text inside of a div block.
-
-Diagram Index
-
-This demo allows displaying multiple diagrams while navigating each cell of a certain diagram via a TreeView component.
-
-joinjs
-
-JointJS+
-
-Integration
-
-Events
-
-Highlighters
-
-Selection
-
-11
-
-Built-in shapes
-
-11
-
-Zoom & Pan
-
-11
-
-Tooltips
-
-11
-
-Toolbar
-
-11
-
-Minimap
-
-11
-
-Custom shapes
-
-JointJS+
-
-This is some text inside of a div block.
-
-Collapsible Minimap
-
-Learn how to implement a collapsible minimap to reduce potential UI clutter.
-
-joinjs
-
-JointJS+
-
-Custom shapes
-
-Zoom & Pan
-
-Tooltips
-
-Toolbar
-
-Minimap
-
 Next
 
 Nothing found
@@ -5017,6 +4999,24 @@ Custom shapes
 Built-in shapes
 
 Automatic layout
+
+UML & software modeling
+
+Project management
+
+Timelines
+
+Org charts
+
+Data modeling
+
+Electronic design
+
+Energy networks
+
+SCADA & HMI
+
+AI workflow builders
 
 BPMN
 
