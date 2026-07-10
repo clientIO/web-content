@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/introducing-jointjs-for-react
-generated: 2026-07-09
+generated: 2026-07-10
 format: plaintext
 ---
 
@@ -78,27 +78,23 @@ After — JointJS for React
 
 // New way — JointJS for React
 
-import { GraphProvider, Paper } from '@joint/react';
+  import { GraphProvider, Paper } from '@joint/react';
 
-const initialCells = [
- {
-   type: 'standard.Rectangle',
-   position: { x: 100, y: 100 },
-   size: { width: 100, height: 50 },
-   attrs: { label: { text: 'Hello World' } },
- },
-];
+  const initialCells = [
+    {
+      type: 'element',
+      position: { x: 100, y: 100 },
+      data: { label 'Hello World' },
+    },
+  ];
 
-export default function React() {
- return (
-   <GraphProvider initialCells={initialCells}>
-     <Paper
-       className="canvas"
-       background={{ color: '#F8F9FA' }}
-     />
-   </GraphProvider>
- );
-}
+  export default function App() {
+    return (
+      <GraphProvider initialCells={initialCells}>
+        <Paper className="canvas" />
+      </GraphProvider>
+    );
+  }
 
 JointJS for React fits right in with the rest of your React codebase. You declare what you want, and the framework takes care of the rest. It’s not just more elegant, but actually simpler and more intuitive, too.
 

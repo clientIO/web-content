@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog
-generated: 2026-07-09
+generated: 2026-07-10
 format: markdown
 ---
 
@@ -49,6 +49,18 @@ A hands-on overview of JointJS for React, a native React integration for the Joi
 Library Updates](/blog/introducing-jointjs-for-react)
 
 [Read article](/blog/introducing-jointjs-for-react)
+
+Marek Hozak
+
+Jul 7, 2026
+
+[### 4.3 arrives alongside JointJS for React: tree shaking, SVG exports, HTML magnets
+
+A core release that makes JointJS leaner to ship, easier to start with, and more flexible in what diagram elements can do.
+
+Library Updates](/blog/introducing-jointjs-4-3)
+
+[Read article](/blog/introducing-jointjs-4-3)
 
 Zoran Jambor
 
@@ -131,18 +143,6 @@ Vendor BPMN modelers get you drawing fast, but rigid palettes, fixed property pa
 BPMN](/blog/why-teams-build-custom-bpmn-modeler-uis)
 
 [Read article](/blog/why-teams-build-custom-bpmn-modeler-uis)
-
-Zoran Jambor
-
-May 8, 2026
-
-[### JointJS performance overview: Testing diagrams with 100,000 nodes
-
-A hands-on overview of JointJS diagramming library performance, stress-testing up to 100,000 diagram elements/nodes.
-
-Guides](/blog/jointjs-performance-overview-testing-diagrams-with-100-000-nodes)
-
-[Read article](/blog/jointjs-performance-overview-testing-diagrams-with-100-000-nodes)
 
 [Next](?df86e59f_page=2)
 

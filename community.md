@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/community
-generated: 2026-07-09
+generated: 2026-07-10
 format: markdown
 ---
 
@@ -52,6 +52,16 @@ A hands-on overview of JointJS for React, a native React integration for the Joi
 
 [Read article](/blog/introducing-jointjs-for-react)
 
+Marek Hozak
+
+Jul 7, 2026
+
+[### 4.3 arrives alongside JointJS for React: tree shaking, SVG exports, HTML magnets
+
+A core release that makes JointJS leaner to ship, easier to start with, and more flexible in what diagram elements can do.](/blog/introducing-jointjs-4-3)
+
+[Read article](/blog/introducing-jointjs-4-3)
+
 Zoran Jambor
 
 Jun 25, 2026
@@ -61,16 +71,6 @@ Jun 25, 2026
 A quick tip outlining a few prompts you can use to test and get started with the JointJS MCP Server.](/blog/just-connected-the-jointjs-mcp-server-start-with-these-6-essential-prompts)
 
 [Read article](/blog/just-connected-the-jointjs-mcp-server-start-with-these-6-essential-prompts)
-
-Zoran Jambor
-
-Jun 11, 2026
-
-[### From Code to Conversation: Highlights from Weblica 2026
-
-A brief look at our experience at the Weblica conference, with key takeaways, highlights, and insight about the latest AI and web development trends.](/blog/from-code-to-conversation-highlights-from-weblica-2026)
-
-[Read article](/blog/from-code-to-conversation-highlights-from-weblica-2026)
 
 ## Speed up your development with a powerful library
 
