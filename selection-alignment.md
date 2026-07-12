@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/selection-alignment
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/selection-alignment/README.md
-generated: 2026-07-11
+generated: 2026-07-12
 format: markdown
 ---
 

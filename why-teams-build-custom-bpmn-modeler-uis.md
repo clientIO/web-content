@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/why-teams-build-custom-bpmn-modeler-uis
-generated: 2026-07-11
+generated: 2026-07-12
 format: markdown
 ---
 

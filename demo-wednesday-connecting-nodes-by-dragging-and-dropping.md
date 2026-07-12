@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-connecting-nodes-by-dragging-and-dropping
-generated: 2026-07-11
+generated: 2026-07-12
 format: markdown
 ---
 

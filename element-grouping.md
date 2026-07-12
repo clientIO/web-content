@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/element-grouping
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/element-grouping/README.md
-generated: 2026-07-11
+generated: 2026-07-12
 format: markdown
 ---
 

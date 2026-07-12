@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/fishbone
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/fishbone/README.md
-generated: 2026-07-11
+generated: 2026-07-12
 format: markdown
 ---
 

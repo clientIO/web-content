@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/cables
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/cables/README.md
-generated: 2026-07-11
+generated: 2026-07-12
 format: markdown
 ---
 
