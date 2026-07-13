@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/parametric-diagram
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/parametric-diagram/README.md
-generated: 2026-07-12
+generated: 2026-07-13
 format: markdown
 ---
 

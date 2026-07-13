@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/rappid-3-4-1
-generated: 2026-07-12
+generated: 2026-07-13
 format: markdown
 ---
 
@@ -16,7 +16,7 @@ We present an example of how to build a shape with a vertical list of items. The
 
 ##### Complete [JointJS+ 3.4.1 Changelog with sample code and screenshots is here](https://changelog.jointjs.com/rappid/3.4.1/changelog).
 
-We hope you'll get the most from these fixes and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#cda2bfaa8daea1a4a8a3b9e3a4a2) with questions or comments.
+We hope you'll get the most from these fixes and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#a6c9d4c1e6c5cacfc3c8d288cfc9) with questions or comments.
 
 ‍
 
