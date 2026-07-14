@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/rappid-171-released
-generated: 2026-07-13
+generated: 2026-07-14
 format: markdown
 ---
 

@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/spreadsheet-shapes-with-handsontable
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/spreadsheet-shapes-with-handsontable/README.md
-generated: 2026-07-13
+generated: 2026-07-14
 format: markdown
 ---
 
