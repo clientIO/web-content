@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/showcase/encharge
-generated: 2026-07-15
+generated: 2026-07-16
 format: markdown
 ---
 
