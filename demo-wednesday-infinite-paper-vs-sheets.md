@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-infinite-paper-vs-sheets
-generated: 2026-07-17
+generated: 2026-07-18
 format: markdown
 ---
 
