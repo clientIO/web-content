@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/showcase/meya
-generated: 2026-07-20
+generated: 2026-07-21
 format: markdown
 ---
 
