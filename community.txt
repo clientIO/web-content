@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/community
-generated: 2026-07-21
+generated: 2026-07-22
 format: plaintext
 ---
 
@@ -44,9 +44,19 @@ All news
 
 Zoran Jambor
 
+Jul 21, 2026
+
+[### How to get started with JointJS for React
+
+A practical, hands-on guide on getting started with JointJS for React, outlining the best ways you can jump into it without much effort.](/blog/how-to-get-started-with-jointjs-for-react)
+
+Read article
+
+Zoran Jambor
+
 Jul 8, 2026
 
-[### Introducing JointJS for React — Production-grade diagramming for React applications
+[### Introducing JointJS for React: Production-grade diagramming for React applications
 
 A hands-on overview of JointJS for React, a native React integration for the JointJS diagramming library, outlining how the new React integration works and showcasing an AI Workflow Builder demo that highlights the library's strengths, from advanced UX features to performance at scale.](/blog/introducing-jointjs-for-react)
 
@@ -59,16 +69,6 @@ Jul 7, 2026
 [### 4.3 arrives alongside JointJS for React: tree shaking, SVG exports, HTML magnets
 
 A core release that makes JointJS leaner to ship, easier to start with, and more flexible in what diagram elements can do.](/blog/introducing-jointjs-4-3)
-
-Read article
-
-Zoran Jambor
-
-Jun 25, 2026
-
-[### Just connected the JointJS MCP Server? Start with these 6 essential prompts
-
-A quick tip outlining a few prompts you can use to test and get started with the JointJS MCP Server.](/blog/just-connected-the-jointjs-mcp-server-start-with-these-6-essential-prompts)
 
 Read article
 

@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/why-teams-build-custom-bpmn-modeler-uis
-generated: 2026-07-21
+generated: 2026-07-22
 format: markdown
 ---
 
@@ -26,33 +26,41 @@ BPMN defines over 100 symbols, but your domain almost certainly differentiates b
 
 With JointJS, you can **ease your users’ cognitive load by defining** [**custom shape classes**](https://docs.jointjs.com/learn/features/customizing-shapes/customizing-an-existing-shape/) that extend the base BPMN elements with domain-specific markup, icons, and default properties. In the [Camunda integration demo](https://www.jointjs.com/blog/how-to-build-custom-bpmn-modeler-ui-for-camunda), for example, the HTTP Connector is a custom JointJS shape that inherits from `Activity` and carries its own default `httpConfig` (URL, method, headers, body, timeouts) alongside Camunda-specific properties like `retries` and `retryBackoff`.
 
--- CODE language-js --  
-export class HttpConnector extends Activity {  
-  defaults() {  
-    return util.defaultsDeep({  
-      type: 'activity.HttpConnector',  
-      httpConfig: {  
-        url: '',  
-        method: 'GET',  
-        headers: '',  
-        body: '',  
-        resultVariable: '',  
-        connectionTimeoutInSeconds: 20,  
-        readTimeoutInSeconds: 20,  
-      },  
-      resultExpression: '',  
-      errorExpression: '',  
-      retries: 3,  
-      retryBackoff: 'PT0S',  
-      inputMappings: [],  
-      outputMappings: [],  
-      attrs: {  
-        icon: { iconType: 'service' },  
-        label: { text: 'HTTP Request' }  
-      }  
-    }, super.defaults());  
-  }  
+```
+export class HttpConnector extends Activity {
+  defaults() {
+    return util.defaultsDeep(
+      {
+        type: 'activity.HttpConnector',
+        httpConfig: {
+          url: '',
+          method: 'GET',
+          headers: '',
+          body: '',
+          resultVariable: '',
+          connectionTimeoutInSeconds: 20,
+          readTimeoutInSeconds: 20,
+        },
+        resultExpression: '',
+        errorExpression: '',
+        retries: 3,
+        retryBackoff: 'PT0S',
+        inputMappings: [],
+        outputMappings: [],
+        attrs: {
+          icon: {
+            iconType: 'service',
+          },
+          label: {
+            text: 'HTTP Request',
+          },
+        },
+      },
+      super.defaults(),
+    );
+  }
 }
+```
 
 ‍`‍`The shape is visually distinct from the generic Service Task shape, carries the right icon, and – crucially – it knows what fields belong in its property panel.
 

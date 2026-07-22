@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/move-elements-via-keyboard
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/move-elements-via-keyboard/README.md
-generated: 2026-07-21
+generated: 2026-07-22
 format: markdown
 ---
 

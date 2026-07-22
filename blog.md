@@ -1,12 +1,12 @@
 ---
 source: https://www.jointjs.com/blog
-generated: 2026-07-21
+generated: 2026-07-22
 format: markdown
 ---
 
 # Blog
 
-[## Introducing JointJS for React — Production-grade diagramming for React applications
+[## Introducing JointJS for React: Production-grade diagramming for React applications
 
 Zoran Jambor
 
@@ -14,7 +14,7 @@ Jul 8, 2026
 
 A hands-on overview of JointJS for React, a native React integration for the JointJS diagramming library, outlining how the new React integration works and showcasing an AI Workflow Builder demo that highlights the library's strengths, from advanced UX features to performance at scale.
 
-Library Updates](/blog/introducing-jointjs-for-react)
+JointJS for React](/blog/introducing-jointjs-for-react)
 
 [Read article](/blog/introducing-jointjs-for-react)
 
@@ -23,6 +23,8 @@ Library Updates](/blog/introducing-jointjs-for-react)
 AI Diagramming
 
 Library Updates
+
+JointJS for React
 
 Tutorials
 
@@ -40,13 +42,25 @@ Oops! Something went wrong while submitting the form.
 
 Zoran Jambor
 
+Jul 21, 2026
+
+[### How to get started with JointJS for React
+
+A practical, hands-on guide on getting started with JointJS for React, outlining the best ways you can jump into it without much effort.
+
+JointJS for React](/blog/how-to-get-started-with-jointjs-for-react)
+
+[Read article](/blog/how-to-get-started-with-jointjs-for-react)
+
+Zoran Jambor
+
 Jul 8, 2026
 
-[### Introducing JointJS for React — Production-grade diagramming for React applications
+[### Introducing JointJS for React: Production-grade diagramming for React applications
 
 A hands-on overview of JointJS for React, a native React integration for the JointJS diagramming library, outlining how the new React integration works and showcasing an AI Workflow Builder demo that highlights the library's strengths, from advanced UX features to performance at scale.
 
-Library Updates](/blog/introducing-jointjs-for-react)
+JointJS for React](/blog/introducing-jointjs-for-react)
 
 [Read article](/blog/introducing-jointjs-for-react)
 
@@ -131,18 +145,6 @@ A guide explaining what the JointJS MCP Server is, along with detailed instructi
 AI Diagramming](/blog/introducing-jointjs-mcp-server)
 
 [Read article](/blog/introducing-jointjs-mcp-server)
-
-Zbyněk Stara
-
-May 21, 2026
-
-[### Why teams build custom BPMN modeler UIs (and when it's worth it)
-
-Vendor BPMN modelers get you drawing fast, but rigid palettes, fixed property panels, and no execution visualization hold products back. Here are the seven capabilities a custom modeler UI unlocks — and how to build each with JointJS.
-
-BPMN](/blog/why-teams-build-custom-bpmn-modeler-uis)
-
-[Read article](/blog/why-teams-build-custom-bpmn-modeler-uis)
 
 [Next](?df86e59f_page=2)
 

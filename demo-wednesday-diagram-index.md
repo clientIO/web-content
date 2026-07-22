@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-diagram-index
-generated: 2026-07-21
+generated: 2026-07-22
 format: markdown
 ---
 

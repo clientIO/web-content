@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/ai-workflow-builders
-generated: 2026-07-21
+generated: 2026-07-22
 format: markdown
 ---
 
@@ -182,17 +182,29 @@ Software Engineer, NICE Systems Ltd.
 
 [Visit blog](/blog)
 
-[## Introducing JointJS MCP Server: Better code from your AI agent
+[## Introducing JointJS for React: Production-grade diagramming for React applications
 
 Zoran Jambor
 
-May 25, 2026
+Jul 8, 2026
 
-A guide explaining what the JointJS MCP Server is, along with detailed instructions on how to install it to a local folder, in user scope, or in JSON to share with your team, and what the benefits of using it are.
+A hands-on overview of JointJS for React, a native React integration for the JointJS diagramming library, outlining how the new React integration works and showcasing an AI Workflow Builder demo that highlights the library's strengths, from advanced UX features to performance at scale.
 
-AI Diagramming](/blog/introducing-jointjs-mcp-server)
+JointJS for React](/blog/introducing-jointjs-for-react)
 
-[Read article](/blog/introducing-jointjs-mcp-server)
+[Read article](/blog/introducing-jointjs-for-react)
+
+Zoran Jambor
+
+Jul 21, 2026
+
+[### How to get started with JointJS for React
+
+A practical, hands-on guide on getting started with JointJS for React, outlining the best ways you can jump into it without much effort.
+
+JointJS for React](/blog/how-to-get-started-with-jointjs-for-react)
+
+[Read article](/blog/how-to-get-started-with-jointjs-for-react)
 
 Zoran Jambor
 
@@ -205,18 +217,6 @@ A hands-on overview of JointJS diagramming library performance, stress-testing u
 Guides](/blog/jointjs-performance-overview-testing-diagrams-with-100-000-nodes)
 
 [Read article](/blog/jointjs-performance-overview-testing-diagrams-with-100-000-nodes)
-
-Zoran Jambor
-
-Apr 10, 2026
-
-[### Build better Claude Code Playgrounds with JointJS
-
-Claude Code Playground generates useful diagrams, but they're static and limited. This guide shows how to install the JointJS Claude Playground plugin and use it to build interactive codemaps, visual SQL builders, decision trees, site explorers, and more.
-
-AI Diagramming](/blog/build-better-claude-code-playgrounds-with-jointjs)
-
-[Read article](/blog/build-better-claude-code-playgrounds-with-jointjs)
 
 Zoran Jambor
 

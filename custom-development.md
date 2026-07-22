@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/custom-development
-generated: 2026-07-21
+generated: 2026-07-22
 format: markdown
 ---
 
