@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/building-tournament-studio-a-bracket-editor-built-with-jointjs
-generated: 2026-07-22
+generated: 2026-07-23
 format: markdown
 ---
 

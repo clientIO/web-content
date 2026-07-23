@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-stencil-favorite-in-use-groups
-generated: 2026-07-22
+generated: 2026-07-23
 format: markdown
 ---
 
