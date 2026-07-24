@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/new-release-jointjs-v3-7
-generated: 2026-07-23
+generated: 2026-07-24
 format: markdown
 ---
 
@@ -36,57 +36,64 @@ Foreign objects have become a standard in web development, despite encountering 
 
 Below, see a code example of how foreign object is used in the [ROI calculator demo](https://jointjs.com/demos/roi-calculator).
 
--- CODE language-js --  
-class Investment extends dia.Element {  
-    defaults() {  
-        return {  
-            ...super.defaults,  
-            type: 'Investment',  
-            attrs: {  
-                body: {  
-                    rx: 10,  
-                    ry: 10,  
-                    width: 'calc(w)',  
-                    height: 'calc(h)',  
-                    stroke: '#333333',  
-                    fill: MAIN\_COLOR,  
-                    strokeWidth: 2  
-                }  
-        }  
-            size: {  
-                width: 140,  
-                height: 225  
-            }  
-        };  
-    }
+```
+class Investment extends dia.Element {
+  defaults() {
+    return {
+      ...super.defaults,
+      type: 'Investment',
+      attrs: {
+        body: {
+          rx: 10,
+          ry: 10,
+          width: 'calc(w)',
+          height: 'calc(h)',
+          stroke: '#333333',
+          fill: MAIN_COLOR,
+          strokeWidth: 2,
+        },
+      },
+      size: {
+        width: 140,
+        height: 225,
+      },
+    };
+  }
+}
+```
 
--- CODE language-html --  
-<rect @selector="body" />  
-<foreignObject @selector="foreignObject" overflow="hidden">  
-  <div @selector="content" class="jj-form" xmlns="http://www.w3.org/1999/xhtml">  
-    <h2>Investment</h2>  
-    <div class="jj-field-vertical">  
-      <label>How much did you invest?<input @selector="funds" class="jj-input" type="number"/>  
-      </label>  
-    </div>  
-    <div class="jj-field-vertical">  
-      <label>What year it was?<select @selector="year" class="jj-input" type="number">  
-          <option value="2013">2013</option>  
-          <option value="2014">2014</option>  
-          <option value="2015">2015</option>  
-          <option value="2016">2016</option>  
-          <option value="2017">2017</option>  
-          <option value="2018">2018</option>  
-          <option value="2019">2019</option>  
-          <option value="2020">2020</option>  
-          <option value="2021">2021</option>  
-          <option value="2022">2022</option>  
-          <option value="2023">2023</option>  
-        </select>  
-      </label>  
-    </div>  
-  </div>  
+```
+<rect @selector="body" />
+<foreignObject @selector="foreignObject" overflow="hidden">
+  <div @selector="content" class="jj-form" xmlns="http://www.w3.org/1999/xhtml">
+    <h2>Investment</h2>
+    <div class="jj-field-vertical">
+      <label>
+        How much did you invest?
+        <input @selector="funds" class="jj-input" type="number" />
+      </label>
+    </div>
+    <div class="jj-field-vertical">
+      <label>
+        What year it was?
+        <select @selector="year" class="jj-input" type="number">
+          <option value="2013">2013</option>
+          <option value="2014">2014</option>
+          <option value="2015">2015</option>
+          <option value="2016">2016</option>
+          <option value="2017">2017</option>
+          <option value="2018">2018</option>
+          <option value="2019">2019</option>
+          <option value="2020">2020</option>
+          <option value="2021">2021</option>
+          <option value="2022">2022</option>
+          <option value="2023">2023</option>
+        </select>
+      </label>
+    </div>
+  </div>
 </foreignObject>
+```
 
 The utilization of foreign objects as described above would not be feasible when using other rendering engines like canvas. On our blog, we will soon discuss other disadvantages of canvas compared to SVG. Stay tuned.
 

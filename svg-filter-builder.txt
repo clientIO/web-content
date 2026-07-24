@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/svg-filter-builder
-generated: 2026-07-23
+generated: 2026-07-24
 format: plaintext
 ---
 
@@ -14,13 +14,12 @@ An SVG filter effect consists of a series of graphics operations that are applie
 
 Filter effects are defined by the <filter> element and can be applied by referencing it in your SVG graphic elements using the filter property:
 
-*-- CODE language-svg --  
-<svg>  
-   <filter id="myfilter">  
-       ...  
-   </filter>  
-   <rect x="20" y="20" width="100" height="100" filter="url(#myfilter)"/>  
-</svg>*
+<svg>
+  <filter id="myfilter">
+    ...
+  </filter>
+  <rect x="20" y="20" width="100" height="100" filter="url(#myfilter)" />
+</svg>
 
 Creating complex filters is, however, a challenging task to do for users with little SVG filter effects experience. Users first need to study the different kinds of filter primitives and then study how they can be combined to create a filter that matches their needs.
 

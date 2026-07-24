@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/svg-versus-canvas
-generated: 2026-07-23
+generated: 2026-07-24
 format: markdown
 ---
 
@@ -20,22 +20,24 @@ Two households, both alike in creating visual content for the web, but fundament
 
 *Canvas code example:*
 
--- CODE language-svg --  
-<canvas id="canvas"></canvas>  
-<script>  
-const canvas = document.getElementById("canvas");  
-const ctx = canvas.getContext("2d");  
-  
-ctx.fillStyle = "green";  
-ctx.fillRect(10, 10, 150, 100);  
-</script>*‍*
+```
+<canvas id="canvas"></canvas>
+<script>
+  const canvas = document.getElementById('canvas');
+  const ctx = canvas.getContext('2d');
+
+  ctx.fillStyle = 'green';
+  ctx.fillRect(10, 10, 150, 100);
+</script>
+```
 
 *SVG code example:*
 
--- CODE language-svg --  
-<svg>  
-  <rect width="150" height="100" fill="green" />  
+```
+<svg>
+  <rect width="150" height="100" fill="green" />
 </svg>
+```
 
 From the beginning, SVG was developed as an open standard by [W3C](https://www.w3.org/) (the World Wide Web Consortium), that means it was designed specifically to work well with other web standards. Generally, you can think of SVG as declarative drawing instructions that can be added alongside your HTML.
 

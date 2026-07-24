@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/big-release-rappid-3-5-is-here
-generated: 2026-07-23
+generated: 2026-07-24
 format: markdown
 ---
 
@@ -57,35 +57,40 @@ There is a lot to explore in the new release. Let us point out a few additions t
 
 **@joint/decorators** - a new package for defining shapes from an SVG template (text interpolation, data binding, using functions, define new SVG attributes).
 
--- CODE language-svg --  
-<g>  
-    <title>My Element</title>  
-    <rect @selector="body"  
-          x="0"  
-          y="0"  
-          width="calc(w)"  
-          height="calc(h)"  
-          line-style="solid"  
-          stroke-width="2"  
-          :fill="lighten(color, 0.2)"  
-          :stroke="color"  
-    />  
-    <text @selector="label"  
-          text-anchor="middle"  
-          text-vertical-anchor="middle"  
-          font-size="14"  
-          font-family="sans-serif"  
-          x="calc(0.5\*w)"  
-          y="calc(0.5\*h)"  
-          :fill="textColor"  
-    >{{ capitalize(firstName) }} {{ capitalize(lastName) }}</text>  
+```
+<g>
+  <title>My Element</title>
+  <rect
+    @selector="body"
+    x="0"
+    y="0"
+    width="calc(w)"
+    height="calc(h)"
+    line-style="solid"
+    stroke-width="2"
+    :fill="lighten(color, 0.2)"
+    :stroke="color"
+  />
+  <text
+    @selector="label"
+    text-anchor="middle"
+    text-vertical-anchor="middle"
+    font-size="14"
+    font-family="sans-serif"
+    x="calc(0.5*w)"
+    y="calc(0.5*h)"
+    :fill="textColor"
+  >
+    {{ capitalize(firstName) }} {{ capitalize(lastName) }}
+  </text>
 </g>
+```
 
 ‍**apps.Tokens** - integrate high performance [WebGL heatmap library](https://github.com/pyalot/webgl-heatmap). [Check out the live demo here](https://www.jointjs.com/demos/tokens).
 
 ##### Complete [JointJS+ 3.5 Changelog with sample code and screenshots is here](https://changelog.jointjs.com/rappid/3.5.0/changelog).
 
-We hope you'll get the most from the new features and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#bbd4c9dcfbd8d7d2ded5cf95d2d4) with questions or comments.
+We hope you'll get the most from the new features and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#e8879a8fa88b84818d869cc68187) with questions or comments.
 
 ‍
 

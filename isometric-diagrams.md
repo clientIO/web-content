@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/isometric-diagrams
-generated: 2026-07-23
+generated: 2026-07-24
 format: markdown
 ---
 
@@ -36,11 +36,9 @@ Let’s introduce some SVG features that will help us implement isometric projec
 
 To represent the transformation in code, we can use the [DOMMatrixReadOnly](https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrixReadOnly) object, which is a browser API to represent the transformation matrix. Using this interface, we can create a matrix as follows:
 
--- CODE language-js --  
-const isoMatrix = new DOMMatrixReadOnly()  
-    .rotate(30)  
-    .skewX(-30)  
-    .scale(1, 0.8602);
+```
+const isoMatrix = new DOMMatrixReadOnly().rotate(30).skewX(-30).scale(1, 0.8602);
+```
 
 This interface allows building a transformation matrix using our values, and then we can apply the resulting value to the *transform* [attribute](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/transform) using the *matrix* [function](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/transform#matrix).
 
@@ -48,43 +46,54 @@ In SVG, we can present only one 2D space at a time, so for our conversion, we wi
 
 To demonstrate SVG possibilities, we will be using the [JointJS](https://www.jointjs.com/) library. We defined a rectangular grid in the XY-plane with a cell width of 20. Let’s define SVG for the elements on the top projection from the example. To properly render this object, we need to specify two polygons for two levels of our object. Also, we can apply a translate transformation for our element in 2D space using DOMMatrix:
 
--- CODE language-js --  
-// Translate transformation for Top1 Element  
-const matrix2D = new DOMMatrixReadOnly()  
-    .translate(200, 200);
+```
+// Translate transformation for Top1 Element
+const matrix2D = new DOMMatrixReadOnly().translate(200, 200);
+```
 
 SVG code for Top1 element:
 
--- CODE language-html --  
-<polygon joint-selector="body" id="v-4"  
-  stroke-width="2" stroke="#333333" fill="#ff0000"  
-  fill-opacity="0.7" points="0,0 60,0 60,20 40,20 40,60 0,60"  
-  transform="matrix(1,0,0,1,200,200)">  
-</polygon>
+```
+<polygon
+  joint-selector="body"
+  id="v-4"
+  stroke-width="2"
+  stroke="#333333"
+  fill="#ff0000"
+  fill-opacity="0.7"
+  points="0,0 60,0 60,20 40,20 40,60 0,60"
+  transform="matrix(1,0,0,1,200,200)"
+></polygon>
+```
 
 SVG code for Top2 element:
 
--- CODE language-html --  
-<polygon joint-selector="body" id="v-6"  
-  stroke-width="2" stroke="#333333" fill="#ff0000"  
-  fill-opacity="0.7" points="0,0 20,0 20,40 0,40"  
-  transform="matrix(1,0,0,1,240,220)">  
-</polygon>
-
-‍
+```
+<polygon
+  joint-selector="body"
+  id="v-6"
+  stroke-width="2"
+  stroke="#333333"
+  fill="#ff0000"
+  fill-opacity="0.7"
+  points="0,0 20,0 20,40 0,40"
+  transform="matrix(1,0,0,1,240,220)"
+></polygon>
+```
 
 2D top projection
 
 Then we can apply our isometric matrix to our elements. Also, we will add a translate transformation to position elements in the right place:
 
--- CODE language-js --  
-const isoMatrix = new DOMMatrixReadOnly()  
-    .rotate(30)  
-    .skewX(-30)  
-    .scale(1, 0.8602);  
-  
-const top1Matrix = isoMatrix.translate(200, 200);  
+```
+const isoMatrix = new DOMMatrixReadOnly()
+  .rotate(30)
+  .skewX(-30)
+  .scale(1, 0.8602);
+
+const top1Matrix = isoMatrix.translate(200, 200);
 const top2Matrix = isoMatrix.translate(240, 220);
+```
 
 ‍
 
@@ -92,9 +101,10 @@ Isometric view without height adjustment
 
 For simplicity, let’s assume that our element’s base plane is located on the XY-plane. Therefore, we need to translate the top view, so it will be viewed as it is located on the top of the object. To do it, we can just translate the projection by its Z coordinate on the scaled SVG space as follows. Top1 element has elevation 80, so we should translate it by (-80, -80). Similarly, Top2 element has elevation 40. We can just apply these translations to our existing matrix:
 
--- CODE language-js --  
-const top1MatrixWithHeight = top1Matrix.translate(-80, -80);  
+```
+const top1MatrixWithHeight = top1Matrix.translate(-80, -80);
 const top2MatrixWithHeight = top1Matrix.translate(-40, -40);
+```
 
 ‍
 
@@ -102,12 +112,13 @@ Final isometric view of top projection
 
 In the end, we will have the following *transform* attributes for *Top1* and *Top2* elements. Note that they differ only in the two last values, which represent the translate transformation:
 
--- CODE language-js --  
-// Top1 element  
-transform="matrix(0.8660254037844387,0.49999999999999994,-0.8165000081062317,0.47140649947346464,5.9,116.6)"  
-  
-// Top2 element  
+```
+// Top1 element
+transform="matrix(0.8660254037844387,0.49999999999999994,-0.8165000081062317,0.47140649947346464,5.9,116.6)"
+
+// Top2 element
 transform="matrix(0.8660254037844387,0.49999999999999994,-0.8165000081062317,0.47140649947346464,26.2,184.9)"
+```
 
 To create an isometric view of side and front projections, we need to make a [net](https://en.wikipedia.org/wiki/Net_(polyhedron)) so we can place all projections on 2D SVG space. Let’s create a net by attaching side and front views similar to the classic cube net:
 
@@ -129,11 +140,12 @@ Final isometric view of the object
 
 Remember the basic isometric transformation from the beginning of the article?
 
--- CODE language-js --  
-const isoMatrix = new DOMMatrixReadOnly()  
-    .rotate(30)  
-    .skewX(-30)  
-    .scale(1, 0.8602);
+```
+const isoMatrix = new DOMMatrixReadOnly()
+  .rotate(30)
+  .skewX(-30)
+  .scale(1, 0.8602);
+```
 
 In the JointJS library, we can apply this transformation to the whole object which stores all SVG elements, and then simply apply the object-specific transformations on top of this.
 
@@ -148,12 +160,13 @@ on [CodePen](https://codepen.io).
 
 Here we show a custom SVG isometric shape in JointJS. In our example, we use the *isometricHeight* property to store information about a third dimension, and then use it to render our isometric object. The following snippet shows how you can call the custom *createIsometricElement* function to alter object properties:
 
--- CODE language-js --  
-const element = createIsometricElement({  
-    isometricHeight: GRID\_SIZE \* 3,  
-    size: { width: GRID\_SIZE \* 3, height: GRID\_SIZE \* 6 },  
-    position: { x: GRID\_SIZE \* 6, y: GRID\_SIZE \* 6 }  
+```
+const element = createIsometricElement({
+  isometricHeight: GRID_SIZE * 3,
+  size: { width: GRID_SIZE * 3, height: GRID_SIZE * 6 },
+  position: { x: GRID_SIZE * 6, y: GRID_SIZE * 6 },
 });
+```
 
 In the following demo, you can see that our custom isometric element can be moved like an ordinary element on the isometric grid. You can change dimensions by altering parameters of the *createIsometricElement* function in the source code (when you click “Edit on CodePen”):
 
@@ -174,64 +187,67 @@ Comparing the three elements from our previous example, we can produce the follo
 
 After that, we need to use a [variation of the depth-first search algorithm](https://en.wikipedia.org/wiki/Topological_sorting#Depth-first_search) to find the correct rendering order. A depth-first search allows us to visit graph nodes according to the visibility order, starting from the most distant one. Here is a library-agnostic example of the algorithm:
 
--- CODE language-js --  
-const sortElements = (elements: Rect[]) => {  
-    const nodes = elements.map((el) => {  
-        return {  
-            el: el,  
-            behind: [],  
-            visited: false,  
-            depth: null,  
-        };  
-    });  
-  
-    for (let i = 0; i < nodes.length; ++i) {  
-        const a = nodes[i].el;  
-        const aMax = aBBox.bottomRight();  
-  
-        for (let j = 0; j < nodes.length; ++j) {  
-            if (i != j) {  
-                const b = nodes[j].el;  
-                const bMin = bBBox.topLeft();  
-                if (bMin.x < aMax.x && bMin.y < aMax.y) {  
-                    nodes[i].behind.push(nodes[j]);  
-                }  
-            }  
-        }  
-    }  
-  
-    const sortedElements = depthFirstSearch(nodes);  
-    return sortedElements;  
-};  
-  
-const depthFirstSearch = (nodes) => {  
-    let depth = 0;  
-    let sortedElements = [];  
-  
-    const visitNode = (node) => {  
-        if (!node.visited) {  
-            node.visited = true;  
-  
-            for (let i = 0; i < node.behind.length; ++i) {  
-                if (node.behind[i] == null) {  
-                    break;  
-                } else {  
-                    visitNode(node.behind[i]);  
-                    delete node.behind[i];  
-                }  
-            }  
-  
-            node.depth = depth++;  
-            sortedElements.push(node.el);  
-        }  
-    };  
-  
-    for (let i = 0; i < nodes.length; ++i) {  
-        visitNode(nodes[i]);  
-    }  
-  
-    return sortedElements;  
+```
+const sortElements = (elements: Rect[]) => {
+  const nodes = elements.map((el) => {
+    return {
+      el: el,
+      behind: [],
+      visited: false,
+      depth: null,
+    };
+  });
+
+  for (let i = 0; i < nodes.length; ++i) {
+    const a = nodes[i].el;
+    const aMax = aBBox.bottomRight();
+
+    for (let j = 0; j < nodes.length; ++j) {
+      if (i != j) {
+        const b = nodes[j].el;
+        const bMin = bBBox.topLeft();
+
+        if (bMin.x < aMax.x && bMin.y < aMax.y) {
+          nodes[i].behind.push(nodes[j]);
+        }
+      }
+    }
+  }
+
+  const sortedElements = depthFirstSearch(nodes);
+
+  return sortedElements;
 };
+
+const depthFirstSearch = (nodes) => {
+  let depth = 0;
+  let sortedElements = [];
+
+  const visitNode = (node) => {
+    if (!node.visited) {
+      node.visited = true;
+
+      for (let i = 0; i < node.behind.length; ++i) {
+        if (node.behind[i] == null) {
+          break;
+        } else {
+          visitNode(node.behind[i]);
+          delete node.behind[i];
+        }
+      }
+
+      node.depth = depth++;
+      sortedElements.push(node.el);
+    }
+  };
+
+  for (let i = 0; i < nodes.length; ++i) {
+    visitNode(nodes[i]);
+  }
+
+  return sortedElements;
+};
+```
 
 This method can be implemented easily using the JointJS library — in the following CodePen, we use a special JointJS event to recalculate z-indexes of our elements whenever the position of an element is changed. As outlined above, we use a special *z* property of the element model to specify rendering order and assign it during the depth-first traversal. (Note that the algorithm’s behavior is undefined in the case of intersecting elements, due to the nature of implementation of isometric objects.)
 

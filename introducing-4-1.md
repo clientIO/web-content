@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/introducing-4-1
-generated: 2026-07-23
+generated: 2026-07-24
 format: markdown
 ---
 
@@ -106,31 +106,35 @@ In JointJS 4.1, we standardized and exposed APIs for special presentation attrib
 
 For instance, as demonstrated below, you can redefine the `stroke-dasharray` attribute to support `calc()` expressions, allowing a stroke to appear only on the top edge of a rectangle.
 
--- CODE language-js --  
-class OverlineRect extends shapes.standard.Rectangle {  
-    defaults() {  
-        return util.defaultsDeep({  
-            type: 'OverlineRect',  
-            attrs: {  
-                body: {  
-                    strokeDasharray: 'calc(w) calc(2 \* h + calc(w))',  
-                    strokeWidth: 5,  
-                    stroke: 'red',  
-                    fill: '#f5f5f5'  
-                }  
-            }  
-        }, super.defaults);  
-    }      
-  
-static attributes = {  
-        'stroke-dasharray': {  
-            set: function(value, refBBox) {  
-                if (!util.isCalcExpression(value)) return value;  
-                return util.evalCalcExpression(value, refBBox);  
-            }  
-        }  
-    };  
+```
+class OverlineRect extends shapes.standard.Rectangle {
+  defaults() {
+    return util.defaultsDeep(
+      {
+        type: 'OverlineRect',
+        attrs: {
+          body: {
+            strokeDasharray: 'calc(w) calc(2 * h + calc(w))',
+            strokeWidth: 5,
+            stroke: 'red',
+            fill: '#f5f5f5',
+          },
+        },
+      },
+      super.defaults
+    );
+  }
+
+  static attributes = {
+    'stroke-dasharray': {
+      set: function (value, refBBox) {
+        if (!util.isCalcExpression(value)) return value;
+        return util.evalCalcExpression(value, refBBox);
+      },
+    },
+  };
 }
+```
 
 See the rectangle with a stroke applied only to the top edge 👇
 

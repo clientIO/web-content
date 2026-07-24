@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/svg-outline
-generated: 2026-07-23
+generated: 2026-07-24
 format: markdown
 ---
 
@@ -81,18 +81,23 @@ For this method to work reliably, we need a consistent formula to follow. This i
 
 Our formula is straightforward: we need the bounding box of the SVG we wish to outline and a value to represent the padding between the shape and the outline. From there, we can get everything we need.
 
--- CODE language-js --  
-**function** **getOutlineSVGMatrix**(bbox, padding) {  
-    **const** width=bbox**.**width;  
-    **const** height=bbox**.**height;  
-    // *Get translated center  
-‍*    **const** cx=bbox**.**x+width/2;  
-    **const** cy=bbox**.**y+height/2;  
-    // *Scale the element***const** sx = (width + padding \* 2) / width;  
-    **const** sy = (height + padding \* 2) / height;  
-    // *Construct the SVG Matrix string  
-‍*    **return** `matrix(${sx}, 0, 0, ${sy}, ${cx - sx \* cx}, ${cy - sy \* cy})`;  
+```
+function getOutlineSVGMatrix(bbox, padding) {
+  const width = bbox.width;
+  const height = bbox.height;
+
+  // Get translated center
+  const cx = bbox.x + width / 2;
+  const cy = bbox.y + height / 2;
+
+  // Scale the element
+  const sx = (width + padding * 2) / width;
+  const sy = (height + padding * 2) / height;
+
+  // Construct the SVG Matrix string
+  return `matrix(${sx}, 0, 0, ${sy}, ${cx - sx * cx}, ${cy - sy * cy})`;
 }
+```
 
 With this simple function written, let's apply it to a shape that isn't too complicated—a rectangle. Our rectangle will have a width of 50, a height of 100, and be positioned at the origin (0, 0) with an outline padding of 10. For this case, the resulting matrix will look like this: *matrix(1.4, 0, 0, 1.2, -10, -10)*. The next step is to clone the original rectangle and apply the transformation matrix. The final step is to set the fill attribute of the transformed element to *'none'* and the *stroke* attribute to our desired color. And indeed, this is a working solution.
 
@@ -142,33 +147,42 @@ It’s easiest to understand with an example, so let’s assume we want to creat
 
 An SVG declaration for this would look like this.
 
--- CODE language-svg --  
-<svg>  
-  <rect x="0" y="0" width="100" height="100" fill="white" />  
-  <rect x="20" y="20" width="60" height="60" fill="black" />  
+```
+<svg>
+  <rect x="0" y="0" width="100" height="100" fill="white" />
+  <rect x="20" y="20" width="60" height="60" fill="black" />
 </svg>
+```
 
 And turning this into a fully functional SVG mask is just a matter of wrapping it in *<mask>* element accordingly.
 
--- CODE language-svg --  
-<svg>  
-  <mask id="cut-out-mask">  
-    <rect x="0" y="0" width="100" height="100" fill="white" />  
-    <rect x="20" y="20" width="60" height="60" fill="black" />  
-  </mask>  
+```
+<svg>
+  <mask id="cut-out-mask">
+    <rect x="0" y="0" width="100" height="100" fill="white" />
+    <rect x="20" y="20" width="60" height="60" fill="black" />
+  </mask>
 </svg>
+```
 
 Now that we have our mask created, we can apply it to any SVG object we desire. So, let’s use it on a rectangle to see the result.
 
--- CODE language-svg --  
-<svg>  
-  <mask id="cut-out-mask">  
-    <rect x="0" y="0" width="100" height="100" fill="white" />  
-    <rect x="20" y="20" width="60" height="60" fill="black" />  
-  </mask>  
-‍  
-  <rect x="0" y="0" width="100" height="100" fill="#DA3D40" mask="url(#cut-out-mask)"/>  
+```
+<svg>
+  <mask id="cut-out-mask">
+    <rect x="0" y="0" width="100" height="100" fill="white" />
+    <rect x="20" y="20" width="60" height="60" fill="black" />
+  </mask>
+  <rect
+    x="0"
+    y="0"
+    width="100"
+    height="100"
+    fill="#DA3D40"
+    mask="url(#cut-out-mask)"
+  />
 </svg>
+```
 
 Rectangle before applying the mask:
 
@@ -180,38 +194,47 @@ For this article, we will use a shape that we've previously mentioned and descri
 
 Let’s start with the declaration of our SVG object like this:
 
--- CODE language-svg --  
-<svg>  
-  <defs>  
-    <path id="star"  
-d="M 9.5 14.3 L 3.9 17.2 L 5 11 L 0.5 6.6 L 6.7 5.7 L 9.5 0 L 12.3 5.7 L 18.5 6.6 L 14 11 L 15.1 17.2 Z" />  
-  </defs>  
-  
-  <g>  
-    <use href="#star" stroke="#DA3D40" stroke-width="2" fill="#DA3D40"></use>  
-  </g>  
+```
+<svg>
+  <defs>
+    <path
+      id="star"
+      d="M 9.5 14.3 L 3.9 17.2 L 5 11 L 0.5 6.6 L 6.7 5.7 L 9.5 0 L 12.3 5.7 L 18.5 6.6 L 14 11 L 15.1 17.2 Z"
+    />
+  </defs>
+  <g>
+    <use href="#star" stroke="#DA3D40" stroke-width="2" fill="#DA3D40"></use>
+  </g>
 </svg>
+```
 
 Our SVG consists of two elements at the moment: *<defs>* and *<g>*. Everything that is placed inside the *<defs>* block is not displayed directly; instead, it is used later on. In the second part of the example, we reference the defined shape via the *<use>* element and *href* attribute, which results in rendering the star on our screen.
 
 What now? We need to apply the knowledge from earlier and create an SVG mask. Our SVG mask will consist of two elements—both of them will be *<use>* elements, as mentioned before. We will again reference the star shape that we previously defined, so the elements we use to mask our shape will be the same. Thus, our SVG declaration looks like this:
 
--- CODE language-svg --  
-<svg>  
-  <defs>  
-    <path id="star"  
-d="M 9.5 14.3 L 3.9 17.2 L 5 11 L 0.5 6.6 L 6.7 5.7 L 9.5 0 L 12.3 5.7 L 18.5 6.6 L 14 11 L 15.1 17.2 Z" />  
-  
-    <mask id="star-outline">  
-      <use id="thickness" href="#star" stroke="white" fill="white"></use>  
-      <use id="padding" href="#star" stroke="black" fill="black"></use>  
-    </mask>  
-  </defs>  
-  
-  <g>  
-    <use id="rendered-star" href="#star" stroke="#DA3D40" stroke-width="2" fill="#DA3D40"></use>  
-  </g>  
+```
+<svg>
+  <defs>
+    <path
+      id="star"
+      d="M 9.5 14.3 L 3.9 17.2 L 5 11 L 0.5 6.6 L 6.7 5.7 L 9.5 0 L 12.3 5.7 L 18.5 6.6 L 14 11 L 15.1 17.2 Z"
+    />
+    <mask id="star-outline">
+      <use id="thickness" href="#star" stroke="white" fill="white"></use>
+      <use id="padding" href="#star" stroke="black" fill="black"></use>
+    </mask>
+  </defs>
+  <g>
+    <use
+      id="rendered-star"
+      href="#star"
+      stroke="#DA3D40"
+      stroke-width="2"
+      fill="#DA3D40"
+    ></use>
+  </g>
 </svg>
+```
 
 From the code snippet, you might already see where we're going with this. The first *<use>* element, with the *id* attribute of thickness, will control the outline width, while the second *<use>* tag will set the spacing between the outline and the shape itself. But how exactly do we do that? The answer is simple: we can use the *stroke-width* attribute for each of them to adjust these properties.
 
@@ -219,31 +242,35 @@ Let’s imagine our mask, where we want the outline to be positioned 5 pixels fr
 
 Since the stroke is always centered in SVG, we need to double the padding size and then add the *stroke-width* of the original shape we're trying to outline. With this function, we now have the *stroke-width* of our padding element:
 
--- CODE language-js --  
-`// padding = 5  
-function getPaddingWidthStroke(padding) {  
-  const renderedStar = document.getElementById('rendered-star');  
-  // Get the stroke width of the rendered star  
-  // renderedStrokeWidth = 2  
-  const renderedStrokeWidth = Number(renderedStar.getAttribute('stroke-width'));  
-  
-  // 2 * 5 + 2 = 12  
-  return 2 * padding + renderedStrokeWidth;  
-}`‍
+```
+// padding = 5
+function getPaddingWidthStroke(padding) {
+  const renderedStar = document.getElementById('rendered-star');
+
+  // Get the stroke width of the rendered star
+  // renderedStrokeWidth = 2
+  const renderedStrokeWidth = Number(renderedStar.getAttribute('stroke-width'));
+
+  // 2 * 5 + 2 = 12
+  return 2 * padding + renderedStrokeWidth;
+}
+```
 
 For the *stroke-width* of our outline element, we do pretty much the same thing, but we also need to add the size of our padding, like this:
 
--- CODE language-js --  
-// thickness = 2, padding = 5  
-function getOutlineWidth(thickness, padding) {  
-  const renderedStar = document.getElementById('rendered-star');  
-  // Get the stroke width of the rendered star  
-  // renderedStrokeWidth = 2  
-  const renderedStrokeWidth = Number(renderedStar.getAttribute('stroke-width'));  
-  
-  // 2 \* (5 + 2) + 2 = 16  
-  return 2 \* (padding + thickness) + renderedStrokeWidth;  
+```
+// thickness = 2, padding = 5
+function getOutlineWidth(thickness, padding) {
+  const renderedStar = document.getElementById('rendered-star');
+
+  // Get the stroke width of the rendered star
+  // renderedStrokeWidth = 2
+  const renderedStrokeWidth = Number(renderedStar.getAttribute('stroke-width'));
+
+  // 2 * (5 + 2) + 2 = 16
+  return 2 * (padding + thickness) + renderedStrokeWidth;
 }
+```
 
 Now that we know the values for both elements, let's combine our original shape with the two shapes from the mask.
 
@@ -251,48 +278,77 @@ Now all that's left to do is apply this mask to a rectangle with a *fill* attrib
 
 Our SVG definition so far looks accordingly:
 
--- CODE language-svg --  
-<svg>  
-  <defs>  
-    <path id="star"  
-d="M 9.5 14.3 L 3.9 17.2 L 5 11 L 0.5 6.6 L 6.7 5.7 L 9.5 0 L 12.3 5.7 L 18.5 6.6 L 14 11 L 15.1 17.2 Z" />  
-  
-    <mask id="star-outline">  
-      <use id="thickness" href="#star" stroke="white" fill="white" stroke-width="16"></use>  
-      <use id="padding" href="#star" stroke="black" fill="black" stroke-width="12"></use>  
-    </mask>  
-  
-  </defs>  
-  
-  <g>  
-    <rect id="mask" mask="url(#star-outline)" fill="#232E3D"></rect>  
-    <use id="rendered-star" href="#star" stroke="#DA3D40" fill="none" stroke-width="2"></use>  
-  </g>  
+```
+<svg>
+  <defs>
+    <path
+      id="star"
+      d="M 9.5 14.3 L 3.9 17.2 L 5 11 L 0.5 6.6 L 6.7 5.7 L 9.5 0 L 12.3 5.7 L 18.5 6.6 L 14 11 L 15.1 17.2 Z"
+    />
+    <mask id="star-outline">
+      <use
+        id="thickness"
+        href="#star"
+        stroke="white"
+        fill="white"
+        stroke-width="16"
+      ></use>
+      <use
+        id="padding"
+        href="#star"
+        stroke="black"
+        fill="black"
+        stroke-width="12"
+      ></use>
+    </mask>
+  </defs>
+  <g>
+    <rect id="mask" mask="url(#star-outline)" fill="#232E3D"></rect>
+    <use
+      id="rendered-star"
+      href="#star"
+      stroke="#DA3D40"
+      fill="none"
+      stroke-width="2"
+    ></use>
+  </g>
 </svg>
+```
 
 You can already see the rectangle with the mask applied; however, at this moment, the rectangle itself is sized 0x0. To make it work as expected, we need to adjust its size. We can achieve this with a JavaScript function that inflates the bounding box of the mask rectangle to match our shape. Here's how we can do it:
 
--- CODE language-js --  
-**function** **inflate**(bbox, maxStrokeWidth) { **if** (**!**bbox) **return** **null**;  
-  // *Add an extra 50 for miters and arcs* **const** maskClip=maxStrokeWidth+50; **const** {x,y,width,height}=bbox; **return** {  
-    x: x - maskClip,  
-    y: y - maskClip,  
-    width: width + maskClip \* 2,  
-    height: height + maskClip \* 2  
-  }  
+```
+function inflate(bbox, maxStrokeWidth) {
+  if (!bbox) return null;
+
+  // Add an extra 50 for miters and arcs
+  const maskClip = maxStrokeWidth + 50;
+  const { x, y, width, height } = bbox;
+
+  return {
+    x: x - maskClip,
+    y: y - maskClip,
+    width: width + maskClip * 2,
+    height: height + maskClip * 2,
+  };
 }
+```
 
 The inflate function does exactly as described: it accepts the bounding box of our shape along with the desired stroke width and returns a bounding box that we can apply to the rectangle, ensuring it matches the correct position and dimensions of the shape. The final step is to assign this result to our rectangle. The function can be written like this:
 
--- CODE language-js --  
-**function** **setMaskBBox**() { **const** star=document**.getElementById**('star'); **const** mask=document**.getElementById**('mask');  
-  
-‍**const** {x,y,width,height}= **inflate**(star**.getBBox**(), **getOutlineWidth**());  
-  mask**.setAttribute**('x', x);  
-  mask**.setAttribute**('y', y);  
-  mask**.setAttribute**('width', width);  
-  mask**.setAttribute**('height', height);  
+```
+function setMaskBBox() {
+  const star = document.getElementById('star');
+  const mask = document.getElementById('mask');
+
+  const { x, y, width, height } = inflate(star.getBBox(), getOutlineWidth());
+
+  mask.setAttribute('x', x);
+  mask.setAttribute('y', y);
+  mask.setAttribute('width', width);
+  mask.setAttribute('height', height);
 }
+```
 
 And voilà! Our star shape now has a tight outline with a padding of 5px and a width of 2px, just like this:
 
