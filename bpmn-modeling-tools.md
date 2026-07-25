@@ -1,10 +1,10 @@
 ---
 source: https://www.jointjs.com/bpmn-modeling-tools
-generated: 2026-07-24
+generated: 2026-07-25
 format: markdown
 ---
 
-# Build a production-grade BPMN modeler — without the bpmn-js constraints
+# Build a production-grade BPMN modeler without the bpmn-js constraints
 
 Most teams reach for bpmn-js and hit the same wall: a mandatory watermark, limited customization, and Camunda-only defaults. JointJS is the alternative built for production apps.
 

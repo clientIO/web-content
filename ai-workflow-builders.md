@@ -1,10 +1,10 @@
 ---
 source: https://www.jointjs.com/ai-workflow-builders
-generated: 2026-07-24
+generated: 2026-07-25
 format: markdown
 ---
 
-# Build a production-grade AI workflow builder — with a proven diagram library
+# Build a production-grade AI workflow builder with a proven diagram library
 
 Most node-graph libraries stop scaling before your product ships. JointJS is built for production from day one, giving you the control, performance, and flexibility to ship complex visual interfaces.
 
