@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-scada
-generated: 2026-07-26
+generated: 2026-07-27
 format: markdown
 ---
 
