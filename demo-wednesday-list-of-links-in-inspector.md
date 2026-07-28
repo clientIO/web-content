@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-list-of-links-in-inspector
-generated: 2026-07-27
+generated: 2026-07-28
 format: markdown
 ---
 
