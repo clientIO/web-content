@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/rappid-v14-lisbon-released
-generated: 2026-07-30
+generated: 2026-07-31
 format: markdown
 ---
 
