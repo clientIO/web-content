@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/showcase/voximplant
-generated: 2026-08-01
+generated: 2026-08-02
 format: markdown
 ---
 

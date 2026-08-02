@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/saving-and-loading-using-file-system-access-api
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/saving-and-loading-using-file-system-access-api/README.md
-generated: 2026-08-01
+generated: 2026-08-02
 format: markdown
 ---
 
