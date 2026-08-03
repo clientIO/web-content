@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/finite-state-machines
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/finite-state-machines/README.md
-generated: 2026-08-02
+generated: 2026-08-03
 format: markdown
 ---
 
