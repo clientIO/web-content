@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-diagram-generation-from-external-data
-generated: 2026-08-03
+generated: 2026-08-04
 format: markdown
 ---
 

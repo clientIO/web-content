@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/optional-ports
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/optional-ports/README.md
-generated: 2026-08-03
+generated: 2026-08-04
 format: markdown
 ---
 

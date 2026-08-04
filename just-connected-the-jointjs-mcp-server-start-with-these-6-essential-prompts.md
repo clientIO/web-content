@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/just-connected-the-jointjs-mcp-server-start-with-these-6-essential-prompts
-generated: 2026-08-03
+generated: 2026-08-04
 format: markdown
 ---
 
