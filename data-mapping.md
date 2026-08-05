@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/data-mapping
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/data-mapping/README.md
-generated: 2026-08-04
+generated: 2026-08-05
 format: markdown
 ---
 

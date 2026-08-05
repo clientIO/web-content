@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/absolute-port-layout-dynamic-port-sizes
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/absolute-port-layout-dynamic-port-sizes/README.md
-generated: 2026-08-04
+generated: 2026-08-05
 format: markdown
 ---
 

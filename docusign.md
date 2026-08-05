@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/showcase/docusign
-generated: 2026-08-04
+generated: 2026-08-05
 format: markdown
 ---
 

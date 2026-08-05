@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/shortest-path-algorithm
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/shortest-path-algorithm/README.md
-generated: 2026-08-04
+generated: 2026-08-05
 format: markdown
 ---
 
