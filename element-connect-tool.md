@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/element-connect-tool
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/element-connect-tool/README.md
-generated: 2026-08-05
+generated: 2026-08-06
 format: markdown
 ---
 

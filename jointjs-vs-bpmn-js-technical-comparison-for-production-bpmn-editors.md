@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/jointjs-vs-bpmn-js-technical-comparison-for-production-bpmn-editors
-generated: 2026-08-05
+generated: 2026-08-06
 format: markdown
 ---
 
