@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/ai-agent-builder
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/ai-agent-builder/README.md
-generated: 2026-08-07
+generated: 2026-08-08
 format: markdown
 ---
 
