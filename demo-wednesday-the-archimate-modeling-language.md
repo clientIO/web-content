@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-the-archimate-modeling-language
-generated: 2026-08-08
+generated: 2026-08-09
 format: markdown
 ---
 
