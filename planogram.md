@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/planogram
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/planogram/README.md
-generated: 2026-08-09
+generated: 2026-08-10
 format: markdown
 ---
 

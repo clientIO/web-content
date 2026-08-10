@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/soc-ii-certification
-generated: 2026-08-09
+generated: 2026-08-10
 format: markdown
 ---
 

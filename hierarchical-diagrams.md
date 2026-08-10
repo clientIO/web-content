@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/hierarchical-diagrams
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/hierarchical-diagrams/README.md
-generated: 2026-08-09
+generated: 2026-08-10
 format: markdown
 ---
 
