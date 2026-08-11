@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/showcase/silo-team
-generated: 2026-08-10
+generated: 2026-08-11
 format: markdown
 ---
 
