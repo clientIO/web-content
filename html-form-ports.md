@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/html-form-ports
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/html-form-ports/README.md
-generated: 2026-08-11
+generated: 2026-08-12
 format: markdown
 ---
 
