@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/showcase/iba-dosimetry
-generated: 2026-08-12
+generated: 2026-08-13
 format: plaintext
 ---
 

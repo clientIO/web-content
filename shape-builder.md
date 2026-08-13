@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/shape-builder
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/shape-builder/README.md
-generated: 2026-08-12
+generated: 2026-08-13
 format: markdown
 ---
 

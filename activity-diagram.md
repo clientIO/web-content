@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/activity-diagram
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/activity-diagram/README.md
-generated: 2026-08-12
+generated: 2026-08-13
 format: markdown
 ---
 
