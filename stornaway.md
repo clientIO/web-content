@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/showcase/stornaway
-generated: 2026-08-13
+generated: 2026-08-14
 format: markdown
 ---
 
