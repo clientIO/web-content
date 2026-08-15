@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/working-with-ports
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/working-with-ports/README.md
-generated: 2026-08-14
+generated: 2026-08-15
 format: markdown
 ---
 

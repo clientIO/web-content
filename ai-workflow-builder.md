@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/ai-workflow-builder
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/ai-workflow-builder/README.md
-generated: 2026-08-14
+generated: 2026-08-15
 format: markdown
 ---
 
