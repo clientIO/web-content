@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/license
-generated: 2026-08-15
+generated: 2026-08-16
 format: markdown
 ---
 
