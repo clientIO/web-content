@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/electric-generator
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/electric-generator/README.md
-generated: 2026-08-16
+generated: 2026-08-17
 format: markdown
 ---
 

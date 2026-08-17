@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/success-stories/leading-platform-for-customer-success-launches-workflow-automation-in-record-time
-generated: 2026-08-16
+generated: 2026-08-17
 format: markdown
 ---
 
