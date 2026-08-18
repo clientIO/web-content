@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/marey-chart
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/marey-chart/README.md
-generated: 2026-08-17
+generated: 2026-08-18
 format: markdown
 ---
 

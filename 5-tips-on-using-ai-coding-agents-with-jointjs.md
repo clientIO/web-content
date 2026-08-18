@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/5-tips-on-using-ai-coding-agents-with-jointjs
-generated: 2026-08-17
+generated: 2026-08-18
 format: markdown
 ---
 

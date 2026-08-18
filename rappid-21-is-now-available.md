@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/rappid-21-is-now-available
-generated: 2026-08-17
+generated: 2026-08-18
 format: markdown
 ---
 
@@ -95,7 +95,7 @@ Users with an active JointJS+ Update Subscription can download the 2.1 update fr
 - storage.Local - fix duplicate keys in index
 - add Constellation demo
 
-We hope you enjoy these changes and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#29465b4e694a45404c475d074046165a5c4b434c4a5d147b485959404d0c1b191b071807190c1b19585c4c5a5d404647) with questions or comments.
+We hope you enjoy these changes and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#81eef3e6c1e2ede8e4eff5afe8eebef2f4e3ebe4e2f5bcd3e0f1f1e8e5a4b3b1b3afb0afb1a4b3b1f0f4e4f2f5e8eeef) with questions or comments.
 
 ‍
 

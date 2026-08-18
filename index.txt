@@ -1,12 +1,12 @@
 ---
 source: https://www.jointjs.com
-generated: 2026-08-17
+generated: 2026-08-18
 format: plaintext
 ---
 
-5.3k Github stars
+5.4k Github stars
 
-40k+ weekly downloads
+50k+ weekly downloads
 
 The diagramming library you don't replace at scale
 

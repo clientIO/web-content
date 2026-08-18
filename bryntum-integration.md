@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/demos/bryntum-integration
-generated: 2026-08-17
+generated: 2026-08-18
 format: markdown
 ---
 
