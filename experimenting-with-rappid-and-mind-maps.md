@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/experimenting-with-rappid-and-mind-maps
-generated: 2026-08-18
+generated: 2026-08-19
 format: markdown
 ---
 
@@ -16,7 +16,7 @@ We've already migrated a small section of our documentation over to this new min
 
 #### Check it out here: <https://resources.jointjs.com/mmap/joint.html>
 
-What do you think? We'd [love to hear from you](/cdn-cgi/l/email-protection#b7d8c5d0f7d4dbded2d9c399ded888c4c2d5ddd2d4c38af3d8d4c2dad2d9c3d6c3ded8d9928587daded9d3928587dad6c7)!
+What do you think? We'd [love to hear from you](/cdn-cgi/l/email-protection#3a55485d7a5956535f544e14535505494f58505f594e077e55594f575f544e5b4e5355541f080a5753545e1f080a575b4a)!
 
 ‍
 
