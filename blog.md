@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog
-generated: 2026-08-20
+generated: 2026-08-21
 format: markdown
 ---
 
@@ -39,6 +39,18 @@ Demo Wednesday
 Thank you! Your submission has been received!
 
 Oops! Something went wrong while submitting the form.
+
+Marek Hozak
+
+Aug 20, 2026
+
+[### JointJS Wins Two ComponentSource Awards for 2026
+
+We're proud to share that JointJS has been recognized in ComponentSource's 2026 annual awards, earning two distinctions based on real global sales.
+
+Company News](/blog/jointjs-wins-two-componentsource-awards-for-2026)
+
+[Read article](/blog/jointjs-wins-two-componentsource-awards-for-2026)
 
 Zoran Jambor
 
@@ -133,18 +145,6 @@ Claude Code offers an easy way to share the MCP server setup with your team thro
 AI Diagramming](/blog/how-to-easily-share-the-claude-code-mcp-config-with-your-team)
 
 [Read article](/blog/how-to-easily-share-the-claude-code-mcp-config-with-your-team)
-
-Zoran Jambor
-
-May 25, 2026
-
-[### Introducing JointJS MCP Server: Better code from your AI agent
-
-A guide explaining what the JointJS MCP Server is, along with detailed instructions on how to install it to a local folder, in user scope, or in JSON to share with your team, and what the benefits of using it are.
-
-AI Diagramming](/blog/introducing-jointjs-mcp-server)
-
-[Read article](/blog/introducing-jointjs-mcp-server)
 
 [Next](?df86e59f_page=2)
 

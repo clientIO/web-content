@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/community
-generated: 2026-08-20
+generated: 2026-08-21
 format: markdown
 ---
 
@@ -42,6 +42,16 @@ Talk diagramming with the developers who build the library.
 
 [All news](/blog)
 
+Marek Hozak
+
+Aug 20, 2026
+
+[### JointJS Wins Two ComponentSource Awards for 2026
+
+We're proud to share that JointJS has been recognized in ComponentSource's 2026 annual awards, earning two distinctions based on real global sales.](/blog/jointjs-wins-two-componentsource-awards-for-2026)
+
+[Read article](/blog/jointjs-wins-two-componentsource-awards-for-2026)
+
 Zoran Jambor
 
 Jul 21, 2026
@@ -61,16 +71,6 @@ Jul 8, 2026
 A hands-on overview of JointJS for React, a native React integration for the JointJS diagramming library, outlining how the new React integration works and showcasing an AI Workflow Builder demo that highlights the library's strengths, from advanced UX features to performance at scale.](/blog/introducing-jointjs-for-react)
 
 [Read article](/blog/introducing-jointjs-for-react)
-
-Marek Hozak
-
-Jul 7, 2026
-
-[### 4.3 arrives alongside JointJS for React: tree shaking, SVG exports, HTML magnets
-
-A core release that makes JointJS leaner to ship, easier to start with, and more flexible in what diagram elements can do.](/blog/introducing-jointjs-4-3)
-
-[Read article](/blog/introducing-jointjs-4-3)
 
 ## Speed up your development with a powerful library
 
