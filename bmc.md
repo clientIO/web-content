@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/showcase/bmc
-generated: 2026-08-21
+generated: 2026-08-22
 format: markdown
 ---
 
