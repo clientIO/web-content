@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/ai-interface-revolution
-generated: 2026-08-22
+generated: 2026-08-23
 format: markdown
 ---
 

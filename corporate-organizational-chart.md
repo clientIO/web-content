@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/corporate-organizational-chart
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/corporate-organizational-chart/README.md
-generated: 2026-08-22
+generated: 2026-08-23
 format: markdown
 ---
 
