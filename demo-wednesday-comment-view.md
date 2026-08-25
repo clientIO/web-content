@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-comment-view
-generated: 2026-08-24
+generated: 2026-08-25
 format: markdown
 ---
 
