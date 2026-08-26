@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-selection-alignment
-generated: 2026-08-25
+generated: 2026-08-26
 format: markdown
 ---
 

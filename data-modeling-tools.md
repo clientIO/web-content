@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/data-modeling-tools
-generated: 2026-08-25
+generated: 2026-08-26
 format: markdown
 ---
 
@@ -18,13 +18,13 @@ Kickstart your development with a ready-to-use template.
 
 [open demo
 
-[](https://cdn.prod.website-files.com/63061d4ee85b5a18644f221c%2F6a0ead5bf0c9fc2234b822f2_data-modeling_mp4.mp4)](https://www.jointjs.com/demos/database)
+[](https://cdn.prod.website-files.com/63061d4ee85b5a18644f221c%2F6a0ead5bf0c9fc2234b822f2_data-modeling_mp4.mp4)](https://www.jointjs.com/demos/data-modeling)
 
 BOiLERPLATE
 
 # DATA MODELING UI
 
-A production-grade data modeling canvas with field-level ports, customizable entity templates, and ERD notation. Take the source, adapt it to your schema model, and skip months of foundational work.
+A production grade data modeling canvas with field level ports, typed columns, keys, and indexes rendered in ERD notation, plus a real in browser SQL engine. Take the source, adapt it to your schema model, and skip months of foundational work.
 
 Get started on your framework
 
@@ -36,7 +36,7 @@ more demos
 
 Production-ready examples you can clone and adapt to your stack.
 
-[explore demos](/demos)
+[explore demos](https://www.jointjs.com/demos?tags=Data+modeling)
 
 Use cases
 

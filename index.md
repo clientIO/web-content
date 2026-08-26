@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com
-generated: 2026-08-25
+generated: 2026-08-26
 format: markdown
 ---
 
@@ -102,6 +102,14 @@ This is some text inside of a div block.
 
 This is some text inside of a div block.
 
+[#### Data Modeling
+
+Design database schemas visually in your web app: draw tables and relations as an ER diagram.](/demos/data-modeling)
+
+This is some text inside of a div block.
+
+This is some text inside of a div block.
+
 [#### Workflow Automation UI
 
 Ship a workflow builder UI faster with our boilerplate and advanced diagramming features.](/demos/workflow-builder)
@@ -137,14 +145,6 @@ This is some text inside of a div block.
 [#### Organizational Chart
 
 This demo showcases the power of JointJS+ on one of the most widely used diagram types.](/demos/organizational-chart)
-
-This is some text inside of a div block.
-
-This is some text inside of a div block.
-
-[#### Sankey Diagram
-
-See how to use link anchors, curve connector, stack layout and its drag & drop user interface to create Sankey diagram.](/demos/sankey-diagram)
 
 This is some text inside of a div block.
 

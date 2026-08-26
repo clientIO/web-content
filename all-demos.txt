@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/all-demos
-generated: 2026-08-25
+generated: 2026-08-26
 format: plaintext
 ---
 
@@ -305,6 +305,64 @@ Custom shapes
 Toolbar
 
 Minimap
+
+11
+
+Collapse & Expand
+
+11
+
+Content-driven shapes
+
+11
+
+Copy & Paste
+
+11
+
+Embedding
+
+11
+
+Guidelines
+
+11
+
+HTML shapes
+
+11
+
+Import/Export
+
+11
+
+Keyboard
+
+11
+
+Minimap
+
+11
+
+Property editor & viewer
+
+JointJS+
+
+This is some text inside of a div block.
+
+Data Modeling
+
+Design database schemas visually in your web app: draw tables and relations as an ER diagram.
+
+joinjs
+
+JointJS+
+
+Import/Export
+
+Toggle visibility
+
+Responsive
 
 11
 
@@ -4821,56 +4879,6 @@ Export to PNG/JPEG
 Selection
 
 Events
-
-11
-
-Integration
-
-11
-
-Built-in shapes
-
-11
-
-Zoom & Pan
-
-11
-
-Tooltips
-
-11
-
-Popups
-
-11
-
-Highlighters
-
-11
-
-Events
-
-JointJS+
-
-This is some text inside of a div block.
-
-Tabs
-
-The Tabs demo allows the user to display multiple JointJS diagrams while navigating them via a Tabs component.
-
-joinjs
-
-JointJS+
-
-Integration
-
-Tooltips
-
-Highlighters
-
-Events
-
-Built-in shapes
 
 Next
 

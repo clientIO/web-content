@@ -1,0 +1,35 @@
+---
+source: https://www.jointjs.com/blog/jointjs-wins-two-componentsource-awards-for-2026
+generated: 2026-08-26
+format: plaintext
+---
+
+We're proud to share that JointJS has been recognized in ComponentSource's 2026 annual awards, earning two distinctions based on real global sales: the Top 50 Publisher Award for JointJS, and the Top 100 Product Award for JointJS+.
+
+Unlike editorial or popularity-based lists, the ComponentSource Awards are calculated purely from actual sales orders placed by customers across more than 180 countries throughout 2025, with refunds deducted. In other words, this recognition reflects real-world adoption: teams choosing, buying, and building on JointJS to ship serious diagramming applications inside their own products.
+
+‍
+
+From Top 100 to Top 50
+
+This year marks a meaningful step up. When we were first listed among ComponentSource's Top 100 Publishers, it confirmed that developers around the world were reaching for JointJS to build production diagramming tools. Climbing into the Top 50 reflects the continued growth of that community, and the growing number of engineering teams that have moved from evaluating JointJS to standardizing on it as the diagramming engine behind their products.
+
+Alongside the publisher ranking, JointJS+, our commercial toolkit, placed 97th on the bestselling products list to earn the Top 100 Product Award. JointJS+ extends the open-source library with the plugins, pre-built UI components, and dedicated developer support that teams rely on when they're building complex editors under real deadlines: BPMN modelers, workflow builders, data modeling tools, industrial automation dashboards, network diagrams, and more.
+
+See the full lists for yourself: ComponentSource Top Publishers 2026 and Top Products 2026.
+
+A word from our CEO
+
+"These awards mean a lot to us because they aren't about visibility. They're about developers actually shipping products on top of JointJS. Moving into the Top 50 tells us the library is holding up where it matters most: in real, complex applications that teams maintain for years. That's exactly what we set out to build. Our focus now is the same as it's always been: giving engineers full control over how their diagrams render, behave, and scale, and being a dependable long-term partner as their products grow." David Durman, CEO, JointJS
+
+Why it matters for the teams building with us
+
+Sales-based recognition is a useful signal for one audience in particular: the technical decision-makers weighing build versus buy. Building a diagramming engine from scratch (hit-testing, rendering performance at scale, a robust data model, undo/redo, custom interactions) is a multi-year undertaking that's easy to underestimate. Awards grounded in genuine purchasing data are a quiet form of due diligence: they show that hundreds of engineering teams reached the same conclusion and have kept renewing their investment.
+
+For the engineers running trials, the takeaway is simpler. The library you're evaluating is the same one a global base of professional teams already depends on in production.
+
+A thank-you is owed here to that community. Every trial, every question in our support channels, and every application shipped on JointJS helped earn this recognition. We don't take it for granted, and we're focused on continuing to earn it.
+
+Try JointJS+
+
+If you're evaluating whether JointJS is the right foundation for your diagramming product, the fastest way to find out is to build with it. JointJS+ comes with a 30-day, no-obligation trial that gives you full access to the plugins, 180+ demo apps, and support that professional teams use every day.

@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-find-all-cells-between-two-elements
-generated: 2026-08-25
+generated: 2026-08-26
 format: markdown
 ---
 

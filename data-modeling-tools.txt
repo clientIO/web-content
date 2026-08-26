@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/data-modeling-tools
-generated: 2026-08-25
+generated: 2026-08-26
 format: plaintext
 ---
 
@@ -24,7 +24,7 @@ BOiLERPLATE
 
 DATA MODELING UI
 
-A production-grade data modeling canvas with field-level ports, customizable entity templates, and ERD notation. Take the source, adapt it to your schema model, and skip months of foundational work.
+A production grade data modeling canvas with field level ports, typed columns, keys, and indexes rendered in ERD notation, plus a real in browser SQL engine. Take the source, adapt it to your schema model, and skip months of foundational work.
 
 Get started on your framework
 
