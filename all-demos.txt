@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/all-demos
-generated: 2026-08-26
+generated: 2026-08-27
 format: plaintext
 ---
 
@@ -4885,6 +4885,164 @@ Next
 Nothing found
 
 Please try different keywords or get in touch with us to get a tailored demo.
+
+Toggle visibility
+
+Responsive
+
+Guidelines
+
+Context Toolbar
+
+Grid
+
+Save/Load
+
+Custom properties
+
+Print
+
+Virtual rendering
+
+Collapse & Expand
+
+Measurement
+
+Shape transformation
+
+Visio
+
+Link-to-link
+
+HTML shapes
+
+Link labels
+
+Minimap
+
+Export to JSON
+
+Export to SVG
+
+Export to PDF
+
+Copy & Paste
+
+Menus
+
+Tooltips
+
+Keyboard
+
+Drag & Drop
+
+Simulation
+
+Content-driven shapes
+
+Validation
+
+Performance
+
+Constraints on movement
+
+Integration
+
+Animation
+
+Routers
+
+Highlighters
+
+CSS styling
+
+Ports
+
+Graph API
+
+Toolbar
+
+Undo/Redo
+
+Selection
+
+Popups
+
+Anchors
+
+Text content
+
+Zoom & Pan
+
+Import/Export
+
+Export to PNG/JPEG
+
+Link tools
+
+External images
+
+Element palette
+
+Events
+
+Adjustable interactivity
+
+Property editor & viewer
+
+Embedding
+
+Geometry
+
+Element tools
+
+Connection points
+
+Connectors
+
+Vectorizer
+
+Custom shapes
+
+Built-in shapes
+
+Automatic layout
+
+UML & software modeling
+
+Project management
+
+Timelines
+
+Org charts
+
+Data modeling
+
+Electronic design
+
+Energy networks
+
+SCADA & HMI
+
+AI workflow builders
+
+BPMN
+
+Svelte
+
+Angular
+
+Vue
+
+React
+
+TypeScript
+
+JavaScript
+
+Boilerplate applications
+
+Features showcase
 
 Can't find what you're looking for?
 

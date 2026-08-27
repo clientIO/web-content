@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/all-demos
-generated: 2026-08-26
+generated: 2026-08-27
 format: markdown
 ---
 
@@ -4885,6 +4885,164 @@ Events
 ### Nothing found
 
 Please try different keywords or [get in touch](https://github.com/clientIO/joint/discussions/1643) with us to get a tailored demo.
+
+[Toggle visibility](/demo-features/toggle-visibility)
+
+[Responsive](/demo-features/responsive)
+
+[Guidelines](/demo-features/guidelines)
+
+[Context Toolbar](/demo-features/context-toolbar)
+
+[Grid](/demo-features/grid)
+
+[Save/Load](/demo-features/save-load)
+
+[Custom properties](/demo-features/custom-properties)
+
+[Print](/demo-features/print)
+
+[Virtual rendering](/demo-features/virtual-rendering)
+
+[Collapse & Expand](/demo-features/collapse-expand)
+
+[Measurement](/demo-features/measurement)
+
+[Shape transformation](/demo-features/transformation)
+
+[Visio](/demo-features/visio)
+
+[Link-to-link](/demo-features/link-to-link)
+
+[HTML shapes](/demo-features/html-shapes)
+
+[Link labels](/demo-features/link-labels)
+
+[Minimap](/demo-features/minimap)
+
+[Export to JSON](/demo-features/export-to-json)
+
+[Export to SVG](/demo-features/export-to-svg)
+
+[Export to PDF](/demo-features/export-to-pdf)
+
+[Copy & Paste](/demo-features/copy-paste)
+
+[Menus](/demo-features/menus)
+
+[Tooltips](/demo-features/tooltips)
+
+[Keyboard](/demo-features/keyboard)
+
+[Drag & Drop](/demo-features/drag-drop)
+
+[Simulation](/demo-features/simulation)
+
+[Content-driven shapes](/demo-features/content-driven-shapes)
+
+[Validation](/demo-features/validation)
+
+[Performance](/demo-features/performance)
+
+[Constraints on movement](/demo-features/constraints-on-movement)
+
+[Integration](/demo-features/integration)
+
+[Animation](/demo-features/animation)
+
+[Routers](/demo-features/routers)
+
+[Highlighters](/demo-features/highlighters)
+
+[CSS styling](/demo-features/css-styling)
+
+[Ports](/demo-features/ports)
+
+[Graph API](/demo-features/graph-api)
+
+[Toolbar](/demo-features/toolbar)
+
+[Undo/Redo](/demo-features/undo-redo)
+
+[Selection](/demo-features/selection)
+
+[Popups](/demo-features/popups)
+
+[Anchors](/demo-features/anchors)
+
+[Text content](/demo-features/inline-text-editor)
+
+[Zoom & Pan](/demo-features/zoom-pan)
+
+[Import/Export](/demo-features/import-export)
+
+[Export to PNG/JPEG](/demo-features/export-to-png-jpeg)
+
+[Link tools](/demo-features/link-tools)
+
+[External images](/demo-features/external-images)
+
+[Element palette](/demo-features/element-palette)
+
+[Events](/demo-features/events)
+
+[Adjustable interactivity](/demo-features/adjustable-interactivity)
+
+[Property editor & viewer](/demo-features/property-editor-viewer)
+
+[Embedding](/demo-features/embedding)
+
+[Geometry](/demo-features/geometry)
+
+[Element tools](/demo-features/element-tools)
+
+[Connection points](/demo-features/connection-points)
+
+[Connectors](/demo-features/connectors)
+
+[Vectorizer](/demo-features/vectorizer-library)
+
+[Custom shapes](/demo-features/custom-shapes-2)
+
+[Built-in shapes](/demo-features/built-in-shapes)
+
+[Automatic layout](/demo-features/automatic-layout)
+
+[UML & software modeling](/demo-tag/uml-software-modeling)
+
+[Project management](/demo-tag/project-management)
+
+[Timelines](/demo-tag/timeline)
+
+[Org charts](/demo-tag/org-charts)
+
+[Data modeling](/demo-tag/data-modeling)
+
+[Electronic design](/demo-tag/electronic-design)
+
+[Energy networks](/demo-tag/energy-network)
+
+[SCADA & HMI](/demo-tag/scada-hmi)
+
+[AI workflow builders](/demo-tag/ai-workflow-builders)
+
+[BPMN](/demo-tag/bpmn)
+
+[Svelte](/demo-tag/svelte)
+
+[Angular](/demo-tag/angular)
+
+[Vue](/demo-tag/vue)
+
+[React](/demo-tag/react)
+
+[TypeScript](/demo-tag/typescript)
+
+[JavaScript](/demo-tag/javascript)
+
+[Boilerplate applications](/demo-tag/boilerplate-applications)
+
+[Features showcase](/demo-tag/feature-showcase)
 
 ## Can't find what you're looking for?
 

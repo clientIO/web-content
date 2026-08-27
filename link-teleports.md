@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/link-teleports
-generated: 2026-08-26
+generated: 2026-08-27
 format: markdown
 ---
 
