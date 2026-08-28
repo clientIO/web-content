@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/were-soc-2-type-ii-compliant
-generated: 2026-08-27
+generated: 2026-08-28
 format: markdown
 ---
 
