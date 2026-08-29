@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/ai-workflow-builders
-generated: 2026-08-28
+generated: 2026-08-29
 format: plaintext
 ---
 
@@ -120,13 +120,13 @@ SVG rendering with full shape control
 
 Virtual rendering for large graphs
 
-Custom node UIs beyond HTML divs
+Custom node rendering
 
-Arbitrary graph topology (cycles, dynamic subgraphs)
+Independent, queryable graph model
 
-Port-level connection constraints
+Port-level connection rules
 
-Built-in execution state visualization
+Live state on nodes and edges
 
 Compound undo/redo
 
@@ -134,11 +134,55 @@ Full UI component set
 
 Framework-agnostic (React, Angular, Vue, Svelte)
 
-Perpetual commercial license
+License model
 
 Dedicated support with guaranteed SLAs
 
+One SVG scene
+
+Quadtree-indexed, automatic
+
+SVG or HTML
+
+Standalone model
+
+Enforced by default
+
+Attributes + animation
+
+Maintained component
+
+40+ components
+
+Yes
+
+Perpetual, per developer (free MPL-2.0 core)
+
+SLA-backed
+
 Lightweight libraries
+
+HTML nodes
+
+Manual
+
+HTML only
+
+No model layer
+
+Manual
+
+DIY
+
+DIY or paid add-on
+
+Canvas controls only
+
+Single framework
+
+Subscription for premium (open-source core)
+
+Community
 
 When JointJS makes sense
 

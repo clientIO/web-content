@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/presentation-mode
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/presentation-mode/README.md
-generated: 2026-08-28
+generated: 2026-08-29
 format: markdown
 ---
 
