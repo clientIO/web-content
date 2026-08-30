@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-tree-of-life
-generated: 2026-08-29
+generated: 2026-08-30
 format: markdown
 ---
 

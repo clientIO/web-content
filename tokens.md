@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/tokens
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/tokens/README.md
-generated: 2026-08-29
+generated: 2026-08-30
 format: markdown
 ---
 

@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/privacy-policy
-generated: 2026-08-29
+generated: 2026-08-30
 format: markdown
 ---
 
