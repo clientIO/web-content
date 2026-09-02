@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/stencil-vs-diagram-elements
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/stencil-vs-diagram-elements/README.md
-generated: 2026-09-01
+generated: 2026-09-02
 format: markdown
 ---
 

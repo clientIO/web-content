@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/port-drag-drop
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/port-drag-drop/README.md
-generated: 2026-09-01
+generated: 2026-09-02
 format: markdown
 ---
 

@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/data-modeling-tools
-generated: 2026-09-01
+generated: 2026-09-02
 format: markdown
 ---
 
