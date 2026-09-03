@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-two-different-views-of-the-same-graph
-generated: 2026-09-02
+generated: 2026-09-03
 format: markdown
 ---
 
