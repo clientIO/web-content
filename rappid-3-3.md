@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/rappid-3-3
-generated: 2026-09-03
+generated: 2026-09-04
 format: markdown
 ---
 
@@ -52,7 +52,7 @@ The paper object now provides an option to make labels snap on their links, even
 
 ##### Complete [JointJS+ 3.3 Changelog with sample code and screenshots is here](/cdn-cgi/l/email-protection#a5cdd1d1d5d69f8a8ac6cdc4cbc2c0c9cac28bcfcacccbd1cfd68bc6cac88ad7c4d5d5ccc18a968b968b958ac6cdc4cbc2c0c9cac2).
 
-We hope you'll get the most from these new features, fixes and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#1c736e7b5c7f7075797268327573) with questions or comments.
+We hope you'll get the most from these new features, fixes and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#a4cbd6c3e4c7c8cdc1cad08acdcb) with questions or comments.
 
 ‍
 
