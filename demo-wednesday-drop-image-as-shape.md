@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-drop-image-as-shape
-generated: 2026-09-04
+generated: 2026-09-05
 format: markdown
 ---
 

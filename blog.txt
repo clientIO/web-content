@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog
-generated: 2026-09-04
+generated: 2026-09-05
 format: plaintext
 ---
 
@@ -39,6 +39,18 @@ Demo Wednesday
 Thank you! Your submission has been received!
 
 Oops! Something went wrong while submitting the form.
+
+Zoran Jambor
+
+Sep 4, 2026
+
+[### How to Use JointJS for React with Next.js
+
+A step-by-step guide to using JointJS for React with the Next.js framework, along with some practical tips.
+
+JointJS for React](/blog/how-to-use-jointjs-for-react-with-next-js)
+
+Read article
 
 Marek Hozak
 
@@ -131,18 +143,6 @@ Jun 2, 2026
 Tournament Studio is a small side project that demonstrates how quickly this kind of highly interactive visual app can be built with JointJS.
 
 Tutorials](/blog/building-tournament-studio-a-bracket-editor-built-with-jointjs)
-
-Read article
-
-Zoran Jambor
-
-May 29, 2026
-
-[### How to easily share the Claude Code MCP config with your team
-
-Claude Code offers an easy way to share the MCP server setup with your team through a JSON file you can commit to your repository.
-
-AI Diagramming](/blog/how-to-easily-share-the-claude-code-mcp-config-with-your-team)
 
 Read article
 

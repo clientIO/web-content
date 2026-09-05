@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/community
-generated: 2026-09-04
+generated: 2026-09-05
 format: markdown
 ---
 
@@ -42,6 +42,16 @@ Talk diagramming with the developers who build the library.
 
 [All news](/blog)
 
+Zoran Jambor
+
+Sep 4, 2026
+
+[### How to Use JointJS for React with Next.js
+
+A step-by-step guide to using JointJS for React with the Next.js framework, along with some practical tips.](/blog/how-to-use-jointjs-for-react-with-next-js)
+
+[Read article](/blog/how-to-use-jointjs-for-react-with-next-js)
+
 Marek Hozak
 
 Aug 20, 2026
@@ -61,16 +71,6 @@ Jul 21, 2026
 A practical, hands-on guide on getting started with JointJS for React, outlining the best ways you can jump into it without much effort.](/blog/how-to-get-started-with-jointjs-for-react)
 
 [Read article](/blog/how-to-get-started-with-jointjs-for-react)
-
-Zoran Jambor
-
-Jul 8, 2026
-
-[### Introducing JointJS for React: Production-grade diagramming for React applications
-
-A hands-on overview of JointJS for React, a native React integration for the JointJS diagramming library, outlining how the new React integration works and showcasing an AI Workflow Builder demo that highlights the library's strengths, from advanced UX features to performance at scale.](/blog/introducing-jointjs-for-react)
-
-[Read article](/blog/introducing-jointjs-for-react)
 
 ## Speed up your development with a powerful library
 
