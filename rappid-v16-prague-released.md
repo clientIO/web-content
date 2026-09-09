@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/rappid-v16-prague-released
-generated: 2026-09-08
+generated: 2026-09-09
 format: markdown
 ---
 

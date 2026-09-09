@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/elk-layout
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/elk-layout/README.md
-generated: 2026-09-08
+generated: 2026-09-09
 format: markdown
 ---
 

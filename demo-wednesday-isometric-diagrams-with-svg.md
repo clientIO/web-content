@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-isometric-diagrams-with-svg
-generated: 2026-09-08
+generated: 2026-09-09
 format: markdown
 ---
 
