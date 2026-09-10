@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-view-edit-mode
-generated: 2026-09-09
+generated: 2026-09-10
 format: markdown
 ---
 

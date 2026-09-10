@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-corporate-organizational-chart
-generated: 2026-09-09
+generated: 2026-09-10
 format: markdown
 ---
 
