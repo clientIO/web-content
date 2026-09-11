@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/jointjs-wins-two-componentsource-awards-for-2026
-generated: 2026-09-10
+generated: 2026-09-11
 format: markdown
 ---
 

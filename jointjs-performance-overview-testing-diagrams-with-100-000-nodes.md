@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/jointjs-performance-overview-testing-diagrams-with-100-000-nodes
-generated: 2026-09-10
+generated: 2026-09-11
 format: markdown
 ---
 
