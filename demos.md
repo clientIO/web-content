@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/demos
-generated: 2026-09-15
+generated: 2026-09-16
 format: markdown
 ---
 
@@ -2462,42 +2462,6 @@ Built-in shapes
 
 11
 
-Highlighters
-
-11
-
-Connection points
-
-11
-
-Link labels
-
-Open source
-
-This is some text inside of a div block.
-
-#### ER Diagrams
-
-This demo application shows the entity-relationship model.
-
-joinjs
-
-JointJS+
-
-Built-in shapes
-
-Highlighters
-
-Connection points
-
-Link labels
-
-11
-
-Built-in shapes
-
-11
-
 Embedding
 
 11
@@ -4879,6 +4843,56 @@ Export to PNG/JPEG
 Selection
 
 Events
+
+11
+
+Integration
+
+11
+
+Built-in shapes
+
+11
+
+Zoom & Pan
+
+11
+
+Tooltips
+
+11
+
+Popups
+
+11
+
+Highlighters
+
+11
+
+Events
+
+JointJS+
+
+This is some text inside of a div block.
+
+#### Tabs
+
+The Tabs demo allows the user to display multiple JointJS diagrams while navigating them via a Tabs component.
+
+joinjs
+
+JointJS+
+
+Integration
+
+Tooltips
+
+Highlighters
+
+Events
+
+Built-in shapes
 
 [Next](?7b8f7f41_page=2)
 

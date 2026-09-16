@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/contact-us
-generated: 2026-09-15
+generated: 2026-09-16
 format: markdown
 ---
 
@@ -16,7 +16,7 @@ Enterprise and startup offers
 
 Contact e-mail
 
-[[email protected]](/cdn-cgi/l/email-protection#21484f474e614b4e484f554b520f424e4c)
+[[email protected]](/cdn-cgi/l/email-protection#a0c9cec6cfe0cacfc9ced4cad38ec3cfcd)
 
 You may also check the [FAQ](/faq) for more answers
 

@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/showcase/drawsql
-generated: 2026-09-15
+generated: 2026-09-16
 format: markdown
 ---
 
