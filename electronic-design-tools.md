@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/electronic-design-tools
-generated: 2026-09-16
+generated: 2026-09-17
 format: markdown
 ---
 

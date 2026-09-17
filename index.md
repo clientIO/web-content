@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com
-generated: 2026-09-16
+generated: 2026-09-17
 format: markdown
 ---
 
@@ -110,6 +110,14 @@ This is some text inside of a div block.
 
 This is some text inside of a div block.
 
+[#### Mermaid Editor
+
+A Mermaid Editor demo turning Mermaid flowchart source into a fully interactive JointJS diagram with real SVG elements.](/demos/mermaid-editor)
+
+This is some text inside of a div block.
+
+This is some text inside of a div block.
+
 [#### Workflow Automation UI
 
 Ship a workflow builder UI faster with our boilerplate and advanced diagramming features.](/demos/workflow-builder)
@@ -137,14 +145,6 @@ This is some text inside of a div block.
 [#### SCADA/HMI
 
 This demo shows a Piping and Instrumentation Diagram (P&ID), which plays a key role in the design of SCADA/HMI systems.](/demos/scada)
-
-This is some text inside of a div block.
-
-This is some text inside of a div block.
-
-[#### Organizational Chart
-
-This demo showcases the power of JointJS+ on one of the most widely used diagram types.](/demos/organizational-chart)
 
 This is some text inside of a div block.
 

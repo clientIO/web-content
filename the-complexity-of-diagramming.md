@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/the-complexity-of-diagramming
-generated: 2026-09-16
+generated: 2026-09-17
 format: markdown
 ---
 

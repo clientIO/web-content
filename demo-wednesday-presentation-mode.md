@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-presentation-mode
-generated: 2026-09-16
+generated: 2026-09-17
 format: markdown
 ---
 
