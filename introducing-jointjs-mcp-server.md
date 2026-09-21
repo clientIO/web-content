@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/introducing-jointjs-mcp-server
-generated: 2026-09-20
+generated: 2026-09-21
 format: markdown
 ---
 

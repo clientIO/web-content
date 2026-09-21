@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/mermaid-editor
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/mermaid-editor/README.md
-generated: 2026-09-20
+generated: 2026-09-21
 format: markdown
 ---
 

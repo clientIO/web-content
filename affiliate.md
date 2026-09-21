@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/affiliate
-generated: 2026-09-20
+generated: 2026-09-21
 format: markdown
 ---
 
