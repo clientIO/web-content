@@ -1,22 +1,20 @@
 ---
 source: https://www.jointjs.com/blog
-generated: 2026-09-21
+generated: 2026-09-22
 format: markdown
 ---
 
 # Blog
 
-[## Introducing JointJS for React: Production-grade diagramming for React applications
+[## 10 practical JointJS performance tips for fast, efficient production-grade diagrams
 
 Zoran Jambor
 
-Jul 8, 2026
+Sep 21, 2026
 
-A hands-on overview of JointJS for React, a native React integration for the JointJS diagramming library, outlining how the new React integration works and showcasing an AI Workflow Builder demo that highlights the library's strengths, from advanced UX features to performance at scale.
+A hands-on guide to optimizing JontJS performance with practical tips to help you develop fluid, fast, production-grade diagrams.](/blog/10-practical-jointjs-performance-tips-for-fast-efficient-production-grade-diagrams)
 
-JointJS for React](/blog/introducing-jointjs-for-react)
-
-[Read article](/blog/introducing-jointjs-for-react)
+[Read article](/blog/10-practical-jointjs-performance-tips-for-fast-efficient-production-grade-diagrams)
 
 ## Articles from the team
 
@@ -39,6 +37,16 @@ Demo Wednesday
 Thank you! Your submission has been received!
 
 Oops! Something went wrong while submitting the form.
+
+Zoran Jambor
+
+Sep 21, 2026
+
+[### 10 practical JointJS performance tips for fast, efficient production-grade diagrams
+
+A hands-on guide to optimizing JontJS performance with practical tips to help you develop fluid, fast, production-grade diagrams.](/blog/10-practical-jointjs-performance-tips-for-fast-efficient-production-grade-diagrams)
+
+[Read article](/blog/10-practical-jointjs-performance-tips-for-fast-efficient-production-grade-diagrams)
 
 Zoran Jambor
 
@@ -133,18 +141,6 @@ JointJS and bpmn-js are the two leading JavaScript libraries for creating custom
 BPMN](/blog/jointjs-vs-bpmn-js-technical-comparison-for-production-bpmn-editors)
 
 [Read article](/blog/jointjs-vs-bpmn-js-technical-comparison-for-production-bpmn-editors)
-
-Zoran Jambor
-
-Jun 2, 2026
-
-[### Building Tournament Studio: A bracket editor built with JointJS+
-
-Tournament Studio is a small side project that demonstrates how quickly this kind of highly interactive visual app can be built with JointJS.
-
-Tutorials](/blog/building-tournament-studio-a-bracket-editor-built-with-jointjs)
-
-[Read article](/blog/building-tournament-studio-a-bracket-editor-built-with-jointjs)
 
 [Next](?df86e59f_page=2)
 
