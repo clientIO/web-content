@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/bpmn-pools-swimlanes-milestones
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/bpmn-pools-swimlanes-milestones/README.md
-generated: 2026-09-22
+generated: 2026-09-23
 format: markdown
 ---
 
