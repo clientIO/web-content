@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/10-practical-jointjs-performance-tips-for-fast-efficient-production-grade-diagrams
-generated: 2026-09-24
+generated: 2026-09-25
 format: markdown
 ---
 
@@ -386,7 +386,7 @@ const navigator = new Navigator({
 });
 ```
 
-Check our Data Modeling demo to see a nice example of a simplified Navigator in action: <https://www.jointjs.com/demos/data-modeling>
+Check our docs for a demo and more info on lightweight navigator (minimap): <https://docs.jointjs.com/learn/features/minimap/#lightweight-minimap>
 
 ### 10. Switch to canvas for low zoom levels
 

@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-yamazumi-3d
-generated: 2026-09-24
+generated: 2026-09-25
 format: markdown
 ---
 
