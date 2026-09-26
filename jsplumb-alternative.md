@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/jsplumb-alternative
-generated: 2026-09-25
+generated: 2026-09-26
 format: markdown
 ---
 
