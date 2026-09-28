@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/ai-workflow-builders
-generated: 2026-09-27
+generated: 2026-09-28
 format: markdown
 ---
 

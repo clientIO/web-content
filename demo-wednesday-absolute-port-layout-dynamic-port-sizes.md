@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-absolute-port-layout-dynamic-port-sizes
-generated: 2026-09-27
+generated: 2026-09-28
 format: markdown
 ---
 

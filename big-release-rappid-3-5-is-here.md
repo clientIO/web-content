@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/big-release-rappid-3-5-is-here
-generated: 2026-09-27
+generated: 2026-09-28
 format: markdown
 ---
 
@@ -90,7 +90,7 @@ There is a lot to explore in the new release. Let us point out a few additions t
 
 ##### Complete [JointJS+ 3.5 Changelog with sample code and screenshots is here](https://changelog.jointjs.com/rappid/3.5.0/changelog).
 
-We hope you'll get the most from the new features and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#87e8f5e0c7e4ebeee2e9f3a9eee8) with questions or comments.
+We hope you'll get the most from the new features and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#056a77624566696c606b712b6c6a) with questions or comments.
 
 ‍
 

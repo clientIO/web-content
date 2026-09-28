@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/bpmn-modeler-ui-feature-checklist
-generated: 2026-09-27
+generated: 2026-09-28
 format: markdown
 ---
 
