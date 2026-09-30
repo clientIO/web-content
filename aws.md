@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/showcase/aws
-generated: 2026-09-29
+generated: 2026-09-30
 format: markdown
 ---
 

@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/10-practical-jointjs-performance-tips-for-fast-efficient-production-grade-diagrams
-generated: 2026-09-29
+generated: 2026-09-30
 format: markdown
 ---
 
