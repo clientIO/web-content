@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/community
-generated: 2026-10-01
+generated: 2026-10-02
 format: markdown
 ---
 
@@ -44,6 +44,16 @@ Talk diagramming with the developers who build the library.
 
 Zoran Jambor
 
+Oct 1, 2026
+
+[### JointJS for React: Key differences that change how you build production-grade diagrams
+
+A hands-on guide outlining how much easier it is to integrate JointJS with React with a new native JointJS for React integration.](/blog/jointjs-for-react-key-differences-that-change-how-you-build-production-grade-diagrams)
+
+[Read article](/blog/jointjs-for-react-key-differences-that-change-how-you-build-production-grade-diagrams)
+
+Zoran Jambor
+
 Sep 21, 2026
 
 [### 10 practical JointJS performance tips for fast, efficient production-grade diagrams
@@ -61,16 +71,6 @@ Sep 4, 2026
 A step-by-step guide to using JointJS for React with the Next.js framework, along with some practical tips.](/blog/how-to-use-jointjs-for-react-with-next-js)
 
 [Read article](/blog/how-to-use-jointjs-for-react-with-next-js)
-
-Marek Hozak
-
-Aug 20, 2026
-
-[### JointJS Wins Two ComponentSource Awards for 2026
-
-We're proud to share that JointJS has been recognized in ComponentSource's 2026 annual awards, earning two distinctions based on real global sales.](/blog/jointjs-wins-two-componentsource-awards-for-2026)
-
-[Read article](/blog/jointjs-wins-two-componentsource-awards-for-2026)
 
 ## Speed up your development with a powerful library
 

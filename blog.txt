@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog
-generated: 2026-10-01
+generated: 2026-10-02
 format: plaintext
 ---
 
@@ -37,6 +37,18 @@ Demo Wednesday
 Thank you! Your submission has been received!
 
 Oops! Something went wrong while submitting the form.
+
+Zoran Jambor
+
+Oct 1, 2026
+
+[### JointJS for React: Key differences that change how you build production-grade diagrams
+
+A hands-on guide outlining how much easier it is to integrate JointJS with React with a new native JointJS for React integration.
+
+JointJS for React](/blog/jointjs-for-react-key-differences-that-change-how-you-build-production-grade-diagrams)
+
+Read article
 
 Zoran Jambor
 
@@ -127,18 +139,6 @@ Jun 11, 2026
 [### From Code to Conversation: Highlights from Weblica 2026
 
 A brief look at our experience at the Weblica conference, with key takeaways, highlights, and insight about the latest AI and web development trends.](/blog/from-code-to-conversation-highlights-from-weblica-2026)
-
-Read article
-
-Zbyněk Stara
-
-Jun 9, 2026
-
-[### JointJS vs bpmn-js: A technical comparison for production BPMN modeling tools
-
-JointJS and bpmn-js are the two leading JavaScript libraries for creating custom BPMN modeling UIs on the Web. Which one should you choose for your project?
-
-BPMN](/blog/jointjs-vs-bpmn-js-technical-comparison-for-production-bpmn-editors)
 
 Read article
 
