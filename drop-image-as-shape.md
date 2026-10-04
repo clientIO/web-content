@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/drop-image-as-shape
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/drop-image-as-shape/README.md
-generated: 2026-10-03
+generated: 2026-10-04
 format: markdown
 ---
 
