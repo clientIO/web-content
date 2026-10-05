@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/javascript-diagramming-libraries
-generated: 2026-10-04
+generated: 2026-10-05
 format: markdown
 ---
 
