@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/jobs/front-end-developer
-generated: 2026-10-06
+generated: 2026-10-07
 format: markdown
 ---
 
