@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/dialog-generator
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/dialog-generator/README.md
-generated: 2026-10-07
+generated: 2026-10-08
 format: markdown
 ---
 

@@ -1,20 +1,22 @@
 ---
 source: https://www.jointjs.com/blog
-generated: 2026-10-07
+generated: 2026-10-08
 format: markdown
 ---
 
 # Blog
 
-[## 10 practical JointJS performance tips for fast, efficient production-grade diagrams
+[## How to build production-grade Data Modeling apps in React: A JointJS architecture walkthrough
 
 Zoran Jambor
 
-Sep 21, 2026
+Oct 7, 2026
 
-A hands-on guide to optimizing JontJS performance with practical tips to help you develop fluid, fast, production-grade diagrams.](/blog/10-practical-jointjs-performance-tips-for-fast-efficient-production-grade-diagrams)
+A detailed code-level walkthrough of the Data Modeling app template built in JointJS+ for React.
 
-[Read article](/blog/10-practical-jointjs-performance-tips-for-fast-efficient-production-grade-diagrams)
+Tutorials](/blog/how-to-build-production-grade-data-modeling-apps-in-react-a-jointjs-architecture-walkthrough)
+
+[Read article](/blog/how-to-build-production-grade-data-modeling-apps-in-react-a-jointjs-architecture-walkthrough)
 
 ## Articles from the team
 
@@ -37,6 +39,18 @@ Demo Wednesday
 Thank you! Your submission has been received!
 
 Oops! Something went wrong while submitting the form.
+
+Zoran Jambor
+
+Oct 7, 2026
+
+[### How to build production-grade Data Modeling apps in React: A JointJS architecture walkthrough
+
+A detailed code-level walkthrough of the Data Modeling app template built in JointJS+ for React.
+
+Tutorials](/blog/how-to-build-production-grade-data-modeling-apps-in-react-a-jointjs-architecture-walkthrough)
+
+[Read article](/blog/how-to-build-production-grade-data-modeling-apps-in-react-a-jointjs-architecture-walkthrough)
 
 Zoran Jambor
 
@@ -131,16 +145,6 @@ A quick tip outlining a few prompts you can use to test and get started with the
 AI Diagramming](/blog/just-connected-the-jointjs-mcp-server-start-with-these-6-essential-prompts)
 
 [Read article](/blog/just-connected-the-jointjs-mcp-server-start-with-these-6-essential-prompts)
-
-Zoran Jambor
-
-Jun 11, 2026
-
-[### From Code to Conversation: Highlights from Weblica 2026
-
-A brief look at our experience at the Weblica conference, with key takeaways, highlights, and insight about the latest AI and web development trends.](/blog/from-code-to-conversation-highlights-from-weblica-2026)
-
-[Read article](/blog/from-code-to-conversation-highlights-from-weblica-2026)
 
 [Next](?df86e59f_page=2)
 
