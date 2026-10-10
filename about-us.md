@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/about-us
-generated: 2026-10-09
+generated: 2026-10-10
 format: markdown
 ---
 

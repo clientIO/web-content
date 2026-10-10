@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/data-modeling
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/data-modeling/README.md
-generated: 2026-10-09
+generated: 2026-10-10
 format: markdown
 ---
 
