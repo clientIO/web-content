@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/container-layout
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/container-layout/README.md
-generated: 2026-10-11
+generated: 2026-10-12
 format: markdown
 ---
 
