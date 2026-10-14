@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/all-demos
-generated: 2026-10-13
+generated: 2026-10-14
 format: plaintext
 ---
 
@@ -923,6 +923,46 @@ Minimap
 Zoom & Pan
 
 Selection
+
+11
+
+Constraints on movement
+
+11
+
+Drag & Drop
+
+11
+
+Grid
+
+11
+
+Selection
+
+11
+
+Undo/Redo
+
+React
+
+JointJS+
+
+This is some text inside of a div block.
+
+Shikaku
+
+Shikaku is a Japanese pencil puzzle: a grid of squares, some carrying a number. Cut the grid into rectangles so that eve
+
+joinjs
+
+JointJS+
+
+Drag & Drop
+
+Grid
+
+Undo/Redo
 
 11
 
@@ -4843,42 +4883,6 @@ Automatic layout
 Collapse & Expand
 
 Custom shapes
-
-11
-
-Element palette
-
-11
-
-Drag & Drop
-
-11
-
-Built-in shapes
-
-11
-
-Automatic layout
-
-JointJS+
-
-This is some text inside of a div block.
-
-Stencil Favorite & In-Use Groups
-
-Explore the ability to add shapes to favorites or group shapes that are used on paper.
-
-joinjs
-
-JointJS+
-
-Element palette
-
-Drag & Drop
-
-Automatic layout
-
-Built-in shapes
 
 Next
 

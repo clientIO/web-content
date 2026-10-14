@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/how-to-build-production-grade-data-modeling-apps-in-react-a-jointjs-architecture-walkthrough
-generated: 2026-10-13
+generated: 2026-10-14
 format: markdown
 ---
 
@@ -222,8 +222,6 @@ The source is heavily commented with the reasoning behind each decision. Those c
 - Start your free JointJS+ trial
 
 Happy diagramming!
-
-‍
 
 ## FAQ
 

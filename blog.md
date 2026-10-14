@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog
-generated: 2026-10-13
+generated: 2026-10-14
 format: markdown
 ---
 
@@ -39,6 +39,18 @@ Demo Wednesday
 Thank you! Your submission has been received!
 
 Oops! Something went wrong while submitting the form.
+
+Zoran Jambor
+
+Oct 13, 2026
+
+[### New demo: Shikaku, a puzzle game built with JointJS+
+
+An introduction and overview of the new JointJS+ demo, a Shikaku puzzle game.
+
+Demo Wednesday](/blog/shikaku-a-puzzle-game-built-with-jointjs)
+
+[Read article](/blog/shikaku-a-puzzle-game-built-with-jointjs)
 
 Zoran Jambor
 
@@ -133,18 +145,6 @@ A core release that makes JointJS leaner to ship, easier to start with, and more
 Library Updates](/blog/introducing-jointjs-4-3)
 
 [Read article](/blog/introducing-jointjs-4-3)
-
-Zoran Jambor
-
-Jun 25, 2026
-
-[### Just connected the JointJS MCP Server? Start with these 6 essential prompts
-
-A quick tip outlining a few prompts you can use to test and get started with the JointJS MCP Server.
-
-AI Diagramming](/blog/just-connected-the-jointjs-mcp-server-start-with-these-6-essential-prompts)
-
-[Read article](/blog/just-connected-the-jointjs-mcp-server-start-with-these-6-essential-prompts)
 
 [Next](?df86e59f_page=2)
 

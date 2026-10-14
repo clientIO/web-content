@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/community
-generated: 2026-10-13
+generated: 2026-10-14
 format: markdown
 ---
 
@@ -44,6 +44,16 @@ Talk diagramming with the developers who build the library.
 
 Zoran Jambor
 
+Oct 13, 2026
+
+[### New demo: Shikaku, a puzzle game built with JointJS+
+
+An introduction and overview of the new JointJS+ demo, a Shikaku puzzle game.](/blog/shikaku-a-puzzle-game-built-with-jointjs)
+
+[Read article](/blog/shikaku-a-puzzle-game-built-with-jointjs)
+
+Zoran Jambor
+
 Oct 7, 2026
 
 [### How to build production-grade Data Modeling apps in React: A JointJS architecture walkthrough
@@ -61,16 +71,6 @@ Oct 1, 2026
 A hands-on guide outlining how much easier it is to integrate JointJS with React with a new native JointJS for React integration.](/blog/jointjs-for-react-key-differences-that-change-how-you-build-production-grade-diagrams)
 
 [Read article](/blog/jointjs-for-react-key-differences-that-change-how-you-build-production-grade-diagrams)
-
-Zoran Jambor
-
-Sep 21, 2026
-
-[### 10 practical JointJS performance tips for fast, efficient production-grade diagrams
-
-A hands-on guide to optimizing JontJS performance with practical tips to help you develop fluid, fast, production-grade diagrams.](/blog/10-practical-jointjs-performance-tips-for-fast-efficient-production-grade-diagrams)
-
-[Read article](/blog/10-practical-jointjs-performance-tips-for-fast-efficient-production-grade-diagrams)
 
 ## Speed up your development with a powerful library
 
