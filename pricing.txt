@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/pricing
-generated: 2026-10-14
+generated: 2026-10-15
 format: plaintext
 ---
 
@@ -8,29 +8,27 @@ JointJS+ pricing
 
 Our license is sold per developer, making it flexible and easy to scale for projects of any size. Plus, there is no limit to the number of applications, end users, machines, or domains that our license can cover.
 
-The Standard plan is offered as a perpetual license (“pay once, use forever”), letting you build unlimited products for unlimited users, deployed on unlimited machines.   
-  
-The Enterprise plan is available as a yearly subscription, with additional benefits tailored for large-scale and custom deployments.
+JointJS+ comes in two plans. Standard has everything your team needs to build and ship. Enterprise adds control, security and a long term partnership.
 
-Perpetual standard license for unlimited commercial use with optional annual update subscription to always work with the latest JointJS+ version.
+Perpetual standard license for unlimited commercial use with an optional annual update subscription to always work with the latest JointJS+ version.
 
-$3,490
+$289/month
 
-Per developer (one-time fee)
+over 1st year
 
-/year for updates  
- (optional)
+Per developer. $3,468 paid once at purchase, and the license never expires.
 
-+$1,690
+/month for updates (optional)
 
-Per developer (1st year free)
++$139
+
+Per developer. Free for the 1st year, then billed yearly at $1,668.
 
 BUY NOW
 
 START A 30-DAY TRIAL
 
-Great for small and medium businesses   
-Not sure? Wanna know more?  Get in touch
+Best for small and medium-sized businesses
 
 Includes:
 
@@ -40,7 +38,7 @@ Perpetual license with unlimited commercial use
 
 40+ UI components
 
-Updates for the 1st year for free
+Updates included for the first 12 months
 
 Basic support
 
@@ -48,7 +46,7 @@ JointJS for React
 
 New: JointJS+ for React
 
-Enterprise version of JointJS+ with unminified source code, annual SOC 2 Type II reports, premium support, and more—all available through a yearly subscription.
+Enterprise version with unminified source code, annual SOC 2 Type II reports, premium support, and more—all available through a yearly subscription.
 
 Contact for pricing
 
@@ -83,48 +81,6 @@ Up to 50% discount
 Startups, NGOs and educational institutions can apply for better conditions.
 
 Apply now
-
-Perpetual license for unlimited commercial use with optional annual update subscription to always work with the latest JointJS+ version.
-
-$2,990\*
-
-Per developer (one-time fee)
-
-$1,490/year for updates (optional)
-
-Per developer (1st year free)
-
-buy now
-
-start a free trial
-
-Not sure or need a quote? Get in touch.
-
-Includes:
-
-Commercial license
-
-Perpetual with unlimited commercial use (apps, end-users, and machines).
-
-150+ pre-built demos
-
-Ready-to-implement demo apps to speed up your development.
-
-Source code
-
-For the current version of JointJS+ including all demos and UI components.
-
-40+ UI components
-
-A wide range of pre-built diagramming features, components and shapes.
-
-Updates for the 1st year
-
-Free update subscription for one year, charged from the 2nd year onwards.
-
-Basic support
-
-Get help from our top-tier engineers to kickstart your project with ease.
 
 Up to 50% discount and monthly installments
 
