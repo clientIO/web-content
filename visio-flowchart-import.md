@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/visio-flowchart-import
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/visio-flowchart-import/README.md
-generated: 2026-10-16
+generated: 2026-10-17
 format: markdown
 ---
 
