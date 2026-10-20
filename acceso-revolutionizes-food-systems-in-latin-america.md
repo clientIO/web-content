@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/success-stories/acceso-revolutionizes-food-systems-in-latin-america
-generated: 2026-10-19
+generated: 2026-10-20
 format: markdown
 ---
 

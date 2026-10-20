@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/rappid-3-4
-generated: 2026-10-19
+generated: 2026-10-20
 format: markdown
 ---
 
@@ -56,7 +56,7 @@ With JointJS+ 3.4.0, we've improved the resizing of multiple rotated elements.
 
 ##### Complete [JointJS+ 3.4 Changelog with sample code and screenshots is here](https://changelog.jointjs.com/rappid/3.4.0/changelog).
 
-We hope you'll get the most from these new features, fixes and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#86e9f4e1c6e5eaefe3e8f2a8efe9) with questions or comments.
+We hope you'll get the most from these new features, fixes and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#0b64796c4b6867626e657f256264) with questions or comments.
 
 ‍
 

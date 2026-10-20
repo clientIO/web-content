@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/isometric-diagrams
-generated: 2026-10-19
+generated: 2026-10-20
 format: markdown
 ---
 
