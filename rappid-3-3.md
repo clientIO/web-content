@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/rappid-3-3
-generated: 2026-10-23
+generated: 2026-10-24
 format: markdown
 ---
 
@@ -50,9 +50,9 @@ Another new demo that shows you how to provide a seamless drag&drop functionalit
 
 The paper object now provides an option to make labels snap on their links, even on curved lines:
 
-##### Complete [JointJS+ 3.3 Changelog with sample code and screenshots is here](/cdn-cgi/l/email-protection#29415d5d595a1306064a4148474e4c45464e07434640475d435a074a4644065b485959404d061a071a0719064a4148474e4c45464e).
+##### Complete [JointJS+ 3.3 Changelog with sample code and screenshots is here](/cdn-cgi/l/email-protection#b1d9c5c5c1c28b9e9ed2d9d0dfd6d4ddded69fdbded8dfc5dbc29fd2dedc9ec3d0c1c1d8d59e829f829f819ed2d9d0dfd6d4ddded6).
 
-We hope you'll get the most from these new features, fixes and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#80eff2e7c0e3ece9e5eef4aee9ef) with questions or comments.
+We hope you'll get the most from these new features, fixes and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#86e9f4e1c6e5eaefe3e8f2a8efe9) with questions or comments.
 
 ‍
 
