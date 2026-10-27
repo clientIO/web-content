@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-alignment-and-distance-based-position-guides
-generated: 2026-10-26
+generated: 2026-10-27
 format: markdown
 ---
 

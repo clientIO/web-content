@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/framework-element-view
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/framework-element-view/README.md
-generated: 2026-10-26
+generated: 2026-10-27
 format: markdown
 ---
 
