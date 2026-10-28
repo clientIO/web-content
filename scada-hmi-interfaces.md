@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/scada-hmi-interfaces
-generated: 2026-10-27
+generated: 2026-10-28
 format: markdown
 ---
 

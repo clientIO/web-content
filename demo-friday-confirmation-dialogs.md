@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-friday-confirmation-dialogs
-generated: 2026-10-27
+generated: 2026-10-28
 format: markdown
 ---
 

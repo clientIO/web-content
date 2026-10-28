@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/dwdm-circuit
-generated: 2026-10-27
+generated: 2026-10-28
 format: markdown
 ---
 
