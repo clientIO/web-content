@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/rappid-3-0-is-here
-generated: 2026-10-28
+generated: 2026-10-29
 format: markdown
 ---
 
@@ -145,7 +145,7 @@ Take a look at the main highlights here and the full changelog below.
 - Geometry - fix Path.prototype.closestPoint() ending in an infinite loop
 - Geometry - add random()
 
-We hope you you'll get the most from these new features, fixes and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#1a75687d5a7976737f746e347375) with questions or comments.
+We hope you you'll get the most from these new features, fixes and updates. Please don't hesitate to [get in touch](/cdn-cgi/l/email-protection#f09f8297b0939c99959e84de999f) with questions or comments.
 
 ‍
 
