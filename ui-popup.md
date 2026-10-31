@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/ui-popup
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/ui-popup/README.md
-generated: 2026-10-30
+generated: 2026-10-31
 format: markdown
 ---
 
