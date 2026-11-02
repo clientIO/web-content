@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/jointjs-for-react-key-differences-that-change-how-you-build-production-grade-diagrams
-generated: 2026-11-01
+generated: 2026-11-02
 format: markdown
 ---
 
