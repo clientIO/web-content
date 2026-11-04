@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/community
-generated: 2026-11-03
+generated: 2026-11-04
 format: plaintext
 ---
 
@@ -44,6 +44,16 @@ All news
 
 Zoran Jambor
 
+Nov 3, 2026
+
+[### How to embed a visual Mermaid editor in your React app
+
+A brief overview of the Mermaid Editor built in JointJS+ for React, which lets you embed a proper two-way Mermaid editor in your production-grade applications and tools and gives your users the option to edit either Mermaid text or the diagram visually, updating the Mermaid in your database.](/blog/how-to-embed-a-visual-mermaid-editor-in-your-react-app)
+
+Read article
+
+Zoran Jambor
+
 Oct 13, 2026
 
 [### New demo: Shikaku, a puzzle game built with JointJS+
@@ -59,16 +69,6 @@ Oct 7, 2026
 [### How to build production-grade Data Modeling apps in React: A JointJS architecture walkthrough
 
 A detailed code-level walkthrough of the Data Modeling app template built in JointJS+ for React.](/blog/how-to-build-production-grade-data-modeling-apps-in-react-a-jointjs-architecture-walkthrough)
-
-Read article
-
-Zoran Jambor
-
-Oct 1, 2026
-
-[### JointJS for React: Key differences that change how you build production-grade diagrams
-
-A hands-on guide outlining how much easier it is to integrate JointJS with React with a new native JointJS for React integration.](/blog/jointjs-for-react-key-differences-that-change-how-you-build-production-grade-diagrams)
 
 Read article
 

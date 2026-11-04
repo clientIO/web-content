@@ -1,22 +1,20 @@
 ---
 source: https://www.jointjs.com/blog
-generated: 2026-11-03
+generated: 2026-11-04
 format: markdown
 ---
 
 # Blog
 
-[## How to build production-grade Data Modeling apps in React: A JointJS architecture walkthrough
+[## How to embed a visual Mermaid editor in your React app
 
 Zoran Jambor
 
-Oct 7, 2026
+Nov 3, 2026
 
-A detailed code-level walkthrough of the Data Modeling app template built in JointJS+ for React.
+A brief overview of the Mermaid Editor built in JointJS+ for React, which lets you embed a proper two-way Mermaid editor in your production-grade applications and tools and gives your users the option to edit either Mermaid text or the diagram visually, updating the Mermaid in your database.](/blog/how-to-embed-a-visual-mermaid-editor-in-your-react-app)
 
-Tutorials](/blog/how-to-build-production-grade-data-modeling-apps-in-react-a-jointjs-architecture-walkthrough)
-
-[Read article](/blog/how-to-build-production-grade-data-modeling-apps-in-react-a-jointjs-architecture-walkthrough)
+[Read article](/blog/how-to-embed-a-visual-mermaid-editor-in-your-react-app)
 
 ## Articles from the team
 
@@ -39,6 +37,16 @@ Demo Wednesday
 Thank you! Your submission has been received!
 
 Oops! Something went wrong while submitting the form.
+
+Zoran Jambor
+
+Nov 3, 2026
+
+[### How to embed a visual Mermaid editor in your React app
+
+A brief overview of the Mermaid Editor built in JointJS+ for React, which lets you embed a proper two-way Mermaid editor in your production-grade applications and tools and gives your users the option to edit either Mermaid text or the diagram visually, updating the Mermaid in your database.](/blog/how-to-embed-a-visual-mermaid-editor-in-your-react-app)
+
+[Read article](/blog/how-to-embed-a-visual-mermaid-editor-in-your-react-app)
 
 Zoran Jambor
 
@@ -133,18 +141,6 @@ A hands-on overview of JointJS for React, a native React integration for the Joi
 JointJS for React](/blog/introducing-jointjs-for-react)
 
 [Read article](/blog/introducing-jointjs-for-react)
-
-Marek Hozak
-
-Jul 7, 2026
-
-[### 4.3 arrives alongside JointJS for React: tree shaking, SVG exports, HTML magnets
-
-A core release that makes JointJS leaner to ship, easier to start with, and more flexible in what diagram elements can do.
-
-Library Updates](/blog/introducing-jointjs-4-3)
-
-[Read article](/blog/introducing-jointjs-4-3)
 
 [Next](?df86e59f_page=2)
 
