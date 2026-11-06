@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/shikaku-a-puzzle-game-built-with-jointjs
-generated: 2026-11-05
+generated: 2026-11-06
 format: markdown
 ---
 

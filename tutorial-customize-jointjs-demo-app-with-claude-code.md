@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/tutorial-customize-jointjs-demo-app-with-claude-code
-generated: 2026-11-05
+generated: 2026-11-06
 format: markdown
 ---
 

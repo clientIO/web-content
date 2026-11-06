@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/chess
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/chess/README.md
-generated: 2026-11-05
+generated: 2026-11-06
 format: markdown
 ---
 

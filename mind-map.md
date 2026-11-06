@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/mind-map
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/mind-map/README.md
-generated: 2026-11-05
+generated: 2026-11-06
 format: markdown
 ---
 
