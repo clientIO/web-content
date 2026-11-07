@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/shikaku
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/shikaku/README.md
-generated: 2026-11-06
+generated: 2026-11-07
 format: markdown
 ---
 
