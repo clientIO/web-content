@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/pricing
-generated: 2026-11-11
+generated: 2026-11-12
 format: plaintext
 ---
 
@@ -10,13 +10,17 @@ Our license is sold per developer, making it flexible and easy to scale for proj
 
 JointJS+ comes in two plans. Standard has everything your team needs to build and ship. Enterprise adds control, security and a long term partnership.
 
+‣Black Friday50% off this plan
+
 Perpetual standard license for unlimited commercial use with an optional annual update subscription to always work with the latest JointJS+ version.
 
-$289/month
+~~Regular price $289/month~~−50% with code
+
+$144.50/month
 
 over 1st year
 
-Per developer. $3,468 paid once at purchase, and the license never expires.
+Per developer. $1,734 instead of $3,468, paid once with the code, and the license never expires.
 
 /month for updates (optional)
 
@@ -24,7 +28,15 @@ Per developer. $3,468 paid once at purchase, and the license never expires.
 
 Per developer. Free for the 1st year, then billed yearly at $1,668.
 
-BUY NOW
+Black Friday coupon code
+BLACKFRIDAY26
+
+Copy
+
+Enter it at checkout. Watch the 25-second guide (opens in a new tab)
+Offer ends 29 November, 23:59 CET
+
+BUY NOW AT 50% OFF
 
 START A 30-DAY TRIAL
 
