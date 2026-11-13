@@ -1,0 +1,7 @@
+---
+source: https://www.jointjs.com/showcase/pleniofy
+generated: 2026-11-13
+format: markdown
+---
+
+Pleniofy is a multi-tenant SaaS platform for HR and organization management by specht.services GmbH, Hamburg. Its Process Studio lets companies model approval and HR workflows visually: steps, decisions, notifications and tasks are drawn on a JointJS canvas and run directly by the Pleniofy rules engine. No code, multilingual, configurable per tenant.

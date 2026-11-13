@@ -1,0 +1,7 @@
+---
+source: https://www.jointjs.com/showcase/paraqualis-llc
+generated: 2026-11-13
+format: plaintext
+---
+
+ParaQualis is an AI platform for managing quality control documents such as Standard Operating Procedures. With JointJS-powered visualizations, it shows SOPs as process flows and knowledge graphs, and it connects SOPs, supporting documents and company policies in one browsable model. It's ideal for quality and regulatory teams in life sciences.
