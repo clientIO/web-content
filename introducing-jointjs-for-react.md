@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/introducing-jointjs-for-react
-generated: 2026-11-14
+generated: 2026-11-15
 format: markdown
 ---
 
