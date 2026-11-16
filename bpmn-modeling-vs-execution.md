@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/bpmn-modeling-vs-execution
-generated: 2026-11-15
+generated: 2026-11-16
 format: markdown
 ---
 

@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/why-building-a-bpmn-modeler-ui-is-harder-than-it-looks
-generated: 2026-11-15
+generated: 2026-11-16
 format: markdown
 ---
 
