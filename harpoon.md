@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/showcase/harpoon
-generated: 2026-11-17
+generated: 2026-11-18
 format: markdown
 ---
 
