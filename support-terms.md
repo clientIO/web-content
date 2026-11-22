@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/support-terms
-generated: 2026-11-21
+generated: 2026-11-22
 format: markdown
 ---
 
