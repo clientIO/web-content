@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/how-to-embed-a-visual-mermaid-editor-in-your-react-app
-generated: 2026-11-23
+generated: 2026-11-24
 format: markdown
 ---
 
