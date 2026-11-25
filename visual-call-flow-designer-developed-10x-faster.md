@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/success-stories/visual-call-flow-designer-developed-10x-faster
-generated: 2026-11-24
+generated: 2026-11-25
 format: markdown
 ---
 
