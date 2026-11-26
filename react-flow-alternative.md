@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/react-flow-alternative
-generated: 2026-11-25
+generated: 2026-11-26
 format: markdown
 ---
 
