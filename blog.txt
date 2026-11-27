@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog
-generated: 2026-11-26
+generated: 2026-11-27
 format: plaintext
 ---
 
@@ -37,6 +37,16 @@ Demo Wednesday
 Thank you! Your submission has been received!
 
 Oops! Something went wrong while submitting the form.
+
+Zoran Jambor
+
+Nov 26, 2026
+
+[### How to easily route diagram links around nodes (and stop links from colliding)
+
+Find out how to use the @joint/router-avoid package for JointJS for smart, obstacle-aware routing that allows you to create automatic diagram layouts where links avoid nodes and don't overlap.](/blog/how-to-easily-route-diagram-links-around-nodes-and-stop-links-from-colliding)
+
+Read article
 
 Zoran Jambor
 
@@ -127,18 +137,6 @@ Jul 21, 2026
 A practical, hands-on guide on getting started with JointJS for React, outlining the best ways you can jump into it without much effort.
 
 JointJS for React](/blog/how-to-get-started-with-jointjs-for-react)
-
-Read article
-
-Zoran Jambor
-
-Jul 8, 2026
-
-[### Introducing JointJS for React: Production-grade diagramming for React applications
-
-A hands-on overview of JointJS for React, a native React integration for the JointJS diagramming library, outlining how the new React integration works and showcasing an AI Workflow Builder demo that highlights the library's strengths, from advanced UX features to performance at scale.
-
-JointJS for React](/blog/introducing-jointjs-for-react)
 
 Read article
 

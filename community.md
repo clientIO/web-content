@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/community
-generated: 2026-11-26
+generated: 2026-11-27
 format: markdown
 ---
 
@@ -44,6 +44,16 @@ Talk diagramming with the developers who build the library.
 
 Zoran Jambor
 
+Nov 26, 2026
+
+[### How to easily route diagram links around nodes (and stop links from colliding)
+
+Find out how to use the @joint/router-avoid package for JointJS for smart, obstacle-aware routing that allows you to create automatic diagram layouts where links avoid nodes and don't overlap.](/blog/how-to-easily-route-diagram-links-around-nodes-and-stop-links-from-colliding)
+
+[Read article](/blog/how-to-easily-route-diagram-links-around-nodes-and-stop-links-from-colliding)
+
+Zoran Jambor
+
 Nov 3, 2026
 
 [### How to embed a visual Mermaid editor in your React app
@@ -61,16 +71,6 @@ Oct 13, 2026
 An introduction and overview of the new JointJS+ demo, a Shikaku puzzle game.](/blog/shikaku-a-puzzle-game-built-with-jointjs)
 
 [Read article](/blog/shikaku-a-puzzle-game-built-with-jointjs)
-
-Zoran Jambor
-
-Oct 7, 2026
-
-[### How to build production-grade Data Modeling apps in React: A JointJS architecture walkthrough
-
-A detailed code-level walkthrough of the Data Modeling app template built in JointJS+ for React.](/blog/how-to-build-production-grade-data-modeling-apps-in-react-a-jointjs-architecture-walkthrough)
-
-[Read article](/blog/how-to-build-production-grade-data-modeling-apps-in-react-a-jointjs-architecture-walkthrough)
 
 ## Speed up your development with a powerful library
 
