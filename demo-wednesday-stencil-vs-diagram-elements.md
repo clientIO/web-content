@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/demo-wednesday-stencil-vs-diagram-elements
-generated: 2026-11-27
+generated: 2026-11-28
 format: markdown
 ---
 

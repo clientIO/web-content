@@ -1,7 +1,7 @@
 ---
 source: https://www.jointjs.com/demos/petri-nets
 github: https://raw.githubusercontent.com/clientIO/joint-demos/main/petri-nets/README.md
-generated: 2026-11-27
+generated: 2026-11-28
 format: markdown
 ---
 

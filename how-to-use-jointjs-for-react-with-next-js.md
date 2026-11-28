@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/how-to-use-jointjs-for-react-with-next-js
-generated: 2026-11-27
+generated: 2026-11-28
 format: markdown
 ---
 

@@ -1,6 +1,6 @@
 ---
 source: https://www.jointjs.com/blog/new-brand-to-be-revealed-jointjsplus-replaces-rappid
-generated: 2026-11-27
+generated: 2026-11-28
 format: markdown
 ---
 
